@@ -103,7 +103,7 @@ namespace TokeiLibrary.WPF {
 					return dialog.Result;
 				}
 				catch {
-					return MessageBox.Show(message, caption, MessageBoxButton.YesNoCancel);
+					return TokeiLibrary.Localization.LocalizedMessageBox.Show(message, caption, MessageBoxButton.YesNoCancel);
 				}
 			});
 		}

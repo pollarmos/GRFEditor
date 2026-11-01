@@ -35,7 +35,7 @@ namespace TokeiLibrary.WPF {
 		public InputDialog(string message, string title, string def, bool checkInvalidCharacters, bool fileBrowser = false) : base(title, "refresh.ico", SizeToContent.Height) {
 			InitializeComponent();
 
-			_textBlockMessage.Text = message;
+			_textBlockMessage.Text = Utilities.Localization.UiText.Message(message);
 			_textBoxInput.Text = def;
 			_buttonBrowse.Visibility = fileBrowser ? Visibility.Visible : Visibility.Collapsed;
 			Input = def;
@@ -89,7 +89,7 @@ namespace TokeiLibrary.WPF {
 				foreach (char c in Path.GetInvalidFileNameChars()) {
 					if (Input.Contains(c)) {
 						_textBoxInput.Text = Input.Replace(c, '_');
-						WindowProvider.ShowDialog("Invalid characters");
+						WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("Invalid characters"));
 						DialogResult = null;
 						e.Cancel = true;
 						break;

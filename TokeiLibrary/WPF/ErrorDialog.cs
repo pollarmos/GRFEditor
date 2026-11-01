@@ -30,7 +30,7 @@ namespace TokeiLibrary.WPF {
 		}
 
 		private void _initialize() {
-			_textBoxError.Text = _message;
+			_textBoxError.Text = Utilities.Localization.UiText.Message(_message);
 
 			switch (_level) {
 				case ErrorLevel.Critical:
@@ -98,7 +98,7 @@ namespace TokeiLibrary.WPF {
 			footer.Children.Add(panel);
 
 			Button buttonCopy = new Button();
-			buttonCopy.Content = "Copy exception";
+			buttonCopy.Content = Utilities.Localization.UiText.Get("Copy exception");
 			buttonCopy.Height = 24;
 			buttonCopy.Margin = new Thickness(5, 5, 3, 3);
 			buttonCopy.Width = 100;
@@ -107,7 +107,7 @@ namespace TokeiLibrary.WPF {
 			ButtonCopyException = buttonCopy;
 
 			Button buttonOk = new Button();
-			buttonOk.Content = "Ok";
+			buttonOk.Content = Utilities.Localization.UiText.Get("Ok");
 			buttonOk.Height = 24;
 			buttonOk.Margin = new Thickness(3);
 			buttonOk.Width = 100;

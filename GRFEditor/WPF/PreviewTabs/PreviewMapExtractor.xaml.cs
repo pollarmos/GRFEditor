@@ -53,7 +53,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 					if (_isCancelRequired()) return;
 
-					_labelHeader.Text = "Extract resources: " + Path.GetFileNameWithoutExtension(entry.RelativePath);
+					_labelHeader.Text = Utilities.Localization.UiText.Get("Extract resources: ") + Path.GetFileNameWithoutExtension(entry.RelativePath);
 				}
 				catch (Exception err) {
 					ErrorHandler.HandleException(err);

@@ -163,7 +163,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 			string fileName = entry.RelativePath;
 
 			this.Dispatch(delegate {
-				_labelHeader.Text = "Video preview: " + entry.DisplayRelativePath;
+				_labelHeader.Text = Utilities.Localization.UiText.Get("Video preview: ") + entry.DisplayRelativePath;
 			});
 		}
 

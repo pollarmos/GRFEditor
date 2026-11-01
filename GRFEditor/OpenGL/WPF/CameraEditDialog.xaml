@@ -1,10 +1,10 @@
-﻿<styles:TkWindow x:Class="GRFEditor.OpenGL.WPF.CameraEditDialog"
+﻿<styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.OpenGL.WPF.CameraEditDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wpf="clr-namespace:GRFEditor.WPF"
         xmlns:wpf1="clr-namespace:GRFEditor.OpenGL.WPF"
         xmlns:styles="clr-namespace:TokeiLibrary.WPF.Styles;assembly=TokeiLibrary"
-        Title="Camera edit..." SizeToContent="WidthAndHeight"
+        Title="{loc:Localize T9cf8e2d77bac}" SizeToContent="WidthAndHeight"
         ResizeMode="NoResize" 
         Background="{DynamicResource TabItemBackground}" Foreground="{DynamicResource TextForeground}"
         >
@@ -31,20 +31,20 @@
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" Margin="3" Text="Mode" />
-        <TextBlock Grid.Row="2" Grid.Column="0" Margin="3" Text="Distance" />
-        <TextBlock Grid.Row="3" Grid.Column="0" Margin="3" Text="LookAt X" />
-        <TextBlock Grid.Row="4" Grid.Column="0" Margin="3" Text="LookAt Y" />
-        <TextBlock Grid.Row="5" Grid.Column="0" Margin="3" Text="LookAt Z" />
-        <TextBlock Grid.Row="6" Grid.Column="0" Margin="3" Text="Angle X" />
-        <TextBlock Grid.Row="7" Grid.Column="0" Margin="3" Text="Angle Y" />
-        <TextBlock Grid.Row="8" Grid.Column="0" Margin="3" Text="Position X" />
-        <TextBlock Grid.Row="9" Grid.Column="0" Margin="3" Text="Position Y" />
-        <TextBlock Grid.Row="10" Grid.Column="0" Margin="3" Text="Position Z" />
-        <TextBlock Grid.Row="11" Grid.Column="0" Margin="3" Text="ZNear" />
-        <TextBlock Grid.Row="12" Grid.Column="0" Margin="3" Text="ZFar" />
-        <TextBlock Grid.Row="13" Grid.Column="0" Margin="3" Text="Copy" />
-        <TextBlock Grid.Row="14" Grid.Column="0" Margin="3" Text="Paste" />
+        <TextBlock Grid.Row="0" Grid.Column="0" Margin="3" Text="{loc:Localize Ta7b93d2128e8}" />
+        <TextBlock Grid.Row="2" Grid.Column="0" Margin="3" Text="{loc:Localize T423208095dd7}" />
+        <TextBlock Grid.Row="3" Grid.Column="0" Margin="3" Text="{loc:Localize T91fd30a0bd03}" />
+        <TextBlock Grid.Row="4" Grid.Column="0" Margin="3" Text="{loc:Localize Te87cd4d02cd6}" />
+        <TextBlock Grid.Row="5" Grid.Column="0" Margin="3" Text="{loc:Localize T06b1eec52c9d}" />
+        <TextBlock Grid.Row="6" Grid.Column="0" Margin="3" Text="{loc:Localize T0e1e1ad9f78f}" />
+        <TextBlock Grid.Row="7" Grid.Column="0" Margin="3" Text="{loc:Localize T1f7a0d32d073}" />
+        <TextBlock Grid.Row="8" Grid.Column="0" Margin="3" Text="{loc:Localize Tf8010478e7f5}" />
+        <TextBlock Grid.Row="9" Grid.Column="0" Margin="3" Text="{loc:Localize T0d24b892c9d0}" />
+        <TextBlock Grid.Row="10" Grid.Column="0" Margin="3" Text="{loc:Localize Tfd6369e8012f}" />
+        <TextBlock Grid.Row="11" Grid.Column="0" Margin="3" Text="{loc:Localize Tbe7b13ebab92}" />
+        <TextBlock Grid.Row="12" Grid.Column="0" Margin="3" Text="{loc:Localize T64af70a8ac68}" />
+        <TextBlock Grid.Row="13" Grid.Column="0" Margin="3" Text="{loc:Localize Taf74f7c5362a}" />
+        <TextBlock Grid.Row="14" Grid.Column="0" Margin="3" Text="{loc:Localize Tdb2483000d15}" />
 
         <ComboBox Name="_cbCameraMode" Grid.Row="0" Grid.Column="1" Margin="3" />
         <wpf1:FloatTextBoxEdit Grid.Row="2" Grid.Column="1" Margin="3" x:Name="_tbDistance" />
@@ -62,7 +62,7 @@
         <wpf1:FloatTextBoxEdit Grid.Row="11" Grid.Column="1" Margin="3" x:Name="_tbZNear" />
         <wpf1:FloatTextBoxEdit Grid.Row="12" Grid.Column="1" Margin="3" x:Name="_tbZFar" />
         
-        <Button Grid.Row="13" Grid.Column="1" Margin="3" Content="Copy" Name="_buttonCopy" Click="_buttonCopy_Click" Height="24" />
-		<Button Grid.Row="14" Grid.Column="1" Margin="3" Content="Patse" Name="_buttonPaste" Click="_buttonPaste_Click" Height="24" />
+        <Button Grid.Row="13" Grid.Column="1" Margin="3" Content="{loc:Localize Taf74f7c5362a}" Name="_buttonCopy" Click="_buttonCopy_Click" Height="24" />
+		<Button Grid.Row="14" Grid.Column="1" Margin="3" Content="{loc:Localize T0334f1e3434b}" Name="_buttonPaste" Click="_buttonPaste_Click" Height="24" />
     </Grid>
 </styles:TkWindow>

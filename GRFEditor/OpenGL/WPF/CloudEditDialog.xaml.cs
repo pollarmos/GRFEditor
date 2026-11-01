@@ -224,7 +224,7 @@ namespace GRFEditor.OpenGL.WPF {
 
 		private void _addNewTab(OpenGLViewport viewport, SkyEffect skyEffect) {
 			var tab = new CloudEditTab(viewport, skyEffect);
-			tab.Header = skyEffect.IsStarEffect ? "Star" : "Sky";
+			tab.Header = skyEffect.IsStarEffect ? Utilities.Localization.UiText.Get("Star") : Utilities.Localization.UiText.Get("Sky");
 			tab.Style = TryFindResource("TabItemSprite") as Style;
 
 			tab.Close += (o) => _primary.Items.RemoveAt(Tabs().IndexOf(Tabs().First(p => ReferenceEquals(p, tab))));

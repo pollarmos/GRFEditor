@@ -33,7 +33,7 @@ namespace GRFEditor.WPF {
 		protected GrfHolder _grfData;
 
 		public SettingsDialog(GrfHolder grfData, EditorMainWindow editor)
-			: base("Settings", "settings.ico") {
+			: base(Utilities.Localization.UiText.Get("Settings"), "settings.ico") {
 			_grfData = grfData;
 			_editor = editor;
 
@@ -73,7 +73,7 @@ namespace GRFEditor.WPF {
 		private void _initializeApplicationSettings() {
 			try {
 				_tbConfig.Text = Path.GetFileName(GrfEditorConfiguration.ConfigAsker.ConfigFile);
-				_tbPixelIndexation.Text = Methods.CanUseIndexed8 ? "Directly handled by GDI" : "Manually converted to Bgra32";
+				_tbPixelIndexation.Text = Methods.CanUseIndexed8 ? Utilities.Localization.UiText.Get("Directly handled by GDI") : Utilities.Localization.UiText.Get("Manually converted to Bgra32");
 				_tbFramework.Text = Methods.GetReadableRuntimeVersion();
 			}
 			catch {
@@ -123,7 +123,7 @@ namespace GRFEditor.WPF {
 				options.Add(new ThreadCountView { Count = maxThreads, Display = maxThreads.ToString() });
 
 			int lastIdx = options.Count - 1;
-			options[lastIdx].Display += " (System Max)";
+			options[lastIdx].Display += Utilities.Localization.UiText.Get(" (System Max)");
 
 			_comboBoxMaxThreads.ItemsSource = options;
 
@@ -230,7 +230,7 @@ namespace GRFEditor.WPF {
 		private void _buttonTreeExpandSpecific_Click(object sender, RoutedEventArgs e) {
 			List<string> paths = Methods.StringToList(GrfEditorConfiguration.TreeBehaviorSpecificFolders);
 
-			InputDialog dialog = new InputDialog("Enter the paths to expand for GRFs.", "Tree expansion", paths.Aggregate((a, b) => a + "\r\n" + b), false, false);
+			InputDialog dialog = new InputDialog(Utilities.Localization.UiText.Get("Enter the paths to expand for GRFs."), Utilities.Localization.UiText.Get("Tree expansion"), paths.Aggregate((a, b) => a + "\r\n" + b), false, false);
 			dialog.Owner = this;
 			dialog.TextBoxInput.AcceptsReturn = true;
 			dialog.TextBoxInput.VerticalScrollBarVisibility = ScrollBarVisibility.Auto;
@@ -246,7 +246,7 @@ namespace GRFEditor.WPF {
 		}
 
 		private void _encodingImage_MouseDown(object sender, MouseButtonEventArgs e) {
-			ErrorHandler.HandleException("If you're not sure about the encoding, just select Default. The encoding more or less matters, "
+			ErrorHandler.HandleException(Utilities.Localization.UiText.Get("If you're not sure about the encoding, just select Default. The encoding more or less matters, ")
 										 + "the only difference between encodings is how the file names will be shown. The actual data will not be affected by "
 										 + "this.\n\nHowever, if you're working with Korean based file names, you should select the Korean encoding. The application will "
 										 + "automatically convert the file names and if the file already exists, it will replace it (so be careful!).",

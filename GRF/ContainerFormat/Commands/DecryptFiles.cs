@@ -40,7 +40,7 @@ namespace GRF.ContainerFormat.Commands {
 		}
 
 		public string CommandDescription {
-			get { return string.Format(GrfStrings.DecryptFiles); }
+			get { return Utilities.Localization.UiText.Message(string.Format(GrfStrings.DecryptFiles)); }
 		}
 
 		#endregion

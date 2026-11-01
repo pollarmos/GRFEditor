@@ -1,7 +1,7 @@
-﻿<Window x:Class="GRFEditor.OpenGL.WPF.RenderOptions"
+﻿<Window xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.OpenGL.WPF.RenderOptions"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="RenderOptions" 
+        Title="{loc:Localize Te26a2a7c30dd}"
         Background="{StaticResource TabItemBackground}" Foreground="{StaticResource TextForeground}"
         SizeToContent="WidthAndHeight">
     <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3">
@@ -20,27 +20,27 @@
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <CheckBox Name="_checkBoxRenderWater" Grid.Row="0" Content="Render water" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxRenderObjects" Grid.Row="1" Content="Render objects" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxRenderGround" Grid.Row="2" Content="Render ground" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxRenderLub" Grid.Row="3" Grid.Column="0" Content="Render lub effects" Margin="3" VerticalAlignment="Center" />
-        
-        <CheckBox Name="_checkBoxRenderSkymap" Grid.Row="0" Grid.Column="1" Content="Render skymap" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxTileUp" Grid.Row="1" Grid.Column="1" Content="Render black tiles" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxAnimateMap" Grid.Row="3" Grid.Column="1" Content="Animate map" Margin="3" VerticalAlignment="Center" />
-        
-        <CheckBox Name="_checkBoxShadowmap" Grid.Row="0" Grid.Column="2" Content="Show shadows" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxLightmap" Grid.Row="1" Grid.Column="2" Content="Show lightmap" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxFps" Grid.Row="2" Grid.Column="2" Content="Show FPS" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxUnlimitedFps" Grid.Row="3" Grid.Column="2" Content="Unlimited FPS" Margin="3" VerticalAlignment="Center" />
-        
-        <CheckBox Name="_checkBoxStickToGround" Grid.Row="0" Grid.Column="3" Content="View stick to ground" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxFaceCulling" Grid.Row="1" Grid.Column="3" Content="Face culling" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxClientPerspective" Grid.Row="3" Grid.Column="3" Content="Use client's POV" Margin="3" VerticalAlignment="Center" />
-        <CheckBox Name="_checkBoxSmoothCamera" Grid.Row="2" Grid.Column="3" Content="Smooth camera" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxRenderWater" Grid.Row="0" Content="{loc:Localize Tee0de467455d}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxRenderObjects" Grid.Row="1" Content="{loc:Localize Tba7ec50c1e48}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxRenderGround" Grid.Row="2" Content="{loc:Localize Tae09e3a9d23f}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxRenderLub" Grid.Row="3" Grid.Column="0" Content="{loc:Localize T483e825ae4ad}" Margin="3" VerticalAlignment="Center" />
 
-        <CheckBox Name="_checkBoxFSAA" Grid.Row="2" Grid.Column="1" Content="Anti-aliasing (x8)" Margin="3" VerticalAlignment="Center" />
-        
-        <CheckBox Name="_checkBoxRenderGat" Grid.Row="0" Grid.Column="4" Content="Render gat types" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxRenderSkymap" Grid.Row="0" Grid.Column="1" Content="{loc:Localize Tf7db5fd3eb67}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxTileUp" Grid.Row="1" Grid.Column="1" Content="{loc:Localize Tb175ee88eca6}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxAnimateMap" Grid.Row="3" Grid.Column="1" Content="{loc:Localize T50a76a0566ba}" Margin="3" VerticalAlignment="Center" />
+
+        <CheckBox Name="_checkBoxShadowmap" Grid.Row="0" Grid.Column="2" Content="{loc:Localize Ta22544175d02}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxLightmap" Grid.Row="1" Grid.Column="2" Content="{loc:Localize T361b4aa26578}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxFps" Grid.Row="2" Grid.Column="2" Content="{loc:Localize T69f20384bd63}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxUnlimitedFps" Grid.Row="3" Grid.Column="2" Content="{loc:Localize T5669806e5f1f}" Margin="3" VerticalAlignment="Center" />
+
+        <CheckBox Name="_checkBoxStickToGround" Grid.Row="0" Grid.Column="3" Content="{loc:Localize T8b92e226270a}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxFaceCulling" Grid.Row="1" Grid.Column="3" Content="{loc:Localize T822f122a8fb2}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxClientPerspective" Grid.Row="3" Grid.Column="3" Content="{loc:Localize T89c1ce05952c}" Margin="3" VerticalAlignment="Center" />
+        <CheckBox Name="_checkBoxSmoothCamera" Grid.Row="2" Grid.Column="3" Content="{loc:Localize Tc4645e71ca11}" Margin="3" VerticalAlignment="Center" />
+
+        <CheckBox Name="_checkBoxFSAA" Grid.Row="2" Grid.Column="1" Content="{loc:Localize T8bb17ff7cbed}" Margin="3" VerticalAlignment="Center" />
+
+        <CheckBox Name="_checkBoxRenderGat" Grid.Row="0" Grid.Column="4" Content="{loc:Localize Te13da9eba0a5}" Margin="3" VerticalAlignment="Center" />
     </Grid>
 </Window>

@@ -242,15 +242,15 @@ namespace TokeiLibrary.WPF.Styles {
 					_setIsIndterminate(true);
 				}
 				else if (_progress == -5) {
-					Display = "Indexing content";
+					Display = Utilities.Localization.UiText.Get("Indexing content");
 					_setIsIndterminate(true);
 				}
 				else if (_progress == -2) {
-					Display = "Scanning encrypted content";
+					Display = Utilities.Localization.UiText.Get("Scanning encrypted content");
 					_setIsIndterminate(true);
 				}
 				else if (_progress < 0) {
-					Display = "Processing";
+					Display = Utilities.Localization.UiText.Get("Processing");
 					_setIsIndterminate(true);
 				}
 				else if (_progress == 0) {
@@ -259,7 +259,7 @@ namespace TokeiLibrary.WPF.Styles {
 				}
 				else if (_progress >= 100.0f) {
 					_setIsIndterminate(false);
-					Display = "Finished";
+					Display = Utilities.Localization.UiText.Get("Finished");
 					_setProg(value);
 				}
 				else {
@@ -373,15 +373,15 @@ namespace TokeiLibrary.WPF.Styles {
 					_setIsIndterminate(true);
 				}
 				else if (_progress == -5) {
-					Display = "Indexing content";
+					Display = Utilities.Localization.UiText.Get("Indexing content");
 					_setIsIndterminate(true);
 				}
 				else if (_progress == -2) {
-					Display = "Scanning encrypted content";
+					Display = Utilities.Localization.UiText.Get("Scanning encrypted content");
 					_setIsIndterminate(true);
 				}
 				else if (_progress < 0) {
-					Display = "Processing";
+					Display = Utilities.Localization.UiText.Get("Processing");
 					_setIsIndterminate(true);
 				}
 				else if (_progress == 0) {
@@ -391,7 +391,7 @@ namespace TokeiLibrary.WPF.Styles {
 				}
 				else if (_progress >= 100.0f) {
 					_setIsIndterminate(false);
-					Display = "Finished";
+					Display = Utilities.Localization.UiText.Get("Finished");
 					SetSpecialState(ProgressStatus.Finished);
 					_setProg(value);
 				}
@@ -417,22 +417,22 @@ namespace TokeiLibrary.WPF.Styles {
 					case ProgressStatus.Finished:
 						_setIsIndterminate(false);
 						this.Dispatch(p => p.ForegroundColor = NormalBrush);
-						Display = "Finished";
+						Display = Utilities.Localization.UiText.Get("Finished");
 						break;
 					case ProgressStatus.ErrorsDetected:
 						_setIsIndterminate(false);
-						Display = "Errors were detected";
+						Display = Utilities.Localization.UiText.Get("Errors were detected");
 						this.Dispatch(p => p._buttonError.Visibility = Visibility.Visible);
 						this.Dispatch(p => p.ForegroundColor = ErrorBrush);
 						break;
 					case ProgressStatus.FileLoaded:
 						_setIsIndterminate(false);
-						Display = "File loaded successfully";
+						Display = Utilities.Localization.UiText.Get("File loaded successfully");
 						this.Dispatch(p => p.ForegroundColor = NormalBrush);
 						break;
 					case ProgressStatus.Cancelling:
 						_setIsIndterminate(true);
-						Display = "Cancelling...";
+						Display = Utilities.Localization.UiText.Get("Cancelling...");
 						this.Dispatch(p => p.ForegroundColor = CancelBrush);
 						break;
 				}

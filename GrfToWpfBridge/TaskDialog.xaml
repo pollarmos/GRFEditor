@@ -1,4 +1,4 @@
-﻿<Styles:TkWindow x:Class="GrfToWpfBridge.TaskDialog"
+﻿<Styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GrfToWpfBridge.TaskDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -13,7 +13,7 @@
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
-        <TextBlock Name="_tbInfo" Text="Processing..." Margin="7 10 7 10" TextWrapping="Wrap" />
+        <TextBlock Name="_tbInfo" Text="{loc:Localize T272bc02ec508}" Margin="7 10 7 10" TextWrapping="Wrap" />
         <Styles:TkProgressBar Grid.Row="1" x:Name="_progressBar" Width="250" Margin="5 5 5 10" />
         <Grid Name="_gridFooter" Visibility="Collapsed" TokeiLibrary:WpfProperties.IsDraggable="True" Grid.Row="3" Height="50" Background="{DynamicResource UIDialogBackground}">
             <Grid.ColumnDefinitions>
@@ -21,7 +21,7 @@
                 <ColumnDefinition Width="auto" />
             </Grid.ColumnDefinitions>
             <DockPanel HorizontalAlignment="Right" Margin="0 0 3 0" Grid.Column="1">
-                <Button Name="_buttonCancel" Click="_buttonCancel_Click" Content="Cancel" Height="24" Margin="3" MinWidth="100" />
+                <Button Name="_buttonCancel" Click="_buttonCancel_Click" Content="{loc:Localize T77dfd2135f4d}" Height="24" Margin="3" MinWidth="100" />
             </DockPanel>
         </Grid>
     </Grid>

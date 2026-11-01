@@ -17,7 +17,7 @@ namespace GRFEditor.WPF {
 	public partial class HashDialog : TkWindow {
 		const int WarningFileSize = 75 * 1024 * 1024;
 
-		public HashDialog() : base("Hash viewer", "hash.ico") {
+		public HashDialog() : base(Utilities.Localization.UiText.Get("Hash viewer"), "hash.ico") {
 			InitializeComponent();
 		}
 
@@ -32,7 +32,7 @@ namespace GRFEditor.WPF {
 				bool answer = true;
 
 				if (length > WarningFileSize) {
-					answer = ErrorHandler.YesNoRequest("Files bigger than 75 MB can take a while to process, are you sure you want to continue?", "Large file");
+					answer = ErrorHandler.YesNoRequest(Utilities.Localization.UiText.Get("Files bigger than 75 MB can take a while to process, are you sure you want to continue?"), "Large file");
 				}
 
 				if (answer) {
@@ -46,7 +46,7 @@ namespace GRFEditor.WPF {
 				}
 			}
 			catch (Exception err) {
-				ErrorHandler.HandleException("Failed to hash file '" + fileName + "'.", err);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Failed to hash file '") + fileName + "'.", err);
 			}
 		}
 

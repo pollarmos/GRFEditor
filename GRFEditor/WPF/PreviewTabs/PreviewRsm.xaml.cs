@@ -225,7 +225,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 			window.Loaded += delegate {
 				window.Topmost = false;
 			};
-			window.Title = "Preview";
+			window.Title = Utilities.Localization.UiText.Get("Preview");
 			window.ResizeMode = ResizeMode.NoResize;
 			window.Topmost = true;
 			window.WindowStyle = WindowStyle.None;
@@ -319,10 +319,10 @@ namespace GRFEditor.WPF.PreviewTabs {
 			base.Load(grfData, entry);
 
 			if (entry.RelativePath.IsExtension(".rsm", ".rsm2")) {
-				((TabItem)Parent).Header = "Model preview";
+				((TabItem)Parent).Header = Utilities.Localization.UiText.Get("Model preview");
 			}
 			else {
-				((TabItem)Parent).Header = "Map preview";
+				((TabItem)Parent).Header = Utilities.Localization.UiText.Get("Map preview");
 			}
 		}
 
@@ -428,9 +428,9 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 			this.Dispatch(delegate {
 				if (entry.RelativePath.IsExtension(".rsm", ".rsm2"))
-					_labelHeader.Text = "Model preview: " + entry.DisplayRelativePath;
+					_labelHeader.Text = Utilities.Localization.UiText.Get("Model preview: ") + entry.DisplayRelativePath;
 				else
-					_labelHeader.Text = "Map preview: " + entry.DisplayRelativePath;
+					_labelHeader.Text = Utilities.Localization.UiText.Get("Map preview: ") + entry.DisplayRelativePath;
 			});
 
 			if (entry.RelativePath.IsExtension(".rsm", ".rsm2")) {

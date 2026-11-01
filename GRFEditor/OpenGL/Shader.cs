@@ -61,7 +61,7 @@ namespace GRFEditor.OpenGL {
 			}
 
 			if (ErrorOutput.Length > 0) {
-				ErrorHandler.HandleException("Failed to load some shaders:\r\n\r\n" + Shader.ErrorOutput.ToString());
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Failed to load some shaders:\r\n\r\n") + Shader.ErrorOutput.ToString());
 				ErrorOutput.Clear();
 			}
 		}
@@ -117,7 +117,7 @@ namespace GRFEditor.OpenGL {
 			}
 
 			if (ErrorOutput.Length > 0) {
-				ErrorHandler.HandleException("Failed to load some shaders:\r\n\r\n" + Shader.ErrorOutput.ToString());
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Failed to load some shaders:\r\n\r\n") + Shader.ErrorOutput.ToString());
 				ErrorOutput.Clear();
 			}
 		}

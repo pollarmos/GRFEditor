@@ -92,7 +92,7 @@ namespace GRFEditor.OpenGL.WPF {
 		private readonly OpenGLLoggerThread _openGLThread = new OpenGLLoggerThread();
 
 		public OpenGLDebugDialog()
-			: base("OpenGL logger...", "warning16.png", SizeToContent.Manual, ResizeMode.CanResize) {
+			: base(Utilities.Localization.UiText.Get("OpenGL logger..."), "warning16.png", SizeToContent.Manual, ResizeMode.CanResize) {
 			InitializeComponent();
 			GLHelper.LogEnabled = true;
 			WindowStartupLocation = WindowStartupLocation.CenterOwner;

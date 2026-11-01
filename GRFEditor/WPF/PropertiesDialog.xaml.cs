@@ -11,7 +11,7 @@ namespace GRFEditor.WPF {
 	/// Interaction logic for PropertiesDialog.xaml
 	/// </summary>
 	public partial class PropertiesDialog : TkWindow {
-		public PropertiesDialog(GrfHolder grfData, object selectedObject = null) : base("Properties", "properties.ico") {
+		public PropertiesDialog(GrfHolder grfData, object selectedObject = null) : base(Utilities.Localization.UiText.Get("Properties"), "properties.ico") {
 			InitializeComponent();
 
 			try {

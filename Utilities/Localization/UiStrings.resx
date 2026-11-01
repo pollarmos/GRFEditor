@@ -1,0 +1,3403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="T00d0b79d5369" xml:space="preserve">
+    <value>Copying file...</value>
+  </data>
+  <data name="T0100500c2208" xml:space="preserve">
+    <value>One of the GRF couldn't be located (file not found).</value>
+  </data>
+  <data name="T0114c66d0f87" xml:space="preserve">
+    <value>Zlib (Gravity)</value>
+  </data>
+  <data name="T01188919c0d3" xml:space="preserve">
+    <value>Render options...</value>
+  </data>
+  <data name="T013aaabb27da" xml:space="preserve">
+    <value>Type in the files you want to remove (full relative path).&#13;
+Example : &#13;
+data\map.rsw&#13;
+data\map.gnd.</value>
+  </data>
+  <data name="T020a0664a17a" xml:space="preserve">
+    <value>Enable or disable face culling. Face culling will not render the back of the triangles (unless the models use two-side mode). The client does this by default.</value>
+  </data>
+  <data name="T020d8aabf36a" xml:space="preserve">
+    <value>Model preview</value>
+  </data>
+  <data name="T0272d3905cfe" xml:space="preserve">
+    <value>Default (1252 - Western European)</value>
+  </data>
+  <data name="T028bf62392e8" xml:space="preserve">
+    <value>The minimum length of the header ({0}) is invalid, it must be greater than {1}.</value>
+  </data>
+  <data name="T02fcf5b92bdf" xml:space="preserve">
+    <value>Sets the water level below the ground, so that it cannot be seen.</value>
+  </data>
+  <data name="T02fea44be9f1" xml:space="preserve">
+    <value>Last LoadLibrary error: {1}.</value>
+  </data>
+  <data name="T03201bc8e691" xml:space="preserve">
+    <value>Unexpected end of object byte value.</value>
+  </data>
+  <data name="T0334f1e3434b" xml:space="preserve">
+    <value>Patse</value>
+  </data>
+  <data name="T03c589423163" xml:space="preserve">
+    <value>Current directory only</value>
+  </data>
+  <data name="T03d268699c9d" xml:space="preserve">
+    <value>Enter the password for the decryption.</value>
+  </data>
+  <data name="T03f5ce03612f" xml:space="preserve">
+    <value>Error code</value>
+  </data>
+  <data name="T04226bcf9119" xml:space="preserve">
+    <value>Select a folder</value>
+  </data>
+  <data name="T04267d25843d" xml:space="preserve">
+    <value>You chose the 'Merge into RO directory' patching mode but some files are encrypted.&#13;
+&#13;
+</value>
+  </data>
+  <data name="T04282d7c3a31" xml:space="preserve">
+    <value>You tried to set this vector at index: </value>
+  </data>
+  <data name="T04330528d252" xml:space="preserve">
+    <value>Total length of the fill buffer is larger than the image size.</value>
+  </data>
+  <data name="T043609598e4c" xml:space="preserve">
+    <value>The key or key file is invalid.</value>
+  </data>
+  <data name="T04b7b26c8ca2" xml:space="preserve">
+    <value>Critical</value>
+  </data>
+  <data name="T04c58b8a2219" xml:space="preserve">
+    <value>File...</value>
+  </data>
+  <data name="T04c6155ba4a8" xml:space="preserve">
+    <value>The old GRF is newer than the new GRF file, would you like to switch them?</value>
+  </data>
+  <data name="T0525e70770e2" xml:space="preserve">
+    <value>Failed to load the decompression library ({0}).&#13;
+&#13;
+The function '{1}' couldn't be loaded. Expected function declaration '{2}'.</value>
+  </data>
+  <data name="T053b5df91c09" xml:space="preserve">
+    <value>Group image</value>
+  </data>
+  <data name="T060674ca0ee7" xml:space="preserve">
+    <value>The extraction path is invalid, it has been reset to its default value</value>
+  </data>
+  <data name="T0623ae4142cc" xml:space="preserve">
+    <value>Base GRF</value>
+  </data>
+  <data name="T065f4214cb82" xml:space="preserve">
+    <value>Location of the input maps:</value>
+  </data>
+  <data name="T06a0cf4af73b" xml:space="preserve">
+    <value>Add custom sky effect</value>
+  </data>
+  <data name="T06a12f9a4505" xml:space="preserve">
+    <value>Light and shadow</value>
+  </data>
+  <data name="T06af1e0da7aa" xml:space="preserve">
+    <value>renderer</value>
+  </data>
+  <data name="T06b1eec52c9d" xml:space="preserve">
+    <value>LookAt Z</value>
+  </data>
+  <data name="T07ad4af3472f" xml:space="preserve">
+    <value>Couldn't save the container file.</value>
+  </data>
+  <data name="T07b542686665" xml:space="preserve">
+    <value>Unsupported pixel format : {0}.</value>
+  </data>
+  <data name="T08170580cbf4" xml:space="preserve">
+    <value>Delete all</value>
+  </data>
+  <data name="T08ffd0df5b09" xml:space="preserve">
+    <value>Invalid information in the file table (entries)</value>
+  </data>
+  <data name="T0910572b777c" xml:space="preserve">
+    <value>Unsupported type: </value>
+  </data>
+  <data name="T092e7279da4f" xml:space="preserve">
+    <value>Undo {0} action</value>
+  </data>
+  <data name="T0976956fdead" xml:space="preserve">
+    <value>The GRF has been modified, do you want to save it first?</value>
+  </data>
+  <data name="T097d49d7b8d0" xml:space="preserve">
+    <value>Text length limit to break line</value>
+  </data>
+  <data name="T09979a78c995" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="T09ae990f3d67" xml:space="preserve">
+    <value>Select in explorer</value>
+  </data>
+  <data name="T09c65232a700" xml:space="preserve">
+    <value>GRF archive key-block checksum mismatch.</value>
+  </data>
+  <data name="T09cf914afb5e" xml:space="preserve">
+    <value>Use LZMA compression (requires custom DLL for client)</value>
+  </data>
+  <data name="T09e87a695d4b" xml:space="preserve">
+    <value>Failed to decompress data.</value>
+  </data>
+  <data name="T09ee91b91107" xml:space="preserve">
+    <value>Delete all but this</value>
+  </data>
+  <data name="T09f5dc1d53d3" xml:space="preserve">
+    <value>Cannot change the display encoding while a GRF is modified or is being saved. Save your GRF first.</value>
+  </data>
+  <data name="T0a02b1e1f7e0" xml:space="preserve">
+    <value>Reapply textures</value>
+  </data>
+  <data name="T0a5c86d94da2" xml:space="preserve">
+    <value>Reset options</value>
+  </data>
+  <data name="T0af149c2ed16" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+  <data name="T0b85a929ca96" xml:space="preserve">
+    <value>Bink preview</value>
+  </data>
+  <data name="T0bd2c6f3cf91" xml:space="preserve">
+    <value>Client path</value>
+  </data>
+  <data name="T0be8d3047f93" xml:space="preserve">
+    <value>VirtualFileDataObject requires at least one data object to enumerate.</value>
+  </data>
+  <data name="T0c1bbb448e4f" xml:space="preserve">
+    <value>Image convert...</value>
+  </data>
+  <data name="T0c2f98e3279f" xml:space="preserve">
+    <value>Cannot replace the action (invalid indexes).</value>
+  </data>
+  <data name="T0c4de1e5cc5b" xml:space="preserve">
+    <value>Detect missing sound files</value>
+  </data>
+  <data name="T0c96052baa89" xml:space="preserve">
+    <value>The GRF file doesn't exist yet.</value>
+  </data>
+  <data name="T0c980556ea59" xml:space="preserve">
+    <value>Drop your file or folder here. This way of adding files is deprecated, close this window and drop them on the tree view directly in the editor.</value>
+  </data>
+  <data name="T0cab60b29dbc" xml:space="preserve">
+    <value>Invalid character: </value>
+  </data>
+  <data name="T0ce4c5dfb185" xml:space="preserve">
+    <value>Delete folder '{0}'</value>
+  </data>
+  <data name="T0d051243abc9" xml:space="preserve">
+    <value>Grf validation</value>
+  </data>
+  <data name="T0d24b892c9d0" xml:space="preserve">
+    <value>Position Y</value>
+  </data>
+  <data name="T0d2617c42df2" xml:space="preserve">
+    <value>Unsupported protected GRF header type </value>
+  </data>
+  <data name="T0d2a304c6644" xml:space="preserve">
+    <value>Modify GRF magic header...</value>
+  </data>
+  <data name="T0d42e396160d" xml:space="preserve">
+    <value>Hover your mouse over a check box for more details about an option.</value>
+  </data>
+  <data name="T0d6105813507" xml:space="preserve">
+    <value>Lightning options:</value>
+  </data>
+  <data name="T0d9bbff1f903" xml:space="preserve">
+    <value>Remove the lightmap.</value>
+  </data>
+  <data name="T0dc1a39259a6" xml:space="preserve">
+    <value>textures without interfering with each other.</value>
+  </data>
+  <data name="T0dcc4805aa88" xml:space="preserve">
+    <value>The length of the stream is too small for this container. Unable to parse the header.&#13;
+Actual size : {0}&#13;
+Expected minimal size : {1}</value>
+  </data>
+  <data name="T0e06bbc35de6" xml:space="preserve">
+    <value>Appending a goto without removing the previous one first.</value>
+  </data>
+  <data name="T0e13d33702dd" xml:space="preserve">
+    <value>Use custom texture on walls.</value>
+  </data>
+  <data name="T0e1e1ad9f78f" xml:space="preserve">
+    <value>Angle X</value>
+  </data>
+  <data name="T0e9d6b4b58b0" xml:space="preserve">
+    <value>Grf path</value>
+  </data>
+  <data name="T0eb5ed506e49" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="T0eba8262170c" xml:space="preserve">
+    <value>The output format of the GRF.</value>
+  </data>
+  <data name="T0f00ac5fd3f7" xml:space="preserve">
+    <value>Database indexing for '</value>
+  </data>
+  <data name="T0f0a416ee4fb" xml:space="preserve">
+    <value>Enter the password for the encryption.</value>
+  </data>
+  <data name="T0f5065045b4b" xml:space="preserve">
+    <value>The property 'SizeDecompressed' must be set for the Entry block type (use GrfBlock.SetProperty).</value>
+  </data>
+  <data name="T0f61b4f5ccc0" xml:space="preserve">
+    <value>Add file '{0}' in '{1}'</value>
+  </data>
+  <data name="T0fe299ad13ae" xml:space="preserve">
+    <value>Rebuild indexes</value>
+  </data>
+  <data name="T1016a911aa4c" xml:space="preserve">
+    <value>Add file to remove '{0}'</value>
+  </data>
+  <data name="T104224fd928b" xml:space="preserve">
+    <value>Display encoding</value>
+  </data>
+  <data name="T104683d616e5" xml:space="preserve">
+    <value>Text encoding</value>
+  </data>
+  <data name="T1047bb9934f3" xml:space="preserve">
+    <value>The GRF to add has been modified, save it first.</value>
+  </data>
+  <data name="T10797ecfe56f" xml:space="preserve">
+    <value>Select a sprite from a file</value>
+  </data>
+  <data name="T10e1220bb64e" xml:space="preserve">
+    <value>Folder added '{0}'</value>
+  </data>
+  <data name="T1134dd19c9a3" xml:space="preserve">
+    <value>Add fixed sky effect</value>
+  </data>
+  <data name="T11aab16725e9" xml:space="preserve">
+    <value>Generate maps</value>
+  </data>
+  <data name="T11d5f4e2d1c1" xml:space="preserve">
+    <value>Save format</value>
+  </data>
+  <data name="T11f6ad8ec52a" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="T121686ea9a45" xml:space="preserve">
+    <value>The file hasn't been extracted yet, would you like to do that now?</value>
+  </data>
+  <data name="T1220a623ba88" xml:space="preserve">
+    <value>No format converter was found for this format: </value>
+  </data>
+  <data name="T1238ea63716a" xml:space="preserve">
+    <value>Compressed</value>
+  </data>
+  <data name="T12b32b12bc37" xml:space="preserve">
+    <value>Open recent</value>
+  </data>
+  <data name="T12b9a51c039b" xml:space="preserve">
+    <value>File names with no extension</value>
+  </data>
+  <data name="T12eb7bfdb81e" xml:space="preserve">
+    <value>Cannot set the sprite type to Indexed8 : the index of the sprite needs to be below </value>
+  </data>
+  <data name="T12ee79dfde59" xml:space="preserve">
+    <value>Path cannot be null or empty.&#13;
+{0}</value>
+  </data>
+  <data name="T12f4c75b2a85" xml:space="preserve">
+    <value>Sound preview</value>
+  </data>
+  <data name="T12fcc086042e" xml:space="preserve">
+    <value>Format = {0}; Size = {1} x {2}</value>
+  </data>
+  <data name="T137255d8588c" xml:space="preserve">
+    <value>Inner exception: </value>
+  </data>
+  <data name="T14948b41bd49" xml:space="preserve">
+    <value>with potential damage are being shown.</value>
+  </data>
+  <data name="T149e073cf2be" xml:space="preserve">
+    <value>Text encoding invalid.&#13;
+{0}</value>
+  </data>
+  <data name="T15943f58d676" xml:space="preserve">
+    <value>Find...</value>
+  </data>
+  <data name="T15a6eb781223" xml:space="preserve">
+    <value>Flip horizontally</value>
+  </data>
+  <data name="T160a2a3a3289" xml:space="preserve">
+    <value>Invalid file extension.</value>
+  </data>
+  <data name="T163265a257ef" xml:space="preserve">
+    <value>Palette index is invalid, row and column must be below 16.</value>
+  </data>
+  <data name="T163d4aa4dccc" xml:space="preserve">
+    <value>GRF encryption can only be used for THOR, GRF and GPF files which use the 0x200 or 0x300 format.</value>
+  </data>
+  <data name="T16734af6f2af" xml:space="preserve">
+    <value>If enabled, the window position and width will be saved upon re-opening the program.</value>
+  </data>
+  <data name="T16921b1f1b35" xml:space="preserve">
+    <value>The folder hasn't been extracted yet, would you like to do that now?</value>
+  </data>
+  <data name="T16e366f5fb5f" xml:space="preserve">
+    <value>Zlib (GRF Editor)</value>
+  </data>
+  <data name="T16f376034a40" xml:space="preserve">
+    <value>Find errors</value>
+  </data>
+  <data name="T179898d367c4" xml:space="preserve">
+    <value>Use the code reconstructor</value>
+  </data>
+  <data name="T17a2d6b71d08" xml:space="preserve">
+    <value>Data not found in GrfBlock.</value>
+  </data>
+  <data name="T1838ac63db2c" xml:space="preserve">
+    <value>The current GRF contains errors and cannot be merged.</value>
+  </data>
+  <data name="T18663b90e47f" xml:space="preserve">
+    <value>Protected GRF stored output size mismatch.</value>
+  </data>
+  <data name="T188b458a2f1a" xml:space="preserve">
+    <value>Manually converted to Bgra32</value>
+  </data>
+  <data name="T189678838f61" xml:space="preserve">
+    <value>Attempted to read a container that wasn't loaded properly. NullReferenceException expected.</value>
+  </data>
+  <data name="T190aa842474f" xml:space="preserve">
+    <value>Patch</value>
+  </data>
+  <data name="T1933aa9ff723" xml:space="preserve">
+    <value>Output file name</value>
+  </data>
+  <data name="T193566de3ea5" xml:space="preserve">
+    <value>The patcher requires to be updated.</value>
+  </data>
+  <data name="T19992fe76e9f" xml:space="preserve">
+    <value>Enable or disable the sky map rendering.</value>
+  </data>
+  <data name="T19cc1a502fdb" xml:space="preserve">
+    <value>Korean (949)</value>
+  </data>
+  <data name="T1a2285d8881f" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="T1ac1249bf4d1" xml:space="preserve">
+    <value>Zoom adjust</value>
+  </data>
+  <data name="T1b58cca0747d" xml:space="preserve">
+    <value>Bitmap</value>
+  </data>
+  <data name="T1b5ec0727b82" xml:space="preserve">
+    <value>Save to...</value>
+  </data>
+  <data name="T1b5ef54630b5" xml:space="preserve">
+    <value>Enable or disable the gat tile renderer. This will show walkable tiles (you can right-click the setting to change the transparency value).</value>
+  </data>
+  <data name="T1d0c8304baed" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="T1d10981a1f4d" xml:space="preserve">
+    <value>Log any exceptions (debug.log)</value>
+  </data>
+  <data name="T1d9f09a1bac3" xml:space="preserve">
+    <value>Failed to save texture.
+</value>
+  </data>
+  <data name="T1de91cc9bcaa" xml:space="preserve">
+    <value>By default, the magic header for GRF is 'Master of Magic'. Changing the header must also be changed in the Ragnarok executable otherwise it will not be readable.</value>
+  </data>
+  <data name="T1e0c0141115a" xml:space="preserve">
+    <value>Use currently opened GRF</value>
+  </data>
+  <data name="T1e56ce77197c" xml:space="preserve">
+    <value>Prevents services from showing a file or folder in Windows Explorer after an extraction.</value>
+  </data>
+  <data name="T1efbb64aabb0" xml:space="preserve">
+    <value>0: Walkable</value>
+  </data>
+  <data name="T1f48da4390b2" xml:space="preserve">
+    <value>Encryption method</value>
+  </data>
+  <data name="T1f7a0d32d073" xml:space="preserve">
+    <value>Angle Y</value>
+  </data>
+  <data name="T1f7f1ea51811" xml:space="preserve">
+    <value>Lzma (by Curiosity)</value>
+  </data>
+  <data name="T1fbfbc8f7ee8" xml:space="preserve">
+    <value>If enabled, a hash file will be added to Thor patches.</value>
+  </data>
+  <data name="T2003bb22d9e6" xml:space="preserve">
+    <value>Couldn't save the container file. The size limit has been reached and the GRF must be forcibly reloaded.</value>
+  </data>
+  <data name="T2011cb85bed3" xml:space="preserve">
+    <value>RSM2 to RSM1 (anim)</value>
+  </data>
+  <data name="T205ed636100d" xml:space="preserve">
+    <value>You can only save new passwords.</value>
+  </data>
+  <data name="T2062228ce174" xml:space="preserve">
+    <value>Invalid protected GRF LZ4 stream or output size mismatch.</value>
+  </data>
+  <data name="T2066ffcfec11" xml:space="preserve">
+    <value>A magic header is a file signature meant to identify the file type (whether it is a GRF file, an executable, etc).</value>
+  </data>
+  <data name="T20dfe9cb6258" xml:space="preserve">
+    <value>Encryption password</value>
+  </data>
+  <data name="T20eabc00f6a7" xml:space="preserve">
+    <value>Renaming cps.dll is slightly more secure. However, make sure the previous version of cps.dll isn't present in your RO folder.</value>
+  </data>
+  <data name="T21592c2b5438" xml:space="preserve">
+    <value>Could not find the corresponding SPR file: '</value>
+  </data>
+  <data name="T2176c7e47837" xml:space="preserve">
+    <value>Unrecognized file format ({0}).</value>
+  </data>
+  <data name="T21889b5027a5" xml:space="preserve">
+    <value>Gravity Patch</value>
+  </data>
+  <data name="T21a7b3aa5a36" xml:space="preserve">
+    <value>CRC32</value>
+  </data>
+  <data name="T21bebee56d76" xml:space="preserve">
+    <value>Invalid LZ4 offset.</value>
+  </data>
+  <data name="T21fd82038e42" xml:space="preserve">
+    <value>Wall textures:</value>
+  </data>
+  <data name="T22786d42cc30" xml:space="preserve">
+    <value>Altitude</value>
+  </data>
+  <data name="T22af71659377" xml:space="preserve">
+    <value>Launching GrfCL...</value>
+  </data>
+  <data name="T22bc1a4e0718" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
+  <data name="T23182eb2c9a8" xml:space="preserve">
+    <value>Move items in the tree by holding ALT</value>
+  </data>
+  <data name="T2392822ef51c" xml:space="preserve">
+    <value>Maps unique ID: </value>
+  </data>
+  <data name="T23da3056333f" xml:space="preserve">
+    <value>The gat cells will stick to the ground level. If there's</value>
+  </data>
+  <data name="T241ccc11c797" xml:space="preserve">
+    <value>Subversion files (.svn)</value>
+  </data>
+  <data name="T24376f3b15a8" xml:space="preserve">
+    <value>Invalid image format. Found: </value>
+  </data>
+  <data name="T250c7decc82e" xml:space="preserve">
+    <value>Downgrade to...</value>
+  </data>
+  <data name="T251758a3f2c5" xml:space="preserve">
+    <value>Associate these file extensions with GRF Editor.</value>
+  </data>
+  <data name="T255e993d92a6" xml:space="preserve">
+    <value>Convert format</value>
+  </data>
+  <data name="T256439c48cdb" xml:space="preserve">
+    <value>Redirect identical GRF entries (Save &gt; Redirect indexes)</value>
+  </data>
+  <data name="T258126558a22" xml:space="preserve">
+    <value>Folder preview</value>
+  </data>
+  <data name="T25919b401416" xml:space="preserve">
+    <value>Expected pixel format is Bgra32, found </value>
+  </data>
+  <data name="T25e054f32162" xml:space="preserve">
+    <value>The method is not supported for this container.</value>
+  </data>
+  <data name="T260b557c3f4c" xml:space="preserve">
+    <value>Close Grf</value>
+  </data>
+  <data name="T260ff8ae7182" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+  <data name="T261d3024a409" xml:space="preserve">
+    <value>Incomplete protected GRF CHAM block.</value>
+  </data>
+  <data name="T27045b7ab7cf" xml:space="preserve">
+    <value>Merge into RO directory</value>
+  </data>
+  <data name="T272bc02ec508" xml:space="preserve">
+    <value>Processing...</value>
+  </data>
+  <data name="T283ceb8cd559" xml:space="preserve">
+    <value>Invalid protected GRF entry metadata: </value>
+  </data>
+  <data name="T287ba66555cb" xml:space="preserve">
+    <value>It is a common cell in WoE maps to shoot across walls.</value>
+  </data>
+  <data name="T29539e6859db" xml:space="preserve">
+    <value>Show the tree view</value>
+  </data>
+  <data name="T29cec08018b3" xml:space="preserve">
+    <value>fileStream</value>
+  </data>
+  <data name="T29ea213d5884" xml:space="preserve">
+    <value>The property 'EntryType' must be set for the Entry block type (use GrfBlock.SetProperty).</value>
+  </data>
+  <data name="T29eef05e6b5e" xml:space="preserve">
+    <value>If enabled, common paths will be translated in gray.</value>
+  </data>
+  <data name="T29f62f0d2cc6" xml:space="preserve">
+    <value>Enter the paths to expand for GRFs.</value>
+  </data>
+  <data name="T2a5f76c36bf4" xml:space="preserve">
+    <value>Detect early ending RLE encoding</value>
+  </data>
+  <data name="T2ac223f4f4d7" xml:space="preserve">
+    <value>Failed to load the decompression library ({0}). Resource not found.</value>
+  </data>
+  <data name="T2afbafd8c941" xml:space="preserve">
+    <value>Write the function number</value>
+  </data>
+  <data name="T2b029c460dd5" xml:space="preserve">
+    <value>Use Regular Expression</value>
+  </data>
+  <data name="T2b0a6cfe1827" xml:space="preserve">
+    <value>Sky map edit...</value>
+  </data>
+  <data name="T2b37f1eb18d0" xml:space="preserve">
+    <value>A file with the same name has been found (</value>
+  </data>
+  <data name="T2b3b7798bb55" xml:space="preserve">
+    <value>Cannot access the file '{0}'. It is locked by another process.</value>
+  </data>
+  <data name="T2be9091a9dff" xml:space="preserve">
+    <value>The file entry for '{0}' contains invalid information (the offset is invalid).</value>
+  </data>
+  <data name="T2bf6f1afee44" xml:space="preserve">
+    <value>A folder with this name already exists, do you want to merge them?</value>
+  </data>
+  <data name="T2c217810fafb" xml:space="preserve">
+    <value>Redo {0} action</value>
+  </data>
+  <data name="T2c3cafa4db3f" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="T2c8385b2e816" xml:space="preserve">
+    <value>The added GRF contains errors and cannot be merged.</value>
+  </data>
+  <data name="T2caf5b9d368e" xml:space="preserve">
+    <value>Insert before</value>
+  </data>
+  <data name="T2cb464ce5c56" xml:space="preserve">
+    <value>All objects, effects, sounds, etc. will be removed from the map.</value>
+  </data>
+  <data name="T2cceefe2bc15" xml:space="preserve">
+    <value>Add...</value>
+  </data>
+  <data name="T2d24407a91a8" xml:space="preserve">
+    <value>Replace with...</value>
+  </data>
+  <data name="T2d2cb022bc3d" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="T2d34ab0e7273" xml:space="preserve">
+    <value>Invalid protected GRF key block or file table bounds.</value>
+  </data>
+  <data name="T2f82108d0544" xml:space="preserve">
+    <value>File successfully saved.</value>
+  </data>
+  <data name="T30841240fc36" xml:space="preserve">
+    <value>Unable to load the BIK file '</value>
+  </data>
+  <data name="T30afdc0cd98d" xml:space="preserve">
+    <value>Minimap preview</value>
+  </data>
+  <data name="T30ecc4ba4502" xml:space="preserve">
+    <value>Manual map preview: </value>
+  </data>
+  <data name="T3113f87ff8e9" xml:space="preserve">
+    <value>Rotate camera</value>
+  </data>
+  <data name="T31210cbc5908" xml:space="preserve">
+    <value>Please select a folder first.</value>
+  </data>
+  <data name="T312660663f12" xml:space="preserve">
+    <value>Smooth normals</value>
+  </data>
+  <data name="T31341c6f0c7a" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="T3184983d303b" xml:space="preserve">
+    <value>1: Not walkable</value>
+  </data>
+  <data name="T31853d1618a5" xml:space="preserve">
+    <value>The compression used for this entry is LZMA and it is not supported by the current compression method. Please change the compression by going in Settings &gt; General &gt; Compression method &gt; Custom...</value>
+  </data>
+  <data name="T31a1235cb79a" xml:space="preserve">
+    <value>The number of actions must be below </value>
+  </data>
+  <data name="T31d6bc12c97a" xml:space="preserve">
+    <value>Edit magic header</value>
+  </data>
+  <data name="T321c1798301c" xml:space="preserve">
+    <value>Select in GRF</value>
+  </data>
+  <data name="T32612fc7e2d3" xml:space="preserve">
+    <value>If enabled and the GRF's file table is encrypted, an encryption key will be requested when opening the GRF instead of showing a loading error.</value>
+  </data>
+  <data name="T326d1d933d9c" xml:space="preserve">
+    <value>Bad file.</value>
+  </data>
+  <data name="T32cfb49f5467" xml:space="preserve">
+    <value>The compression method does not support compressing files. It is meant for extracting the GRF's file content from their offset directly.</value>
+  </data>
+  <data name="T33082edabb4e" xml:space="preserve">
+    <value>Emblem</value>
+  </data>
+  <data name="T332e1e8afbee" xml:space="preserve">
+    <value>File not found: </value>
+  </data>
+  <data name="T33609930bb5d" xml:space="preserve">
+    <value>Source file / directory</value>
+  </data>
+  <data name="T33993a444ac6" xml:space="preserve">
+    <value>Validate the content of the GRF</value>
+  </data>
+  <data name="T3452c5428055" xml:space="preserve">
+    <value>Enter the new folder name: </value>
+  </data>
+  <data name="T34d8b60fe253" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="T34e7747a82d5" xml:space="preserve">
+    <value>Search (Enter)</value>
+  </data>
+  <data name="T355bcc577d71" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="T35d188ae958f" xml:space="preserve">
+    <value>You are trying to move '{0}' to a folder ('{1}'); the destination must be a grf file path.</value>
+  </data>
+  <data name="T35d283cdbcb2" xml:space="preserve">
+    <value>Searching usages of </value>
+  </data>
+  <data name="T3606eab58872" xml:space="preserve">
+    <value>Image converter</value>
+  </data>
+  <data name="T361b4aa26578" xml:space="preserve">
+    <value>Show lightmap</value>
+  </data>
+  <data name="T3720b4e93eb2" xml:space="preserve">
+    <value>Shrink</value>
+  </data>
+  <data name="T3736cd32e2d3" xml:space="preserve">
+    <value>You must specify a filename since this is a new patch object.</value>
+  </data>
+  <data name="T376e5e25a5b0" xml:space="preserve">
+    <value>Match Whole Words</value>
+  </data>
+  <data name="T378c393e773b" xml:space="preserve">
+    <value>Compressing folder to container file</value>
+  </data>
+  <data name="T37d33f87797c" xml:space="preserve">
+    <value>You are trying to move '{0}' to a file ('{1}'); the destination must be a folder path.</value>
+  </data>
+  <data name="T383353fb34b6" xml:space="preserve">
+    <value>Cannot set the sprite type to Bgra32 : the index of the sprite needs to be below </value>
+  </data>
+  <data name="T387292c0904c" xml:space="preserve">
+    <value>Unsupported bson type: </value>
+  </data>
+  <data name="T38b62be4bdda" xml:space="preserve">
+    <value>list</value>
+  </data>
+  <data name="T38b9ade8beb9" xml:space="preserve">
+    <value>Removes the 60 fps cap. Be warned, there is truly no limit and some people may experience a graphic driver crash.</value>
+  </data>
+  <data name="T38d70ee20214" xml:space="preserve">
+    <value>Path not found in the container.&#13;
+{0}</value>
+  </data>
+  <data name="T393f78490280" xml:space="preserve">
+    <value>Please select a file first.</value>
+  </data>
+  <data name="T39da0b0831fb" xml:space="preserve">
+    <value>Save file to another location</value>
+  </data>
+  <data name="T39f694359e47" xml:space="preserve">
+    <value>The background color for previewing images.</value>
+  </data>
+  <data name="T39fc72124884" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="T39fc80da8f19" xml:space="preserve">
+    <value>Export...</value>
+  </data>
+  <data name="T3a19ce335b93" xml:space="preserve">
+    <value>This option will change the shadows to match the cell</value>
+  </data>
+  <data name="T3a3101fca1cd" xml:space="preserve">
+    <value>Files bigger than 75 MB can take a while to process, are you sure you want to continue?</value>
+  </data>
+  <data name="T3a37550341e4" xml:space="preserve">
+    <value>Unsupported protected GRF body cipher </value>
+  </data>
+  <data name="T3a55906241d2" xml:space="preserve">
+    <value>Select in project</value>
+  </data>
+  <data name="T3ac3bd696a48" xml:space="preserve">
+    <value>The encryption password must contain at least 4 characters.</value>
+  </data>
+  <data name="T3b4b062b13e5" xml:space="preserve">
+    <value>Cannot insert the action (the index must be between 0 and </value>
+  </data>
+  <data name="T3b7a53c84358" xml:space="preserve">
+    <value>the RSW file.</value>
+  </data>
+  <data name="T3c063438765b" xml:space="preserve">
+    <value>Decompiler console</value>
+  </data>
+  <data name="T3c550fc092fa" xml:space="preserve">
+    <value>Diffuse</value>
+  </data>
+  <data name="T3c950d5a18e6" xml:space="preserve">
+    <value>Last LoadLibrary error: {1}.
+Invalid compilation target, expected {2}-bit DLL, found {3}-bit DLL.</value>
+  </data>
+  <data name="T3cac1965d2be" xml:space="preserve">
+    <value>Convert Bgr24 textures in Indexed8 textures (small quality loss)</value>
+  </data>
+  <data name="T3cd8e8a6cc36" xml:space="preserve">
+    <value>Extracting </value>
+  </data>
+  <data name="T3cdd7946fb49" xml:space="preserve">
+    <value>Frame: 0 / </value>
+  </data>
+  <data name="T3d8cad9854af" xml:space="preserve">
+    <value>Cannot replace the action (the index must be between 0 and </value>
+  </data>
+  <data name="T3dc64f45a449" xml:space="preserve">
+    <value>Encrypt files...</value>
+  </data>
+  <data name="T3dea78e2b42f" xml:space="preserve">
+    <value>Debugger</value>
+  </data>
+  <data name="T3deb74565196" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="T3e80330244de" xml:space="preserve">
+    <value>File: </value>
+  </data>
+  <data name="T3eb923a6f178" xml:space="preserve">
+    <value> (System Max)</value>
+  </data>
+  <data name="T3f2e0a854b76" xml:space="preserve">
+    <value>Extract resources</value>
+  </data>
+  <data name="T3f5d9ba6aed9" xml:space="preserve">
+    <value>Failed to retrieve decoder.</value>
+  </data>
+  <data name="T3f608b4935ea" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="T3f66ecb8350b" xml:space="preserve">
+    <value>This is useful to hide a border, but the higher the value, the more offset the ingame position will be relative the minimap.
+default = 2 (the map border is hidden); 0 = all the map is visible.</value>
+  </data>
+  <data name="T3f7f98fab2dd" xml:space="preserve">
+    <value>This encryption version requires the player to have Microsoft Visual C++ 2022 (x86) installed.</value>
+  </data>
+  <data name="T3f92bb30ddf9" xml:space="preserve">
+    <value>If you're not sure about the encoding, just select Default. The encoding more or less matters, </value>
+  </data>
+  <data name="T3fbfb88c2e4d" xml:space="preserve">
+    <value>Remove the colormap.</value>
+  </data>
+  <data name="T3ff4a5eba9ac" xml:space="preserve">
+    <value>Convert to Bgra32</value>
+  </data>
+  <data name="T409a421bf9c0" xml:space="preserve">
+    <value>An operation on the GRF is currently running, wait for it to finish or cancel it.</value>
+  </data>
+  <data name="T40baa447a5ce" xml:space="preserve">
+    <value>index is out of range, must be between 0 and 4.</value>
+  </data>
+  <data name="T40bfddf07b3d" xml:space="preserve">
+    <value>Show the raw text view</value>
+  </data>
+  <data name="T40c31effe4e4" xml:space="preserve">
+    <value>Gravity decrypt files...</value>
+  </data>
+  <data name="T41aeeadc5bbc" xml:space="preserve">
+    <value>Missing or invalid GRF archive key </value>
+  </data>
+  <data name="T41d2a9a0e48f" xml:space="preserve">
+    <value> is using a new encryption method by Gravity which is not supported.</value>
+  </data>
+  <data name="T41ec11503003" xml:space="preserve">
+    <value>Text file editor</value>
+  </data>
+  <data name="T41ed9c7a7c34" xml:space="preserve">
+    <value>The current file map name is: 
+</value>
+  </data>
+  <data name="T422f20f35cab" xml:space="preserve">
+    <value>Decompile .lub files on extract. Export format: </value>
+  </data>
+  <data name="T423208095dd7" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="T4256c9cf78d8" xml:space="preserve">
+    <value>At least one folder with the same name already exists. Do you want to merge them or include the folders as subdirectories?</value>
+  </data>
+  <data name="T4286209c587b" xml:space="preserve">
+    <value>Debug information has been copied to the clipboard.</value>
+  </data>
+  <data name="T42d8a3d62eb5" xml:space="preserve">
+    <value>Once you are done generating your client files, you can encrypt and decrypt content in your GRF by right-clicking a folder and selecting the Encryption option.</value>
+  </data>
+  <data name="T43010f9de554" xml:space="preserve">
+    <value>Error console</value>
+  </data>
+  <data name="T43c6efdfa558" xml:space="preserve">
+    <value>Open roaming data</value>
+  </data>
+  <data name="T43dc8532f7e5" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="T440564bd4b6a" xml:space="preserve">
+    <value>File filter (*.txt;*.lua;*.lub)...</value>
+  </data>
+  <data name="T44754e255589" xml:space="preserve">
+    <value>All files (*.*)</value>
+  </data>
+  <data name="T447d13eb70f8" xml:space="preserve">
+    <value>File header is invalid, expected 'Master of Magic', found '{0}'.</value>
+  </data>
+  <data name="T44c57abd888a" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="T44f732cd01b4" xml:space="preserve">
+    <value>The file format '{0}' is unknown or not supported.</value>
+  </data>
+  <data name="T4511fa9bdc3e" xml:space="preserve">
+    <value>GZip</value>
+  </data>
+  <data name="T45419c795fdf" xml:space="preserve">
+    <value>The application has thrown an exception.&#13;
+&#13;
+The application will most likely crash.</value>
+  </data>
+  <data name="T4554beab735a" xml:space="preserve">
+    <value>Remember last selected node</value>
+  </data>
+  <data name="T45e5f3f72e96" xml:space="preserve">
+    <value>Commands</value>
+  </data>
+  <data name="T461177433513" xml:space="preserve">
+    <value>GRF Editor has detected the custom compression DLL cannot be loaded and will most likely crash the application. The compression method has been resetted to the original file.</value>
+  </data>
+  <data name="T4676d34ee511" xml:space="preserve">
+    <value>Play when selecting the file</value>
+  </data>
+  <data name="T471b94d402d1" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="T478649a07b23" xml:space="preserve">
+    <value>Save animation as a gif image.</value>
+  </data>
+  <data name="T47c02f582e0d" xml:space="preserve">
+    <value>Add files in '{0}'...</value>
+  </data>
+  <data name="T483e825ae4ad" xml:space="preserve">
+    <value>Render lub effects</value>
+  </data>
+  <data name="T48be43b380c8" xml:space="preserve">
+    <value>Older GRF</value>
+  </data>
+  <data name="T48ef172b8267" xml:space="preserve">
+    <value>Set ID...</value>
+  </data>
+  <data name="T49302d6268b9" xml:space="preserve">
+    <value>GRF Command Line</value>
+  </data>
+  <data name="T496c7d887f49" xml:space="preserve">
+    <value>Files at the root of the container</value>
+  </data>
+  <data name="T49c3f0cc5c31" xml:space="preserve">
+    <value>Import sprite...</value>
+  </data>
+  <data name="T49dbe5843415" xml:space="preserve">
+    <value>The destination GRF must have a version higher than 0x100 when merging with an ecrypted GRF.</value>
+  </data>
+  <data name="T4ab4dc9e9014" xml:space="preserve">
+    <value>Transparent minimap</value>
+  </data>
+  <data name="T4bc1e0a0a45f" xml:space="preserve">
+    <value>Unknown constant type.</value>
+  </data>
+  <data name="T4bd949d0e74d" xml:space="preserve">
+    <value>Generic failure: a task in the thread pool has failed to finish properly. The current operation will be cancelled.</value>
+  </data>
+  <data name="T4bed336194a9" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="T4bf9292d5044" xml:space="preserve">
+    <value>Merge into GRF</value>
+  </data>
+  <data name="T4bfb4ae2ed1e" xml:space="preserve">
+    <value>Determines GRF Editor's UI style.</value>
+  </data>
+  <data name="T4c6c310a88bc" xml:space="preserve">
+    <value>Incomplete protected GRF AES block.</value>
+  </data>
+  <data name="T4c878c3c939c" xml:space="preserve">
+    <value>Japanese (932)</value>
+  </data>
+  <data name="T4cc7b4633bbe" xml:space="preserve">
+    <value>GRF archive key-block size mismatch.</value>
+  </data>
+  <data name="T4d53f5a7c4a5" xml:space="preserve">
+    <value>Couldn't load the encoding, it has been reseted to the default value.</value>
+  </data>
+  <data name="T4ec34bbe4253" xml:space="preserve">
+    <value>The argument {0} is below the minimum value {1}.</value>
+  </data>
+  <data name="T4efb8f002696" xml:space="preserve">
+    <value>If you are using the 'Restore loading cps.dll' patch from 4144, you'll need to copy the 'Decompress function' value in the NEMO's input box.</value>
+  </data>
+  <data name="T4f56a3acee38" xml:space="preserve">
+    <value>Resource preview</value>
+  </data>
+  <data name="T4f81a037da64" xml:space="preserve">
+    <value>Type 0</value>
+  </data>
+  <data name="T4fa8cc860c52" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="T4ff29d752e81" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="T502b34483b08" xml:space="preserve">
+    <value>The GRF has been modified, you must save it first.</value>
+  </data>
+  <data name="T50a76a0566ba" xml:space="preserve">
+    <value>Animate map</value>
+  </data>
+  <data name="T50ab692cad29" xml:space="preserve">
+    <value>Converting image </value>
+  </data>
+  <data name="T50b8dd014b9b" xml:space="preserve">
+    <value>Add hash data to Thor files</value>
+  </data>
+  <data name="T50e19fda0d5b" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="T5118702c70c6" xml:space="preserve">
+    <value>Str preview: </value>
+  </data>
+  <data name="T51473e76a05d" xml:space="preserve">
+    <value>Add files to remove</value>
+  </data>
+  <data name="T51886331779b" xml:space="preserve">
+    <value>(Strength: </value>
+  </data>
+  <data name="T51945effefce" xml:space="preserve">
+    <value>Expected an opening semi-colon {</value>
+  </data>
+  <data name="T519890cdfaa0" xml:space="preserve">
+    <value>Invalid characters.</value>
+  </data>
+  <data name="T519e39132bb9" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="T51c396288d84" xml:space="preserve">
+    <value>Show the list view</value>
+  </data>
+  <data name="T521407b3edcf" xml:space="preserve">
+    <value>Animates the models in the map. Disabling this option will improve your FPS but will take slightly longer to load.</value>
+  </data>
+  <data name="T523ccb382e75" xml:space="preserve">
+    <value>Resources (drop a data folder or a GRF file here). This provides additional resources.</value>
+  </data>
+  <data name="T526fe483deed" xml:space="preserve">
+    <value>Usages: </value>
+  </data>
+  <data name="T52e673bf9788" xml:space="preserve">
+    <value>GRF: </value>
+  </data>
+  <data name="T5301648dcf6b" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="T530f6ddbe6f5" xml:space="preserve">
+    <value>Memory usage</value>
+  </data>
+  <data name="T5324e62ccace" xml:space="preserve">
+    <value>The GRF is saving, please wait for the operation to finish first.</value>
+  </data>
+  <data name="T53452b921660" xml:space="preserve">
+    <value>Read map files using 大话仙境OL's engine</value>
+  </data>
+  <data name="T535a84efe8b0" xml:space="preserve">
+    <value>Remember tree expansion for each GRF</value>
+  </data>
+  <data name="T5397e0583f14" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="T53b9a7b6866c" xml:space="preserve">
+    <value>Failed to load the decompression library (</value>
+  </data>
+  <data name="T53de18e0a848" xml:space="preserve">
+    <value>Animation: </value>
+  </data>
+  <data name="T53ff10edf9a7" xml:space="preserve">
+    <value>listView</value>
+  </data>
+  <data name="T5418fb2bc70e" xml:space="preserve">
+    <value>The interface language has been saved. Restart GRF Editor to apply it.</value>
+  </data>
+  <data name="T5432bdebfa5e" xml:space="preserve">
+    <value>CURRENTLY_LOADED</value>
+  </data>
+  <data name="T54440839f75a" xml:space="preserve">
+    <value>Merge files</value>
+  </data>
+  <data name="T54469222d4c1" xml:space="preserve">
+    <value>Enable skymap (requires render options)</value>
+  </data>
+  <data name="T5495da92ae75" xml:space="preserve">
+    <value>Do you want to merge the current directory or include it as a subfolder?</value>
+  </data>
+  <data name="T55080a5e69b1" xml:space="preserve">
+    <value>Key...</value>
+  </data>
+  <data name="T554fdde87d7f" xml:space="preserve">
+    <value>The GRF is already saving... wait or cancel the operation first.</value>
+  </data>
+  <data name="T555229fc5747" xml:space="preserve">
+    <value>Use shadows for quadmaps.</value>
+  </data>
+  <data name="T5590a65e623c" xml:space="preserve">
+    <value>Truncated protected GRF entry: </value>
+  </data>
+  <data name="T55acf8c7b944" xml:space="preserve">
+    <value>This palette file doesn't contain any Indexed8 images; no palette found.</value>
+  </data>
+  <data name="T55c2408306c6" xml:space="preserve">
+    <value>Inner gutter cell</value>
+  </data>
+  <data name="T55d6d51322e1" xml:space="preserve">
+    <value>Decompress entries</value>
+  </data>
+  <data name="T55f8ebc805e6" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="T5616c8722256" xml:space="preserve">
+    <value>Search options</value>
+  </data>
+  <data name="T56239f786dd5" xml:space="preserve">
+    <value>Heightmap</value>
+  </data>
+  <data name="T562d613fa4f9" xml:space="preserve">
+    <value>Cyrillic (1251)</value>
+  </data>
+  <data name="T563327b88550" xml:space="preserve">
+    <value>Failed to recognize the null-terminated string: {0}.</value>
+  </data>
+  <data name="T5669806e5f1f" xml:space="preserve">
+    <value>Unlimited FPS</value>
+  </data>
+  <data name="T5671f348fbc9" xml:space="preserve">
+    <value>Rescale minimap</value>
+  </data>
+  <data name="T56d926fcfdc1" xml:space="preserve">
+    <value>Cannot remove the action (the index must be between 0 and </value>
+  </data>
+  <data name="T56f8bc2a467b" xml:space="preserve">
+    <value>If the generated textures used for the preview are out of sync for some reason, this option will fix the issue.</value>
+  </data>
+  <data name="T576c21e01deb" xml:space="preserve">
+    <value>Failed to save the patch object.</value>
+  </data>
+  <data name="T58061aa54439" xml:space="preserve">
+    <value>Alpha</value>
+  </data>
+  <data name="T5848c8e59eae" xml:space="preserve">
+    <value>Failed to read the container: {0}</value>
+  </data>
+  <data name="T58503440230c" xml:space="preserve">
+    <value>Unknown hash algorithm.</value>
+  </data>
+  <data name="T588a73f4f35d" xml:space="preserve">
+    <value>part1</value>
+  </data>
+  <data name="T58aa0085b54f" xml:space="preserve">
+    <value>Expected Entry block type, received: </value>
+  </data>
+  <data name="T58ae36e1dd24" xml:space="preserve">
+    <value>Trying to merge the same GRF into itself.</value>
+  </data>
+  <data name="T58fabfa70811" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="T59525833cbc9" xml:space="preserve">
+    <value>Failed to save the GRF, size limit reached (4,294,967,295 bytes).</value>
+  </data>
+  <data name="T59839503be99" xml:space="preserve">
+    <value>You tried to access this matrix at: (</value>
+  </data>
+  <data name="T59c4425fb53c" xml:space="preserve">
+    <value>Edit...</value>
+  </data>
+  <data name="T59c7cdd5c3e6" xml:space="preserve">
+    <value>Count cannot be great than 8 bits.</value>
+  </data>
+  <data name="T5a3bb4c18b87" xml:space="preserve">
+    <value>Force decompression (Recovery)</value>
+  </data>
+  <data name="T5a424e3f65ce" xml:space="preserve">
+    <value>Always group dictionaries if the items are all key values &gt; dico = { ex = 20, ex2 = 30 }.</value>
+  </data>
+  <data name="T5ab257aceeca" xml:space="preserve">
+    <value>For GND version 1.8 and above, a water must be defined in Gnd.Water.Zones.</value>
+  </data>
+  <data name="T5be35411f4db" xml:space="preserve">
+    <value>Always open folder after extraction</value>
+  </data>
+  <data name="T5c0c17e3e122" xml:space="preserve">
+    <value>The color map is used for changing the tile colors. You'll probably want to enable this option.</value>
+  </data>
+  <data name="T5ca35d836895" xml:space="preserve">
+    <value>When moving in the map with the right-mouse button, this will adjust the height of the camera to match the ground.</value>
+  </data>
+  <data name="T5cd7a4fae523" xml:space="preserve">
+    <value>Unsupported protected GRF parameter flags </value>
+  </data>
+  <data name="T5d10d3f42121" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="T5d12bd53552c" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="T5d5d33dedaa6" xml:space="preserve">
+    <value>Flat normals</value>
+  </data>
+  <data name="T5d8928b7cfa6" xml:space="preserve">
+    <value>Invalid or unsupported GRF encryption.</value>
+  </data>
+  <data name="T5d9949ab75e9" xml:space="preserve">
+    <value>Save GRF Editor window position</value>
+  </data>
+  <data name="T5d9c770036b5" xml:space="preserve">
+    <value>If enabled, the GRF folders will be listed in alphabetical order. If disabled, the GRF folders will be listetd in the order they were loaded in the file table.</value>
+  </data>
+  <data name="T5e38583ea5df" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="T5e397592f2f2" xml:space="preserve">
+    <value>Other...</value>
+  </data>
+  <data name="T5e60c6d74a28" xml:space="preserve">
+    <value>Buffer overflow while executing the Rle compression or decompressing.</value>
+  </data>
+  <data name="T5eadd20cb963" xml:space="preserve">
+    <value>Preview mode</value>
+  </data>
+  <data name="T5f130ca93919" xml:space="preserve">
+    <value>Validation items :</value>
+  </data>
+  <data name="T5f13f3e81541" xml:space="preserve">
+    <value>Save in the GRF</value>
+  </data>
+  <data name="T5f1d67a60da4" xml:space="preserve">
+    <value>- Walkable</value>
+  </data>
+  <data name="T5f4a2c4fa159" xml:space="preserve">
+    <value>Operation not allowed: you cannot change the GRF version manually, use the ChangeVersion() command instead.</value>
+  </data>
+  <data name="T5f8b293b4e29" xml:space="preserve">
+    <value>Copy exception...</value>
+  </data>
+  <data name="T5fd83ee1dc04" xml:space="preserve">
+    <value>Cannot read the file. It is either encrypted or corrupted.</value>
+  </data>
+  <data name="T604c9237e30c" xml:space="preserve">
+    <value>Enable mipmapping</value>
+  </data>
+  <data name="T60d9f9682ecf" xml:space="preserve">
+    <value>Flat maps maker</value>
+  </data>
+  <data name="T60f2a733e821" xml:space="preserve">
+    <value>File couldn't be found </value>
+  </data>
+  <data name="T612e12d29278" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="T613d6d99ab8d" xml:space="preserve">
+    <value>Enable or disable the lightmap (this also affects the colormap).</value>
+  </data>
+  <data name="T613fffc751f7" xml:space="preserve">
+    <value>M 0 0 L 4 4 L 8 0 Z</value>
+  </data>
+  <data name="T614cecff705d" xml:space="preserve">
+    <value>Detect invalid zlib checksum</value>
+  </data>
+  <data name="T6178d2832439" xml:space="preserve">
+    <value>Copy NPC name</value>
+  </data>
+  <data name="T61b025a5cca8" xml:space="preserve">
+    <value>GRF Key</value>
+  </data>
+  <data name="T61c4128c8161" xml:space="preserve">
+    <value>entry</value>
+  </data>
+  <data name="T61cc55aa0453" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="T61dd98999ba0" xml:space="preserve">
+    <value>Gutter lines indicate where Bowling Bash will only hit one monster.</value>
+  </data>
+  <data name="T628373a7a2c5" xml:space="preserve">
+    <value>Invalid protected GRF AES body PKCS#7 padding.</value>
+  </data>
+  <data name="T62abbd656653" xml:space="preserve">
+    <value>Close all but this</value>
+  </data>
+  <data name="T62afd21e8876" xml:space="preserve">
+    <value>Animation</value>
+  </data>
+  <data name="T62f2f015ac2a" xml:space="preserve">
+    <value>Invalid protected GRF zlib stream: truncated, checksum failed or size differs.</value>
+  </data>
+  <data name="T634ed11dfe57" xml:space="preserve">
+    <value>A thread has failed to finish correctly.</value>
+  </data>
+  <data name="T636278939a27" xml:space="preserve">
+    <value>Water foreground</value>
+  </data>
+  <data name="T6403f2b7eb2a" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="T64063f3df859" xml:space="preserve">
+    <value>Cannot convert to a GRF container while the current container contains errors.</value>
+  </data>
+  <data name="T642e544ae628" xml:space="preserve">
+    <value>Incomplete protected GRF ThreeWay block.</value>
+  </data>
+  <data name="T643c25f6bacf" xml:space="preserve">
+    <value>Extract...</value>
+  </data>
+  <data name="T64879de7e2fc" xml:space="preserve">
+    <value>The property 'RelativePath' must be set for the Entry block type (use GrfBlock.SetProperty).</value>
+  </data>
+  <data name="T64a42aa7953d" xml:space="preserve">
+    <value>- Unknown</value>
+  </data>
+  <data name="T64af70a8ac68" xml:space="preserve">
+    <value>ZFar</value>
+  </data>
+  <data name="T64c9f9390bbf" xml:space="preserve">
+    <value>Invalid format for the color. Expected a hex number: '0xAAFF00BB' or '#AAFF00BB'.</value>
+  </data>
+  <data name="T64dd60fe1a04" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="T653b0cf5a70e" xml:space="preserve">
+    <value>Image finder</value>
+  </data>
+  <data name="T6542393745f5" xml:space="preserve">
+    <value>Save properties to...</value>
+  </data>
+  <data name="T6597622240e4" xml:space="preserve">
+    <value>Subtraction cannot be undone. GRF1 - GRF2 = Output</value>
+  </data>
+  <data name="T65fb896a328e" xml:space="preserve">
+    <value>Add files to remove...</value>
+  </data>
+  <data name="T6608302bd4d8" xml:space="preserve">
+    <value>Enable or disable anti-aliasing. This basically makes the edges less rough/pixalated.</value>
+  </data>
+  <data name="T6675ed1bb964" xml:space="preserve">
+    <value>OpenGL logger...</value>
+  </data>
+  <data name="T6691687d4ec6" xml:space="preserve">
+    <value>Rename...</value>
+  </data>
+  <data name="T66c0ee40ee31" xml:space="preserve">
+    <value>Expand_Rate</value>
+  </data>
+  <data name="T66d638b6d6d3" xml:space="preserve">
+    <value>An operation is already running, cancel it first.</value>
+  </data>
+  <data name="T66f4d721830e" xml:space="preserve">
+    <value>Unrecognized attribute = </value>
+  </data>
+  <data name="T66ff026bb710" xml:space="preserve">
+    <value>Cells where there player is allowed to walk.</value>
+  </data>
+  <data name="T674e89a8bde7" xml:space="preserve">
+    <value>Outer gutter cell</value>
+  </data>
+  <data name="T6752f198b564" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="T67a6ff10f1b9" xml:space="preserve">
+    <value>Reserved</value>
+  </data>
+  <data name="T67ca94192c5a" xml:space="preserve">
+    <value>Cells where the player cannot walk through but can use skills or ranged attack.</value>
+  </data>
+  <data name="T6841b39657a9" xml:space="preserve">
+    <value>Edit Grf/Thor settings</value>
+  </data>
+  <data name="T684a71215eff" xml:space="preserve">
+    <value>Current directory and subdirectories</value>
+  </data>
+  <data name="T69440d813288" xml:space="preserve">
+    <value>The path contains double slashes (this is not allowed).&#13;
+{0}</value>
+  </data>
+  <data name="T694bbd757a31" xml:space="preserve">
+    <value>List view</value>
+  </data>
+  <data name="T6968c52ae9b9" xml:space="preserve">
+    <value>Byte array too large.</value>
+  </data>
+  <data name="T698669e2d591" xml:space="preserve">
+    <value>To Korean...</value>
+  </data>
+  <data name="T69bd4ef9fbd0" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="T69de98a6b68a" xml:space="preserve">
+    <value>Attempted to perform an operation on a non instantiated container.</value>
+  </data>
+  <data name="T69f20384bd63" xml:space="preserve">
+    <value>Show FPS</value>
+  </data>
+  <data name="T6a4b60a24292" xml:space="preserve">
+    <value>It is detected automatically and this option changes the background color.</value>
+  </data>
+  <data name="T6a72085653e4" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="T6a82862a0569" xml:space="preserve">
+    <value>Invalid value for paletteIndex, must be between 0 and 255.</value>
+  </data>
+  <data name="T6a899ee72b42" xml:space="preserve">
+    <value>Calculate space saved if repacking</value>
+  </data>
+  <data name="T6aa6c39ad570" xml:space="preserve">
+    <value>Failed to load the library, missing function ({0}).</value>
+  </data>
+  <data name="T6ab60c3ebb4b" xml:space="preserve">
+    <value>Export preview image to...</value>
+  </data>
+  <data name="T6b21fb791ac0" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="T6bf5da9c080b" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="T6c33698cc732" xml:space="preserve">
+    <value>Change format from '{0}' to '{1}'</value>
+  </data>
+  <data name="T6c3c570aa7de" xml:space="preserve">
+    <value>Patching mode</value>
+  </data>
+  <data name="T6c5723e9d243" xml:space="preserve">
+    <value>The walls will not be modified and keep their original texture.</value>
+  </data>
+  <data name="T6c5de6efbe0b" xml:space="preserve">
+    <value>Image preview</value>
+  </data>
+  <data name="T6c8aaac7d506" xml:space="preserve">
+    <value>The global lighting will be put back to its default value in</value>
+  </data>
+  <data name="T6ccccdccd44b" xml:space="preserve">
+    <value>Jpeg information missing.</value>
+  </data>
+  <data name="T6ce6c512ea43" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="T6d4211af9f0e" xml:space="preserve">
+    <value>Directly handled by GDI</value>
+  </data>
+  <data name="T6d7990c72f18" xml:space="preserve">
+    <value>Enable or disable the water renderer.</value>
+  </data>
+  <data name="T6d84ceaf60a6" xml:space="preserve">
+    <value>Extract</value>
+  </data>
+  <data name="T6d8be0b67465" xml:space="preserve">
+    <value>Sprite and Palette</value>
+  </data>
+  <data name="T6da13addb000" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="T6db75ea6a0b0" xml:space="preserve">
+    <value>Advanced search</value>
+  </data>
+  <data name="T6e5baeec57d2" xml:space="preserve">
+    <value>The length of the palette byte array must be equal to 1024.</value>
+  </data>
+  <data name="T6eef6648406c" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="T6f076ba65fe5" xml:space="preserve">
+    <value>Resource not found.</value>
+  </data>
+  <data name="T6f2d9fd3aae9" xml:space="preserve">
+    <value>Wrap images</value>
+  </data>
+  <data name="T6f5d4a42e18b" xml:space="preserve">
+    <value>Invalid output file name.</value>
+  </data>
+  <data name="T6f693d40315e" xml:space="preserve">
+    <value>Image not found in the Images list.</value>
+  </data>
+  <data name="T6f703edabeca" xml:space="preserve">
+    <value>Executable</value>
+  </data>
+  <data name="T6f9f011c5d36" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="T701f4cc890fb" xml:space="preserve">
+    <value>NPCs will still be loaded as this is server sided.</value>
+  </data>
+  <data name="T7061b24f4c78" xml:space="preserve">
+    <value>The older GRF contains errors and cannot be used to make a patch.</value>
+  </data>
+  <data name="T7077216312f6" xml:space="preserve">
+    <value>Copy exception</value>
+  </data>
+  <data name="T708b3c56b2db" xml:space="preserve">
+    <value>Invalid or duplicate GRF archive key-block record.</value>
+  </data>
+  <data name="T710a38a12161" xml:space="preserve">
+    <value>File info</value>
+  </data>
+  <data name="T7124d893ea5b" xml:space="preserve">
+    <value>No converter was found for this format: </value>
+  </data>
+  <data name="T7130060e84f9" xml:space="preserve">
+    <value>Drop your images here!</value>
+  </data>
+  <data name="T719ea396ad92" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="T7248fb2a2c53" xml:space="preserve">
+    <value>Navigate forward</value>
+  </data>
+  <data name="T72499765528c" xml:space="preserve">
+    <value>Export as TGA (instead of PNG)</value>
+  </data>
+  <data name="T729da67809fd" xml:space="preserve">
+    <value>Extract root files only</value>
+  </data>
+  <data name="T72a1424d56df" xml:space="preserve">
+    <value>Extraction...</value>
+  </data>
+  <data name="T72a85e3d5d5f" xml:space="preserve">
+    <value>The encryption operation is incompatible with the version used on this GRF.</value>
+  </data>
+  <data name="T72c38db3971a" xml:space="preserve">
+    <value>Decrypt</value>
+  </data>
+  <data name="T730506fb938d" xml:space="preserve">
+    <value>Save advanced</value>
+  </data>
+  <data name="T7316c8b2e748" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="T735890b87b02" xml:space="preserve">
+    <value>Gravity Resource</value>
+  </data>
+  <data name="T73702e5a74e2" xml:space="preserve">
+    <value>Cells where Bowling Bash behaves differently.</value>
+  </data>
+  <data name="T737269c1258a" xml:space="preserve">
+    <value>Cannot clear cache while the GRF is being processed.</value>
+  </data>
+  <data name="T737f8a97638b" xml:space="preserve">
+    <value>Protected GRF body size lies outside payload or exceeds limit.</value>
+  </data>
+  <data name="T74120a1c2475" xml:space="preserve">
+    <value>Tree behavior</value>
+  </data>
+  <data name="T744a4d102e5c" xml:space="preserve">
+    <value>Failed to read the data. </value>
+  </data>
+  <data name="T74dbcb2b40fc" xml:space="preserve">
+    <value>Str preview</value>
+  </data>
+  <data name="T7557c42c956c" xml:space="preserve">
+    <value>Repack (recompress)</value>
+  </data>
+  <data name="T7658141bedc9" xml:space="preserve">
+    <value>Indexing content</value>
+  </data>
+  <data name="T769a29c57394" xml:space="preserve">
+    <value>Warning level</value>
+  </data>
+  <data name="T76bf56134d2d" xml:space="preserve">
+    <value>Couldn't set the decryption key. The key must be the same as the one used for the encryption.</value>
+  </data>
+  <data name="T76f3fdd092a9" xml:space="preserve">
+    <value>Indexed8</value>
+  </data>
+  <data name="T770fbc1a9a8c" xml:space="preserve">
+    <value>Downgrade</value>
+  </data>
+  <data name="T7750571e4601" xml:space="preserve">
+    <value>Duplicate file names</value>
+  </data>
+  <data name="T776c7e13415c" xml:space="preserve">
+    <value>Detect invalid sound index in Act files</value>
+  </data>
+  <data name="T777cf2e31e20" xml:space="preserve">
+    <value>Protected GRF output size exceeds limit or differs from file table.</value>
+  </data>
+  <data name="T77a38febae03" xml:space="preserve">
+    <value>The walls will use the texture cw.bmp if there are any.</value>
+  </data>
+  <data name="T77b9c1ef2463" xml:space="preserve">
+    <value>Ragnarok Gzip</value>
+  </data>
+  <data name="T77dfd2135f4d" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="T780f9d6d3260" xml:space="preserve">
+    <value>Values go outside the image size.</value>
+  </data>
+  <data name="T7822d2b5fdba" xml:space="preserve">
+    <value>Overrides the default normals from the RSM file and use flat normals.</value>
+  </data>
+  <data name="T78239c480723" xml:space="preserve">
+    <value>The GRF contains errors and cannot be modified.</value>
+  </data>
+  <data name="T789eb506b268" xml:space="preserve">
+    <value>Unsupported protected GRF compression </value>
+  </data>
+  <data name="T78db98fb5993" xml:space="preserve">
+    <value>The container must be saved before redirecting its content.</value>
+  </data>
+  <data name="T78f276703dc8" xml:space="preserve">
+    <value>If enabled, files added to a GRF will be locked (other processes won't be able to move, delete or modify them).</value>
+  </data>
+  <data name="T794f65e9d206" xml:space="preserve">
+    <value>Ratio</value>
+  </data>
+  <data name="T7976e2d14c0d" xml:space="preserve">
+    <value>Gsf</value>
+  </data>
+  <data name="T799752c4dc5a" xml:space="preserve">
+    <value>Attempted to read a container that has been closed.</value>
+  </data>
+  <data name="T79d17e1264d7" xml:space="preserve">
+    <value>Container options</value>
+  </data>
+  <data name="T79df1d42d0b8" xml:space="preserve">
+    <value>Overrides the default normals from the RSM file and use smooth normals.</value>
+  </data>
+  <data name="T7a44f3209a71" xml:space="preserve">
+    <value>Adjusts the contrast of walkable cells to make the minimap easier to use.
+This is not always necessary and may look better without.
+0% = no contrast; 100% = twice as bright</value>
+  </data>
+  <data name="T7a86620a93cf" xml:space="preserve">
+    <value>Translate paths in the tree</value>
+  </data>
+  <data name="T7ae8ebc8e569" xml:space="preserve">
+    <value>Replace '{0}' with '{1}'</value>
+  </data>
+  <data name="T7bcc30b209ca" xml:space="preserve">
+    <value>Custom compression...</value>
+  </data>
+  <data name="T7c33e6834687" xml:space="preserve">
+    <value>Removed unused images in SPR files</value>
+  </data>
+  <data name="T7c78390b3e9a" xml:space="preserve">
+    <value>Merging cannot be undone.</value>
+  </data>
+  <data name="T7cdfe0a3e381" xml:space="preserve">
+    <value>Failed to generate texture.
+</value>
+  </data>
+  <data name="T7d7f408d7c2f" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="T7e7d07241b3d" xml:space="preserve">
+    <value>Adds a black border around the map by the specified pixel amount.
+This border is not visible in the preview and is added afterwards.
+default = 7 pixels, 0 if you want to remove the black border.</value>
+  </data>
+  <data name="T7e9afd079fbd" xml:space="preserve">
+    <value>Texture</value>
+  </data>
+  <data name="T7f0318ad9dc7" xml:space="preserve">
+    <value>Sky map...</value>
+  </data>
+  <data name="T7f12b7ce2b9c" xml:space="preserve">
+    <value>Matrix is singular and cannot be inverted.</value>
+  </data>
+  <data name="T7f2bece9c8e7" xml:space="preserve">
+    <value>Only folders can be renamed.</value>
+  </data>
+  <data name="T7f2f6a15cf8d" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="T7f7a97ed9f7d" xml:space="preserve">
+    <value>Couldn't load the container properly. The current command cannot execute.</value>
+  </data>
+  <data name="T80541c2b3b95" xml:space="preserve">
+    <value>Skip resource check</value>
+  </data>
+  <data name="T805b0f5e4349" xml:space="preserve">
+    <value>Dir...</value>
+  </data>
+  <data name="T808d7dca8a74" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="T8105d45afb2d" xml:space="preserve">
+    <value>Encrypt File Table</value>
+  </data>
+  <data name="T816c52fd2bdd" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="T816eec6e81b3" xml:space="preserve">
+    <value>Alpha_Inc_Time_Extra</value>
+  </data>
+  <data name="T81881e0c32e7" xml:space="preserve">
+    <value>Delete folders...</value>
+  </data>
+  <data name="T81bdfd65c4ba" xml:space="preserve">
+    <value>Set key</value>
+  </data>
+  <data name="T8203f1c80f66" xml:space="preserve">
+    <value>You can change the cell texture with the "Change textures..." button.</value>
+  </data>
+  <data name="T822f122a8fb2" xml:space="preserve">
+    <value>Face culling</value>
+  </data>
+  <data name="T823de2a1f770" xml:space="preserve">
+    <value>Resource: </value>
+  </data>
+  <data name="T829953c573ee" xml:space="preserve">
+    <value>If enabled, all exceptions will be logged in the debug.log (found in the roaming folder).</value>
+  </data>
+  <data name="T829a27ccd8e3" xml:space="preserve">
+    <value>Executable not found: </value>
+  </data>
+  <data name="T82b690461474" xml:space="preserve">
+    <value>This file isn't present in the currently opened GRF.</value>
+  </data>
+  <data name="T835a996e59db" xml:space="preserve">
+    <value>Converting to 'ANSI' (1252)...</value>
+  </data>
+  <data name="T835f02d45c12" xml:space="preserve">
+    <value>Height_Extra</value>
+  </data>
+  <data name="T83ea1c129c71" xml:space="preserve">
+    <value>The container format is invalid for this operation.&#13;
+Current : {0}&#13;
+Expected format : {1}</value>
+  </data>
+  <data name="T8409c65cde1c" xml:space="preserve">
+    <value>Enable or disable the shadowmap.</value>
+  </data>
+  <data name="T841f440eabd1" xml:space="preserve">
+    <value>Export all sprites to...</value>
+  </data>
+  <data name="T841f832857c7" xml:space="preserve">
+    <value>Formatting</value>
+  </data>
+  <data name="T84577493559f" xml:space="preserve">
+    <value>Source file name</value>
+  </data>
+  <data name="T846fcbb82d9d" xml:space="preserve">
+    <value>Change textures...</value>
+  </data>
+  <data name="T84a05bae835b" xml:space="preserve">
+    <value>Always group dictionaries if the items are all constants.</value>
+  </data>
+  <data name="T84a611b144a9" xml:space="preserve">
+    <value>Remove the shadowmap.</value>
+  </data>
+  <data name="T850bcd3863db" xml:space="preserve">
+    <value>Rename file '{0}' with '{1}'</value>
+  </data>
+  <data name="T850c148f5a60" xml:space="preserve">
+    <value>Gpf</value>
+  </data>
+  <data name="T856f9a87738f" xml:space="preserve">
+    <value>File not found.&#13;
+{0}</value>
+  </data>
+  <data name="T8598222918d3" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="T85a7de6e2705" xml:space="preserve">
+    <value>Star</value>
+  </data>
+  <data name="T85c1a3ba6f5e" xml:space="preserve">
+    <value>Image [index: {2}, {0}x{1}] has too many pixels (max: {3}), the limit is 65536. Consider converting the image to Bgra32 (no size limit).</value>
+  </data>
+  <data name="T85eb02b84674" xml:space="preserve">
+    <value>Type 5</value>
+  </data>
+  <data name="T8652fe5a61b4" xml:space="preserve">
+    <value>File info: </value>
+  </data>
+  <data name="T8751223cc056" xml:space="preserve">
+    <value>The selected entry doesn't appear to be a map file (invalid extension).</value>
+  </data>
+  <data name="T878c593a6980" xml:space="preserve">
+    <value>The container is currently busy and operations are disabled.</value>
+  </data>
+  <data name="T8791acdeea9e" xml:space="preserve">
+    <value>Only the GRF version 0x200 is supported for now.</value>
+  </data>
+  <data name="T87df60de337f" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="T886cfc037060" xml:space="preserve">
+    <value>Look for new loaded shortcuts</value>
+  </data>
+  <data name="T887693d03758" xml:space="preserve">
+    <value>Unsupported or truncated GRF archive key block.</value>
+  </data>
+  <data name="T88ff24676af9" xml:space="preserve">
+    <value>Reset global lighting to its default value.</value>
+  </data>
+  <data name="T8906a28ca9eb" xml:space="preserve">
+    <value>The newer GRF contains errors and cannot be used to make a patch.</value>
+  </data>
+  <data name="T896e4e17200a" xml:space="preserve">
+    <value>You must open the GRF with the editor first.</value>
+  </data>
+  <data name="T89b86ab0e66f" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="T89c1ce05952c" xml:space="preserve">
+    <value>Use client's POV</value>
+  </data>
+  <data name="T89f89c02cf47" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="T8a48bcd4ee90" xml:space="preserve">
+    <value>Empty files</value>
+  </data>
+  <data name="T8a4dc90517b0" xml:space="preserve">
+    <value>The output file is locked: </value>
+  </data>
+  <data name="T8a7c919cca84" xml:space="preserve">
+    <value>Scanning encrypted content</value>
+  </data>
+  <data name="T8a9e848e93f9" xml:space="preserve">
+    <value>Video preview: </value>
+  </data>
+  <data name="T8ae1c34bd37f" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="T8b0ffa4a8762" xml:space="preserve">
+    <value>Unrecognized file format ({0}). {1}</value>
+  </data>
+  <data name="T8b2c2015cb44" xml:space="preserve">
+    <value>Target GRF</value>
+  </data>
+  <data name="T8b5fe122aad5" xml:space="preserve">
+    <value>Attempted to perform an operation on an closed GRF.</value>
+  </data>
+  <data name="T8b92e226270a" xml:space="preserve">
+    <value>View stick to ground</value>
+  </data>
+  <data name="T8bb17ff7cbed" xml:space="preserve">
+    <value>Anti-aliasing (x8)</value>
+  </data>
+  <data name="T8bf10b6a2f0e" xml:space="preserve">
+    <value>Decrypt file table</value>
+  </data>
+  <data name="T8c3317faed7f" xml:space="preserve">
+    <value>Errors to look for :</value>
+  </data>
+  <data name="T8c36510a0770" xml:space="preserve">
+    <value>Lock added files</value>
+  </data>
+  <data name="T8db177907f84" xml:space="preserve">
+    <value>Failed to load the decompression library ({0}).&#13;
+Last LoadLibrary error: {1} | 0x{2:X8}.</value>
+  </data>
+  <data name="T8dd0d08f7d95" xml:space="preserve">
+    <value>GRF2</value>
+  </data>
+  <data name="T8e21434bbeb2" xml:space="preserve">
+    <value>Unsupported or truncated protected GRF header.</value>
+  </data>
+  <data name="T8e316c27cbd8" xml:space="preserve">
+    <value>Please select a folder.</value>
+  </data>
+  <data name="T8e3dbb3c92fc" xml:space="preserve">
+    <value>Group command ({0}) :&#13;
+</value>
+  </data>
+  <data name="T8e7bfd56bfc8" xml:space="preserve">
+    <value>Palette not loaded.</value>
+  </data>
+  <data name="T8eedd8e12335" xml:space="preserve">
+    <value>Delete files...</value>
+  </data>
+  <data name="T8fcda3457671" xml:space="preserve">
+    <value>Enable full encryption file table support</value>
+  </data>
+  <data name="T8ff3efafa299" xml:space="preserve">
+    <value>Remove water (ignored if 'Make ground flat' is checked).</value>
+  </data>
+  <data name="T8ff40150ed5c" xml:space="preserve">
+    <value>Cluster view</value>
+  </data>
+  <data name="T90594d545c5c" xml:space="preserve">
+    <value>Export map files</value>
+  </data>
+  <data name="T9095f4317c96" xml:space="preserve">
+    <value>If you're receiving this error while the GRF is saving, it is because the file is temporarily closed.</value>
+  </data>
+  <data name="T90c93523ff95" xml:space="preserve">
+    <value>Shortcuts</value>
+  </data>
+  <data name="T917ee856395f" xml:space="preserve">
+    <value>The current file name is: 
+</value>
+  </data>
+  <data name="T918c43c7841c" xml:space="preserve">
+    <value>Protected GRF output hash mismatch.</value>
+  </data>
+  <data name="T91a6c86ac5cb" xml:space="preserve">
+    <value>Thor type properties</value>
+  </data>
+  <data name="T91bf35fc87fa" xml:space="preserve">
+    <value>Always reopen the most recently opened GRF when starting the application.</value>
+  </data>
+  <data name="T91d30c9bf694" xml:space="preserve">
+    <value>Palette preview</value>
+  </data>
+  <data name="T91fd30a0bd03" xml:space="preserve">
+    <value>LookAt X</value>
+  </data>
+  <data name="T9239ee2cda84" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="T92872a5c6d77" xml:space="preserve">
+    <value>Decompressed</value>
+  </data>
+  <data name="T93037a88de28" xml:space="preserve">
+    <value>Associates GRF Editor with these extensions.</value>
+  </data>
+  <data name="T93381850d1fa" xml:space="preserve">
+    <value>{0}
+
+Product version: {1}
+Assembly version: {2}
+Author: {3}
+
+This program was designed by {3}. The software is provided "as is" and should be used at your own risk. The author will not be held responsible for any issues it may cause.</value>
+  </data>
+  <data name="T93a3994af786" xml:space="preserve">
+    <value>.NET Framework used</value>
+  </data>
+  <data name="T93d38eef9a01" xml:space="preserve">
+    <value>Couldn't save the image.</value>
+  </data>
+  <data name="T94a199a6fda9" xml:space="preserve">
+    <value>New folder...</value>
+  </data>
+  <data name="T954daa8b0033" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="T955ea0e3bf6b" xml:space="preserve">
+    <value>The selected entry doesn't appear to be a valid RSM2 model (invalid extension).</value>
+  </data>
+  <data name="T95b9073dcf7e" xml:space="preserve">
+    <value>Cannot remove the frame (at least one frame is required per action).</value>
+  </data>
+  <data name="T95cb0bfd2977" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="T964e0d9580c0" xml:space="preserve">
+    <value>Subtract GRFs</value>
+  </data>
+  <data name="T96b41bc1a37e" xml:space="preserve">
+    <value>Save...</value>
+  </data>
+  <data name="T96e5af576fc0" xml:space="preserve">
+    <value>Validate content</value>
+  </data>
+  <data name="T971c419dd609" xml:space="preserve">
+    <value>file</value>
+  </data>
+  <data name="T9780f9e3f54a" xml:space="preserve">
+    <value>The image doesn't appear to be a separated image.</value>
+  </data>
+  <data name="T978308104078" xml:space="preserve">
+    <value>Trying to subtract the same GRF into itself.</value>
+  </data>
+  <data name="T97c89a4d6630" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="T97ce9f404823" xml:space="preserve">
+    <value>cubes (surface) to 0.</value>
+  </data>
+  <data name="T97d6a24aa59a" xml:space="preserve">
+    <value>types. If a cell has shadows, then it is unwalkable.</value>
+  </data>
+  <data name="T984e96ce41f2" xml:space="preserve">
+    <value>texture folder. These can be modified by yourself easily.</value>
+  </data>
+  <data name="T98553cc8549d" xml:space="preserve">
+    <value>Close all</value>
+  </data>
+  <data name="T987583ea4e68" xml:space="preserve">
+    <value>Replace with default</value>
+  </data>
+  <data name="T98aa7ec731f8" xml:space="preserve">
+    <value>OpenGL Logger</value>
+  </data>
+  <data name="T994306e02dff" xml:space="preserve">
+    <value>- Not walkable - Snipeable</value>
+  </data>
+  <data name="T998658b89125" xml:space="preserve">
+    <value>Grf data integrity</value>
+  </data>
+  <data name="T99cd766e8469" xml:space="preserve">
+    <value>Wall color, only used if specially chosen in the options.</value>
+  </data>
+  <data name="T99e1cc6fe181" xml:space="preserve">
+    <value>Hide borders</value>
+  </data>
+  <data name="T9a0b6492aa41" xml:space="preserve">
+    <value>Saves the structure of the tree for the opened GRF to make it faster when opening the file again.</value>
+  </data>
+  <data name="T9a2412b38ee9" xml:space="preserve">
+    <value>Save file directly in the GRF</value>
+  </data>
+  <data name="T9a385dc786f8" xml:space="preserve">
+    <value>Select sprite</value>
+  </data>
+  <data name="T9a4b427acf1c" xml:space="preserve">
+    <value>Perform case sensitive searches.</value>
+  </data>
+  <data name="T9abc47075d5e" xml:space="preserve">
+    <value>Directory information</value>
+  </data>
+  <data name="T9af5e5ccad42" xml:space="preserve">
+    <value>Extract resources: </value>
+  </data>
+  <data name="T9b20ac3bdb3d" xml:space="preserve">
+    <value>Change the textures for custom ones.</value>
+  </data>
+  <data name="T9b2957549b25" xml:space="preserve">
+    <value>Duplicate path names</value>
+  </data>
+  <data name="T9b3cbed5c490" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="T9b418442b308" xml:space="preserve">
+    <value>Unable to parse the image data. The content is either corrupted or not supported.</value>
+  </data>
+  <data name="T9b646010b888" xml:space="preserve">
+    <value>This file type is not allowed.</value>
+  </data>
+  <data name="T9b772b08bd49" xml:space="preserve">
+    <value>Generate files</value>
+  </data>
+  <data name="T9bdcc8fb4afd" xml:space="preserve">
+    <value>Export files directy</value>
+  </data>
+  <data name="T9ce3bd4224c8" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="T9cf8e2d77bac" xml:space="preserve">
+    <value>Camera edit...</value>
+  </data>
+  <data name="T9d0a4081e734" xml:space="preserve">
+    <value>Compression method</value>
+  </data>
+  <data name="T9d7704f0589a" xml:space="preserve">
+    <value>Low = all exceptions are being shown. Critical = only exceptions</value>
+  </data>
+  <data name="T9d7ed1cf19ad" xml:space="preserve">
+    <value>Export image to...</value>
+  </data>
+  <data name="T9d91d3f26873" xml:space="preserve">
+    <value>Word wrap</value>
+  </data>
+  <data name="T9d9ed32cc4c5" xml:space="preserve">
+    <value>File name is wrongly encoded: {0}.</value>
+  </data>
+  <data name="T9e253470c876" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="T9e62719407b1" xml:space="preserve">
+    <value>Palette index is invalid, index must be below 256.</value>
+  </data>
+  <data name="T9ec60cdaac49" xml:space="preserve">
+    <value>Chinese Simplified (936 - GB2312)</value>
+  </data>
+  <data name="T9f726188c1cb" xml:space="preserve">
+    <value>Encrypt</value>
+  </data>
+  <data name="T9f82c5646e3a" xml:space="preserve">
+    <value>Found no files to encrypt.</value>
+  </data>
+  <data name="T9fb3d84781e8" xml:space="preserve">
+    <value>Unsupported GRF archive key block.</value>
+  </data>
+  <data name="T9fc4cdef9fbb" xml:space="preserve">
+    <value>This option will add shadows in 8x8 patterns on the ground, using auto-generated bitmaps. The strength is the darkness value (from -255 to 255).</value>
+  </data>
+  <data name="T9fea685493a4" xml:space="preserve">
+    <value>Unexpected token</value>
+  </data>
+  <data name="Ta06408afc66c" xml:space="preserve">
+    <value>Make gat cells stick to the ground (ignored if 'Make ground flat' is checked).</value>
+  </data>
+  <data name="Ta124947cbd2d" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="Ta17c9aaa61e8" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="Ta1bff97e3a0d" xml:space="preserve">
+    <value>Invalid file name.</value>
+  </data>
+  <data name="Ta1df498e9084" xml:space="preserve">
+    <value>The file '{0}' is using a new encryption method by Gravity which is not supported.&#13;
+{1}</value>
+  </data>
+  <data name="Ta2238f52d549" xml:space="preserve">
+    <value>Enable or disable the models renderer.</value>
+  </data>
+  <data name="Ta22544175d02" xml:space="preserve">
+    <value>Show shadows</value>
+  </data>
+  <data name="Ta227a3da5120" xml:space="preserve">
+    <value>You tried to set this matrix at: (</value>
+  </data>
+  <data name="Ta2391118c814" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Ta24addb9e0f7" xml:space="preserve">
+    <value>Maximum number of threads</value>
+  </data>
+  <data name="Ta2b93b4e1058" xml:space="preserve">
+    <value>Override the extraction path</value>
+  </data>
+  <data name="Ta2d605b3c10e" xml:space="preserve">
+    <value>The subtracting GRF is saving, please wait for the operation to finish first.</value>
+  </data>
+  <data name="Ta33266184165" xml:space="preserve">
+    <value>Always group if dictionaries are all constants</value>
+  </data>
+  <data name="Ta3504c37e08e" xml:space="preserve">
+    <value>Couldn't find the target format.</value>
+  </data>
+  <data name="Ta35ebd8e957e" xml:space="preserve">
+    <value>Tree expansion</value>
+  </data>
+  <data name="Ta36ef8aba229" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="Ta3c11687d448" xml:space="preserve">
+    <value>Too many directories found.</value>
+  </data>
+  <data name="Ta3ec016eb3ab" xml:space="preserve">
+    <value>Size_Extra</value>
+  </data>
+  <data name="Ta3fc35af84cd" xml:space="preserve">
+    <value>M 4 0 L 4 8 L 0 4 Z</value>
+  </data>
+  <data name="Ta4180eb6f9f4" xml:space="preserve">
+    <value>Use bitmaps for quadmaps.</value>
+  </data>
+  <data name="Ta42292f87856" xml:space="preserve">
+    <value>InvertIfElse failed: if or else index was not found.</value>
+  </data>
+  <data name="Ta4c39b8069be" xml:space="preserve">
+    <value>File loaded successfully</value>
+  </data>
+  <data name="Ta4d80b3cf3d0" xml:space="preserve">
+    <value>Gravity Secure Patch</value>
+  </data>
+  <data name="Ta4e2cc8f9dd8" xml:space="preserve">
+    <value>The source file used for the container stream.</value>
+  </data>
+  <data name="Ta5355b83e099" xml:space="preserve">
+    <value>Windows's hidden database files for thumbnails (.db)</value>
+  </data>
+  <data name="Ta58ddf50c5ea" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Ta5b2beb2211d" xml:space="preserve">
+    <value>Lub decompiler</value>
+  </data>
+  <data name="Ta60589f3f2d7" xml:space="preserve">
+    <value>There is no parser for this file.</value>
+  </data>
+  <data name="Ta62f2225bf70" xml:space="preserve">
+    <value>key</value>
+  </data>
+  <data name="Ta636ce940a7a" xml:space="preserve">
+    <value>Sprite editor</value>
+  </data>
+  <data name="Ta64618c7feff" xml:space="preserve">
+    <value>Failed to hash file '</value>
+  </data>
+  <data name="Ta64bb88442a2" xml:space="preserve">
+    <value>Deselect the GRF, GPF or GSF files before dropping them here.</value>
+  </data>
+  <data name="Ta6946beb0111" xml:space="preserve">
+    <value>gatSource.Cells</value>
+  </data>
+  <data name="Ta6968aefb0d5" xml:space="preserve">
+    <value>Unsupported SPR format, attempting version 2.1: Major = </value>
+  </data>
+  <data name="Ta6a1614cde03" xml:space="preserve">
+    <value>Failed to decompress data. The following entry is either corrupted or encrypted: &#13;
+{0}</value>
+  </data>
+  <data name="Ta6c14f51b539" xml:space="preserve">
+    <value>The file '{0}' is a special GRF entry used by patchers to signal its deletion. It has no content.</value>
+  </data>
+  <data name="Ta6f4e1742ceb" xml:space="preserve">
+    <value>Change the rendering mode of the animation.</value>
+  </data>
+  <data name="Ta711999b72aa" xml:space="preserve">
+    <value>New folder</value>
+  </data>
+  <data name="Ta797e30923ac" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Ta798ae328068" xml:space="preserve">
+    <value>Unknown index</value>
+  </data>
+  <data name="Ta7b93d2128e8" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Ta802530e462e" xml:space="preserve">
+    <value>Added GRF</value>
+  </data>
+  <data name="Ta826bf132dd8" xml:space="preserve">
+    <value>Drop a GRF in the right rectangle first.</value>
+  </data>
+  <data name="Ta852bc6df3b2" xml:space="preserve">
+    <value>Couldn't set the encryption key. The key must be the same as the one used for the encryption. If you're trying to encrypt a GRF again with a different key, then you must decrypt the entire content first.</value>
+  </data>
+  <data name="Ta8769c20ebca" xml:space="preserve">
+    <value>Bitmap pixel indexation</value>
+  </data>
+  <data name="Ta94ee5de5c83" xml:space="preserve">
+    <value>Failed to read Gravity's encryption keys. You will not be able to read encrypted content.</value>
+  </data>
+  <data name="Ta99c6ee316cf" xml:space="preserve">
+    <value>Alpha_Dec_Speed</value>
+  </data>
+  <data name="Ta9a1333204f3" xml:space="preserve">
+    <value>Enable or disable the lub renderer. This setting will also impact the skymap.</value>
+  </data>
+  <data name="Taa0e7e86b7aa" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="Taa3a18a9ff90" xml:space="preserve">
+    <value>To ANSI...</value>
+  </data>
+  <data name="Taa60230ab002" xml:space="preserve">
+    <value>column</value>
+  </data>
+  <data name="Taa7bc4ff667d" xml:space="preserve">
+    <value>Failed to compress data.</value>
+  </data>
+  <data name="Taacba52fe3c2" xml:space="preserve">
+    <value>Select files...</value>
+  </data>
+  <data name="Taadc70b73d78" xml:space="preserve">
+    <value>Stop sound file</value>
+  </data>
+  <data name="Tac10721fe1e0" xml:space="preserve">
+    <value>Decompiler</value>
+  </data>
+  <data name="Tac2310991a49" xml:space="preserve">
+    <value>The GRF to be patched.</value>
+  </data>
+  <data name="Tac5ed236c5f1" xml:space="preserve">
+    <value>Shows or hides the GRF Editor header (the version number, etc).</value>
+  </data>
+  <data name="Tac8f6cd6cb42" xml:space="preserve">
+    <value>Pixel data hasn't been set (invalid image format?).</value>
+  </data>
+  <data name="Tac9d94779c5e" xml:space="preserve">
+    <value>Client Database Editor</value>
+  </data>
+  <data name="Taca199004664" xml:space="preserve">
+    <value>Image format not supported. Use the method requiring an IImageFormatConverter provider instead.</value>
+  </data>
+  <data name="Tacaa4c547345" xml:space="preserve">
+    <value>The image format doesn't support this operation.</value>
+  </data>
+  <data name="Tad59532306c2" xml:space="preserve">
+    <value>Common properties</value>
+  </data>
+  <data name="Tad6e7664c960" xml:space="preserve">
+    <value>Configuration file name</value>
+  </data>
+  <data name="Tad8a07ad717e" xml:space="preserve">
+    <value>Unexpected command stack state. Trying to end the ActEdit mode but it has already ended.</value>
+  </data>
+  <data name="Tadc9e6a360d5" xml:space="preserve">
+    <value>Attempted to access a container before opening it.</value>
+  </data>
+  <data name="Tae09e3a9d23f" xml:space="preserve">
+    <value>Render ground</value>
+  </data>
+  <data name="Tae5f61e523ef" xml:space="preserve">
+    <value>Subtract</value>
+  </data>
+  <data name="Tae892bc0c172" xml:space="preserve">
+    <value>No exceptions.</value>
+  </data>
+  <data name="Tae895f4ac065" xml:space="preserve">
+    <value>If enabled, the last seleted node for a GRF will be reopend.</value>
+  </data>
+  <data name="Taf74f7c5362a" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Tafc20360dbb8" xml:space="preserve">
+    <value>Non-walk contrast</value>
+  </data>
+  <data name="Tb059e4187d1d" xml:space="preserve">
+    <value>Flip vertically</value>
+  </data>
+  <data name="Tb074bf58b0ab" xml:space="preserve">
+    <value>Loaded: </value>
+  </data>
+  <data name="Tb0a98216a324" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Tb0ada98906da" xml:space="preserve">
+    <value>theStream</value>
+  </data>
+  <data name="Tb0e883a4d673" xml:space="preserve">
+    <value>Shell integration</value>
+  </data>
+  <data name="Tb1031c070bf6" xml:space="preserve">
+    <value>Determines how the container will be compressed.</value>
+  </data>
+  <data name="Tb122a3453e0a" xml:space="preserve">
+    <value>Resource indexer</value>
+  </data>
+  <data name="Tb175ee88eca6" xml:space="preserve">
+    <value>Render black tiles</value>
+  </data>
+  <data name="Tb1917903ba80" xml:space="preserve">
+    <value>Simulate the client's perspective. Though, this is not entirely accurate either.</value>
+  </data>
+  <data name="Tb1a0f046eb9c" xml:space="preserve">
+    <value>Rename folder '{0}' with '{1}'</value>
+  </data>
+  <data name="Tb1a1bb22a5c4" xml:space="preserve">
+    <value>Invalid image format: </value>
+  </data>
+  <data name="Tb1ba77331e66" xml:space="preserve">
+    <value>Failed to load the custom key bindings. The bindings will be reset to their default values.</value>
+  </data>
+  <data name="Tb2026cf92bc2" xml:space="preserve">
+    <value>Grf patcher</value>
+  </data>
+  <data name="Tb2109aaffba0" xml:space="preserve">
+    <value>At least one entry must be selected.</value>
+  </data>
+  <data name="Tb22e91efef8f" xml:space="preserve">
+    <value>Gravity Encryption</value>
+  </data>
+  <data name="Tb28e1f7275a2" xml:space="preserve">
+    <value>Entry: </value>
+  </data>
+  <data name="Tb291beb8793f" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="Tb2b8c831578a" xml:space="preserve">
+    <value>An operation is currently running, wait for it to finish or cancel it.</value>
+  </data>
+  <data name="Tb2bdbbd77961" xml:space="preserve">
+    <value>Load recent</value>
+  </data>
+  <data name="Tb2f53fb95482" xml:space="preserve">
+    <value>The index is below 0 or greater than the number of possible actions.</value>
+  </data>
+  <data name="Tb31b6320c686" xml:space="preserve">
+    <value>Launching GRF Editor...</value>
+  </data>
+  <data name="Tb3b5de815a40" xml:space="preserve">
+    <value>Expand specific folders for all GRF or RGZ files when opening them.</value>
+  </data>
+  <data name="Tb3bd0b5a7049" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="Tb3d97fd6dece" xml:space="preserve">
+    <value>Sky</value>
+  </data>
+  <data name="Tb3f96d2d9d4f" xml:space="preserve">
+    <value>These settings cannot be modified because some of them depend of your OS settings and limitations.</value>
+  </data>
+  <data name="Tb412c7d8d72c" xml:space="preserve">
+    <value>No file extension matches your file pattern.</value>
+  </data>
+  <data name="Tb415110cd2f3" xml:space="preserve">
+    <value>Minimap...</value>
+  </data>
+  <data name="Tb447fc740919" xml:space="preserve">
+    <value>Export to...</value>
+  </data>
+  <data name="Tb46e317b83a1" xml:space="preserve">
+    <value>You are trying to compress a patch file using a custom compression method. The files identified are not going to be merged into a GRF and their extraction will most likely fail.&#13;
+&#13;
+Do you wish to change the compression back to zlib? (Press 'No' to ignore this warning).</value>
+  </data>
+  <data name="Tb471dc49eff8" xml:space="preserve">
+    <value>The image format doesn't support this operation '{1}'.</value>
+  </data>
+  <data name="Tb4bc1e7f2480" xml:space="preserve">
+    <value>This option monitors your CPU usage and it'll be used to dynamically change the number of threads doing work. The main purpose of this feature is to avoid situations where the CPU could reach 100% usage and hence lagging the entire system.</value>
+  </data>
+  <data name="Tb4f57cd0cd5c" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="Tb575466377d5" xml:space="preserve">
+    <value>Gray blocks</value>
+  </data>
+  <data name="Tb5f7efa69c55" xml:space="preserve">
+    <value>The subtracting GRF has been modified, you must save it first.</value>
+  </data>
+  <data name="Tb6a95deed861" xml:space="preserve">
+    <value>The sprite </value>
+  </data>
+  <data name="Tb6b52cb47d12" xml:space="preserve">
+    <value>Sprite</value>
+  </data>
+  <data name="Tb6f6c73f9193" xml:space="preserve">
+    <value>Change header from '{0}' to '{1}'</value>
+  </data>
+  <data name="Tb7037c6ae19c" xml:space="preserve">
+    <value>Walk contrast</value>
+  </data>
+  <data name="Tb70e92de4329" xml:space="preserve">
+    <value>Alpha_Inc_Speed</value>
+  </data>
+  <data name="Tb7152342a267" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Tb72dab2858e5" xml:space="preserve">
+    <value>Finds inconsistencies within the Grf</value>
+  </data>
+  <data name="Tb750bf91c273" xml:space="preserve">
+    <value>Thor</value>
+  </data>
+  <data name="Tb773bed04a48" xml:space="preserve">
+    <value>MD5</value>
+  </data>
+  <data name="Tb7ed506ac168" xml:space="preserve">
+    <value>No compression (debug mode)</value>
+  </data>
+  <data name="Tb8a4112c0f0e" xml:space="preserve">
+    <value>Change ID</value>
+  </data>
+  <data name="Tb8fba6ffb40e" xml:space="preserve">
+    <value>Rebuilds the index files for each GRF.</value>
+  </data>
+  <data name="Tb9425f73b830" xml:space="preserve">
+    <value>Show gutter lines.</value>
+  </data>
+  <data name="Tb977532b2b8d" xml:space="preserve">
+    <value>Extract root files only...</value>
+  </data>
+  <data name="Tb9a512792f33" xml:space="preserve">
+    <value>The value '{0}' must be greater or equal to {1}.</value>
+  </data>
+  <data name="Tb9bf9dac5e15" xml:space="preserve">
+    <value>__encryption.info</value>
+  </data>
+  <data name="Tb9e09edf7031" xml:space="preserve">
+    <value>The EffectConfiguration must set the ConfigAsker and DisplayAction static functions before usage.</value>
+  </data>
+  <data name="Tb9f404e9217b" xml:space="preserve">
+    <value>you'll probably want to enable this option.</value>
+  </data>
+  <data name="Tba1cd0dd35f6" xml:space="preserve">
+    <value>Type 1</value>
+  </data>
+  <data name="Tba4ac4de54df" xml:space="preserve">
+    <value>Black border</value>
+  </data>
+  <data name="Tba6a2d6646ce" xml:space="preserve">
+    <value>No quadtree has been loaded.</value>
+  </data>
+  <data name="Tba7554793093" xml:space="preserve">
+    <value>a bench for instance, you won't see floating cells.</value>
+  </data>
+  <data name="Tba7ec50c1e48" xml:space="preserve">
+    <value>Render objects</value>
+  </data>
+  <data name="Tba933018150a" xml:space="preserve">
+    <value>Protected GRF entries must retain their original archive, filename and version 3 format. Extract the content before renaming it or copying it to another archive.</value>
+  </data>
+  <data name="Tbab52926356f" xml:space="preserve">
+    <value>The display encoding of GRF Editor (only affects the display).</value>
+  </data>
+  <data name="Tbae11e0fc787" xml:space="preserve">
+    <value>Couldn't find the resource: </value>
+  </data>
+  <data name="Tbaeb5de2cd93" xml:space="preserve">
+    <value>Tree view</value>
+  </data>
+  <data name="Tbaee133fabe0" xml:space="preserve">
+    <value>If enabled, compiled Lua bytecode (.lub) files will be decompiled to text when extracting from a GRF.</value>
+  </data>
+  <data name="Tbb12d37a4037" xml:space="preserve">
+    <value>Texture maker</value>
+  </data>
+  <data name="Tbb19ac2f583b" xml:space="preserve">
+    <value>Wav file: </value>
+  </data>
+  <data name="Tbbfa773e5a63" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Tbc31ff10ea2d" xml:space="preserve">
+    <value>Unsupported comparer: </value>
+  </data>
+  <data name="Tbc67d26506b7" xml:space="preserve">
+    <value>Map preview: </value>
+  </data>
+  <data name="Tbc6c88db2f07" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="Tbce06414177f" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Tbd6774a82ff4" xml:space="preserve">
+    <value>Export all...</value>
+  </data>
+  <data name="Tbd6f1035d281" xml:space="preserve">
+    <value>Palette</value>
+  </data>
+  <data name="Tbdb10907c424" xml:space="preserve">
+    <value>Always expand specific folders</value>
+  </data>
+  <data name="Tbdd4c69b0140" xml:space="preserve">
+    <value>Cannot merge a protected GRF that has an invalid or unknown key. Decrypt its content before attempting to merge.</value>
+  </data>
+  <data name="Tbde119ce5eb4" xml:space="preserve">
+    <value>prontera</value>
+  </data>
+  <data name="Tbe259e1c264b" xml:space="preserve">
+    <value>Attempted to read the container before opening it.</value>
+  </data>
+  <data name="Tbe25a064943b" xml:space="preserve">
+    <value>Image has no palette.</value>
+  </data>
+  <data name="Tbe7b13ebab92" xml:space="preserve">
+    <value>ZNear</value>
+  </data>
+  <data name="Tbe7e68fe5a7d" xml:space="preserve">
+    <value>When opening a GRF in the repair mode, only the repair flag can be used.</value>
+  </data>
+  <data name="Tbedc846b24ca" xml:space="preserve">
+    <value>Save file</value>
+  </data>
+  <data name="Tbf86e62e6415" xml:space="preserve">
+    <value>Saving container...</value>
+  </data>
+  <data name="Tbfb0b5c3e6d7" xml:space="preserve">
+    <value>Show grid</value>
+  </data>
+  <data name="Tbfd71266403c" xml:space="preserve">
+    <value>Edit sprite: </value>
+  </data>
+  <data name="Tc020f6c176c9" xml:space="preserve">
+    <value>Detect missing resources in model files</value>
+  </data>
+  <data name="Tc06342c881e1" xml:space="preserve">
+    <value>Add files</value>
+  </data>
+  <data name="Tc09d458c2790" xml:space="preserve">
+    <value>GRF Editor</value>
+  </data>
+  <data name="Tc10e8f39fcc6" xml:space="preserve">
+    <value>Ambient</value>
+  </data>
+  <data name="Tc18b31168cfe" xml:space="preserve">
+    <value>An opration is currently running, wait for it to finish or cancel it.</value>
+  </data>
+  <data name="Tc1a7c3f47057" xml:space="preserve">
+    <value>Unexpected SprConvertMode for this function.</value>
+  </data>
+  <data name="Tc1aa3395bec0" xml:space="preserve">
+    <value>Select a file</value>
+  </data>
+  <data name="Tc21da07b44ac" xml:space="preserve">
+    <value>Convert to...</value>
+  </data>
+  <data name="Tc24378d19a26" xml:space="preserve">
+    <value>5: Not walkable - Snipeable</value>
+  </data>
+  <data name="Tc289519f4b59" xml:space="preserve">
+    <value>Search using .NET regular expression syntax.</value>
+  </data>
+  <data name="Tc2ff2762ca98" xml:space="preserve">
+    <value>Please select a file.</value>
+  </data>
+  <data name="Tc3309a92d6e4" xml:space="preserve">
+    <value>Normal options...</value>
+  </data>
+  <data name="Tc33d25657fcd" xml:space="preserve">
+    <value>Palette preview: </value>
+  </data>
+  <data name="Tc36ed73c0263" xml:space="preserve">
+    <value>Converting to 'Korean' (949)...</value>
+  </data>
+  <data name="Tc3bb87f9863f" xml:space="preserve">
+    <value>Alpha_Dec_Time</value>
+  </data>
+  <data name="Tc414eaa28c7f" xml:space="preserve">
+    <value>Your RSW map needs to be version 0x202 or above to support custom clouds.</value>
+  </data>
+  <data name="Tc416c18b8c90" xml:space="preserve">
+    <value>GRF Encryption</value>
+  </data>
+  <data name="Tc4633c096745" xml:space="preserve">
+    <value>Wall</value>
+  </data>
+  <data name="Tc4645e71ca11" xml:space="preserve">
+    <value>Smooth camera</value>
+  </data>
+  <data name="Tc47ae15370cf" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Tc5190f725f5f" xml:space="preserve">
+    <value>The container should be repacked instead.</value>
+  </data>
+  <data name="Tc539d0a1c80b" xml:space="preserve">
+    <value>The number of indexed8 (palette) must be below </value>
+  </data>
+  <data name="Tc54e9933f428" xml:space="preserve">
+    <value>No key file was set to decrypt this file.</value>
+  </data>
+  <data name="Tc5e552bc9ef7" xml:space="preserve">
+    <value>Adjusts the contrast of non-walkable cells to make the minimap easier to use. This is not always necessary and may look better without.
+0% = no contrast; 100% = fully dark</value>
+  </data>
+  <data name="Tc613da83e6d7" xml:space="preserve">
+    <value>Hash viewer</value>
+  </data>
+  <data name="Tc614ba7c453c" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="Tc6e0a75eba07" xml:space="preserve">
+    <value>Changes the ground textures for the ones provided in the input</value>
+  </data>
+  <data name="Tc6ee522826fe" xml:space="preserve">
+    <value> Image type = {0}</value>
+  </data>
+  <data name="Tc7a51df68edc" xml:space="preserve">
+    <value>Cannot replace the action (indexes are overlapping).</value>
+  </data>
+  <data name="Tc7cb0ec9faa0" xml:space="preserve">
+    <value>Cannot add a frame to the index </value>
+  </data>
+  <data name="Tc7f73bb54d92" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Tc808e7702054" xml:space="preserve">
+    <value>Show GRF Editor's header</value>
+  </data>
+  <data name="Tc8182796561f" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="Tc82e3d7279ef" xml:space="preserve">
+    <value>stream</value>
+  </data>
+  <data name="Tc857973084e6" xml:space="preserve">
+    <value>Move file '{0}' to '{1}'</value>
+  </data>
+  <data name="Tc8a721e5c4aa" xml:space="preserve">
+    <value>Couldn't find the associated RSW map file.</value>
+  </data>
+  <data name="Tc8d2994638e7" xml:space="preserve">
+    <value>The zlib checksum for the compressed data has failed.</value>
+  </data>
+  <data name="Tc8f6088474c5" xml:space="preserve">
+    <value>Close sprite</value>
+  </data>
+  <data name="Tc907cf0d865b" xml:space="preserve">
+    <value>If enabled, map files will read using the 大话仙境OL engine, which is not compatible with the normal RO formats.</value>
+  </data>
+  <data name="Tc94c9a6b5d4b" xml:space="preserve">
+    <value>Alpha_Dec_Time_Extra</value>
+  </data>
+  <data name="Tc961597a2fb6" xml:space="preserve">
+    <value>Folder name already exists.&#13;
+{0}</value>
+  </data>
+  <data name="Tc9652818a14c" xml:space="preserve">
+    <value>- Not walkable</value>
+  </data>
+  <data name="Tc9caaf06233d" xml:space="preserve">
+    <value>The argument {0} is above the maximum value {1}.</value>
+  </data>
+  <data name="Tc9dabed4d39a" xml:space="preserve">
+    <value>Cannot replace the action (the range value is too large).</value>
+  </data>
+  <data name="Tca44061dedb3" xml:space="preserve">
+    <value>Unsupported PixelFormat: </value>
+  </data>
+  <data name="Tca9c47681e13" xml:space="preserve">
+    <value>Enable or disable smooth camera movements.</value>
+  </data>
+  <data name="Tcb2648f65fbc" xml:space="preserve">
+    <value>Find usages...</value>
+  </data>
+  <data name="Tcb90291d388d" xml:space="preserve">
+    <value>Delete file '{0}'</value>
+  </data>
+  <data name="Tcbab53082822" xml:space="preserve">
+    <value>Extract folder</value>
+  </data>
+  <data name="Tcbeb0b4ad185" xml:space="preserve">
+    <value>Move folders in the main tree view (directories of the GRF) by holding down the ALT key. If disabled, it'll be the same behavior as Windows Explorer.</value>
+  </data>
+  <data name="Tcc135961c7b2" xml:space="preserve">
+    <value>You chose the 'Merge into GRF' patching mode but some files are not within the data folder.&#13;
+&#13;
+</value>
+  </data>
+  <data name="Tcc5896d797a4" xml:space="preserve">
+    <value>No folder selected.</value>
+  </data>
+  <data name="Tcc86eea1354e" xml:space="preserve">
+    <value>At least one folder with the same name already exists. Do you want to merge them?</value>
+  </data>
+  <data name="Tcd1e3d13fb5a" xml:space="preserve">
+    <value>Bgra32</value>
+  </data>
+  <data name="Tcd59e7d8db85" xml:space="preserve">
+    <value>Use GRF Editor Decompiler</value>
+  </data>
+  <data name="Tcdaa7ba41263" xml:space="preserve">
+    <value>Reset all shortcuts</value>
+  </data>
+  <data name="Tcddf0cdb860c" xml:space="preserve">
+    <value>GRF entry: </value>
+  </data>
+  <data name="Tcdfc44576a55" xml:space="preserve">
+    <value>Defragment (quick)</value>
+  </data>
+  <data name="Tce43d17763f2" xml:space="preserve">
+    <value>Failed to update quadrant textures.</value>
+  </data>
+  <data name="Tce996416e4c1" xml:space="preserve">
+    <value>No decoder available for Targa image files.</value>
+  </data>
+  <data name="Tce9b527b8e45" xml:space="preserve">
+    <value>Couldn't load the encryption library. The application has been set to the default encryption method.</value>
+  </data>
+  <data name="Tce9e6a89e844" xml:space="preserve">
+    <value>Make pink transparent</value>
+  </data>
+  <data name="Tcea0802e40dd" xml:space="preserve">
+    <value>Makes the ground flat by setting the height of each</value>
+  </data>
+  <data name="Tceb8df6de206" xml:space="preserve">
+    <value>Attempting to continue a loop; should be handled.</value>
+  </data>
+  <data name="Tced3905ec822" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Tcf0c5b6f1c14" xml:space="preserve">
+    <value>File filter</value>
+  </data>
+  <data name="Tcf0cf48a1185" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="Tcf1a149eddbb" xml:space="preserve">
+    <value>The image dimensions aren't of the expected format (1024x768).&#13;
+&#13;
+Width = </value>
+  </data>
+  <data name="Tcf978d5f762f" xml:space="preserve">
+    <value>Attempted to perform an operation on an opened GRF.</value>
+  </data>
+  <data name="Tcf9b77061f7b" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Tcfe25d9ab65b" xml:space="preserve">
+    <value>RSM2 to RSM1 (flat)</value>
+  </data>
+  <data name="Tcff27d0dd93b" xml:space="preserve">
+    <value>The light and shadow maps are used for the lighting</value>
+  </data>
+  <data name="Td01ad9f58c3c" xml:space="preserve">
+    <value>Cloud type</value>
+  </data>
+  <data name="Td05495c075c2" xml:space="preserve">
+    <value>A crash occured while rendering the map or the model. To prevent an infinite loop, the rendering thread has been paused. Click on a different map or model and then press 'Resume' to continue.</value>
+  </data>
+  <data name="Td1381059af6e" xml:space="preserve">
+    <value>No output format selected.</value>
+  </data>
+  <data name="Td1551a2beec0" xml:space="preserve">
+    <value>The amount of pixels does not match the dimension provided with the image format type.</value>
+  </data>
+  <data name="Td1854cae891e" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="Td268983ff510" xml:space="preserve">
+    <value>Extract folder...</value>
+  </data>
+  <data name="Td27b9cef341e" xml:space="preserve">
+    <value>Expected a comma.</value>
+  </data>
+  <data name="Td2f6f10c1275" xml:space="preserve">
+    <value>The two GRF files must be closed.</value>
+  </data>
+  <data name="Td3b877e49b8e" xml:space="preserve">
+    <value>Grf</value>
+  </data>
+  <data name="Td3f4cb898fbe" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Td4124aeda6f1" xml:space="preserve">
+    <value>Attempted to merge a GRF on a container format that doesn't support this feature.</value>
+  </data>
+  <data name="Td42713493ca8" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Td4593c6b898d" xml:space="preserve">
+    <value>Map preview</value>
+  </data>
+  <data name="Td4e7830e5e01" xml:space="preserve">
+    <value>Model preview: </value>
+  </data>
+  <data name="Td4fdc82e4841" xml:space="preserve">
+    <value>Modify shadows to match cell types.</value>
+  </data>
+  <data name="Td51c5960ec07" xml:space="preserve">
+    <value>Dark theme</value>
+  </data>
+  <data name="Td5c066bef201" xml:space="preserve">
+    <value>Text file: </value>
+  </data>
+  <data name="Td5d124463586" xml:space="preserve">
+    <value>Detect missing resources in map files</value>
+  </data>
+  <data name="Td5ea1d018973" xml:space="preserve">
+    <value>The wall textures will be replaced by a black texture.</value>
+  </data>
+  <data name="Td61789318ba0" xml:space="preserve">
+    <value>bindingType</value>
+  </data>
+  <data name="Td62f9fa13473" xml:space="preserve">
+    <value>The encoding specified is not supported.</value>
+  </data>
+  <data name="Td656e9ce2134" xml:space="preserve">
+    <value>Protected GRF AES body padding size mismatch.</value>
+  </data>
+  <data name="Td6d19f45ef93" xml:space="preserve">
+    <value>The current GRF contains errors and cannot be subtracted.</value>
+  </data>
+  <data name="Td6de4a97f2bb" xml:space="preserve">
+    <value>Move files '{0}' to '{1}'</value>
+  </data>
+  <data name="Td6f53ec37e16" xml:space="preserve">
+    <value>Expected 24 or 32 bits per pixel, found {0} instead.</value>
+  </data>
+  <data name="Td7212704a5bf" xml:space="preserve">
+    <value>The width of the images don't match.</value>
+  </data>
+  <data name="Td8043134aeef" xml:space="preserve">
+    <value>Sets the settings to their default values</value>
+  </data>
+  <data name="Td8426656238f" xml:space="preserve">
+    <value>The tolerance of the exceptions being shown.</value>
+  </data>
+  <data name="Td8b4ab058cf0" xml:space="preserve">
+    <value>Failed to update textures.</value>
+  </data>
+  <data name="Td8f482edf74e" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="Td92fa5977d28" xml:space="preserve">
+    <value>Offset used is out of range: </value>
+  </data>
+  <data name="Td935d2fefdfa" xml:space="preserve">
+    <value>Grf type properties</value>
+  </data>
+  <data name="Td93ce1004d35" xml:space="preserve">
+    <value>Server Database Editor</value>
+  </data>
+  <data name="Td97d1ee339e4" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Td9b58219eb52" xml:space="preserve">
+    <value>No decoder available for Gif image files.</value>
+  </data>
+  <data name="Tda162a909c29" xml:space="preserve">
+    <value>Unrecognized file format.</value>
+  </data>
+  <data name="Tdaad47bbc0d6" xml:space="preserve">
+    <value>Rgz</value>
+  </data>
+  <data name="Tdab972265e2c" xml:space="preserve">
+    <value>Minimalist debug log: &#13;
+</value>
+  </data>
+  <data name="Tdae445c37620" xml:space="preserve">
+    <value>About </value>
+  </data>
+  <data name="Tdb2483000d15" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="Tdb8210545862" xml:space="preserve">
+    <value>The folder name already exists.</value>
+  </data>
+  <data name="Tdb921d6e7cd9" xml:space="preserve">
+    <value>Appends --Function # before each function.</value>
+  </data>
+  <data name="Tdbccf9421ab8" xml:space="preserve">
+    <value>Invalid type parameter. Expected Indexed8, Bgra32, Bgr32 or Bgr24.</value>
+  </data>
+  <data name="Tdbd31349fb4d" xml:space="preserve">
+    <value>CPU performance management</value>
+  </data>
+  <data name="Tdc166425beda" xml:space="preserve">
+    <value>Export selection...</value>
+  </data>
+  <data name="Tdc243706795a" xml:space="preserve">
+    <value>Generate one image from multiple sources</value>
+  </data>
+  <data name="Tdc5813d79663" xml:space="preserve">
+    <value>Invalid image format</value>
+  </data>
+  <data name="Tdca196474186" xml:space="preserve">
+    <value>Unsupported file version.</value>
+  </data>
+  <data name="Tdcafbb019094" xml:space="preserve">
+    <value>Detect invalid sprite index in Act files</value>
+  </data>
+  <data name="Tdcea0d4019b3" xml:space="preserve">
+    <value>Select root files</value>
+  </data>
+  <data name="Tdcea447c0592" xml:space="preserve">
+    <value>GRF1</value>
+  </data>
+  <data name="Tdd05c250ce53" xml:space="preserve">
+    <value>Save in Grf</value>
+  </data>
+  <data name="Tdd15cd1491bc" xml:space="preserve">
+    <value>Use global lighting</value>
+  </data>
+  <data name="Tdd3189693f08" xml:space="preserve">
+    <value>No sprite loaded (used the obsolete constructor?).</value>
+  </data>
+  <data name="Tdd49d7fa6eee" xml:space="preserve">
+    <value>Missing corresponding Act or Spr files</value>
+  </data>
+  <data name="Tdd4a2a52c78d" xml:space="preserve">
+    <value>Raw view</value>
+  </data>
+  <data name="Tdd55fbcd545d" xml:space="preserve">
+    <value>Palette index is invalid, index must be above -1.</value>
+  </data>
+  <data name="Tdd59bbcf6890" xml:space="preserve">
+    <value>Remove all objects (ignored if 'Make ground flat' is checked).</value>
+  </data>
+  <data name="Tdde9a654e78a" xml:space="preserve">
+    <value>Use original texture on walls.</value>
+  </data>
+  <data name="Tddf59df468de" xml:space="preserve">
+    <value>Default value is 10. This feature enables you to run more threads for the services.</value>
+  </data>
+  <data name="Tde18c89ed726" xml:space="preserve">
+    <value>Rename cps.dll</value>
+  </data>
+  <data name="Tde9b1be49dae" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="Tdea51bb13a44" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="Tdebb16ca708e" xml:space="preserve">
+    <value>Cells where there player cannot walk and cannot shoot through either.</value>
+  </data>
+  <data name="Tdebdda0676f5" xml:space="preserve">
+    <value>Failed to load preview texture images. Try rebuilding textures.</value>
+  </data>
+  <data name="Tdece05484839" xml:space="preserve">
+    <value>element</value>
+  </data>
+  <data name="Tdee4bf3b420f" xml:space="preserve">
+    <value>The property 'SizeCompressed' must be set for the Entry block type (use GrfBlock.SetProperty).</value>
+  </data>
+  <data name="Tdf174a3f2faa" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Tdf50d3b937b6" xml:space="preserve">
+    <value>Decode</value>
+  </data>
+  <data name="Tdf8b0327bd4e" xml:space="preserve">
+    <value>Renders the TileUp tiles of cubes that aren't set as black tiles.</value>
+  </data>
+  <data name="Tdf9867f71ff3" xml:space="preserve">
+    <value>The added GRF is saving, please wait for the operation to finish first.</value>
+  </data>
+  <data name="Tdfb225ce854a" xml:space="preserve">
+    <value>Only find results that are whole words.</value>
+  </data>
+  <data name="Tdfc4c665bb2a" xml:space="preserve">
+    <value>Shrink options</value>
+  </data>
+  <data name="Tdff6a3986c9a" xml:space="preserve">
+    <value>Cells where the player can walk over and is under water.</value>
+  </data>
+  <data name="Te0132796d30a" xml:space="preserve">
+    <value>Failed to load the decompression library ({0}).&#13;
+&#13;
+You are most likely missing the following VC++ Redistributable: {1}.</value>
+  </data>
+  <data name="Te0917ed20904" xml:space="preserve">
+    <value>Reserved for unknown cell types that may appear when parsing custom maps.</value>
+  </data>
+  <data name="Te099a68d5be5" xml:space="preserve">
+    <value>Show the FPS counter on the top right of the map. The counter refreshes every 200 ms.</value>
+  </data>
+  <data name="Te11ad5e17c1a" xml:space="preserve">
+    <value>Image dimension is too high.</value>
+  </data>
+  <data name="Te13da9eba0a5" xml:space="preserve">
+    <value>Render gat types</value>
+  </data>
+  <data name="Te15b6a0a1108" xml:space="preserve">
+    <value>An item with the same key has already been added.</value>
+  </data>
+  <data name="Te1b2961ac202" xml:space="preserve">
+    <value>Folder name not allowed (this happens if you had a folder with this name before; you'll have to undo the operations or save the GRF to edit the name).&#13;
+{0}</value>
+  </data>
+  <data name="Te1baa00ff58b" xml:space="preserve">
+    <value>Adds the map in the Grf</value>
+  </data>
+  <data name="Te228804fdceb" xml:space="preserve">
+    <value>No IFrameRendererEditor was set through the Init method.</value>
+  </data>
+  <data name="Te22c6d3e319b" xml:space="preserve">
+    <value>The application hasn't ended properly. Please report this issue.</value>
+  </data>
+  <data name="Te26a2a7c30dd" xml:space="preserve">
+    <value>RenderOptions</value>
+  </data>
+  <data name="Te2a937ac2f49" xml:space="preserve">
+    <value>Show names</value>
+  </data>
+  <data name="Te2d4c5f86b47" xml:space="preserve">
+    <value>Failed to load the encryption library (</value>
+  </data>
+  <data name="Te2f7fc989e28" xml:space="preserve">
+    <value>Patch maker</value>
+  </data>
+  <data name="Te30e59338a21" xml:space="preserve">
+    <value>Resources (drop a data folder or a GRF file here). The validation will only be applied to the currently opened GRF, but providing additional resources will be used to locate textures, sound files, models, etc.</value>
+  </data>
+  <data name="Te333f9a6ba9d" xml:space="preserve">
+    <value>[data stream]</value>
+  </data>
+  <data name="Te33f0f25cdf7" xml:space="preserve">
+    <value>Show the raw view</value>
+  </data>
+  <data name="Te39ee3652573" xml:space="preserve">
+    <value>Preview panel background</value>
+  </data>
+  <data name="Te3b126bd403d" xml:space="preserve">
+    <value>Unsupported pixel format</value>
+  </data>
+  <data name="Te3ba594db184" xml:space="preserve">
+    <value>Save map as...</value>
+  </data>
+  <data name="Te44c13a479d9" xml:space="preserve">
+    <value>Insert after</value>
+  </data>
+  <data name="Te46c2c3cb17c" xml:space="preserve">
+    <value>ZBias</value>
+  </data>
+  <data name="Te4ee6625af0e" xml:space="preserve">
+    <value>The container must be saved before repacking its content.</value>
+  </data>
+  <data name="Te540cdd1328b" xml:space="preserve">
+    <value>index</value>
+  </data>
+  <data name="Te574aeb14324" xml:space="preserve">
+    <value>No maps have been found.</value>
+  </data>
+  <data name="Te5ce2ca23633" xml:space="preserve">
+    <value>Could not initialize protected GRF zlib stream.</value>
+  </data>
+  <data name="Te610d1d479ed" xml:space="preserve">
+    <value>The subtracting GRF contains errors and cannot be merged.</value>
+  </data>
+  <data name="Te61a4a4e2d49" xml:space="preserve">
+    <value>Image width is negative.</value>
+  </data>
+  <data name="Te63451d3cf90" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="Te6443af99d2f" xml:space="preserve">
+    <value>Container</value>
+  </data>
+  <data name="Te67b9b745b2a" xml:space="preserve">
+    <value>GRF Editor Decompiler : </value>
+  </data>
+  <data name="Te6cdc62e4ff6" xml:space="preserve">
+    <value>Translates the jump statements to loops, elseif branches, etc.</value>
+  </data>
+  <data name="Te72ddff6d43d" xml:space="preserve">
+    <value>Instead of extracting files to the current location of the GRF, files will be extracted at the path below.</value>
+  </data>
+  <data name="Te74432d0c9d2" xml:space="preserve">
+    <value>Extract Rgz</value>
+  </data>
+  <data name="Te7595d64bb44" xml:space="preserve">
+    <value>M 0 0 L 4 4 L 0 8 Z</value>
+  </data>
+  <data name="Te76c8d9135ae" xml:space="preserve">
+    <value>Expected a closing semi-colon }</value>
+  </data>
+  <data name="Te7bc3e6ee785" xml:space="preserve">
+    <value>Alpha_Inc_Time</value>
+  </data>
+  <data name="Te7da087eee6a" xml:space="preserve">
+    <value>This bug is no longer present in official servers and can be disabled on rAthena based servers.</value>
+  </data>
+  <data name="Te87cd4d02cd6" xml:space="preserve">
+    <value>LookAt Y</value>
+  </data>
+  <data name="Te8857ed5a69f" xml:space="preserve">
+    <value>Failed to generate map: </value>
+  </data>
+  <data name="Te9c45563358e" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Tea13893c4b5e" xml:space="preserve">
+    <value>An error has been encountered before the application could load properly.
+</value>
+  </data>
+  <data name="Tea480d9da708" xml:space="preserve">
+    <value>Image preview: </value>
+  </data>
+  <data name="Tea8f0d02371e" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="Teaf43a52349f" xml:space="preserve">
+    <value>The height of the images don't match.</value>
+  </data>
+  <data name="Teb0bf94ea5e6" xml:space="preserve">
+    <value>Convert to Indexed8</value>
+  </data>
+  <data name="Teb79b99b4d97" xml:space="preserve">
+    <value>Water background</value>
+  </data>
+  <data name="Teb8e92ce7bac" xml:space="preserve">
+    <value>Invalid palette file.</value>
+  </data>
+  <data name="Tebb35fed37a3" xml:space="preserve">
+    <value>Undefined behavior</value>
+  </data>
+  <data name="Tebf4ebc4a251" xml:space="preserve">
+    <value>You cannot extract files or save while the GRF is being inspected for encrypted content. This operation should be quick, please wait.</value>
+  </data>
+  <data name="Tec0c334f7481" xml:space="preserve">
+    <value>The destination folder is a subfolder of the source folder.</value>
+  </data>
+  <data name="Tec554e0ddf50" xml:space="preserve">
+    <value>File blocks must be compressed before creating the file table.</value>
+  </data>
+  <data name="Tecd466535aa0" xml:space="preserve">
+    <value>Errors were detected</value>
+  </data>
+  <data name="Teceb5a00ecbd" xml:space="preserve">
+    <value>Thumbnail preview</value>
+  </data>
+  <data name="Tecebcd2e0bd5" xml:space="preserve">
+    <value>Detect invalid entry information (file size, cycle, etc)</value>
+  </data>
+  <data name="Tecef79b86ad3" xml:space="preserve">
+    <value>Always reopen latest opened GRF</value>
+  </data>
+  <data name="Tecf326160fe3" xml:space="preserve">
+    <value>Set as removed</value>
+  </data>
+  <data name="Ted17c05da68c" xml:space="preserve">
+    <value>Navigate backward</value>
+  </data>
+  <data name="Ted69c5d24ceb" xml:space="preserve">
+    <value>Adds an identifier for the textures, which allows maps to use different</value>
+  </data>
+  <data name="Tede4fe7c133a" xml:space="preserve">
+    <value>Enable windows ownership</value>
+  </data>
+  <data name="Tede8688adfd5" xml:space="preserve">
+    <value>Always group if dictionaries are all key values</value>
+  </data>
+  <data name="Tee0de467455d" xml:space="preserve">
+    <value>Render water</value>
+  </data>
+  <data name="Tee2dbd5d6d82" xml:space="preserve">
+    <value>Matches</value>
+  </data>
+  <data name="Tee777fdab4f0" xml:space="preserve">
+    <value>File name already exists.&#13;
+Conflict with : {0}</value>
+  </data>
+  <data name="Teea8a239945a" xml:space="preserve">
+    <value>Enable or disable the ground renderer (GND).</value>
+  </data>
+  <data name="Teed643ff158b" xml:space="preserve">
+    <value>The current GRF is saving, please wait for the operation to finish first.</value>
+  </data>
+  <data name="Teef7bd815dba" xml:space="preserve">
+    <value>Text encoding converter</value>
+  </data>
+  <data name="Tef183987d98b" xml:space="preserve">
+    <value>Play sound file</value>
+  </data>
+  <data name="Tef26cbf88b85" xml:space="preserve">
+    <value>Minimap edit...</value>
+  </data>
+  <data name="Tefa68f649187" xml:space="preserve">
+    <value>Opens the input texture folder.</value>
+  </data>
+  <data name="Tefc007a393f6" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Tf097bd3cf789" xml:space="preserve">
+    <value>Leaving this field empty will merge into the default GRF.</value>
+  </data>
+  <data name="Tf11b8781300b" xml:space="preserve">
+    <value>Open file</value>
+  </data>
+  <data name="Tf182044fb05c" xml:space="preserve">
+    <value>Specific properties</value>
+  </data>
+  <data name="Tf1868b5d6406" xml:space="preserve">
+    <value>Makes the windows linked together, resulting in only being able to focus on one at a time. Disabling this features enables you to open multiple windows (as in tools).</value>
+  </data>
+  <data name="Tf19a2cb95131" xml:space="preserve">
+    <value>Export files to...</value>
+  </data>
+  <data name="Tf1b5ed079547" xml:space="preserve">
+    <value>The animation speed is too fast and might cause issues. The animation will not be displayed.</value>
+  </data>
+  <data name="Tf1fbb2b43dca" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Tf2583787eed3" xml:space="preserve">
+    <value>Client executable not found.</value>
+  </data>
+  <data name="Tf2690f8c3f93" xml:space="preserve">
+    <value>Decompress function</value>
+  </data>
+  <data name="Tf291bc684686" xml:space="preserve">
+    <value>Invalid number of parameters : keys</value>
+  </data>
+  <data name="Tf2cdeb4eb917" xml:space="preserve">
+    <value>Newer GRF</value>
+  </data>
+  <data name="Tf2da3f0984ae" xml:space="preserve">
+    <value>M 0 4 L 8 4 L 4 0 Z</value>
+  </data>
+  <data name="Tf309b1b270c0" xml:space="preserve">
+    <value>Couldn't load the GRF.</value>
+  </data>
+  <data name="Tf337d97b9dc5" xml:space="preserve">
+    <value>Folder stucture</value>
+  </data>
+  <data name="Tf35894b789b6" xml:space="preserve">
+    <value>Use black texture on walls.</value>
+  </data>
+  <data name="Tf376351d4068" xml:space="preserve">
+    <value>Grf entry properties</value>
+  </data>
+  <data name="Tf39794ca8536" xml:space="preserve">
+    <value>effects on the maps. If you remove the objects,</value>
+  </data>
+  <data name="Tf3e4fadb9e37" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="Tf498a5f03abf" xml:space="preserve">
+    <value>Cancelling...</value>
+  </data>
+  <data name="Tf4c9952e57cd" xml:space="preserve">
+    <value>No encrypted files are selected.</value>
+  </data>
+  <data name="Tf5914c30d5a3" xml:space="preserve">
+    <value>Export map files...</value>
+  </data>
+  <data name="Tf6c0bcf862c9" xml:space="preserve">
+    <value>Load...</value>
+  </data>
+  <data name="Tf6dd5aa1351c" xml:space="preserve">
+    <value>It is detected automatically and this option changes the foreground color.</value>
+  </data>
+  <data name="Tf6e33d76bcc1" xml:space="preserve">
+    <value>Animation preview</value>
+  </data>
+  <data name="Tf6fdbe48dc54" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Tf704f4a7fc2f" xml:space="preserve">
+    <value>There were errors detected while loading or while modifying the GRF. It's strongly advised to save the GRF with another name and check if the content has been correctly updated.
+
+Would you like to save it anyway?</value>
+  </data>
+  <data name="Tf7222cdeb1b7" xml:space="preserve">
+    <value>Make the ground flat (sets the height to 0).</value>
+  </data>
+  <data name="Tf73f619675d1" xml:space="preserve">
+    <value>Custom encryption...</value>
+  </data>
+  <data name="Tf76575d434c9" xml:space="preserve">
+    <value>Decrypt files...</value>
+  </data>
+  <data name="Tf78230fa9559" xml:space="preserve">
+    <value>Couldn't load the compression library. The application has been set to the default compression method.</value>
+  </data>
+  <data name="Tf7857dcc71d3" xml:space="preserve">
+    <value>All files</value>
+  </data>
+  <data name="Tf7db5fd3eb67" xml:space="preserve">
+    <value>Render skymap</value>
+  </data>
+  <data name="Tf8010478e7f5" xml:space="preserve">
+    <value>Position X</value>
+  </data>
+  <data name="Tf81d3c472bfd" xml:space="preserve">
+    <value>The paths are identical.&#13;
+{0}&#13;
+{1}</value>
+  </data>
+  <data name="Tf8278ff35c51" xml:space="preserve">
+    <value>Protected entries can only be saved in their original version 3 GRF format. Extract the content before converting the archive.</value>
+  </data>
+  <data name="Tf84f955a33bc" xml:space="preserve">
+    <value>Frame: </value>
+  </data>
+  <data name="Tf89514823afc" xml:space="preserve">
+    <value>The value cannot be null for the argument '{0}'.</value>
+  </data>
+  <data name="Tf8ee5f95ff1f" xml:space="preserve">
+    <value>data.integrity</value>
+  </data>
+  <data name="Tf90b22297522" xml:space="preserve">
+    <value>No configuration binder has been found : type = </value>
+  </data>
+  <data name="Tf923c11b8256" xml:space="preserve">
+    <value>Protected GRF header checksum mismatch.</value>
+  </data>
+  <data name="Tf92994abdd25" xml:space="preserve">
+    <value>The added GRF has been modified, you must save it first.</value>
+  </data>
+  <data name="Tf9368755235f" xml:space="preserve">
+    <value>Deselect the GRF or GPF files before dropping them here.</value>
+  </data>
+  <data name="Tf94c86431191" xml:space="preserve">
+    <value>Failed to load some shaders:&#13;
+&#13;
+</value>
+  </data>
+  <data name="Tf95a4f2dea5c" xml:space="preserve">
+    <value>You tried to access this vector at index: </value>
+  </data>
+  <data name="Tf990d5c0c2cd" xml:space="preserve">
+    <value>Load entries (reads the file format and open the file)</value>
+  </data>
+  <data name="Tf99d5f6cda95" xml:space="preserve">
+    <value>This option will add shadows in 8x8 patterns on the ground, using lightmap. The strength is the darkness value (from -255 to 255).</value>
+  </data>
+  <data name="Tf9c17b1e9fb3" xml:space="preserve">
+    <value>The container cannot execute the operation requested.</value>
+  </data>
+  <data name="Tfa0eef46d393" xml:space="preserve">
+    <value>Invalid characters</value>
+  </data>
+  <data name="Tfa8c41bfcbde" xml:space="preserve">
+    <value>No IActIndexSelector was set through the Init method.</value>
+  </data>
+  <data name="Tfb91e24fa52d" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Tfbc769f1c90e" xml:space="preserve">
+    <value>The main UI thread has thrown an exception.&#13;
+&#13;
+</value>
+  </data>
+  <data name="Tfbe72a155ff3" xml:space="preserve">
+    <value>Compact (redirect indexes)</value>
+  </data>
+  <data name="Tfce0a2aaeffa" xml:space="preserve">
+    <value>New ID:</value>
+  </data>
+  <data name="Tfce4f5bd23be" xml:space="preserve">
+    <value>Lighting options...</value>
+  </data>
+  <data name="Tfce8f3cca639" xml:space="preserve">
+    <value>Star effect</value>
+  </data>
+  <data name="Tfd6369e8012f" xml:space="preserve">
+    <value>Position Z</value>
+  </data>
+  <data name="Tfdacc9a8fe2f" xml:space="preserve">
+    <value>Detect sprite issues</value>
+  </data>
+  <data name="Tfdbe18f67b6c" xml:space="preserve">
+    <value>The current GRF has been modified, you must save it first.</value>
+  </data>
+  <data name="Tfe1908a552ba" xml:space="preserve">
+    <value>No image loaded. This usually happens if the file is corrupted or encrypted.</value>
+  </data>
+  <data name="Tfe8ee305b10e" xml:space="preserve">
+    <value>No Gravity encrypted files are selected.</value>
+  </data>
+  <data name="Tfe9296415ae2" xml:space="preserve">
+    <value>Sort GRF folders</value>
+  </data>
+  <data name="Tfecd4c7d6b6e" xml:space="preserve">
+    <value>Cannot remove the action (there must be at least one action).</value>
+  </data>
+  <data name="Tff86ca742a9a" xml:space="preserve">
+    <value>Cannot start ActEdit while the command stack is already in Delayed mode (from Begin(), BeginEdit() or ActEditBegin()).</value>
+  </data>
+  <data name="Tff9b3910e086" xml:space="preserve">
+    <value>Magic header</value>
+  </data>
+  <data name="Tffcba59814a6" xml:space="preserve">
+    <value>The path contains invalid characters.&#13;
+{0}</value>
+  </data>
+</root>

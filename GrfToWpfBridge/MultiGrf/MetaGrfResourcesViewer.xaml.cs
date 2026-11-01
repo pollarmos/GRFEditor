@@ -38,7 +38,7 @@ namespace GrfToWpfBridge.MultiGrf {
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_itemsResources, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
 				new ListViewDataTemplateHelper.ImageColumnInfo { Header = "", DisplayExpression = "DataImage", FixedWidth = 30, MaxHeight = 60 },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Path", DisplayExpression = "DisplayFileName", FixedWidth = 100, ToolTipBinding = "DisplayFileName", TextAlignment = TextAlignment.Left, IsFill = true }
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Path"), DisplayExpression = "DisplayFileName", FixedWidth = 100, ToolTipBinding = "DisplayFileName", TextAlignment = TextAlignment.Left, IsFill = true }
 			}, null, new string[] { "FileNotFound", "Red" });
 
 			_itemsResources.ItemsSource = _itemsResourcesSource;

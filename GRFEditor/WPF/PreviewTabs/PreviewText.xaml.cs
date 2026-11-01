@@ -62,7 +62,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 		private void _setupUI(FileEntry entry) {
 			this.Dispatch(delegate {
-				_labelHeader.Text = "Text file: " + entry.DisplayRelativePath;
+				_labelHeader.Text = Utilities.Localization.UiText.Get("Text file: ") + entry.DisplayRelativePath;
 			});
 		}
 

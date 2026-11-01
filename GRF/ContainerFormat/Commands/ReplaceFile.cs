@@ -66,7 +66,7 @@ namespace GRF.ContainerFormat.Commands {
 		}
 
 		public string CommandDescription {
-			get { return string.Format(GrfStrings.ReplaceFile, _fileName, _filePath ?? ""); }
+			get { return Utilities.Localization.UiText.Message(string.Format(GrfStrings.ReplaceFile, _fileName, _filePath ?? "")); }
 		}
 
 		#endregion

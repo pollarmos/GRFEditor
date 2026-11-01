@@ -52,23 +52,23 @@ namespace GRFEditor.OpenGL.WPF {
 				_checkBoxShadowmap, _checkBoxFps, _checkBoxTileUp, _checkBoxRenderLub, _checkBoxStickToGround, _checkBoxClientPerspective,
 				_checkBoxRenderSkymap, _checkBoxSmoothCamera, _checkBoxUnlimitedFps, _checkBoxFaceCulling, _checkBoxFSAA, _checkBoxRenderGat);
 
-			_checkBoxRenderWater.ToolTip = "Enable or disable the water renderer.";
-			_checkBoxRenderGround.ToolTip = "Enable or disable the ground renderer (GND).";
-			_checkBoxRenderObjects.ToolTip = "Enable or disable the models renderer.";
-			_checkBoxAnimateMap.ToolTip = "Animates the models in the map. Disabling this option will improve your FPS but will take slightly longer to load.";
-			_checkBoxLightmap.ToolTip = "Enable or disable the lightmap (this also affects the colormap).";
-			_checkBoxShadowmap.ToolTip = "Enable or disable the shadowmap.";
-			_checkBoxFps.ToolTip = "Show the FPS counter on the top right of the map. The counter refreshes every 200 ms.";
-			_checkBoxTileUp.ToolTip = "Renders the TileUp tiles of cubes that aren't set as black tiles.";
-			_checkBoxRenderLub.ToolTip = "Enable or disable the lub renderer. This setting will also impact the skymap.";
-			_checkBoxStickToGround.ToolTip = "When moving in the map with the right-mouse button, this will adjust the height of the camera to match the ground.";
-			_checkBoxRenderSkymap.ToolTip = "Enable or disable the sky map rendering.";
-			_checkBoxSmoothCamera.ToolTip = "Enable or disable smooth camera movements.";
-			_checkBoxUnlimitedFps.ToolTip = "Removes the 60 fps cap. Be warned, there is truly no limit and some people may experience a graphic driver crash.";
-			_checkBoxFaceCulling.ToolTip = "Enable or disable face culling. Face culling will not render the back of the triangles (unless the models use two-side mode). The client does this by default.";
-			_checkBoxClientPerspective.ToolTip = "Simulate the client's perspective. Though, this is not entirely accurate either.";
-			_checkBoxFSAA.ToolTip = "Enable or disable anti-aliasing. This basically makes the edges less rough/pixalated.";
-			_checkBoxRenderGat.ToolTip = "Enable or disable the gat tile renderer. This will show walkable tiles (you can right-click the setting to change the transparency value).";
+			_checkBoxRenderWater.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the water renderer.");
+			_checkBoxRenderGround.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the ground renderer (GND).");
+			_checkBoxRenderObjects.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the models renderer.");
+			_checkBoxAnimateMap.ToolTip = Utilities.Localization.UiText.Get("Animates the models in the map. Disabling this option will improve your FPS but will take slightly longer to load.");
+			_checkBoxLightmap.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the lightmap (this also affects the colormap).");
+			_checkBoxShadowmap.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the shadowmap.");
+			_checkBoxFps.ToolTip = Utilities.Localization.UiText.Get("Show the FPS counter on the top right of the map. The counter refreshes every 200 ms.");
+			_checkBoxTileUp.ToolTip = Utilities.Localization.UiText.Get("Renders the TileUp tiles of cubes that aren't set as black tiles.");
+			_checkBoxRenderLub.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the lub renderer. This setting will also impact the skymap.");
+			_checkBoxStickToGround.ToolTip = Utilities.Localization.UiText.Get("When moving in the map with the right-mouse button, this will adjust the height of the camera to match the ground.");
+			_checkBoxRenderSkymap.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the sky map rendering.");
+			_checkBoxSmoothCamera.ToolTip = Utilities.Localization.UiText.Get("Enable or disable smooth camera movements.");
+			_checkBoxUnlimitedFps.ToolTip = Utilities.Localization.UiText.Get("Removes the 60 fps cap. Be warned, there is truly no limit and some people may experience a graphic driver crash.");
+			_checkBoxFaceCulling.ToolTip = Utilities.Localization.UiText.Get("Enable or disable face culling. Face culling will not render the back of the triangles (unless the models use two-side mode). The client does this by default.");
+			_checkBoxClientPerspective.ToolTip = Utilities.Localization.UiText.Get("Simulate the client's perspective. Though, this is not entirely accurate either.");
+			_checkBoxFSAA.ToolTip = Utilities.Localization.UiText.Get("Enable or disable anti-aliasing. This basically makes the edges less rough/pixalated.");
+			_checkBoxRenderGat.ToolTip = Utilities.Localization.UiText.Get("Enable or disable the gat tile renderer. This will show walkable tiles (you can right-click the setting to change the transparency value).");
 
 			_checkBoxRenderGat.MouseRightButtonUp += delegate {
 				var dialog = new GatOptions();

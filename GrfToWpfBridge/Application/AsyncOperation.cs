@@ -72,7 +72,7 @@ namespace GrfToWpfBridge.Application {
 		public void SetAndRunOperation(GrfThread thread) {
 			if (_thread != null && _thread.IsRunning) {
 				if (!DoNotShowExtraDialogs)
-					ErrorHandler.HandleException("An opration is currently running, wait for it to finish or cancel it.", ErrorLevel.NotSpecified);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("An opration is currently running, wait for it to finish or cancel it."), ErrorLevel.NotSpecified);
 			}
 			else {
 				_thread = thread;
@@ -104,7 +104,7 @@ namespace GrfToWpfBridge.Application {
 		public void SetAndRunOperation(GrfThread thread, GrfThread.GrfThreadEventHandler finished) {
 			if (_thread != null && _thread.IsRunning) {
 				if (!DoNotShowExtraDialogs)
-					ErrorHandler.HandleException("An operation is currently running, wait for it to finish or cancel it.", ErrorLevel.NotSpecified);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("An operation is currently running, wait for it to finish or cancel it."), ErrorLevel.NotSpecified);
 			}
 			else {
 				_thread = thread;

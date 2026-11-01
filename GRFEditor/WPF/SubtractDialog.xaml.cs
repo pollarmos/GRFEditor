@@ -31,7 +31,7 @@ namespace GRFEditor.WPF {
 		private GrfHolder _grfSource = new GrfHolder();
 
 		public SubtractDialogCustom(GrfHolder grfSource)
-			: base("Subtract GRFs", "convert.ico") {
+			: base(Utilities.Localization.UiText.Get("Subtract GRFs"), "convert.ico") {
 			InitializeComponent();
 
 			_textBoxOutputName.Text = $"{DateTime.Now.Year:0000}-{DateTime.Now.Month:00}-{DateTime.Now.Day:00}subtract.grf";
@@ -91,33 +91,33 @@ namespace GRFEditor.WPF {
 				}
 
 				if (_grfSource.Header.HasErrors) {
-					ErrorHandler.HandleException("The current GRF contains errors and cannot be subtracted.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The current GRF contains errors and cannot be subtracted."));
 					return;
 				}
 			}
 
 			if (_textBoxOutputName.Text == "" || _textBoxOutputName.Text.Any(p => Path.GetInvalidFileNameChars().Contains(p))) {
-				ErrorHandler.HandleException("Invalid output file name.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Invalid output file name."));
 				return;
 			}
 
 			if (_grfSource.IsModified) {
-				ErrorHandler.HandleException("The current GRF has been modified, you must save it first.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The current GRF has been modified, you must save it first."));
 				return;
 			}
 
 			if (_grfSource.IsBusy) {
-				ErrorHandler.HandleException("The current GRF is saving, please wait for the operation to finish first.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The current GRF is saving, please wait for the operation to finish first."));
 				return;
 			}
 
 			if (_grfSource.Header.HasErrors) {
-				ErrorHandler.HandleException("The current GRF contains errors and cannot be subtracted.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The current GRF contains errors and cannot be subtracted."));
 				return;
 			}
 
 			if (_fileSub == null) {
-				ErrorHandler.HandleException("Drop a GRF in the right rectangle first.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Drop a GRF in the right rectangle first."));
 				return;
 			}
 
@@ -125,22 +125,22 @@ namespace GRFEditor.WPF {
 			_grfAdd.Open(_fileSub);
 
 			if (_grfAdd.IsModified) {
-				ErrorHandler.HandleException("The subtracting GRF has been modified, you must save it first.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The subtracting GRF has been modified, you must save it first."));
 				return;
 			}
 
 			if (_grfAdd.IsBusy) {
-				ErrorHandler.HandleException("The subtracting GRF is saving, please wait for the operation to finish first.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The subtracting GRF is saving, please wait for the operation to finish first."));
 				return;
 			}
 
 			if (_grfAdd.Header.HasErrors) {
-				ErrorHandler.HandleException("The subtracting GRF contains errors and cannot be merged.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The subtracting GRF contains errors and cannot be merged."));
 				return;
 			}
 
 			if (_grfAdd.FileName == _grfSource.FileName) {
-				ErrorHandler.HandleException("Trying to subtract the same GRF into itself.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Trying to subtract the same GRF into itself."));
 				return;
 			}
 

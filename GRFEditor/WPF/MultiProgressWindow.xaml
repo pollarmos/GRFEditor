@@ -1,4 +1,4 @@
-﻿<Styles:TkWindow x:Class="GRFEditor.WPF.MultiProgressWindow"
+﻿<Styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.WPF.MultiProgressWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
               xmlns:Styles="clr-namespace:TokeiLibrary.WPF.Styles;assembly=TokeiLibrary"
@@ -20,7 +20,7 @@
         </Grid>
         <Grid TokeiLibrary:WpfProperties.IsDraggable="True" Grid.Row="1" Height="40" Background="{DynamicResource UIDialogBackground}">
             <DockPanel HorizontalAlignment="Right" Margin="0 0 3 0">
-                <Button Name="_button" HorizontalAlignment="Right" Content="Cancel" Width="100" Height="24" Margin="3" Click="_buttonClose2"/>
+                <Button Name="_button" HorizontalAlignment="Right" Content="{loc:Localize T77dfd2135f4d}" Width="100" Height="24" Margin="3" Click="_buttonClose2"/>
             </DockPanel>
         </Grid>
     </Grid>

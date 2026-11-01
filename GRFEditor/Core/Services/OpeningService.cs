@@ -26,7 +26,7 @@ namespace GRFEditor.Core.Services {
 		public void OpenSelectedFile(FileEntry entry, OpeningAction action) {
 			try {
 				if (entry == null) {
-					ErrorHandler.HandleException("Please select a file.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a file."), ErrorLevel.Low);
 					return;
 				}
 
@@ -49,14 +49,14 @@ namespace GRFEditor.Core.Services {
 		public void RunSelected(GrfHolder grfData, ExtractingService extractingService, FileEntry entry, OpeningAction action = OpeningAction.Run) {
 			try {
 				if (entry == null) {
-					ErrorHandler.HandleException("Please select a file.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a file."), ErrorLevel.Low);
 					return;
 				}
 
 				_fileToOpen = GrfPath.Combine(GrfEditorConfiguration.OverrideExtractionPath ?  GrfEditorConfiguration.DefaultExtractingPath : Path.GetDirectoryName(new FileInfo(grfData.FileName).FullName), Rgz.GetRealFilename(entry.RelativePath));
 
 				if (!File.Exists(_fileToOpen)) {
-					if (WindowProvider.ShowDialog("The file hasn't been extracted yet, would you like to do that now?", "File not extracted",
+					if (WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The file hasn't been extracted yet, would you like to do that now?"), "File not extracted",
 					                              MessageBoxButton.YesNoCancel) == MessageBoxResult.Yes) {
 						extractingService.FileExtract(grfData, new FileEntry[] { entry }, false);
 					}
@@ -76,14 +76,14 @@ namespace GRFEditor.Core.Services {
 
 		public void OpenSelectedFolder(GrfHolder grfData, TreeView tree, ExtractingService extractingService) {
 			if (tree.SelectedItem == null) {
-				ErrorHandler.HandleException("Please select a folder.", ErrorLevel.Low);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a folder."), ErrorLevel.Low);
 				return;
 			}
 
 			_fileToOpen = GrfPath.Combine(GrfEditorConfiguration.OverrideExtractionPath ? GrfEditorConfiguration.DefaultExtractingPath : Path.GetDirectoryName(new FileInfo(grfData.FileName).FullName), Rgz.GetRealFilename(TreeViewPathManager.GetTkPath(tree.SelectedItem).RelativePath));
 
 			if (!Directory.Exists(_fileToOpen)) {
-				if (WindowProvider.ShowDialog("The folder hasn't been extracted yet, would you like to do that now?", "Folder not extracted",
+				if (WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The folder hasn't been extracted yet, would you like to do that now?"), "Folder not extracted",
 				                              MessageBoxButton.YesNoCancel) == MessageBoxResult.Yes) {
 					extractingService.RootFilesExtract(grfData, tree.SelectedItem);
 				}

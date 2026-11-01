@@ -36,14 +36,14 @@ namespace GrfToWpfBridge.PreviewTabs {
 				if (tbHeader != null)
 					_labelHeader.Text = tbHeader.Text;
 				else
-					_labelHeader.Text = "File: " + entry.FileName;
+					_labelHeader.Text = Utilities.Localization.UiText.Get("File: ") + entry.FileName;
 
 				_tbError2.Text = err.GetType().ToString();
 
 				StringBuilder b = new StringBuilder();
 
-				b.AppendLine("Entry: " + entry.RelativePath);
-				b.Append(err.Message);
+				b.AppendLine(Utilities.Localization.UiText.Get("Entry: ") + entry.RelativePath);
+				b.Append(Utilities.Localization.UiText.Message(err.Message));
 
 				var visibility = Visibility.Collapsed;
 
@@ -95,7 +95,7 @@ namespace GrfToWpfBridge.PreviewTabs {
 			string rawInfo = ErrorHandler.GenerateOutput(LastDebugInfo.Exception, LastDebugInfo.StackTrace);
 
 			Clipboard.SetDataObject(rawInfo);
-			MessageBox.Show("Debug information has been copied to the clipboard.", "Information");
+			TokeiLibrary.Localization.LocalizedMessageBox.Show("Debug information has been copied to the clipboard.", "Information");
 		}
 	}
 }

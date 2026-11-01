@@ -15,10 +15,10 @@ namespace TokeiLibrary.WPF {
 			base(caption == "" ? "Information" : caption, "help.ico", SizeToContent.Height) {
 			InitializeComponent();
 
-			_textBoxMessage.Text = message;
-			_buttonYes.Content = yes;
-			_buttonNo.Content = no;
-			_buttonCancel.Content = cancel;
+			_textBoxMessage.Text = Utilities.Localization.UiText.Message(message);
+			_buttonYes.Content = Utilities.Localization.UiText.Get(yes);
+			_buttonNo.Content = Utilities.Localization.UiText.Get(no);
+			_buttonCancel.Content = Utilities.Localization.UiText.Get(cancel);
 			_textBoxMessageAbstract = _textBoxMessage;
 
 			switch (options) {

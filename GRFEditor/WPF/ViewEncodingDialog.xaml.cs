@@ -21,7 +21,7 @@ namespace GRFEditor.WPF {
 		private int _encodingPage = 949;
 
 		public ViewEncodingDialog()
-			: base("Text encoding converter", "refresh.png", SizeToContent.Manual, ResizeMode.CanResize) {
+			: base(Utilities.Localization.UiText.Get("Text encoding converter"), "refresh.png", SizeToContent.Manual, ResizeMode.CanResize) {
 			InitializeComponent();
 
 			ShowInTaskbar = true;
@@ -30,6 +30,8 @@ namespace GRFEditor.WPF {
 				new EncodingView { Encoding = null, FriendlyName = "Auto" }
 			}.Concat(EncodingService.GetKnownEncodings()).ToList();
 			items.RemoveAt(items.Count - 1);
+			foreach (var item in items)
+				item.FriendlyName = Utilities.Localization.UiText.Get(item.FriendlyName);
 
 			_cbEncodingSource.ItemsSource = items;
 			_cbEncodingSource.SelectedIndex = 0;

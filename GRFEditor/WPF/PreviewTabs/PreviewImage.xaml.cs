@@ -125,7 +125,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 			string fileName = entry.RelativePath;
 
 			this.Dispatch(delegate {
-				_labelHeader.Text = "Image preview: " + entry.DisplayRelativePath;
+				_labelHeader.Text = Utilities.Localization.UiText.Get("Image preview: ") + entry.DisplayRelativePath;
 				_buttonGroupImage.Visibility = PreviewService.IsImageCutable(entry.RelativePath, _grfData) ? Visibility.Visible : Visibility.Collapsed;
 			});
 		}

@@ -288,11 +288,11 @@ namespace GRFEditor.Tools.SpriteEditor {
 					};
 					border2.ContextMenu = new ContextMenu();
 
-					var menuItem = new MenuItem { Header = "Close" };
+					var menuItem = new MenuItem { Header = Utilities.Localization.UiText.Get("Close") };
 					menuItem.Click += delegate { if (control.Close()) CloseTab(tab); };
 					border2.ContextMenu.Items.Add(menuItem);
 
-					menuItem = new MenuItem { Header = "Close all but this" };
+					menuItem = new MenuItem { Header = Utilities.Localization.UiText.Get("Close all but this") };
 					menuItem.Click += delegate {
 						GetTabs().ForEach(entry => {
 							if (entry.Tab != tab) {
@@ -304,7 +304,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 					};
 					border2.ContextMenu.Items.Add(menuItem);
 
-					menuItem = new MenuItem { Header = "Close all" };
+					menuItem = new MenuItem { Header = Utilities.Localization.UiText.Get("Close all") };
 					menuItem.Click += delegate {
 						GetTabs().ForEach(entry => {
 							if (entry.Control.Close()) {
@@ -315,7 +315,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 					border2.ContextMenu.Items.Add(menuItem);
 					border2.ContextMenu.Items.Add(new Separator());
 
-					menuItem = new MenuItem { Header = "Select in explorer" };
+					menuItem = new MenuItem { Header = Utilities.Localization.UiText.Get("Select in explorer") };
 					menuItem.Click += delegate {
 						try {
 							if (File.Exists(control.Spr.LoadedPath)) {

@@ -43,7 +43,7 @@ namespace GRFEditor.WPF {
 		private bool _pendingVisible;
 		private int _uid;
 
-		public ImageConverter() : base("Image converter", "imconvert.ico") {
+		public ImageConverter() : base(Utilities.Localization.UiText.Get("Image converter"), "imconvert.ico") {
 			InitializeComponent();
 
 			_previewElementWidth = 100;

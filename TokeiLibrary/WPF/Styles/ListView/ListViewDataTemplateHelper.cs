@@ -222,7 +222,7 @@ namespace TokeiLibrary.WPF.Styles.ListView {
 			headerGrid.ColumnDefinitions.Add(new ColumnDefinition());
 			headerGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Auto) });
 
-			TextBlock txtBlock = new TextBlock { Text = columnInfo.Header ?? "", TextAlignment = TextAlignment.Center };
+			TextBlock txtBlock = new TextBlock { Text = Utilities.Localization.UiText.Get(columnInfo.Header ?? ""), TextAlignment = TextAlignment.Center };
 			Canvas canvas = new Canvas { VerticalAlignment = VerticalAlignment.Center, Margin = new Thickness(-5, 0, 0, 0) };
 			canvas.Width = 8;
 			canvas.Visibility = Visibility.Collapsed;

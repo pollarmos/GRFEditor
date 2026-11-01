@@ -1,4 +1,4 @@
-﻿<Styles:TkWindow x:Class="GRFEditor.WPF.EncryptorDialog"
+<Styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.WPF.EncryptorDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Styles="clr-namespace:TokeiLibrary.WPF.Styles;assembly=TokeiLibrary"
@@ -22,11 +22,11 @@
                             <RowDefinition />
                             <RowDefinition />
                         </Grid.RowDefinitions>
-                        <Label Grid.Row="0" Grid.Column="0" Content="Encryption password" VerticalAlignment="Center" />
-                        <Label VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Content="Client path" />
-                        <Label VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Content="Rename cps.dll" />
-                        <Label VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Content="Skip resource check" />
-                        <Label VerticalAlignment="Center" Grid.Row="4" Grid.Column="0" Content="Decompress function" />
+                        <Label Grid.Row="0" Grid.Column="0" Content="{loc:Localize T20dfe9cb6258}" VerticalAlignment="Center" />
+                        <Label VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Content="{loc:Localize T0bd2c6f3cf91}" />
+                        <Label VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Content="{loc:Localize Tde18c89ed726}" />
+                        <Label VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Content="{loc:Localize T80541c2b3b95}" />
+                        <Label VerticalAlignment="Center" Grid.Row="4" Grid.Column="0" Content="{loc:Localize Tf2690f8c3f93}" />
                         
                         <Grid Grid.Column="1">
                             <Grid.ColumnDefinitions>
@@ -34,13 +34,13 @@
                                 <ColumnDefinition Width="auto" />
                             </Grid.ColumnDefinitions>
                             <TextBox Name="_tbEncryptionPassword" TextChanged="_tbEncryptionPassword_TextChanged" Grid.Row="0" Grid.Column="0" Margin="3" Height="24" VerticalContentAlignment="Center" />
-                            <Styles:ButtonMenu Content="Key..." Margin="3" Grid.Column="1" Width="75" Height="24">
+                            <Styles:ButtonMenu Content="{loc:Localize T55080a5e69b1}" Margin="3" Grid.Column="1" Width="75" Height="24">
                                 <Styles:ButtonMenu.ContextMenu>
                                     <ContextMenu>
-                                        <MenuItem Header="Clear" Click="_miClear_Click" />
-                                        <MenuItem Header="Save..." Click="_miSave_Click" />
-                                        <MenuItem Header="Load..."  Click="_miLoad_Click" />
-                                        <MenuItem x:Name="_miLoadRecent" Header="Load recent" IsEnabled="False" />
+                                        <MenuItem Header="{loc:Localize T719ea396ad92}" Click="_miClear_Click" />
+                                        <MenuItem Header="{loc:Localize T96b41bc1a37e}" Click="_miSave_Click" />
+                                        <MenuItem Header="{loc:Localize Tf6c0bcf862c9}"  Click="_miLoad_Click" />
+                                        <MenuItem x:Name="_miLoadRecent" Header="{loc:Localize Tb2bdbbd77961}" IsEnabled="False" />
                                     </ContextMenu>
                                 </Styles:ButtonMenu.ContextMenu>
                             </Styles:ButtonMenu>
@@ -62,28 +62,20 @@
                                 <ColumnDefinition Width="auto" />
                             </Grid.ColumnDefinitions>
                             <TextBox Name="_tbUncompressName" Margin="3" IsReadOnly="True" Height="24" VerticalContentAlignment="Center" />
-                            <Button Name="_tbCopyUncompress" Click="_tbCopyUncompress_Click" Grid.Column="1" Width="75" Height="24" Margin="3" Content="Copy" />
+                            <Button Name="_tbCopyUncompress" Click="_tbCopyUncompress_Click" Grid.Column="1" Width="75" Height="24" Margin="3" Content="{loc:Localize Taf74f7c5362a}" />
                         </Grid>
                     </Grid>
                 </Border>
-				<TextBlock Margin="3 0 3 3" TextWrapping="Wrap">
-                    Renaming cps.dll is slightly more secure. However, make sure the previous version of cps.dll isn't present in your RO folder.
-                    <LineBreak />
-                    <LineBreak />
-                    This encryption version requires the player to have Microsoft Visual C++ 2022 (x86) installed.
-                    <LineBreak />
-                    <LineBreak />
-                    Once you are done generating your client files, you can encrypt and decrypt content in your GRF by right-clicking a folder and selecting the Encryption option.
-                    <LineBreak />
-                    <LineBreak />
-                    If you are using the 'Restore loading cps.dll' patch from 4144, you'll need to copy the 'Decompress function' value in the NEMO's input box.
-				</TextBlock>
+				<TextBlock Margin="3 0 3 3" TextWrapping="Wrap"><Run Text="{loc:Localize T20eabc00f6a7}" /><LineBreak />
+                    <LineBreak /><Run Text="{loc:Localize T3f7f98fab2dd}" /><LineBreak />
+                    <LineBreak /><Run Text="{loc:Localize T42d8a3d62eb5}" /><LineBreak />
+                    <LineBreak /><Run Text="{loc:Localize T4efb8f002696}" /></TextBlock>
 			</StackPanel>
         </StackPanel>
 		<Grid TokeiLibrary:WpfProperties.IsDraggable="True" Height="40" Background="{DynamicResource UIDialogBackground}">
             <DockPanel HorizontalAlignment="Right" Margin="0 0 3 0">
-                <Button Name="_buttonGenerateClientConf" Click="_buttonGenerateClientConf_Click" Grid.Row="6" Grid.Column="1" Content="Generate files" Margin="3" Width="100" Height="24" HorizontalAlignment="Right" />
-                <Button Name="_buttonCancel" Content="Close" Width="100" Height="24" Margin="3" Click="_buttonCancel_Click" />
+                <Button Name="_buttonGenerateClientConf" Click="_buttonGenerateClientConf_Click" Grid.Row="6" Grid.Column="1" Content="{loc:Localize T9b772b08bd49}" Margin="3" Width="100" Height="24" HorizontalAlignment="Right" />
+                <Button Name="_buttonCancel" Content="{loc:Localize Tbbfa773e5a63}" Width="100" Height="24" Margin="3" Click="_buttonCancel_Click" />
             </DockPanel>
         </Grid>
     </StackPanel>

@@ -29,7 +29,7 @@ namespace GRFEditor.Tools.GrfValidation {
 		private readonly ValidateContentReader _validateContentReader = new ValidateContentReader();
 
 		public ValidationDialog(GrfHolder grfHolder)
-			: base("Grf validation", "validity.ico", SizeToContent.Manual, ResizeMode.CanResize) {
+			: base(Utilities.Localization.UiText.Get("Grf validation"), "validity.ico", SizeToContent.Manual, ResizeMode.CanResize) {
 			_grfHolder = grfHolder;
 			InitializeComponent();
 
@@ -65,9 +65,9 @@ namespace GRFEditor.Tools.GrfValidation {
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_listViewResults, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
 				new ListViewDataTemplateHelper.ImageColumnInfo { Header = "", DisplayExpression = "DataImage", SearchGetAccessor = "ValidationType", FixedWidth = 20, MaxHeight = 16 },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Error code", DisplayExpression = "ValidationType", FixedWidth = 150, ToolTipBinding = "ValidationType", TextAlignment = TextAlignment.Center },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "File name", DisplayExpression = "DisplayRelativePath", FixedWidth = 250, ToolTipBinding = "ToolTipRelativePath", TextAlignment = TextAlignment.Left },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Description", DisplayExpression = "Description", FixedWidth = 150, ToolTipBinding = "ToolTipDescription", TextAlignment = TextAlignment.Left, IsFill = true },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Error code"), DisplayExpression = "ValidationType", FixedWidth = 150, ToolTipBinding = "ValidationType", TextAlignment = TextAlignment.Center },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("File name"), DisplayExpression = "DisplayRelativePath", FixedWidth = 250, ToolTipBinding = "ToolTipRelativePath", TextAlignment = TextAlignment.Left },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Description"), DisplayExpression = "Description", FixedWidth = 150, ToolTipBinding = "ToolTipDescription", TextAlignment = TextAlignment.Left, IsFill = true },
 			}, new DefaultListViewComparer<ValidationView>(), new string[] { "Default", "{StaticResource TextForeground}" });
 		}
 
@@ -135,8 +135,8 @@ namespace GRFEditor.Tools.GrfValidation {
 
 		private void _changeRawViewButton() {
 			bool isValidate = GrfEditorConfiguration.ValidationRawView;
-			_buttonRawView.TextHeader = isValidate ? "List view" : "Raw view";
-			_buttonRawView.TextDescription = isValidate ? "Show the list view" : "Show the raw text view";
+			_buttonRawView.TextHeader = isValidate ? Utilities.Localization.UiText.Get("List view") : Utilities.Localization.UiText.Get("Raw view");
+			_buttonRawView.TextDescription = isValidate ? Utilities.Localization.UiText.Get("Show the list view") : Utilities.Localization.UiText.Get("Show the raw text view");
 			_listViewResults.Visibility = isValidate ? Visibility.Hidden : Visibility.Visible;
 			_tbResults.Visibility = isValidate ? Visibility.Visible : Visibility.Hidden;
 		}

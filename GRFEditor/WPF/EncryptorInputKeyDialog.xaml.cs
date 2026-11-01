@@ -19,14 +19,14 @@ namespace GRFEditor.WPF {
 		public MessageBoxResult Result = MessageBoxResult.No;
 		private string _password = "";
 
-		public EncryptorInputKeyDialog(string message = "Information") : base("GRF Encryption", "lock.ico") {
+		public EncryptorInputKeyDialog(string message = "Information") : base(Utilities.Localization.UiText.Get("GRF Encryption"), "lock.ico") {
 			InitializeComponent();
 
 			_recentFiles = new WpfRecentFiles(GrfEditorConfiguration.ConfigAsker, 6, _miLoadRecent, "Encryptor");
 			_recentFiles.FileClicked += _recentFiles_FileClicked;
 			_recentFiles.Reload();
 
-			_tbInfo.Text = message;
+			_tbInfo.Text = Utilities.Localization.UiText.Message(message);
 		}
 
 		public byte[] Key {
@@ -47,7 +47,7 @@ namespace GRFEditor.WPF {
 				}
 				else {
 					_recentFiles.RemoveRecentFile(file);
-					ErrorHandler.HandleException("File not found: " + file, ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("File not found: ") + file, ErrorLevel.Low);
 				}
 			}
 			catch (Exception err) {
@@ -68,7 +68,7 @@ namespace GRFEditor.WPF {
 
 		private void _miSave_Click(object sender, RoutedEventArgs e) {
 			if (!_tbEncryptionPassword.IsEnabled) {
-				ErrorHandler.HandleException("You can only save new passwords.", ErrorLevel.NotSpecified);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("You can only save new passwords."), ErrorLevel.NotSpecified);
 				return;
 			}
 

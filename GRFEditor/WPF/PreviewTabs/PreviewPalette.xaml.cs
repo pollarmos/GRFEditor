@@ -66,7 +66,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 						return new Pal(image.Palette, Pal.FormatMode.NoTransparency).Image;
 					}
 					else {
-						_labelHeader.Dispatch(p => p.Text = "Image has no palette.");
+						_labelHeader.Dispatch(p => p.Text = Utilities.Localization.UiText.Get("Image has no palette."));
 						_imagePreview.Dispatch(p => p.Source = null);
 					}
 				}
@@ -81,7 +81,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 		private void _setupUI(FileEntry entry) {
 			this.Dispatch(delegate {
-				_labelHeader.Text = "Palette preview: " + entry.DisplayRelativePath;
+				_labelHeader.Text = Utilities.Localization.UiText.Get("Palette preview: ") + entry.DisplayRelativePath;
 			});
 		}
 

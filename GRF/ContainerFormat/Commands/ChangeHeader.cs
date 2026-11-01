@@ -30,7 +30,7 @@
 
 		public string CommandDescription {
 			get {
-				return string.Format(GrfStrings.ChangeHeader, _oldHeader, _header);
+				return Utilities.Localization.UiText.Message(string.Format(GrfStrings.ChangeHeader, _oldHeader, _header));
 			}
 		}
 

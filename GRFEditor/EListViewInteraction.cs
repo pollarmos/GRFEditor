@@ -233,7 +233,7 @@ namespace GRFEditor {
 						}
 
 						if (files != null && files.Any(p => p.EndsWith(".grf") || p.EndsWith(".gpf"))) {
-							ErrorHandler.HandleException("Deselect the GRF or GPF files before dropping them here.", ErrorLevel.Low);
+							ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Deselect the GRF or GPF files before dropping them here."), ErrorLevel.Low);
 							return;
 						}
 					}

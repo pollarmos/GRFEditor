@@ -1,4 +1,4 @@
-﻿<Styles:TkWindow x:Class="GRFEditor.WPF.PreviewTabs.PreviewResourceIndexer"
+﻿<Styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.WPF.PreviewTabs.PreviewResourceIndexer"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" AllowDrop="True"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -19,9 +19,9 @@
 			<TextBlock Name="_labelHeader" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" Padding="5" />
 			<Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
             <WrapPanel>
-                <Styles:FancyButton x:Name="_buttonExport" Click="_buttonExport_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="Export" TextDescription="Export files directy" Margin="2" />
-                <Styles:FancyButton x:Name="_buttonExportAt" Click="_buttonExportAt_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="Export..." TextDescription="Export files to..." Margin="2" HorizontalAlignment="Left" />
-                <Styles:FancyButton x:Name="_buttonRebuild" TextHeader="Rebuild indexes" TextDescription="Rebuilds the index files for each GRF." Click="_buttonRebuild_Click" />
+                <Styles:FancyButton x:Name="_buttonExport" Click="_buttonExport_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="{loc:Localize Tf3e4fadb9e37}" TextDescription="{loc:Localize T9bdcc8fb4afd}" Margin="2" />
+                <Styles:FancyButton x:Name="_buttonExportAt" Click="_buttonExportAt_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="{loc:Localize T39fc80da8f19}" TextDescription="{loc:Localize Tf19a2cb95131}" Margin="2" HorizontalAlignment="Left" />
+                <Styles:FancyButton x:Name="_buttonRebuild" TextHeader="{loc:Localize T0fe299ad13ae}" TextDescription="{loc:Localize Tb8fba6ffb40e}" Click="_buttonRebuild_Click" />
             </WrapPanel>
             <Rectangle Margin="5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
         </StackPanel>
@@ -40,12 +40,12 @@
                         <RowDefinition Height="auto" />
                         <RowDefinition />
                     </Grid.RowDefinitions>
-                    <Label Grid.Row="0" Content="Usages: " />
+                    <Label Grid.Row="0" Content="{loc:Localize T526fe483deed}" />
                     <WPF:TkView MouseRightButtonUp="_tree_MouseRightButtonUp" BorderThickness="0" MultiSelection="True" SelectedItemChanged="_tree_SelectedItemChanged"  x:Name="_tree" Grid.Row="1">
                         <WPF:TkView.ContextMenu>
                             <ContextMenu>
-								<MenuItem Name="_menuItemsSelectRootFiles" TokeiLibrary:WpfProperties.ImagePath="empty.png" Header="Select root files" />
-								<MenuItem Name="_menuItemsSelectInGrf" TokeiLibrary:WpfProperties.ImagePath="arrowdown.png" Header="Select in project" Click="_menuItemsSelectInGrf_Click" />
+								<MenuItem Name="_menuItemsSelectRootFiles" TokeiLibrary:WpfProperties.ImagePath="empty.png" Header="{loc:Localize Tdcea0d4019b3}" />
+								<MenuItem Name="_menuItemsSelectInGrf" TokeiLibrary:WpfProperties.ImagePath="arrowdown.png" Header="{loc:Localize T3a55906241d2}" Click="_menuItemsSelectInGrf_Click" />
 							</ContextMenu>
                         </WPF:TkView.ContextMenu>
                     </WPF:TkView>
@@ -58,7 +58,7 @@
                         <RowDefinition Height="100" />
                         <RowDefinition />
                     </Grid.RowDefinitions>
-                    <TextBlock Margin="3" Text="Resources (drop a data folder or a GRF file here). This provides additional resources." TextWrapping="Wrap" />
+                    <TextBlock Margin="3" Text="{loc:Localize T523ccb382e75}" TextWrapping="Wrap" />
                     <multiGrf:MetaGrfResourcesViewer Grid.Row="2" x:Name="_itemsResources2" />
                     <WPF1:QuickPreview x:Name="_quickPreview" Grid.Row="3" />
                     <Styles:TkProgressBar x:Name="_progressBarComponent" Grid.Row="1" Margin="1" />

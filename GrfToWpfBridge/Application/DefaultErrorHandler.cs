@@ -66,15 +66,15 @@ namespace GrfToWpfBridge.Application {
 				return "Null exception.";
 
 			if (ex.InnerException == null)
-				return _dotTerminate(ex.Message);
+				return _dotTerminate(Utilities.Localization.UiText.Message(ex.Message));
 
 			if (ex.Message.EndsWith("\r\n\r\n"))
-				return _dotTerminate(ex.Message) + "Inner exception: " + ex.InnerException.Message;
+				return _dotTerminate(Utilities.Localization.UiText.Message(ex.Message)) + Utilities.Localization.UiText.Get("Inner exception: ") + Utilities.Localization.UiText.Message(ex.InnerException.Message);
 
 			if (ex.Message.EndsWith("\r\n"))
-				return _dotTerminate(ex.Message) + "\r\nInner exception: " + ex.InnerException.Message;
+				return _dotTerminate(Utilities.Localization.UiText.Message(ex.Message)) + "\r\n" + Utilities.Localization.UiText.Get("Inner exception: ") + Utilities.Localization.UiText.Message(ex.InnerException.Message);
 
-			return _dotTerminate(ex.Message) + "\r\n\r\nInner exception: " + ex.InnerException.Message;
+			return _dotTerminate(Utilities.Localization.UiText.Message(ex.Message)) + "\r\n\r\n" + Utilities.Localization.UiText.Get("Inner exception: ") + Utilities.Localization.UiText.Message(ex.InnerException.Message);
 		}
 
 		private static string _dotTerminate(string s) {
@@ -99,7 +99,7 @@ namespace GrfToWpfBridge.Application {
 
 						errorDialog.ButtonCopyException.Click += delegate {
 							Clipboard.SetDataObject(rawInfo);
-							MessageBox.Show("Debug information has been copied to the clipboard.", "Information");
+							TokeiLibrary.Localization.LocalizedMessageBox.Show("Debug information has been copied to the clipboard.", "Information");
 						};
 					}
 				}
@@ -178,7 +178,7 @@ namespace GrfToWpfBridge.Application {
 		}
 
 		private static void _showBasicError(string message, string caption) {
-			MessageBox.Show("An error has been encountered before the application could load properly.\n" + message, caption);
+			TokeiLibrary.Localization.LocalizedMessageBox.Show("An error has been encountered before the application could load properly.\n" + message, caption);
 			GrfThread.Start(delegate {
 				int time = 5000;
 				const int Check = 200;

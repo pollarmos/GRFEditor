@@ -34,7 +34,8 @@ namespace GrfToWpfBridge.Application {
 		}
 
 		public void Init() {
-			ItemsSource = Compression.CompressionMethods.Select(p => p.ToString()).Concat(new string[] { GrfStrings.CustomCompression });
+			ItemsSource = Compression.CompressionMethods.Select(p => Utilities.Localization.UiText.Get(p.ToString()))
+				.Concat(new string[] { Utilities.Localization.UiText.Get(GrfStrings.CustomCompression) });
 
 			SelectedIndex = (int) SettingCompressionIndex.Get();
 			_updateCompression(false);
@@ -84,7 +85,7 @@ namespace GrfToWpfBridge.Application {
 				catch {
 					Compression.CompressionAlgorithm = new DotNetCompression();
 					SettingCompressionIndex.Set(1);
-					ErrorHandler.HandleException("Couldn't load the compression library. The application has been set to the default compression method.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Couldn't load the compression library. The application has been set to the default compression method."));
 				}
 			}
 		}

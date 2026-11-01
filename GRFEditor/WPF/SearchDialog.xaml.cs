@@ -35,7 +35,7 @@ namespace GRFEditor.WPF {
 		private AsyncOperation _async;
 
 		public SearchDialog(GrfHolder grf)
-			: base("Advanced search", "search.png", SizeToContent.Manual, ResizeMode.CanResize) {
+			: base(Utilities.Localization.UiText.Get("Advanced search"), "search.png", SizeToContent.Manual, ResizeMode.CanResize) {
 			_grf = grf;
 			InitializeComponent();
 			_async = new AsyncOperation(_progressBar);
@@ -69,10 +69,10 @@ namespace GRFEditor.WPF {
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_listViewResults, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
 				new ListViewDataTemplateHelper.ImageColumnInfo { Header = "", DisplayExpression = "DataImage", SearchGetAccessor = "FileType", FixedWidth = 20, MaxHeight = 16 },
-				new ListViewDataTemplateHelper.RangeColumnInfo { Header = "File name", DisplayExpression = "FileName", SearchGetAccessor = "FileName", ToolTipBinding = "FullPath", TextAlignment = TextAlignment.Left, MinWidth = 160 },
-				new ListViewDataTemplateHelper.RangeColumnInfo { Header = "Path", DisplayExpression = "Path", SearchGetAccessor = "Path", TextAlignment = TextAlignment.Left, MinWidth = 100, IsFill = true },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Matches", DisplayExpression = "NumberOfMatches", SearchGetAccessor = "NumberOfMatches", TextAlignment = TextAlignment.Right, FixedWidth = 60 },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Type", DisplayExpression = "FileType", SearchGetAccessor = "FileType", TextAlignment = TextAlignment.Right, FixedWidth = 40 },
+				new ListViewDataTemplateHelper.RangeColumnInfo { Header = Utilities.Localization.UiText.Get("File name"), DisplayExpression = "FileName", SearchGetAccessor = "FileName", ToolTipBinding = "FullPath", TextAlignment = TextAlignment.Left, MinWidth = 160 },
+				new ListViewDataTemplateHelper.RangeColumnInfo { Header = Utilities.Localization.UiText.Get("Path"), DisplayExpression = "Path", SearchGetAccessor = "Path", TextAlignment = TextAlignment.Left, MinWidth = 100, IsFill = true },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Matches"), DisplayExpression = "NumberOfMatches", SearchGetAccessor = "NumberOfMatches", TextAlignment = TextAlignment.Right, FixedWidth = 60 },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Type"), DisplayExpression = "FileType", SearchGetAccessor = "FileType", TextAlignment = TextAlignment.Right, FixedWidth = 40 },
 			}, new DefaultListViewComparer<ESearchResult>(), new string[] { "Normal", "{DynamicResource TextForeground}" });
 
 			_listViewResults.ItemsSource = _results;
@@ -260,7 +260,7 @@ namespace GRFEditor.WPF {
 				List<(string Directory, string Filename, FileEntry Entry)> result1 = _grf.FileTable.FastTupleAccessEntries.Where(p => filePattern.IsMatch(p.Item2)).ToList();
 
 				if (result1.Count == 0) {
-					ErrorHandler.HandleException("No file extension matches your file pattern.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("No file extension matches your file pattern."));
 					return;
 				}
 

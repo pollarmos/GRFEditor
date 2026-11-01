@@ -58,7 +58,7 @@ namespace GrfToWpfBridge {
 		}
 
 		public void SetUpdate(string message) {
-			this.Dispatch(p => p._tbInfo.Text = message);
+			this.Dispatch(p => p._tbInfo.Text = Utilities.Localization.UiText.Message(message));
 		}
 
 		private void _start(Action<Func<bool>> action, Func<float> progress) {

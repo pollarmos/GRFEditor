@@ -94,7 +94,7 @@ namespace GrfToWpfBridge {
 						return sfd.FileName;
 					}
 					catch (Exception err) {
-						ErrorHandler.HandleException("Couldn't save the image.", err, ErrorLevel.NotSpecified);
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Couldn't save the image."), err, ErrorLevel.NotSpecified);
 					}
 				}
 			}

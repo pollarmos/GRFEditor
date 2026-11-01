@@ -1,0 +1,3441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="T00d0b79d5369" xml:space="preserve">
+    <value>파일 복사 중...</value>
+  </data>
+  <data name="T0100500c2208" xml:space="preserve">
+    <value>GRF 중 하나를 찾을 수 없습니다.</value>
+  </data>
+  <data name="T0114c66d0f87" xml:space="preserve">
+    <value>Zlib (Gravity)</value>
+  </data>
+  <data name="T01188919c0d3" xml:space="preserve">
+    <value>렌더링 옵션...</value>
+  </data>
+  <data name="T013aaabb27da" xml:space="preserve">
+    <value>삭제할 파일의 전체 상대 경로를 입력하세요.&#13;
+예:&#13;
+data\map.rsw&#13;
+data\map.gnd.</value>
+  </data>
+  <data name="T020a0664a17a" xml:space="preserve">
+    <value>뒷면 제거를 켜거나 끕니다. 양면 모드의 모델을 제외하고 삼각형의 뒷면을 그리지 않습니다. 클라이언트의 기본 동작입니다.</value>
+  </data>
+  <data name="T020d8aabf36a" xml:space="preserve">
+    <value>모델 미리보기</value>
+  </data>
+  <data name="T0272d3905cfe" xml:space="preserve">
+    <value>기본값 (1252 - 서유럽어)</value>
+  </data>
+  <data name="T028bf62392e8" xml:space="preserve">
+    <value>최소 헤더 길이 ({0})가 잘못되었습니다. {1}보다 커야 합니다.</value>
+  </data>
+  <data name="T02fcf5b92bdf" xml:space="preserve">
+    <value>수면이 보이지 않도록 수위를 지면 아래로 낮춥니다.</value>
+  </data>
+  <data name="T02fea44be9f1" xml:space="preserve">
+    <value>마지막 LoadLibrary 오류: {1}.</value>
+  </data>
+  <data name="T03201bc8e691" xml:space="preserve">
+    <value>객체 바이트 값이 예상보다 일찍 끝났습니다.</value>
+  </data>
+  <data name="T0334f1e3434b" xml:space="preserve">
+    <value>붙여넣기</value>
+  </data>
+  <data name="T03c589423163" xml:space="preserve">
+    <value>현재 폴더만</value>
+  </data>
+  <data name="T03d268699c9d" xml:space="preserve">
+    <value>복호화 비밀번호를 입력하세요.</value>
+  </data>
+  <data name="T03f5ce03612f" xml:space="preserve">
+    <value>오류 코드</value>
+  </data>
+  <data name="T04226bcf9119" xml:space="preserve">
+    <value>폴더 선택</value>
+  </data>
+  <data name="T04267d25843d" xml:space="preserve">
+    <value>'RO 폴더에 병합' 패치 방식을 선택했지만 일부 파일이 암호화되어 있습니다.
+
+
+
+</value>
+  </data>
+  <data name="T04282d7c3a31" xml:space="preserve">
+    <value>벡터의 다음 인덱스에 값을 설정하려고 했습니다: </value>
+  </data>
+  <data name="T04330528d252" xml:space="preserve">
+    <value>채움 버퍼의 전체 길이가 이미지 크기보다 큽니다.</value>
+  </data>
+  <data name="T043609598e4c" xml:space="preserve">
+    <value>키 또는 키 파일이 잘못되었습니다.</value>
+  </data>
+  <data name="T04b7b26c8ca2" xml:space="preserve">
+    <value>심각</value>
+  </data>
+  <data name="T04c58b8a2219" xml:space="preserve">
+    <value>파일...</value>
+  </data>
+  <data name="T04c6155ba4a8" xml:space="preserve">
+    <value>이전 GRF가 새 GRF보다 최신입니다. 두 파일을 바꾸시겠습니까?</value>
+  </data>
+  <data name="T0525e70770e2" xml:space="preserve">
+    <value>압축 해제 라이브러리 ({0})를 로드하지 못했습니다.
+
+
+
+함수 '{1}'를 불러올 수 없습니다. 필요한 함수 선언은 '{2}'입니다.</value>
+  </data>
+  <data name="T053b5df91c09" xml:space="preserve">
+    <value>이미지 묶기</value>
+  </data>
+  <data name="T060674ca0ee7" xml:space="preserve">
+    <value>추출 경로가 잘못되어 기본값으로 초기화했습니다</value>
+  </data>
+  <data name="T0623ae4142cc" xml:space="preserve">
+    <value>기준 GRF</value>
+  </data>
+  <data name="T065f4214cb82" xml:space="preserve">
+    <value>입력 지도 위치:</value>
+  </data>
+  <data name="T06a0cf4af73b" xml:space="preserve">
+    <value>사용자 지정 하늘 효과 추가</value>
+  </data>
+  <data name="T06a12f9a4505" xml:space="preserve">
+    <value>빛과 그림자</value>
+  </data>
+  <data name="T06af1e0da7aa" xml:space="preserve">
+    <value>renderer</value>
+  </data>
+  <data name="T06b1eec52c9d" xml:space="preserve">
+    <value>주시점 Z</value>
+  </data>
+  <data name="T07ad4af3472f" xml:space="preserve">
+    <value>컨테이너 파일을 저장하지 못했습니다.</value>
+  </data>
+  <data name="T07b542686665" xml:space="preserve">
+    <value>지원하지 않는 픽셀 형식: {0}.</value>
+  </data>
+  <data name="T08170580cbf4" xml:space="preserve">
+    <value>모두 삭제</value>
+  </data>
+  <data name="T08ffd0df5b09" xml:space="preserve">
+    <value>잘못된 파일 테이블 항목 정보</value>
+  </data>
+  <data name="T0910572b777c" xml:space="preserve">
+    <value>지원하지 않는 형식: </value>
+  </data>
+  <data name="T092e7279da4f" xml:space="preserve">
+    <value>동작 {0}개 실행 취소</value>
+  </data>
+  <data name="T0976956fdead" xml:space="preserve">
+    <value>GRF가 수정되었습니다. 먼저 저장하시겠습니까?</value>
+  </data>
+  <data name="T097d49d7b8d0" xml:space="preserve">
+    <value>줄 바꿈 기준 길이</value>
+  </data>
+  <data name="T09979a78c995" xml:space="preserve">
+    <value>파일 이름</value>
+  </data>
+  <data name="T09ae990f3d67" xml:space="preserve">
+    <value>탐색기에서 선택</value>
+  </data>
+  <data name="T09c65232a700" xml:space="preserve">
+    <value>GRF 아카이브 키 블록의 체크섬이 일치하지 않습니다.</value>
+  </data>
+  <data name="T09cf914afb5e" xml:space="preserve">
+    <value>LZMA 압축 사용 (클라이언트에 사용자 지정 DLL 필요)</value>
+  </data>
+  <data name="T09e87a695d4b" xml:space="preserve">
+    <value>데이터의 압축을 해제하지 못했습니다.</value>
+  </data>
+  <data name="T09ee91b91107" xml:space="preserve">
+    <value>이 항목을 제외하고 모두 삭제</value>
+  </data>
+  <data name="T09f5dc1d53d3" xml:space="preserve">
+    <value>GRF를 수정했거나 저장 중일 때는 표시 인코딩을 변경할 수 없습니다. 먼저 GRF를 저장하세요.</value>
+  </data>
+  <data name="T0a02b1e1f7e0" xml:space="preserve">
+    <value>텍스처 다시 적용</value>
+  </data>
+  <data name="T0a5c86d94da2" xml:space="preserve">
+    <value>옵션 초기화</value>
+  </data>
+  <data name="T0af149c2ed16" xml:space="preserve">
+    <value>암호화</value>
+  </data>
+  <data name="T0b85a929ca96" xml:space="preserve">
+    <value>Bink 미리보기</value>
+  </data>
+  <data name="T0bd2c6f3cf91" xml:space="preserve">
+    <value>클라이언트 경로</value>
+  </data>
+  <data name="T0be8d3047f93" xml:space="preserve">
+    <value>VirtualFileDataObject에는 열거할 데이터 객체가 하나 이상 필요합니다.</value>
+  </data>
+  <data name="T0c1bbb448e4f" xml:space="preserve">
+    <value>이미지 변환...</value>
+  </data>
+  <data name="T0c2f98e3279f" xml:space="preserve">
+    <value>동작을 교체할 수 없습니다. 잘못된 인덱스입니다.</value>
+  </data>
+  <data name="T0c4de1e5cc5b" xml:space="preserve">
+    <value>누락된 소리 파일 감지</value>
+  </data>
+  <data name="T0c96052baa89" xml:space="preserve">
+    <value>GRF 파일이 아직 존재하지 않습니다.</value>
+  </data>
+  <data name="T0c980556ea59" xml:space="preserve">
+    <value>여기에 파일이나 폴더를 놓으세요. 이 추가 방식은 더 이상 권장되지 않습니다. 이 창을 닫고 에디터의 폴더 트리에 직접 놓으세요.</value>
+  </data>
+  <data name="T0cab60b29dbc" xml:space="preserve">
+    <value>잘못된 문자: </value>
+  </data>
+  <data name="T0ce4c5dfb185" xml:space="preserve">
+    <value>폴더 '{0}' 삭제</value>
+  </data>
+  <data name="T0d051243abc9" xml:space="preserve">
+    <value>GRF 검사</value>
+  </data>
+  <data name="T0d24b892c9d0" xml:space="preserve">
+    <value>Y 위치</value>
+  </data>
+  <data name="T0d2617c42df2" xml:space="preserve">
+    <value>지원하지 않는 보호된 GRF 헤더 형식: </value>
+  </data>
+  <data name="T0d2a304c6644" xml:space="preserve">
+    <value>GRF 매직 헤더 수정...</value>
+  </data>
+  <data name="T0d42e396160d" xml:space="preserve">
+    <value>옵션에 대한 자세한 설명을 보려면 확인란 위에 마우스를 올리세요.</value>
+  </data>
+  <data name="T0d6105813507" xml:space="preserve">
+    <value>조명 옵션:</value>
+  </data>
+  <data name="T0d9bbff1f903" xml:space="preserve">
+    <value>라이트맵을 제거합니다.</value>
+  </data>
+  <data name="T0dc1a39259a6" xml:space="preserve">
+    <value>다른 지도와 충돌하지 않습니다.</value>
+  </data>
+  <data name="T0dcc4805aa88" xml:space="preserve">
+    <value>컨테이너의 스트림 길이가 너무 짧아 헤더를 해석할 수 없습니다.
+
+실제 크기: {0}
+
+최소 크기: {1}</value>
+  </data>
+  <data name="T0e06bbc35de6" xml:space="preserve">
+    <value>이전 goto를 제거하기 전에 새 goto를 추가하려고 했습니다.</value>
+  </data>
+  <data name="T0e13d33702dd" xml:space="preserve">
+    <value>벽에 사용자 지정 텍스처를 사용합니다.</value>
+  </data>
+  <data name="T0e1e1ad9f78f" xml:space="preserve">
+    <value>X 각도</value>
+  </data>
+  <data name="T0e9d6b4b58b0" xml:space="preserve">
+    <value>GRF 경로</value>
+  </data>
+  <data name="T0eb5ed506e49" xml:space="preserve">
+    <value>알림</value>
+  </data>
+  <data name="T0eba8262170c" xml:space="preserve">
+    <value>GRF의 출력 형식입니다.</value>
+  </data>
+  <data name="T0f00ac5fd3f7" xml:space="preserve">
+    <value>데이터베이스 인덱싱: '</value>
+  </data>
+  <data name="T0f0a416ee4fb" xml:space="preserve">
+    <value>암호화 비밀번호를 입력하세요.</value>
+  </data>
+  <data name="T0f5065045b4b" xml:space="preserve">
+    <value>Entry 블록에는 SizeDecompressed 속성을 설정해야 합니다 (GrfBlock.SetProperty 사용).</value>
+  </data>
+  <data name="T0f61b4f5ccc0" xml:space="preserve">
+    <value>'{1}'에 파일 '{0}' 추가</value>
+  </data>
+  <data name="T0fe299ad13ae" xml:space="preserve">
+    <value>인덱스 다시 생성</value>
+  </data>
+  <data name="T1016a911aa4c" xml:space="preserve">
+    <value>삭제할 파일 '{0}' 추가</value>
+  </data>
+  <data name="T104224fd928b" xml:space="preserve">
+    <value>표시 인코딩</value>
+  </data>
+  <data name="T104683d616e5" xml:space="preserve">
+    <value>텍스트 인코딩</value>
+  </data>
+  <data name="T1047bb9934f3" xml:space="preserve">
+    <value>추가할 GRF가 수정되었습니다. 먼저 저장하세요.</value>
+  </data>
+  <data name="T10797ecfe56f" xml:space="preserve">
+    <value>파일에서 스프라이트 선택</value>
+  </data>
+  <data name="T10e1220bb64e" xml:space="preserve">
+    <value>폴더 '{0}' 추가됨</value>
+  </data>
+  <data name="T1134dd19c9a3" xml:space="preserve">
+    <value>고정 하늘 효과 추가</value>
+  </data>
+  <data name="T11aab16725e9" xml:space="preserve">
+    <value>지도 생성</value>
+  </data>
+  <data name="T11d5f4e2d1c1" xml:space="preserve">
+    <value>저장 형식</value>
+  </data>
+  <data name="T11f6ad8ec52a" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="T121686ea9a45" xml:space="preserve">
+    <value>파일이 아직 추출되지 않았습니다. 지금 추출하시겠습니까?</value>
+  </data>
+  <data name="T1220a623ba88" xml:space="preserve">
+    <value>이 형식의 형식 변환기를 찾을 수 없습니다: </value>
+  </data>
+  <data name="T1238ea63716a" xml:space="preserve">
+    <value>압축됨</value>
+  </data>
+  <data name="T12b32b12bc37" xml:space="preserve">
+    <value>최근 파일 열기</value>
+  </data>
+  <data name="T12b9a51c039b" xml:space="preserve">
+    <value>확장자가 없는 파일 이름</value>
+  </data>
+  <data name="T12eb7bfdb81e" xml:space="preserve">
+    <value>스프라이트를 Indexed8로 설정할 수 없습니다. 인덱스는 다음 값보다 작아야 합니다: </value>
+  </data>
+  <data name="T12ee79dfde59" xml:space="preserve">
+    <value>경로는 비어 있거나 null일 수 없습니다.
+
+{0}</value>
+  </data>
+  <data name="T12f4c75b2a85" xml:space="preserve">
+    <value>소리 미리보기</value>
+  </data>
+  <data name="T12fcc086042e" xml:space="preserve">
+    <value>형식 = {0}; 크기 = {1} x {2}</value>
+  </data>
+  <data name="T137255d8588c" xml:space="preserve">
+    <value>내부 예외: </value>
+  </data>
+  <data name="T14948b41bd49" xml:space="preserve">
+    <value>손상을 일으킬 수 있는 예외만 표시합니다.</value>
+  </data>
+  <data name="T149e073cf2be" xml:space="preserve">
+    <value>텍스트 인코딩이 잘못되었습니다.
+
+{0}</value>
+  </data>
+  <data name="T15943f58d676" xml:space="preserve">
+    <value>찾기...</value>
+  </data>
+  <data name="T15a6eb781223" xml:space="preserve">
+    <value>좌우 뒤집기</value>
+  </data>
+  <data name="T160a2a3a3289" xml:space="preserve">
+    <value>잘못된 파일 확장자입니다.</value>
+  </data>
+  <data name="T163265a257ef" xml:space="preserve">
+    <value>팔레트 인덱스가 잘못되었습니다. 행과 열은 16보다 작아야 합니다.</value>
+  </data>
+  <data name="T163d4aa4dccc" xml:space="preserve">
+    <value>GRF 암호화는 0x200 또는 0x300 형식의 THOR, GRF, GPF 파일에서만 사용할 수 있습니다.</value>
+  </data>
+  <data name="T16734af6f2af" xml:space="preserve">
+    <value>프로그램을 다시 열 때 창 위치와 너비를 복원합니다.</value>
+  </data>
+  <data name="T16921b1f1b35" xml:space="preserve">
+    <value>폴더가 아직 추출되지 않았습니다. 지금 추출하시겠습니까?</value>
+  </data>
+  <data name="T16e366f5fb5f" xml:space="preserve">
+    <value>Zlib (GRF Editor)</value>
+  </data>
+  <data name="T16f376034a40" xml:space="preserve">
+    <value>오류 검사</value>
+  </data>
+  <data name="T179898d367c4" xml:space="preserve">
+    <value>코드 재구성기 사용</value>
+  </data>
+  <data name="T17a2d6b71d08" xml:space="preserve">
+    <value>GrfBlock에서 데이터를 찾을 수 없습니다.</value>
+  </data>
+  <data name="T1838ac63db2c" xml:space="preserve">
+    <value>현재 GRF에 오류가 있어 병합할 수 없습니다.</value>
+  </data>
+  <data name="T18663b90e47f" xml:space="preserve">
+    <value>보호된 GRF의 저장된 출력 크기가 일치하지 않습니다.</value>
+  </data>
+  <data name="T188b458a2f1a" xml:space="preserve">
+    <value>Bgra32로 변환하여 처리</value>
+  </data>
+  <data name="T189678838f61" xml:space="preserve">
+    <value>정상적으로 로드되지 않은 컨테이너를 읽으려고 했습니다. NullReferenceException이 발생할 수 있습니다.</value>
+  </data>
+  <data name="T190aa842474f" xml:space="preserve">
+    <value>패치</value>
+  </data>
+  <data name="T1933aa9ff723" xml:space="preserve">
+    <value>출력 파일 이름</value>
+  </data>
+  <data name="T193566de3ea5" xml:space="preserve">
+    <value>패치 도구를 업데이트해야 합니다.</value>
+  </data>
+  <data name="T19992fe76e9f" xml:space="preserve">
+    <value>하늘 지도 렌더링을 켜거나 끕니다.</value>
+  </data>
+  <data name="T19cc1a502fdb" xml:space="preserve">
+    <value>한국어 (949)</value>
+  </data>
+  <data name="T1a2285d8881f" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="T1ac1249bf4d1" xml:space="preserve">
+    <value>확대/축소 조정</value>
+  </data>
+  <data name="T1b58cca0747d" xml:space="preserve">
+    <value>비트맵</value>
+  </data>
+  <data name="T1b5ec0727b82" xml:space="preserve">
+    <value>다른 위치에 저장...</value>
+  </data>
+  <data name="T1b5ef54630b5" xml:space="preserve">
+    <value>GAT 타일 렌더링을 켜거나 끕니다. 이동 가능한 타일을 표시합니다. 설정을 우클릭하면 투명도를 변경할 수 있습니다.</value>
+  </data>
+  <data name="T1d0c8304baed" xml:space="preserve">
+    <value>색상</value>
+  </data>
+  <data name="T1d10981a1f4d" xml:space="preserve">
+    <value>모든 예외 기록 (debug.log)</value>
+  </data>
+  <data name="T1d9f09a1bac3" xml:space="preserve">
+    <value>텍스처를 저장하지 못했습니다.
+</value>
+  </data>
+  <data name="T1de91cc9bcaa" xml:space="preserve">
+    <value>GRF의 기본 매직 헤더는 'Master of Magic'입니다. 변경하면 라그나로크 실행파일의 헤더 처리도 함께 수정해야 읽을 수 있습니다.</value>
+  </data>
+  <data name="T1e0c0141115a" xml:space="preserve">
+    <value>현재 열린 GRF 사용</value>
+  </data>
+  <data name="T1e56ce77197c" xml:space="preserve">
+    <value>추출 후 Windows 탐색기에서 파일이나 폴더를 표시하지 않도록 합니다.</value>
+  </data>
+  <data name="T1efbb64aabb0" xml:space="preserve">
+    <value>0: 이동 가능</value>
+  </data>
+  <data name="T1f48da4390b2" xml:space="preserve">
+    <value>암호화 방식</value>
+  </data>
+  <data name="T1f7a0d32d073" xml:space="preserve">
+    <value>Y 각도</value>
+  </data>
+  <data name="T1f7f1ea51811" xml:space="preserve">
+    <value>LZMA (Curiosity 제작)</value>
+  </data>
+  <data name="T1fbfbc8f7ee8" xml:space="preserve">
+    <value>Thor 패치에 해시 파일을 추가합니다.</value>
+  </data>
+  <data name="T2003bb22d9e6" xml:space="preserve">
+    <value>컨테이너 파일을 저장하지 못했습니다. 크기 제한에 도달하여 GRF를 강제로 다시 로드해야 합니다.</value>
+  </data>
+  <data name="T2011cb85bed3" xml:space="preserve">
+    <value>RSM2 → RSM1 (애니메이션)</value>
+  </data>
+  <data name="T205ed636100d" xml:space="preserve">
+    <value>새 비밀번호만 저장할 수 있습니다.</value>
+  </data>
+  <data name="T2062228ce174" xml:space="preserve">
+    <value>보호된 GRF의 LZ4 스트림이 잘못되었거나 출력 크기가 일치하지 않습니다.</value>
+  </data>
+  <data name="T2066ffcfec11" xml:space="preserve">
+    <value>매직 헤더는 GRF나 실행파일 등의 파일 형식을 식별하는 서명입니다.</value>
+  </data>
+  <data name="T20dfe9cb6258" xml:space="preserve">
+    <value>암호화 비밀번호</value>
+  </data>
+  <data name="T20eabc00f6a7" xml:space="preserve">
+    <value>cps.dll의 이름을 변경하면 보안이 조금 강화됩니다. RO 폴더에 이전 cps.dll이 남지 않도록 하세요.</value>
+  </data>
+  <data name="T21592c2b5438" xml:space="preserve">
+    <value>대응하는 SPR 파일을 찾을 수 없습니다: '</value>
+  </data>
+  <data name="T2176c7e47837" xml:space="preserve">
+    <value>인식할 수 없는 파일 형식입니다 ({0}).</value>
+  </data>
+  <data name="T21889b5027a5" xml:space="preserve">
+    <value>Gravity 패치</value>
+  </data>
+  <data name="T21a7b3aa5a36" xml:space="preserve">
+    <value>CRC32</value>
+  </data>
+  <data name="T21bebee56d76" xml:space="preserve">
+    <value>잘못된 LZ4 오프셋입니다.</value>
+  </data>
+  <data name="T21fd82038e42" xml:space="preserve">
+    <value>벽 텍스처:</value>
+  </data>
+  <data name="T22786d42cc30" xml:space="preserve">
+    <value>고도</value>
+  </data>
+  <data name="T22af71659377" xml:space="preserve">
+    <value>GrfCL 시작 중...</value>
+  </data>
+  <data name="T22bc1a4e0718" xml:space="preserve">
+    <value>캐시 지우기</value>
+  </data>
+  <data name="T23182eb2c9a8" xml:space="preserve">
+    <value>ALT 키를 누른 상태에서 트리 항목 이동</value>
+  </data>
+  <data name="T2392822ef51c" xml:space="preserve">
+    <value>지도 고유 ID: </value>
+  </data>
+  <data name="T23da3056333f" xml:space="preserve">
+    <value>GAT 셀을 지면 높이에 맞춥니다.</value>
+  </data>
+  <data name="T241ccc11c797" xml:space="preserve">
+    <value>Subversion 파일 (.svn)</value>
+  </data>
+  <data name="T24376f3b15a8" xml:space="preserve">
+    <value>잘못된 이미지 형식입니다. 감지된 형식: </value>
+  </data>
+  <data name="T250c7decc82e" xml:space="preserve">
+    <value>이전 버전으로 변환...</value>
+  </data>
+  <data name="T251758a3f2c5" xml:space="preserve">
+    <value>이 파일 확장자를 GRF Editor에 연결합니다.</value>
+  </data>
+  <data name="T255e993d92a6" xml:space="preserve">
+    <value>형식 변환</value>
+  </data>
+  <data name="T256439c48cdb" xml:space="preserve">
+    <value>동일한 GRF 항목 통합 (저장 &gt; 인덱스 재지정)</value>
+  </data>
+  <data name="T258126558a22" xml:space="preserve">
+    <value>폴더 미리보기</value>
+  </data>
+  <data name="T25919b401416" xml:space="preserve">
+    <value>픽셀 형식은 Bgra32여야 하지만 다음 형식입니다: </value>
+  </data>
+  <data name="T25e054f32162" xml:space="preserve">
+    <value>이 컨테이너에서 지원하지 않는 메서드입니다.</value>
+  </data>
+  <data name="T260b557c3f4c" xml:space="preserve">
+    <value>GRF 닫기</value>
+  </data>
+  <data name="T260ff8ae7182" xml:space="preserve">
+    <value>아래로 이동</value>
+  </data>
+  <data name="T261d3024a409" xml:space="preserve">
+    <value>보호된 GRF의 CHAM 블록이 불완전합니다.</value>
+  </data>
+  <data name="T27045b7ab7cf" xml:space="preserve">
+    <value>RO 폴더에 병합</value>
+  </data>
+  <data name="T272bc02ec508" xml:space="preserve">
+    <value>처리 중...</value>
+  </data>
+  <data name="T283ceb8cd559" xml:space="preserve">
+    <value>보호된 GRF 항목의 메타데이터가 잘못되었습니다: </value>
+  </data>
+  <data name="T287ba66555cb" xml:space="preserve">
+    <value>공성전 지도에서 벽 너머를 공격할 수 있도록 사용하는 셀입니다.</value>
+  </data>
+  <data name="T29539e6859db" xml:space="preserve">
+    <value>트리 보기 표시</value>
+  </data>
+  <data name="T29cec08018b3" xml:space="preserve">
+    <value>fileStream</value>
+  </data>
+  <data name="T29ea213d5884" xml:space="preserve">
+    <value>Entry 블록에는 EntryType 속성을 설정해야 합니다 (GrfBlock.SetProperty 사용).</value>
+  </data>
+  <data name="T29eef05e6b5e" xml:space="preserve">
+    <value>일반적인 경로의 번역을 회색으로 표시합니다.</value>
+  </data>
+  <data name="T29f62f0d2cc6" xml:space="preserve">
+    <value>GRF에서 펼칠 경로를 입력하세요.</value>
+  </data>
+  <data name="T2a5f76c36bf4" xml:space="preserve">
+    <value>RLE 인코딩의 조기 종료 감지</value>
+  </data>
+  <data name="T2ac223f4f4d7" xml:space="preserve">
+    <value>압축 해제 라이브러리 ({0})를 로드하지 못했습니다. 리소스가 없습니다.</value>
+  </data>
+  <data name="T2afbafd8c941" xml:space="preserve">
+    <value>함수 번호 표시</value>
+  </data>
+  <data name="T2b029c460dd5" xml:space="preserve">
+    <value>정규식 사용</value>
+  </data>
+  <data name="T2b0a6cfe1827" xml:space="preserve">
+    <value>하늘 지도 편집...</value>
+  </data>
+  <data name="T2b37f1eb18d0" xml:space="preserve">
+    <value>이름이 같은 파일을 찾았습니다 (</value>
+  </data>
+  <data name="T2b3b7798bb55" xml:space="preserve">
+    <value>파일 '{0}'에 접근할 수 없습니다. 다른 프로세스에서 사용 중입니다.</value>
+  </data>
+  <data name="T2be9091a9dff" xml:space="preserve">
+    <value>파일 '{0}' 항목의 오프셋 정보가 잘못되었습니다.</value>
+  </data>
+  <data name="T2bf6f1afee44" xml:space="preserve">
+    <value>이름이 같은 폴더가 이미 있습니다. 병합하시겠습니까?</value>
+  </data>
+  <data name="T2c217810fafb" xml:space="preserve">
+    <value>동작 {0}개 다시 실행</value>
+  </data>
+  <data name="T2c3cafa4db3f" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="T2c8385b2e816" xml:space="preserve">
+    <value>추가된 GRF에 오류가 있어 병합할 수 없습니다.</value>
+  </data>
+  <data name="T2caf5b9d368e" xml:space="preserve">
+    <value>앞에 삽입</value>
+  </data>
+  <data name="T2cb464ce5c56" xml:space="preserve">
+    <value>지도에서 모든 객체, 효과, 소리 등을 제거합니다.</value>
+  </data>
+  <data name="T2cceefe2bc15" xml:space="preserve">
+    <value>추가...</value>
+  </data>
+  <data name="T2d24407a91a8" xml:space="preserve">
+    <value>다음 항목으로 교체...</value>
+  </data>
+  <data name="T2d2cb022bc3d" xml:space="preserve">
+    <value>속도</value>
+  </data>
+  <data name="T2d34ab0e7273" xml:space="preserve">
+    <value>보호된 GRF 키 블록 또는 파일 테이블 범위가 잘못되었습니다.</value>
+  </data>
+  <data name="T2f82108d0544" xml:space="preserve">
+    <value>파일을 저장했습니다.</value>
+  </data>
+  <data name="T30841240fc36" xml:space="preserve">
+    <value>BIK 파일을 로드할 수 없습니다: '</value>
+  </data>
+  <data name="T30afdc0cd98d" xml:space="preserve">
+    <value>미니맵 미리보기</value>
+  </data>
+  <data name="T30ecc4ba4502" xml:space="preserve">
+    <value>수동 지도 미리보기: </value>
+  </data>
+  <data name="T3113f87ff8e9" xml:space="preserve">
+    <value>카메라 회전</value>
+  </data>
+  <data name="T31210cbc5908" xml:space="preserve">
+    <value>먼저 폴더를 선택하세요.</value>
+  </data>
+  <data name="T312660663f12" xml:space="preserve">
+    <value>부드러운 법선</value>
+  </data>
+  <data name="T31341c6f0c7a" xml:space="preserve">
+    <value>헤더</value>
+  </data>
+  <data name="T3184983d303b" xml:space="preserve">
+    <value>1: 이동 불가</value>
+  </data>
+  <data name="T31853d1618a5" xml:space="preserve">
+    <value>이 항목은 LZMA로 압축되어 현재 압축 방식에서 지원하지 않습니다. 설정 &gt; 일반 &gt; 압축 방식 &gt; 사용자 지정에서 변경하세요.</value>
+  </data>
+  <data name="T31a1235cb79a" xml:space="preserve">
+    <value>동작 수는 다음 값보다 작아야 합니다: </value>
+  </data>
+  <data name="T31d6bc12c97a" xml:space="preserve">
+    <value>매직 헤더 편집</value>
+  </data>
+  <data name="T321c1798301c" xml:space="preserve">
+    <value>GRF에서 선택</value>
+  </data>
+  <data name="T32612fc7e2d3" xml:space="preserve">
+    <value>GRF의 파일 테이블이 암호화된 경우 로드 오류 대신 암호화 키 입력을 요청합니다.</value>
+  </data>
+  <data name="T326d1d933d9c" xml:space="preserve">
+    <value>잘못된 파일입니다.</value>
+  </data>
+  <data name="T32cfb49f5467" xml:space="preserve">
+    <value>이 압축 방식은 파일 압축을 지원하지 않습니다. GRF의 파일 내용을 해당 오프셋에서 직접 추출하는 용도입니다.</value>
+  </data>
+  <data name="T33082edabb4e" xml:space="preserve">
+    <value>엠블렘</value>
+  </data>
+  <data name="T332e1e8afbee" xml:space="preserve">
+    <value>파일을 찾을 수 없습니다: </value>
+  </data>
+  <data name="T33609930bb5d" xml:space="preserve">
+    <value>원본 파일 / 폴더</value>
+  </data>
+  <data name="T33993a444ac6" xml:space="preserve">
+    <value>GRF 내용 검사</value>
+  </data>
+  <data name="T3452c5428055" xml:space="preserve">
+    <value>새 폴더 이름: </value>
+  </data>
+  <data name="T34d8b60fe253" xml:space="preserve">
+    <value>숨기기</value>
+  </data>
+  <data name="T34e7747a82d5" xml:space="preserve">
+    <value>검색 (Enter)</value>
+  </data>
+  <data name="T355bcc577d71" xml:space="preserve">
+    <value>완료</value>
+  </data>
+  <data name="T35d188ae958f" xml:space="preserve">
+    <value>'{0}'을 폴더 ('{1}')로 이동하려고 했습니다. 대상은 GRF 파일 경로여야 합니다.</value>
+  </data>
+  <data name="T35d283cdbcb2" xml:space="preserve">
+    <value>사용 위치 검색 중: </value>
+  </data>
+  <data name="T3606eab58872" xml:space="preserve">
+    <value>이미지 변환기</value>
+  </data>
+  <data name="T361b4aa26578" xml:space="preserve">
+    <value>라이트맵 표시</value>
+  </data>
+  <data name="T3720b4e93eb2" xml:space="preserve">
+    <value>축소</value>
+  </data>
+  <data name="T3736cd32e2d3" xml:space="preserve">
+    <value>새 패치 객체이므로 파일 이름을 지정해야 합니다.</value>
+  </data>
+  <data name="T376e5e25a5b0" xml:space="preserve">
+    <value>단어 단위로 찾기</value>
+  </data>
+  <data name="T378c393e773b" xml:space="preserve">
+    <value>폴더를 컨테이너 파일로 압축 중</value>
+  </data>
+  <data name="T37d33f87797c" xml:space="preserve">
+    <value>'{0}'을 파일 ('{1}')로 이동하려고 했습니다. 대상은 폴더 경로여야 합니다.</value>
+  </data>
+  <data name="T383353fb34b6" xml:space="preserve">
+    <value>스프라이트를 Bgra32로 설정할 수 없습니다. 인덱스는 다음 값보다 작아야 합니다: </value>
+  </data>
+  <data name="T387292c0904c" xml:space="preserve">
+    <value>지원하지 않는 BSON 형식: </value>
+  </data>
+  <data name="T38b62be4bdda" xml:space="preserve">
+    <value>list</value>
+  </data>
+  <data name="T38b9ade8beb9" xml:space="preserve">
+    <value>60FPS 제한을 해제합니다. 프레임 수에 제한이 없어져 일부 환경에서는 그래픽 드라이버 오류가 발생할 수 있습니다.</value>
+  </data>
+  <data name="T38d70ee20214" xml:space="preserve">
+    <value>컨테이너에서 경로를 찾을 수 없습니다.
+
+{0}</value>
+  </data>
+  <data name="T393f78490280" xml:space="preserve">
+    <value>먼저 파일을 선택하세요.</value>
+  </data>
+  <data name="T39da0b0831fb" xml:space="preserve">
+    <value>다른 위치에 파일 저장</value>
+  </data>
+  <data name="T39f694359e47" xml:space="preserve">
+    <value>이미지 미리보기에 사용할 배경색입니다.</value>
+  </data>
+  <data name="T39fc72124884" xml:space="preserve">
+    <value>실행 취소</value>
+  </data>
+  <data name="T39fc80da8f19" xml:space="preserve">
+    <value>내보내기...</value>
+  </data>
+  <data name="T3a19ce335b93" xml:space="preserve">
+    <value>셀 유형에 맞게 그림자를 변경합니다.</value>
+  </data>
+  <data name="T3a3101fca1cd" xml:space="preserve">
+    <value>75MB보다 큰 파일은 처리에 시간이 걸릴 수 있습니다. 계속하시겠습니까?</value>
+  </data>
+  <data name="T3a37550341e4" xml:space="preserve">
+    <value>지원하지 않는 보호된 GRF 본문 암호 방식: </value>
+  </data>
+  <data name="T3a55906241d2" xml:space="preserve">
+    <value>프로젝트에서 선택</value>
+  </data>
+  <data name="T3ac3bd696a48" xml:space="preserve">
+    <value>암호화 비밀번호는 4자 이상이어야 합니다.</value>
+  </data>
+  <data name="T3b4b062b13e5" xml:space="preserve">
+    <value>동작을 삽입할 수 없습니다. 인덱스 범위는 0부터 다음 값까지입니다: </value>
+  </data>
+  <data name="T3b7a53c84358" xml:space="preserve">
+    <value>RSW 파일에 적용됩니다.</value>
+  </data>
+  <data name="T3c063438765b" xml:space="preserve">
+    <value>디컴파일러 콘솔</value>
+  </data>
+  <data name="T3c550fc092fa" xml:space="preserve">
+    <value>확산광</value>
+  </data>
+  <data name="T3c950d5a18e6" xml:space="preserve">
+    <value>마지막 LoadLibrary 오류: {1}.
+DLL 아키텍처가 잘못되었습니다. 필요한 형식: {2}비트, 감지된 형식: {3}비트.</value>
+  </data>
+  <data name="T3cac1965d2be" xml:space="preserve">
+    <value>Bgr24 텍스처를 Indexed8 텍스처로 변환 (약간의 품질 저하)</value>
+  </data>
+  <data name="T3cd8e8a6cc36" xml:space="preserve">
+    <value>추출 중: </value>
+  </data>
+  <data name="T3cdd7946fb49" xml:space="preserve">
+    <value>프레임: 0 / </value>
+  </data>
+  <data name="T3d8cad9854af" xml:space="preserve">
+    <value>동작을 교체할 수 없습니다. 인덱스 범위는 0부터 다음 값까지입니다: </value>
+  </data>
+  <data name="T3dc64f45a449" xml:space="preserve">
+    <value>파일 암호화...</value>
+  </data>
+  <data name="T3dea78e2b42f" xml:space="preserve">
+    <value>디버거</value>
+  </data>
+  <data name="T3deb74565196" xml:space="preserve">
+    <value>형식</value>
+  </data>
+  <data name="T3e80330244de" xml:space="preserve">
+    <value>파일: </value>
+  </data>
+  <data name="T3eb923a6f178" xml:space="preserve">
+    <value> (시스템 최대)</value>
+  </data>
+  <data name="T3f2e0a854b76" xml:space="preserve">
+    <value>리소스 추출</value>
+  </data>
+  <data name="T3f5d9ba6aed9" xml:space="preserve">
+    <value>디코더를 가져오지 못했습니다.</value>
+  </data>
+  <data name="T3f608b4935ea" xml:space="preserve">
+    <value>높이</value>
+  </data>
+  <data name="T3f66ecb8350b" xml:space="preserve">
+    <value>테두리를 숨기는 데 유용하지만 값이 클수록 게임 내 위치와 미니맵의 위치 차이가 커집니다.
+기본값 = 2 (지도 테두리 숨김), 0 = 지도 전체 표시.</value>
+  </data>
+  <data name="T3f7f98fab2dd" xml:space="preserve">
+    <value>이 암호화 버전을 사용하려면 Microsoft Visual C++ 2022 (x86)가 설치되어 있어야 합니다.</value>
+  </data>
+  <data name="T3f92bb30ddf9" xml:space="preserve">
+    <value>인코딩을 잘 모르겠다면 기본값을 선택하세요. 인코딩의 영향은 크지 않지만, </value>
+  </data>
+  <data name="T3fbfb88c2e4d" xml:space="preserve">
+    <value>컬러맵을 제거합니다.</value>
+  </data>
+  <data name="T3ff4a5eba9ac" xml:space="preserve">
+    <value>Bgra32로 변환</value>
+  </data>
+  <data name="T409a421bf9c0" xml:space="preserve">
+    <value>GRF 작업이 실행 중입니다. 완료될 때까지 기다리거나 취소하세요.</value>
+  </data>
+  <data name="T40baa447a5ce" xml:space="preserve">
+    <value>index는 0부터 4 사이여야 합니다.</value>
+  </data>
+  <data name="T40bfddf07b3d" xml:space="preserve">
+    <value>원시 텍스트 표시</value>
+  </data>
+  <data name="T40c31effe4e4" xml:space="preserve">
+    <value>Gravity 파일 복호화...</value>
+  </data>
+  <data name="T41aeeadc5bbc" xml:space="preserve">
+    <value>GRF 아카이브 키가 없거나 잘못되었습니다: </value>
+  </data>
+  <data name="T41d2a9a0e48f" xml:space="preserve">
+    <value>은(는) 지원하지 않는 Gravity 암호화 방식을 사용합니다.</value>
+  </data>
+  <data name="T41ec11503003" xml:space="preserve">
+    <value>텍스트 파일 편집기</value>
+  </data>
+  <data name="T41ed9c7a7c34" xml:space="preserve">
+    <value>현재 지도 파일 이름: 
+</value>
+  </data>
+  <data name="T422f20f35cab" xml:space="preserve">
+    <value>추출 시 .lub 파일 디컴파일. 내보내기 형식: </value>
+  </data>
+  <data name="T423208095dd7" xml:space="preserve">
+    <value>거리</value>
+  </data>
+  <data name="T4256c9cf78d8" xml:space="preserve">
+    <value>이름이 같은 폴더가 이미 있습니다. 병합하거나 하위 폴더로 포함하시겠습니까?</value>
+  </data>
+  <data name="T4286209c587b" xml:space="preserve">
+    <value>디버그 정보를 클립보드에 복사했습니다.</value>
+  </data>
+  <data name="T42d8a3d62eb5" xml:space="preserve">
+    <value>클라이언트 파일 생성 후 폴더를 우클릭하고 암호화 메뉴를 선택하여 GRF 내용을 암호화하거나 복호화할 수 있습니다.</value>
+  </data>
+  <data name="T43010f9de554" xml:space="preserve">
+    <value>오류 콘솔</value>
+  </data>
+  <data name="T43c6efdfa558" xml:space="preserve">
+    <value>로밍 데이터 폴더 열기</value>
+  </data>
+  <data name="T43dc8532f7e5" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="T440564bd4b6a" xml:space="preserve">
+    <value>파일 필터 (*.txt;*.lua;*.lub)...</value>
+  </data>
+  <data name="T44754e255589" xml:space="preserve">
+    <value>모든 파일 (*.*)</value>
+  </data>
+  <data name="T447d13eb70f8" xml:space="preserve">
+    <value>파일 헤더가 잘못되었습니다. 'Master of Magic'이어야 하지만 '{0}'입니다.</value>
+  </data>
+  <data name="T44c57abd888a" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="T44f732cd01b4" xml:space="preserve">
+    <value>파일 형식 '{0}'을 알 수 없거나 지원하지 않습니다.</value>
+  </data>
+  <data name="T4511fa9bdc3e" xml:space="preserve">
+    <value>GZip</value>
+  </data>
+  <data name="T45419c795fdf" xml:space="preserve">
+    <value>프로그램에서 예외가 발생했습니다.
+
+
+
+프로그램이 종료될 수 있습니다.</value>
+  </data>
+  <data name="T4554beab735a" xml:space="preserve">
+    <value>마지막 선택 항목 기억</value>
+  </data>
+  <data name="T45e5f3f72e96" xml:space="preserve">
+    <value>명령</value>
+  </data>
+  <data name="T461177433513" xml:space="preserve">
+    <value>사용자 지정 압축 DLL을 로드할 수 없어 프로그램이 종료될 수 있습니다. 압축 방식을 기본 파일로 초기화했습니다.</value>
+  </data>
+  <data name="T4676d34ee511" xml:space="preserve">
+    <value>파일 선택 시 재생</value>
+  </data>
+  <data name="T471b94d402d1" xml:space="preserve">
+    <value>다시 실행</value>
+  </data>
+  <data name="T478649a07b23" xml:space="preserve">
+    <value>애니메이션을 GIF 이미지로 저장합니다.</value>
+  </data>
+  <data name="T47c02f582e0d" xml:space="preserve">
+    <value>'{0}'에 파일 추가...</value>
+  </data>
+  <data name="T483e825ae4ad" xml:space="preserve">
+    <value>LUB 효과 렌더링</value>
+  </data>
+  <data name="T48be43b380c8" xml:space="preserve">
+    <value>이전 GRF</value>
+  </data>
+  <data name="T48ef172b8267" xml:space="preserve">
+    <value>ID 설정...</value>
+  </data>
+  <data name="T49302d6268b9" xml:space="preserve">
+    <value>GRF 명령줄</value>
+  </data>
+  <data name="T496c7d887f49" xml:space="preserve">
+    <value>컨테이너 최상위의 파일</value>
+  </data>
+  <data name="T49c3f0cc5c31" xml:space="preserve">
+    <value>스프라이트 가져오기...</value>
+  </data>
+  <data name="T49dbe5843415" xml:space="preserve">
+    <value>암호화된 GRF를 병합하려면 대상 GRF가 0x100보다 높은 버전이어야 합니다.</value>
+  </data>
+  <data name="T4ab4dc9e9014" xml:space="preserve">
+    <value>투명 미니맵</value>
+  </data>
+  <data name="T4bc1e0a0a45f" xml:space="preserve">
+    <value>알 수 없는 상수 형식입니다.</value>
+  </data>
+  <data name="T4bd949d0e74d" xml:space="preserve">
+    <value>스레드 풀의 작업이 정상적으로 완료되지 않았습니다. 현재 작업을 취소합니다.</value>
+  </data>
+  <data name="T4bed336194a9" xml:space="preserve">
+    <value>출력</value>
+  </data>
+  <data name="T4bf9292d5044" xml:space="preserve">
+    <value>GRF에 병합</value>
+  </data>
+  <data name="T4bfb4ae2ed1e" xml:space="preserve">
+    <value>GRF Editor의 화면 테마를 선택합니다.</value>
+  </data>
+  <data name="T4c6c310a88bc" xml:space="preserve">
+    <value>보호된 GRF의 AES 블록이 불완전합니다.</value>
+  </data>
+  <data name="T4c878c3c939c" xml:space="preserve">
+    <value>일본어 (932)</value>
+  </data>
+  <data name="T4cc7b4633bbe" xml:space="preserve">
+    <value>GRF 아카이브 키 블록의 크기가 일치하지 않습니다.</value>
+  </data>
+  <data name="T4d53f5a7c4a5" xml:space="preserve">
+    <value>인코딩을 로드하지 못하여 기본값으로 초기화했습니다.</value>
+  </data>
+  <data name="T4ec34bbe4253" xml:space="preserve">
+    <value>인수 {0}이 최소값 {1}보다 작습니다.</value>
+  </data>
+  <data name="T4efb8f002696" xml:space="preserve">
+    <value>4144의 'Restore loading cps.dll' 패치를 사용한다면 NEMO 입력란에 '압축 해제 함수' 값을 복사해야 합니다.</value>
+  </data>
+  <data name="T4f56a3acee38" xml:space="preserve">
+    <value>리소스 미리보기</value>
+  </data>
+  <data name="T4f81a037da64" xml:space="preserve">
+    <value>유형 0</value>
+  </data>
+  <data name="T4fa8cc860c52" xml:space="preserve">
+    <value>도구</value>
+  </data>
+  <data name="T4ff29d752e81" xml:space="preserve">
+    <value>대소문자 구분</value>
+  </data>
+  <data name="T502b34483b08" xml:space="preserve">
+    <value>GRF가 수정되었습니다. 먼저 저장해야 합니다.</value>
+  </data>
+  <data name="T50a76a0566ba" xml:space="preserve">
+    <value>지도 애니메이션</value>
+  </data>
+  <data name="T50ab692cad29" xml:space="preserve">
+    <value>이미지 변환 중: </value>
+  </data>
+  <data name="T50b8dd014b9b" xml:space="preserve">
+    <value>Thor 파일에 해시 데이터 추가</value>
+  </data>
+  <data name="T50e19fda0d5b" xml:space="preserve">
+    <value>이미지</value>
+  </data>
+  <data name="T5118702c70c6" xml:space="preserve">
+    <value>STR 미리보기: </value>
+  </data>
+  <data name="T51473e76a05d" xml:space="preserve">
+    <value>삭제할 파일 추가</value>
+  </data>
+  <data name="T51886331779b" xml:space="preserve">
+    <value>(강도: </value>
+  </data>
+  <data name="T51945effefce" xml:space="preserve">
+    <value>여는 중괄호 {가 필요합니다.</value>
+  </data>
+  <data name="T519890cdfaa0" xml:space="preserve">
+    <value>잘못된 문자가 있습니다.</value>
+  </data>
+  <data name="T519e39132bb9" xml:space="preserve">
+    <value>경로</value>
+  </data>
+  <data name="T51c396288d84" xml:space="preserve">
+    <value>목록 보기 표시</value>
+  </data>
+  <data name="T521407b3edcf" xml:space="preserve">
+    <value>지도 모델을 애니메이션으로 표시합니다. 끄면 FPS가 높아지지만 로딩 시간이 조금 늘어납니다.</value>
+  </data>
+  <data name="T523ccb382e75" xml:space="preserve">
+    <value>리소스 (data 폴더나 GRF 파일을 여기에 놓으세요). 추가 리소스로 사용됩니다.</value>
+  </data>
+  <data name="T526fe483deed" xml:space="preserve">
+    <value>사용 위치: </value>
+  </data>
+  <data name="T52e673bf9788" xml:space="preserve">
+    <value>GRF: </value>
+  </data>
+  <data name="T5301648dcf6b" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="T530f6ddbe6f5" xml:space="preserve">
+    <value>메모리 사용량</value>
+  </data>
+  <data name="T5324e62ccace" xml:space="preserve">
+    <value>GRF를 저장 중입니다. 작업이 완료될 때까지 기다리세요.</value>
+  </data>
+  <data name="T53452b921660" xml:space="preserve">
+    <value>大话仙境OL 엔진으로 지도 파일 읽기</value>
+  </data>
+  <data name="T535a84efe8b0" xml:space="preserve">
+    <value>GRF별 트리 펼침 상태 기억</value>
+  </data>
+  <data name="T5397e0583f14" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="T53b9a7b6866c" xml:space="preserve">
+    <value>압축 해제 라이브러리를 로드하지 못했습니다 (</value>
+  </data>
+  <data name="T53de18e0a848" xml:space="preserve">
+    <value>애니메이션: </value>
+  </data>
+  <data name="T53ff10edf9a7" xml:space="preserve">
+    <value>listView</value>
+  </data>
+  <data name="T5418fb2bc70e" xml:space="preserve">
+    <value>화면 언어를 저장했습니다. GRF Editor를 다시 실행하면 적용됩니다.</value>
+  </data>
+  <data name="T5432bdebfa5e" xml:space="preserve">
+    <value>CURRENTLY_LOADED</value>
+  </data>
+  <data name="T54440839f75a" xml:space="preserve">
+    <value>파일 병합</value>
+  </data>
+  <data name="T54469222d4c1" xml:space="preserve">
+    <value>하늘 지도 사용 (렌더링 옵션 필요)</value>
+  </data>
+  <data name="T5495da92ae75" xml:space="preserve">
+    <value>현재 폴더를 병합하거나 하위 폴더로 포함하시겠습니까?</value>
+  </data>
+  <data name="T55080a5e69b1" xml:space="preserve">
+    <value>키...</value>
+  </data>
+  <data name="T554fdde87d7f" xml:space="preserve">
+    <value>GRF를 저장 중입니다. 먼저 완료를 기다리거나 취소하세요.</value>
+  </data>
+  <data name="T555229fc5747" xml:space="preserve">
+    <value>쿼드맵에 그림자를 사용합니다.</value>
+  </data>
+  <data name="T5590a65e623c" xml:space="preserve">
+    <value>보호된 GRF 항목이 잘렸습니다: </value>
+  </data>
+  <data name="T55acf8c7b944" xml:space="preserve">
+    <value>이 팔레트 파일에는 Indexed8 이미지가 없어 팔레트를 찾을 수 없습니다.</value>
+  </data>
+  <data name="T55c2408306c6" xml:space="preserve">
+    <value>내부 거터 셀</value>
+  </data>
+  <data name="T55d6d51322e1" xml:space="preserve">
+    <value>항목 압축 해제</value>
+  </data>
+  <data name="T55f8ebc805e6" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="T5616c8722256" xml:space="preserve">
+    <value>검색 옵션</value>
+  </data>
+  <data name="T56239f786dd5" xml:space="preserve">
+    <value>높이 맵</value>
+  </data>
+  <data name="T562d613fa4f9" xml:space="preserve">
+    <value>키릴 문자 (1251)</value>
+  </data>
+  <data name="T563327b88550" xml:space="preserve">
+    <value>널 문자로 끝나는 문자열을 인식하지 못했습니다: {0}.</value>
+  </data>
+  <data name="T5669806e5f1f" xml:space="preserve">
+    <value>FPS 제한 해제</value>
+  </data>
+  <data name="T5671f348fbc9" xml:space="preserve">
+    <value>미니맵 크기 조정</value>
+  </data>
+  <data name="T56d926fcfdc1" xml:space="preserve">
+    <value>동작을 삭제할 수 없습니다. 인덱스 범위는 0부터 다음 값까지입니다: </value>
+  </data>
+  <data name="T56f8bc2a467b" xml:space="preserve">
+    <value>생성된 미리보기 텍스처가 맞지 않을 때 이 옵션으로 다시 동기화합니다.</value>
+  </data>
+  <data name="T576c21e01deb" xml:space="preserve">
+    <value>패치 객체를 저장하지 못했습니다.</value>
+  </data>
+  <data name="T58061aa54439" xml:space="preserve">
+    <value>알파</value>
+  </data>
+  <data name="T5848c8e59eae" xml:space="preserve">
+    <value>컨테이너를 읽지 못했습니다: {0}</value>
+  </data>
+  <data name="T58503440230c" xml:space="preserve">
+    <value>알 수 없는 해시 알고리즘입니다.</value>
+  </data>
+  <data name="T588a73f4f35d" xml:space="preserve">
+    <value>part1</value>
+  </data>
+  <data name="T58aa0085b54f" xml:space="preserve">
+    <value>Entry 블록 형식이 필요하지만 다음을 받았습니다: </value>
+  </data>
+  <data name="T58ae36e1dd24" xml:space="preserve">
+    <value>같은 GRF를 자기 자신에게 병합하려고 했습니다.</value>
+  </data>
+  <data name="T58fabfa70811" xml:space="preserve">
+    <value>예제</value>
+  </data>
+  <data name="T59525833cbc9" xml:space="preserve">
+    <value>GRF를 저장하지 못했습니다. 크기 제한 (4,294,967,295바이트)에 도달했습니다.</value>
+  </data>
+  <data name="T59839503be99" xml:space="preserve">
+    <value>행렬의 다음 위치에 접근하려고 했습니다: (</value>
+  </data>
+  <data name="T59c4425fb53c" xml:space="preserve">
+    <value>편집...</value>
+  </data>
+  <data name="T59c7cdd5c3e6" xml:space="preserve">
+    <value>개수가 8비트 범위를 초과할 수 없습니다.</value>
+  </data>
+  <data name="T5a3bb4c18b87" xml:space="preserve">
+    <value>강제 압축 해제 (복구)</value>
+  </data>
+  <data name="T5a424e3f65ce" xml:space="preserve">
+    <value>항목이 모두 키와 값의 쌍이면 항상 딕셔너리로 묶습니다. 예: dico = { ex = 20, ex2 = 30 }.</value>
+  </data>
+  <data name="T5ab257aceeca" xml:space="preserve">
+    <value>GND 1.8 이상에서는 Gnd.Water.Zones에 물 영역을 정의해야 합니다.</value>
+  </data>
+  <data name="T5be35411f4db" xml:space="preserve">
+    <value>추출 후 폴더 항상 열기</value>
+  </data>
+  <data name="T5c0c17e3e122" xml:space="preserve">
+    <value>컬러맵은 타일 색상을 변경합니다. 일반적으로 이 옵션을 켜는 것이 좋습니다.</value>
+  </data>
+  <data name="T5ca35d836895" xml:space="preserve">
+    <value>마우스 오른쪽 버튼으로 지도에서 이동할 때 카메라 높이를 지면에 맞춥니다.</value>
+  </data>
+  <data name="T5cd7a4fae523" xml:space="preserve">
+    <value>지원하지 않는 보호된 GRF 매개변수 플래그: </value>
+  </data>
+  <data name="T5d10d3f42121" xml:space="preserve">
+    <value>테두리</value>
+  </data>
+  <data name="T5d12bd53552c" xml:space="preserve">
+    <value>재생</value>
+  </data>
+  <data name="T5d5d33dedaa6" xml:space="preserve">
+    <value>평면 법선</value>
+  </data>
+  <data name="T5d8928b7cfa6" xml:space="preserve">
+    <value>잘못되었거나 지원하지 않는 GRF 암호화입니다.</value>
+  </data>
+  <data name="T5d9949ab75e9" xml:space="preserve">
+    <value>GRF Editor 창 위치 저장</value>
+  </data>
+  <data name="T5d9c770036b5" xml:space="preserve">
+    <value>GRF 폴더를 이름순으로 나열합니다. 끄면 파일 테이블에 로드된 순서로 나열합니다.</value>
+  </data>
+  <data name="T5e38583ea5df" xml:space="preserve">
+    <value>열기...</value>
+  </data>
+  <data name="T5e397592f2f2" xml:space="preserve">
+    <value>기타...</value>
+  </data>
+  <data name="T5e60c6d74a28" xml:space="preserve">
+    <value>RLE 압축 또는 압축 해제 중 버퍼 범위를 초과했습니다.</value>
+  </data>
+  <data name="T5eadd20cb963" xml:space="preserve">
+    <value>미리보기 모드</value>
+  </data>
+  <data name="T5f130ca93919" xml:space="preserve">
+    <value>검사 항목:</value>
+  </data>
+  <data name="T5f13f3e81541" xml:space="preserve">
+    <value>GRF에 저장</value>
+  </data>
+  <data name="T5f1d67a60da4" xml:space="preserve">
+    <value>- 이동 가능</value>
+  </data>
+  <data name="T5f4a2c4fa159" xml:space="preserve">
+    <value>GRF 버전을 직접 변경할 수 없습니다. ChangeVersion() 명령을 사용하세요.</value>
+  </data>
+  <data name="T5f8b293b4e29" xml:space="preserve">
+    <value>예외 복사...</value>
+  </data>
+  <data name="T5fd83ee1dc04" xml:space="preserve">
+    <value>파일을 읽을 수 없습니다. 암호화되었거나 손상된 파일입니다.</value>
+  </data>
+  <data name="T604c9237e30c" xml:space="preserve">
+    <value>밉맵 사용</value>
+  </data>
+  <data name="T60d9f9682ecf" xml:space="preserve">
+    <value>평면 지도 생성기</value>
+  </data>
+  <data name="T60f2a733e821" xml:space="preserve">
+    <value>파일을 찾을 수 없습니다: </value>
+  </data>
+  <data name="T612e12d29278" xml:space="preserve">
+    <value>결과</value>
+  </data>
+  <data name="T613d6d99ab8d" xml:space="preserve">
+    <value>라이트맵을 켜거나 끕니다. 컬러맵에도 영향을 줍니다.</value>
+  </data>
+  <data name="T613fffc751f7" xml:space="preserve">
+    <value>M 0 0 L 4 4 L 8 0 Z</value>
+  </data>
+  <data name="T614cecff705d" xml:space="preserve">
+    <value>잘못된 zlib 체크섬 감지</value>
+  </data>
+  <data name="T6178d2832439" xml:space="preserve">
+    <value>NPC 이름 복사</value>
+  </data>
+  <data name="T61b025a5cca8" xml:space="preserve">
+    <value>GRF 키</value>
+  </data>
+  <data name="T61c4128c8161" xml:space="preserve">
+    <value>entry</value>
+  </data>
+  <data name="T61cc55aa0453" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="T61dd98999ba0" xml:space="preserve">
+    <value>거터 라인은 볼링 배쉬가 몬스터 한 마리만 타격하는 위치를 표시합니다.</value>
+  </data>
+  <data name="T628373a7a2c5" xml:space="preserve">
+    <value>보호된 GRF의 AES 본문 PKCS#7 패딩이 잘못되었습니다.</value>
+  </data>
+  <data name="T62abbd656653" xml:space="preserve">
+    <value>이 항목을 제외하고 모두 닫기</value>
+  </data>
+  <data name="T62afd21e8876" xml:space="preserve">
+    <value>애니메이션</value>
+  </data>
+  <data name="T62f2f015ac2a" xml:space="preserve">
+    <value>보호된 GRF의 zlib 스트림이 잘렸거나 체크섬 또는 크기가 일치하지 않습니다.</value>
+  </data>
+  <data name="T634ed11dfe57" xml:space="preserve">
+    <value>스레드가 정상적으로 완료되지 않았습니다.</value>
+  </data>
+  <data name="T636278939a27" xml:space="preserve">
+    <value>물 전경</value>
+  </data>
+  <data name="T6403f2b7eb2a" xml:space="preserve">
+    <value>새로 만들기</value>
+  </data>
+  <data name="T64063f3df859" xml:space="preserve">
+    <value>현재 컨테이너에 오류가 있어 GRF 컨테이너로 변환할 수 없습니다.</value>
+  </data>
+  <data name="T642e544ae628" xml:space="preserve">
+    <value>보호된 GRF의 ThreeWay 블록이 불완전합니다.</value>
+  </data>
+  <data name="T643c25f6bacf" xml:space="preserve">
+    <value>추출...</value>
+  </data>
+  <data name="T64879de7e2fc" xml:space="preserve">
+    <value>Entry 블록에는 RelativePath 속성을 설정해야 합니다 (GrfBlock.SetProperty 사용).</value>
+  </data>
+  <data name="T64a42aa7953d" xml:space="preserve">
+    <value>- 알 수 없음</value>
+  </data>
+  <data name="T64af70a8ac68" xml:space="preserve">
+    <value>원거리 클리핑</value>
+  </data>
+  <data name="T64c9f9390bbf" xml:space="preserve">
+    <value>잘못된 색상 형식입니다. '0xAAFF00BB' 또는 '#AAFF00BB'와 같은 16진수를 입력하세요.</value>
+  </data>
+  <data name="T64dd60fe1a04" xml:space="preserve">
+    <value>배경</value>
+  </data>
+  <data name="T653b0cf5a70e" xml:space="preserve">
+    <value>이미지 찾기</value>
+  </data>
+  <data name="T6542393745f5" xml:space="preserve">
+    <value>속성 저장...</value>
+  </data>
+  <data name="T6597622240e4" xml:space="preserve">
+    <value>차집합 작업은 실행 취소할 수 없습니다. GRF1 - GRF2 = 출력</value>
+  </data>
+  <data name="T65fb896a328e" xml:space="preserve">
+    <value>삭제할 파일 추가...</value>
+  </data>
+  <data name="T6608302bd4d8" xml:space="preserve">
+    <value>앤티앨리어싱을 켜거나 끕니다. 가장자리의 계단 현상을 줄입니다.</value>
+  </data>
+  <data name="T6675ed1bb964" xml:space="preserve">
+    <value>OpenGL 로그...</value>
+  </data>
+  <data name="T6691687d4ec6" xml:space="preserve">
+    <value>이름 변경...</value>
+  </data>
+  <data name="T66c0ee40ee31" xml:space="preserve">
+    <value>확장 비율</value>
+  </data>
+  <data name="T66d638b6d6d3" xml:space="preserve">
+    <value>다른 작업이 실행 중입니다. 먼저 취소하세요.</value>
+  </data>
+  <data name="T66f4d721830e" xml:space="preserve">
+    <value>인식할 수 없는 속성 = </value>
+  </data>
+  <data name="T66ff026bb710" xml:space="preserve">
+    <value>캐릭터가 이동할 수 있는 셀입니다.</value>
+  </data>
+  <data name="T674e89a8bde7" xml:space="preserve">
+    <value>외부 거터 셀</value>
+  </data>
+  <data name="T6752f198b564" xml:space="preserve">
+    <value>검사</value>
+  </data>
+  <data name="T67a6ff10f1b9" xml:space="preserve">
+    <value>예약됨</value>
+  </data>
+  <data name="T67ca94192c5a" xml:space="preserve">
+    <value>이동할 수 없지만 스킬이나 원거리 공격은 통과하는 셀입니다.</value>
+  </data>
+  <data name="T6841b39657a9" xml:space="preserve">
+    <value>GRF/Thor 설정 편집</value>
+  </data>
+  <data name="T684a71215eff" xml:space="preserve">
+    <value>현재 폴더 및 하위 폴더</value>
+  </data>
+  <data name="T69440d813288" xml:space="preserve">
+    <value>경로에 허용되지 않는 연속 구분자가 있습니다.
+
+{0}</value>
+  </data>
+  <data name="T694bbd757a31" xml:space="preserve">
+    <value>목록 보기</value>
+  </data>
+  <data name="T6968c52ae9b9" xml:space="preserve">
+    <value>바이트 배열이 너무 큽니다.</value>
+  </data>
+  <data name="T698669e2d591" xml:space="preserve">
+    <value>한국어로 변환...</value>
+  </data>
+  <data name="T69bd4ef9fbd0" xml:space="preserve">
+    <value>보기</value>
+  </data>
+  <data name="T69de98a6b68a" xml:space="preserve">
+    <value>초기화되지 않은 컨테이너에서 작업하려고 했습니다.</value>
+  </data>
+  <data name="T69f20384bd63" xml:space="preserve">
+    <value>FPS 표시</value>
+  </data>
+  <data name="T6a4b60a24292" xml:space="preserve">
+    <value>자동으로 감지되며 이 옵션은 배경색을 변경합니다.</value>
+  </data>
+  <data name="T6a72085653e4" xml:space="preserve">
+    <value>모든</value>
+  </data>
+  <data name="T6a82862a0569" xml:space="preserve">
+    <value>paletteIndex는 0부터 255 사이여야 합니다.</value>
+  </data>
+  <data name="T6a899ee72b42" xml:space="preserve">
+    <value>리패킹 시 절약 가능한 용량 계산</value>
+  </data>
+  <data name="T6aa6c39ad570" xml:space="preserve">
+    <value>라이브러리를 로드하지 못했습니다. 함수가 없습니다 ({0}).</value>
+  </data>
+  <data name="T6ab60c3ebb4b" xml:space="preserve">
+    <value>미리보기 이미지 내보내기...</value>
+  </data>
+  <data name="T6b21fb791ac0" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="T6bf5da9c080b" xml:space="preserve">
+    <value>옵션</value>
+  </data>
+  <data name="T6c33698cc732" xml:space="preserve">
+    <value>형식을 '{0}'에서 '{1}'로 변경</value>
+  </data>
+  <data name="T6c3c570aa7de" xml:space="preserve">
+    <value>패치 방식</value>
+  </data>
+  <data name="T6c5723e9d243" xml:space="preserve">
+    <value>벽을 수정하지 않고 원래 텍스처를 유지합니다.</value>
+  </data>
+  <data name="T6c5de6efbe0b" xml:space="preserve">
+    <value>이미지 미리보기</value>
+  </data>
+  <data name="T6c8aaac7d506" xml:space="preserve">
+    <value>전역 조명을 기본값으로 복원합니다.</value>
+  </data>
+  <data name="T6ccccdccd44b" xml:space="preserve">
+    <value>JPEG 정보가 없습니다.</value>
+  </data>
+  <data name="T6ce6c512ea43" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="T6d4211af9f0e" xml:space="preserve">
+    <value>GDI에서 직접 처리</value>
+  </data>
+  <data name="T6d7990c72f18" xml:space="preserve">
+    <value>물 렌더링을 켜거나 끕니다.</value>
+  </data>
+  <data name="T6d84ceaf60a6" xml:space="preserve">
+    <value>추출</value>
+  </data>
+  <data name="T6d8be0b67465" xml:space="preserve">
+    <value>스프라이트 및 팔레트</value>
+  </data>
+  <data name="T6da13addb000" xml:space="preserve">
+    <value>원본</value>
+  </data>
+  <data name="T6db75ea6a0b0" xml:space="preserve">
+    <value>고급 검색</value>
+  </data>
+  <data name="T6e5baeec57d2" xml:space="preserve">
+    <value>팔레트 바이트 배열의 길이는 1024여야 합니다.</value>
+  </data>
+  <data name="T6eef6648406c" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="T6f076ba65fe5" xml:space="preserve">
+    <value>리소스를 찾을 수 없습니다.</value>
+  </data>
+  <data name="T6f2d9fd3aae9" xml:space="preserve">
+    <value>이미지 줄 바꿈</value>
+  </data>
+  <data name="T6f5d4a42e18b" xml:space="preserve">
+    <value>잘못된 출력 파일 이름입니다.</value>
+  </data>
+  <data name="T6f693d40315e" xml:space="preserve">
+    <value>이미지 목록에서 이미지를 찾을 수 없습니다.</value>
+  </data>
+  <data name="T6f703edabeca" xml:space="preserve">
+    <value>실행파일</value>
+  </data>
+  <data name="T6f9f011c5d36" xml:space="preserve">
+    <value>경도</value>
+  </data>
+  <data name="T701f4cc890fb" xml:space="preserve">
+    <value>NPC는 서버에서 관리하므로 그대로 로드됩니다.</value>
+  </data>
+  <data name="T7061b24f4c78" xml:space="preserve">
+    <value>이전 GRF에 오류가 있어 패치를 만들 수 없습니다.</value>
+  </data>
+  <data name="T7077216312f6" xml:space="preserve">
+    <value>예외 복사</value>
+  </data>
+  <data name="T708b3c56b2db" xml:space="preserve">
+    <value>GRF 아카이브 키 블록의 레코드가 잘못되었거나 중복되었습니다.</value>
+  </data>
+  <data name="T710a38a12161" xml:space="preserve">
+    <value>파일 정보</value>
+  </data>
+  <data name="T7124d893ea5b" xml:space="preserve">
+    <value>이 형식의 변환기를 찾을 수 없습니다: </value>
+  </data>
+  <data name="T7130060e84f9" xml:space="preserve">
+    <value>여기에 이미지를 놓으세요!</value>
+  </data>
+  <data name="T719ea396ad92" xml:space="preserve">
+    <value>지우기</value>
+  </data>
+  <data name="T7248fb2a2c53" xml:space="preserve">
+    <value>다음 위치</value>
+  </data>
+  <data name="T72499765528c" xml:space="preserve">
+    <value>PNG 대신 TGA로 내보내기</value>
+  </data>
+  <data name="T729da67809fd" xml:space="preserve">
+    <value>현재 폴더의 파일만 추출</value>
+  </data>
+  <data name="T72a1424d56df" xml:space="preserve">
+    <value>추출...</value>
+  </data>
+  <data name="T72a85e3d5d5f" xml:space="preserve">
+    <value>이 GRF 버전과 호환되지 않는 암호화 작업입니다.</value>
+  </data>
+  <data name="T72c38db3971a" xml:space="preserve">
+    <value>복호화</value>
+  </data>
+  <data name="T730506fb938d" xml:space="preserve">
+    <value>고급 저장</value>
+  </data>
+  <data name="T7316c8b2e748" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="T735890b87b02" xml:space="preserve">
+    <value>Gravity 리소스</value>
+  </data>
+  <data name="T73702e5a74e2" xml:space="preserve">
+    <value>볼링 배쉬의 동작이 달라지는 셀입니다.</value>
+  </data>
+  <data name="T737269c1258a" xml:space="preserve">
+    <value>GRF 작업 중에는 캐시를 지울 수 없습니다.</value>
+  </data>
+  <data name="T737f8a97638b" xml:space="preserve">
+    <value>보호된 GRF 본문 크기가 데이터 범위를 벗어나거나 제한을 초과합니다.</value>
+  </data>
+  <data name="T74120a1c2475" xml:space="preserve">
+    <value>트리 동작</value>
+  </data>
+  <data name="T744a4d102e5c" xml:space="preserve">
+    <value>데이터를 읽지 못했습니다. </value>
+  </data>
+  <data name="T74dbcb2b40fc" xml:space="preserve">
+    <value>STR 미리보기</value>
+  </data>
+  <data name="T7557c42c956c" xml:space="preserve">
+    <value>리패킹 (다시 압축)</value>
+  </data>
+  <data name="T7658141bedc9" xml:space="preserve">
+    <value>내용 인덱싱</value>
+  </data>
+  <data name="T769a29c57394" xml:space="preserve">
+    <value>경고 수준</value>
+  </data>
+  <data name="T76bf56134d2d" xml:space="preserve">
+    <value>복호화 키를 설정하지 못했습니다. 암호화에 사용한 것과 같은 키여야 합니다.</value>
+  </data>
+  <data name="T76f3fdd092a9" xml:space="preserve">
+    <value>Indexed8</value>
+  </data>
+  <data name="T770fbc1a9a8c" xml:space="preserve">
+    <value>이전 버전으로 변환</value>
+  </data>
+  <data name="T7750571e4601" xml:space="preserve">
+    <value>중복 파일 이름</value>
+  </data>
+  <data name="T776c7e13415c" xml:space="preserve">
+    <value>ACT 파일의 잘못된 소리 인덱스 감지</value>
+  </data>
+  <data name="T777cf2e31e20" xml:space="preserve">
+    <value>보호된 GRF 출력 크기가 제한을 초과하거나 파일 테이블과 다릅니다.</value>
+  </data>
+  <data name="T77a38febae03" xml:space="preserve">
+    <value>cw.bmp 텍스처가 있으면 벽에 사용합니다.</value>
+  </data>
+  <data name="T77b9c1ef2463" xml:space="preserve">
+    <value>라그나로크 Gzip</value>
+  </data>
+  <data name="T77dfd2135f4d" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="T780f9d6d3260" xml:space="preserve">
+    <value>값이 이미지 크기를 벗어납니다.</value>
+  </data>
+  <data name="T7822d2b5fdba" xml:space="preserve">
+    <value>RSM 파일의 기본 법선을 평면 법선으로 바꿉니다.</value>
+  </data>
+  <data name="T78239c480723" xml:space="preserve">
+    <value>GRF에 오류가 있어 수정할 수 없습니다.</value>
+  </data>
+  <data name="T789eb506b268" xml:space="preserve">
+    <value>지원하지 않는 보호된 GRF 압축 방식: </value>
+  </data>
+  <data name="T78db98fb5993" xml:space="preserve">
+    <value>내용의 인덱스를 재지정하기 전에 컨테이너를 저장해야 합니다.</value>
+  </data>
+  <data name="T78f276703dc8" xml:space="preserve">
+    <value>GRF에 추가한 파일을 잠급니다. 다른 프로세스에서 이동, 삭제 또는 수정할 수 없습니다.</value>
+  </data>
+  <data name="T794f65e9d206" xml:space="preserve">
+    <value>비율</value>
+  </data>
+  <data name="T7976e2d14c0d" xml:space="preserve">
+    <value>GSF</value>
+  </data>
+  <data name="T799752c4dc5a" xml:space="preserve">
+    <value>닫힌 컨테이너를 읽으려고 했습니다.</value>
+  </data>
+  <data name="T79d17e1264d7" xml:space="preserve">
+    <value>컨테이너 옵션</value>
+  </data>
+  <data name="T79df1d42d0b8" xml:space="preserve">
+    <value>RSM 파일의 기본 법선을 부드러운 법선으로 바꿉니다.</value>
+  </data>
+  <data name="T7a44f3209a71" xml:space="preserve">
+    <value>이동 가능 영역의 대비를 조절하여 미니맵을 보기 쉽게 만듭니다.
+필요에 따라 끄는 편이 나을 수 있습니다.
+0% = 대비 없음, 100% = 밝기 두 배</value>
+  </data>
+  <data name="T7a86620a93cf" xml:space="preserve">
+    <value>트리에서 경로 번역 표시</value>
+  </data>
+  <data name="T7ae8ebc8e569" xml:space="preserve">
+    <value>'{0}'을 '{1}'로 교체</value>
+  </data>
+  <data name="T7bcc30b209ca" xml:space="preserve">
+    <value>사용자 지정 압축...</value>
+  </data>
+  <data name="T7c33e6834687" xml:space="preserve">
+    <value>SPR 파일에서 사용하지 않는 이미지 제거됨</value>
+  </data>
+  <data name="T7c78390b3e9a" xml:space="preserve">
+    <value>병합은 실행 취소할 수 없습니다.</value>
+  </data>
+  <data name="T7cdfe0a3e381" xml:space="preserve">
+    <value>텍스처를 생성하지 못했습니다.
+</value>
+  </data>
+  <data name="T7d7f408d7c2f" xml:space="preserve">
+    <value>찾아보기...</value>
+  </data>
+  <data name="T7e7d07241b3d" xml:space="preserve">
+    <value>지정한 픽셀 수만큼 지도 둘레에 검은 테두리를 추가합니다.
+미리보기에는 표시되지 않으며 생성 후 적용됩니다.
+기본값은 7픽셀입니다. 테두리를 없애려면 0을 입력하세요.</value>
+  </data>
+  <data name="T7e9afd079fbd" xml:space="preserve">
+    <value>텍스처</value>
+  </data>
+  <data name="T7f0318ad9dc7" xml:space="preserve">
+    <value>하늘 지도...</value>
+  </data>
+  <data name="T7f12b7ce2b9c" xml:space="preserve">
+    <value>행렬이 특이 행렬이므로 역행렬을 구할 수 없습니다.</value>
+  </data>
+  <data name="T7f2bece9c8e7" xml:space="preserve">
+    <value>폴더만 이름을 변경할 수 있습니다.</value>
+  </data>
+  <data name="T7f2f6a15cf8d" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="T7f7a97ed9f7d" xml:space="preserve">
+    <value>컨테이너를 정상적으로 로드하지 못하여 현재 명령을 실행할 수 없습니다.</value>
+  </data>
+  <data name="T80541c2b3b95" xml:space="preserve">
+    <value>리소스 검사 건너뛰기</value>
+  </data>
+  <data name="T805b0f5e4349" xml:space="preserve">
+    <value>폴더...</value>
+  </data>
+  <data name="T808d7dca8a74" xml:space="preserve">
+    <value>기본값</value>
+  </data>
+  <data name="T8105d45afb2d" xml:space="preserve">
+    <value>파일 테이블 암호화</value>
+  </data>
+  <data name="T816c52fd2bdd" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="T816eec6e81b3" xml:space="preserve">
+    <value>추가 알파 증가 시간</value>
+  </data>
+  <data name="T81881e0c32e7" xml:space="preserve">
+    <value>폴더 삭제...</value>
+  </data>
+  <data name="T81bdfd65c4ba" xml:space="preserve">
+    <value>키 설정</value>
+  </data>
+  <data name="T8203f1c80f66" xml:space="preserve">
+    <value>"텍스처 변경..." 버튼으로 셀 텍스처를 바꿀 수 있습니다.</value>
+  </data>
+  <data name="T822f122a8fb2" xml:space="preserve">
+    <value>뒷면 제거</value>
+  </data>
+  <data name="T823de2a1f770" xml:space="preserve">
+    <value>리소스: </value>
+  </data>
+  <data name="T829953c573ee" xml:space="preserve">
+    <value>모든 예외를 로밍 폴더의 debug.log에 기록합니다.</value>
+  </data>
+  <data name="T829a27ccd8e3" xml:space="preserve">
+    <value>실행파일을 찾을 수 없습니다: </value>
+  </data>
+  <data name="T82b690461474" xml:space="preserve">
+    <value>현재 열린 GRF에 이 파일이 없습니다.</value>
+  </data>
+  <data name="T835a996e59db" xml:space="preserve">
+    <value>ANSI (1252)로 변환 중...</value>
+  </data>
+  <data name="T835f02d45c12" xml:space="preserve">
+    <value>추가 높이</value>
+  </data>
+  <data name="T83ea1c129c71" xml:space="preserve">
+    <value>이 작업에 사용할 수 없는 컨테이너 형식입니다.
+
+현재: {0}
+
+필요한 형식: {1}</value>
+  </data>
+  <data name="T8409c65cde1c" xml:space="preserve">
+    <value>그림자 맵을 켜거나 끕니다.</value>
+  </data>
+  <data name="T841f440eabd1" xml:space="preserve">
+    <value>모든 스프라이트 내보내기...</value>
+  </data>
+  <data name="T841f832857c7" xml:space="preserve">
+    <value>서식</value>
+  </data>
+  <data name="T84577493559f" xml:space="preserve">
+    <value>원본 파일 이름</value>
+  </data>
+  <data name="T846fcbb82d9d" xml:space="preserve">
+    <value>텍스처 변경...</value>
+  </data>
+  <data name="T84a05bae835b" xml:space="preserve">
+    <value>항목이 모두 상수이면 항상 딕셔너리로 묶습니다.</value>
+  </data>
+  <data name="T84a611b144a9" xml:space="preserve">
+    <value>그림자 맵을 제거합니다.</value>
+  </data>
+  <data name="T850bcd3863db" xml:space="preserve">
+    <value>파일 이름을 '{0}'에서 '{1}'로 변경</value>
+  </data>
+  <data name="T850c148f5a60" xml:space="preserve">
+    <value>GPF</value>
+  </data>
+  <data name="T856f9a87738f" xml:space="preserve">
+    <value>파일을 찾을 수 없습니다.
+
+{0}</value>
+  </data>
+  <data name="T8598222918d3" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="T85a7de6e2705" xml:space="preserve">
+    <value>별</value>
+  </data>
+  <data name="T85c1a3ba6f5e" xml:space="preserve">
+    <value>이미지 [인덱스: {2}, {0}x{1}]의 픽셀 수가 너무 많습니다 (현재: {3}, 제한: 65536). 크기 제한이 없는 Bgra32 형식으로 변환하세요.</value>
+  </data>
+  <data name="T85eb02b84674" xml:space="preserve">
+    <value>유형 5</value>
+  </data>
+  <data name="T8652fe5a61b4" xml:space="preserve">
+    <value>파일 정보: </value>
+  </data>
+  <data name="T8751223cc056" xml:space="preserve">
+    <value>선택한 항목은 지도 파일이 아닙니다. 확장자를 확인하세요.</value>
+  </data>
+  <data name="T878c593a6980" xml:space="preserve">
+    <value>컨테이너가 사용 중이므로 작업할 수 없습니다.</value>
+  </data>
+  <data name="T8791acdeea9e" xml:space="preserve">
+    <value>현재는 GRF 0x200 버전만 지원합니다.</value>
+  </data>
+  <data name="T87df60de337f" xml:space="preserve">
+    <value>리소스</value>
+  </data>
+  <data name="T886cfc037060" xml:space="preserve">
+    <value>새로 로드된 단축키 검색</value>
+  </data>
+  <data name="T887693d03758" xml:space="preserve">
+    <value>지원하지 않거나 잘린 GRF 아카이브 키 블록입니다.</value>
+  </data>
+  <data name="T88ff24676af9" xml:space="preserve">
+    <value>전역 조명을 기본값으로 초기화합니다.</value>
+  </data>
+  <data name="T8906a28ca9eb" xml:space="preserve">
+    <value>새 GRF에 오류가 있어 패치를 만들 수 없습니다.</value>
+  </data>
+  <data name="T896e4e17200a" xml:space="preserve">
+    <value>먼저 에디터에서 GRF를 열어야 합니다.</value>
+  </data>
+  <data name="T89b86ab0e66f" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="T89c1ce05952c" xml:space="preserve">
+    <value>클라이언트 시점 사용</value>
+  </data>
+  <data name="T89f89c02cf47" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="T8a48bcd4ee90" xml:space="preserve">
+    <value>빈 파일</value>
+  </data>
+  <data name="T8a4dc90517b0" xml:space="preserve">
+    <value>출력 파일이 잠겨 있습니다: </value>
+  </data>
+  <data name="T8a7c919cca84" xml:space="preserve">
+    <value>암호화된 내용 검사 중</value>
+  </data>
+  <data name="T8a9e848e93f9" xml:space="preserve">
+    <value>동영상 미리보기: </value>
+  </data>
+  <data name="T8ae1c34bd37f" xml:space="preserve">
+    <value>왼쪽</value>
+  </data>
+  <data name="T8b0ffa4a8762" xml:space="preserve">
+    <value>인식할 수 없는 파일 형식입니다 ({0}). {1}</value>
+  </data>
+  <data name="T8b2c2015cb44" xml:space="preserve">
+    <value>대상 GRF</value>
+  </data>
+  <data name="T8b5fe122aad5" xml:space="preserve">
+    <value>닫힌 GRF에서 작업하려고 했습니다.</value>
+  </data>
+  <data name="T8b92e226270a" xml:space="preserve">
+    <value>시점을 지면에 맞추기</value>
+  </data>
+  <data name="T8bb17ff7cbed" xml:space="preserve">
+    <value>안티앨리어싱 (8배)</value>
+  </data>
+  <data name="T8bf10b6a2f0e" xml:space="preserve">
+    <value>파일 테이블 복호화</value>
+  </data>
+  <data name="T8c3317faed7f" xml:space="preserve">
+    <value>검사할 오류:</value>
+  </data>
+  <data name="T8c36510a0770" xml:space="preserve">
+    <value>추가한 파일 잠그기</value>
+  </data>
+  <data name="T8db177907f84" xml:space="preserve">
+    <value>압축 해제 라이브러리 ({0})를 로드하지 못했습니다.
+
+마지막 LoadLibrary 오류: {1} | 0x{2:X8}.</value>
+  </data>
+  <data name="T8dd0d08f7d95" xml:space="preserve">
+    <value>GRF2</value>
+  </data>
+  <data name="T8e21434bbeb2" xml:space="preserve">
+    <value>지원하지 않거나 잘린 보호된 GRF 헤더입니다.</value>
+  </data>
+  <data name="T8e316c27cbd8" xml:space="preserve">
+    <value>폴더를 선택하세요.</value>
+  </data>
+  <data name="T8e3dbb3c92fc" xml:space="preserve">
+    <value>명령 묶음 ({0}):
+
+</value>
+  </data>
+  <data name="T8e7bfd56bfc8" xml:space="preserve">
+    <value>로드된 팔레트가 없습니다.</value>
+  </data>
+  <data name="T8eedd8e12335" xml:space="preserve">
+    <value>파일 삭제...</value>
+  </data>
+  <data name="T8fcda3457671" xml:space="preserve">
+    <value>전체 파일 테이블 암호화 지원</value>
+  </data>
+  <data name="T8ff3efafa299" xml:space="preserve">
+    <value>물을 제거합니다. '지면 평탄화'가 켜져 있으면 적용하지 않습니다.</value>
+  </data>
+  <data name="T8ff40150ed5c" xml:space="preserve">
+    <value>클러스터 보기</value>
+  </data>
+  <data name="T90594d545c5c" xml:space="preserve">
+    <value>지도 파일 내보내기</value>
+  </data>
+  <data name="T9095f4317c96" xml:space="preserve">
+    <value>GRF를 저장하는 동안 이 오류가 발생했다면 파일이 일시적으로 닫혀 있기 때문입니다.</value>
+  </data>
+  <data name="T90c93523ff95" xml:space="preserve">
+    <value>단축키</value>
+  </data>
+  <data name="T917ee856395f" xml:space="preserve">
+    <value>현재 파일 이름: 
+</value>
+  </data>
+  <data name="T918c43c7841c" xml:space="preserve">
+    <value>보호된 GRF 출력 데이터의 해시가 일치하지 않습니다.</value>
+  </data>
+  <data name="T91a6c86ac5cb" xml:space="preserve">
+    <value>Thor 형식 속성</value>
+  </data>
+  <data name="T91bf35fc87fa" xml:space="preserve">
+    <value>프로그램 시작 시 마지막으로 연 GRF를 항상 다시 엽니다.</value>
+  </data>
+  <data name="T91d30c9bf694" xml:space="preserve">
+    <value>팔레트 미리보기</value>
+  </data>
+  <data name="T91fd30a0bd03" xml:space="preserve">
+    <value>주시점 X</value>
+  </data>
+  <data name="T9239ee2cda84" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="T92872a5c6d77" xml:space="preserve">
+    <value>압축 해제됨</value>
+  </data>
+  <data name="T93037a88de28" xml:space="preserve">
+    <value>이 확장자를 GRF Editor에 연결합니다.</value>
+  </data>
+  <data name="T93381850d1fa" xml:space="preserve">
+    <value>{0}
+
+제품 버전: {1}
+어셈블리 버전: {2}
+제작자: {3}
+
+이 프로그램은 {3}이(가) 제작했습니다. 소프트웨어는 있는 그대로 제공되며 사용에 따른 책임은 사용자에게 있습니다. 제작자는 이 소프트웨어로 인해 발생하는 문제에 책임을 지지 않습니다.</value>
+  </data>
+  <data name="T93a3994af786" xml:space="preserve">
+    <value>사용 중인 .NET Framework</value>
+  </data>
+  <data name="T93d38eef9a01" xml:space="preserve">
+    <value>이미지를 저장하지 못했습니다.</value>
+  </data>
+  <data name="T94a199a6fda9" xml:space="preserve">
+    <value>새 폴더...</value>
+  </data>
+  <data name="T954daa8b0033" xml:space="preserve">
+    <value>오른쪽</value>
+  </data>
+  <data name="T955ea0e3bf6b" xml:space="preserve">
+    <value>선택한 항목은 유효한 RSM2 모델이 아닙니다. 확장자를 확인하세요.</value>
+  </data>
+  <data name="T95b9073dcf7e" xml:space="preserve">
+    <value>프레임을 삭제할 수 없습니다. 각 동작에는 프레임이 하나 이상 필요합니다.</value>
+  </data>
+  <data name="T95cb0bfd2977" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="T964e0d9580c0" xml:space="preserve">
+    <value>GRF 차집합</value>
+  </data>
+  <data name="T96b41bc1a37e" xml:space="preserve">
+    <value>저장...</value>
+  </data>
+  <data name="T96e5af576fc0" xml:space="preserve">
+    <value>내용 검사</value>
+  </data>
+  <data name="T971c419dd609" xml:space="preserve">
+    <value>file</value>
+  </data>
+  <data name="T9780f9e3f54a" xml:space="preserve">
+    <value>분리된 이미지가 아닌 것으로 보입니다.</value>
+  </data>
+  <data name="T978308104078" xml:space="preserve">
+    <value>같은 GRF를 자기 자신에게서 빼려고 했습니다.</value>
+  </data>
+  <data name="T97c89a4d6630" xml:space="preserve">
+    <value>동작</value>
+  </data>
+  <data name="T97ce9f404823" xml:space="preserve">
+    <value>각 큐브 표면의 높이를 0으로 설정합니다.</value>
+  </data>
+  <data name="T97d6a24aa59a" xml:space="preserve">
+    <value>그림자가 있는 셀은 이동할 수 없는 영역입니다.</value>
+  </data>
+  <data name="T984e96ce41f2" xml:space="preserve">
+    <value>해당 텍스처는 직접 수정할 수 있습니다.</value>
+  </data>
+  <data name="T98553cc8549d" xml:space="preserve">
+    <value>모두 닫기</value>
+  </data>
+  <data name="T987583ea4e68" xml:space="preserve">
+    <value>기본값으로 교체</value>
+  </data>
+  <data name="T98aa7ec731f8" xml:space="preserve">
+    <value>OpenGL 로그</value>
+  </data>
+  <data name="T994306e02dff" xml:space="preserve">
+    <value>- 이동 불가 · 원거리 공격 가능</value>
+  </data>
+  <data name="T998658b89125" xml:space="preserve">
+    <value>GRF 데이터 무결성</value>
+  </data>
+  <data name="T99cd766e8469" xml:space="preserve">
+    <value>옵션에서 선택한 경우에만 적용되는 벽 색상입니다.</value>
+  </data>
+  <data name="T99e1cc6fe181" xml:space="preserve">
+    <value>테두리 숨기기</value>
+  </data>
+  <data name="T9a0b6492aa41" xml:space="preserve">
+    <value>열린 GRF의 트리 구조를 저장하여 다음에 더 빠르게 열 수 있게 합니다.</value>
+  </data>
+  <data name="T9a2412b38ee9" xml:space="preserve">
+    <value>파일을 GRF에 바로 저장</value>
+  </data>
+  <data name="T9a385dc786f8" xml:space="preserve">
+    <value>스프라이트 선택</value>
+  </data>
+  <data name="T9a4b427acf1c" xml:space="preserve">
+    <value>대소문자를 구분하여 검색합니다.</value>
+  </data>
+  <data name="T9abc47075d5e" xml:space="preserve">
+    <value>폴더 정보</value>
+  </data>
+  <data name="T9af5e5ccad42" xml:space="preserve">
+    <value>리소스 추출: </value>
+  </data>
+  <data name="T9b20ac3bdb3d" xml:space="preserve">
+    <value>사용자 지정 텍스처로 변경합니다.</value>
+  </data>
+  <data name="T9b2957549b25" xml:space="preserve">
+    <value>중복 경로 이름</value>
+  </data>
+  <data name="T9b3cbed5c490" xml:space="preserve">
+    <value>확대/축소</value>
+  </data>
+  <data name="T9b418442b308" xml:space="preserve">
+    <value>이미지 데이터를 해석할 수 없습니다. 내용이 손상되었거나 지원하지 않는 형식입니다.</value>
+  </data>
+  <data name="T9b646010b888" xml:space="preserve">
+    <value>허용되지 않는 파일 형식입니다.</value>
+  </data>
+  <data name="T9b772b08bd49" xml:space="preserve">
+    <value>파일 생성</value>
+  </data>
+  <data name="T9bdcc8fb4afd" xml:space="preserve">
+    <value>파일을 바로 내보냅니다</value>
+  </data>
+  <data name="T9ce3bd4224c8" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="T9cf8e2d77bac" xml:space="preserve">
+    <value>카메라 편집...</value>
+  </data>
+  <data name="T9d0a4081e734" xml:space="preserve">
+    <value>압축 방식</value>
+  </data>
+  <data name="T9d7704f0589a" xml:space="preserve">
+    <value>낮음: 모든 예외를 표시합니다. 심각: </value>
+  </data>
+  <data name="T9d7ed1cf19ad" xml:space="preserve">
+    <value>이미지 내보내기...</value>
+  </data>
+  <data name="T9d91d3f26873" xml:space="preserve">
+    <value>자동 줄 바꿈</value>
+  </data>
+  <data name="T9d9ed32cc4c5" xml:space="preserve">
+    <value>파일 이름의 인코딩이 잘못되었습니다: {0}.</value>
+  </data>
+  <data name="T9e253470c876" xml:space="preserve">
+    <value>중지</value>
+  </data>
+  <data name="T9e62719407b1" xml:space="preserve">
+    <value>팔레트 인덱스가 잘못되었습니다. 256보다 작아야 합니다.</value>
+  </data>
+  <data name="T9ec60cdaac49" xml:space="preserve">
+    <value>중국어 간체 (936 - GB2312)</value>
+  </data>
+  <data name="T9f726188c1cb" xml:space="preserve">
+    <value>암호화</value>
+  </data>
+  <data name="T9f82c5646e3a" xml:space="preserve">
+    <value>암호화할 파일이 없습니다.</value>
+  </data>
+  <data name="T9fb3d84781e8" xml:space="preserve">
+    <value>지원하지 않는 GRF 아카이브 키 블록입니다.</value>
+  </data>
+  <data name="T9fc4cdef9fbb" xml:space="preserve">
+    <value>자동 생성 비트맵으로 지면에 8×8 패턴의 그림자를 추가합니다. 강도는 -255부터 255까지입니다.</value>
+  </data>
+  <data name="T9fea685493a4" xml:space="preserve">
+    <value>예상하지 않은 토큰</value>
+  </data>
+  <data name="Ta06408afc66c" xml:space="preserve">
+    <value>GAT 셀을 지면에 맞춥니다. '지면 평탄화'가 켜져 있으면 적용하지 않습니다.</value>
+  </data>
+  <data name="Ta124947cbd2d" xml:space="preserve">
+    <value>낮음</value>
+  </data>
+  <data name="Ta17c9aaa61e8" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="Ta1bff97e3a0d" xml:space="preserve">
+    <value>잘못된 파일 이름입니다.</value>
+  </data>
+  <data name="Ta1df498e9084" xml:space="preserve">
+    <value>파일 '{0}'은 지원하지 않는 Gravity 암호화 방식을 사용합니다.
+
+{1}</value>
+  </data>
+  <data name="Ta2238f52d549" xml:space="preserve">
+    <value>모델 렌더링을 켜거나 끕니다.</value>
+  </data>
+  <data name="Ta22544175d02" xml:space="preserve">
+    <value>그림자 표시</value>
+  </data>
+  <data name="Ta227a3da5120" xml:space="preserve">
+    <value>행렬의 다음 위치에 값을 설정하려고 했습니다: (</value>
+  </data>
+  <data name="Ta2391118c814" xml:space="preserve">
+    <value>가운데</value>
+  </data>
+  <data name="Ta24addb9e0f7" xml:space="preserve">
+    <value>최대 스레드 수</value>
+  </data>
+  <data name="Ta2b93b4e1058" xml:space="preserve">
+    <value>추출 경로 변경</value>
+  </data>
+  <data name="Ta2d605b3c10e" xml:space="preserve">
+    <value>차감할 GRF를 저장 중입니다. 작업이 완료될 때까지 기다리세요.</value>
+  </data>
+  <data name="Ta33266184165" xml:space="preserve">
+    <value>사전의 값이 모두 상수이면 항상 묶기</value>
+  </data>
+  <data name="Ta3504c37e08e" xml:space="preserve">
+    <value>대상 형식을 찾을 수 없습니다.</value>
+  </data>
+  <data name="Ta35ebd8e957e" xml:space="preserve">
+    <value>트리 펼침</value>
+  </data>
+  <data name="Ta36ef8aba229" xml:space="preserve">
+    <value>빛</value>
+  </data>
+  <data name="Ta3c11687d448" xml:space="preserve">
+    <value>검색된 폴더가 너무 많습니다.</value>
+  </data>
+  <data name="Ta3ec016eb3ab" xml:space="preserve">
+    <value>추가 크기</value>
+  </data>
+  <data name="Ta3fc35af84cd" xml:space="preserve">
+    <value>M 4 0 L 4 8 L 0 4 Z</value>
+  </data>
+  <data name="Ta4180eb6f9f4" xml:space="preserve">
+    <value>쿼드맵에 비트맵을 사용합니다.</value>
+  </data>
+  <data name="Ta42292f87856" xml:space="preserve">
+    <value>if 또는 else 인덱스를 찾지 못해 InvertIfElse가 실패했습니다.</value>
+  </data>
+  <data name="Ta4c39b8069be" xml:space="preserve">
+    <value>파일을 정상적으로 로드했습니다</value>
+  </data>
+  <data name="Ta4d80b3cf3d0" xml:space="preserve">
+    <value>Gravity 보호 패치</value>
+  </data>
+  <data name="Ta4e2cc8f9dd8" xml:space="preserve">
+    <value>컨테이너 스트림에 사용하는 원본 파일입니다.</value>
+  </data>
+  <data name="Ta5355b83e099" xml:space="preserve">
+    <value>Windows 썸네일 숨김 데이터베이스 파일 (.db)</value>
+  </data>
+  <data name="Ta58ddf50c5ea" xml:space="preserve">
+    <value>너비</value>
+  </data>
+  <data name="Ta5b2beb2211d" xml:space="preserve">
+    <value>LUB 디컴파일러</value>
+  </data>
+  <data name="Ta60589f3f2d7" xml:space="preserve">
+    <value>이 파일을 해석할 파서가 없습니다.</value>
+  </data>
+  <data name="Ta62f2225bf70" xml:space="preserve">
+    <value>key</value>
+  </data>
+  <data name="Ta636ce940a7a" xml:space="preserve">
+    <value>스프라이트 편집기</value>
+  </data>
+  <data name="Ta64618c7feff" xml:space="preserve">
+    <value>파일의 해시를 계산하지 못했습니다: '</value>
+  </data>
+  <data name="Ta64bb88442a2" xml:space="preserve">
+    <value>여기에 놓기 전에 GRF, GPF 또는 GSF 파일의 선택을 해제하세요.</value>
+  </data>
+  <data name="Ta6946beb0111" xml:space="preserve">
+    <value>gatSource.Cells</value>
+  </data>
+  <data name="Ta6968aefb0d5" xml:space="preserve">
+    <value>지원하지 않는 SPR 형식입니다. 버전 2.1로 시도합니다. 주 버전 = </value>
+  </data>
+  <data name="Ta6a1614cde03" xml:space="preserve">
+    <value>데이터의 압축을 해제하지 못했습니다. 다음 항목은 손상되었거나 암호화되어 있습니다:
+
+{0}</value>
+  </data>
+  <data name="Ta6c14f51b539" xml:space="preserve">
+    <value>파일 '{0}'은 패치 도구에서 삭제를 나타내는 특수 GRF 항목이며 내용이 없습니다.</value>
+  </data>
+  <data name="Ta6f4e1742ceb" xml:space="preserve">
+    <value>애니메이션 렌더링 방식을 변경합니다.</value>
+  </data>
+  <data name="Ta711999b72aa" xml:space="preserve">
+    <value>새 폴더</value>
+  </data>
+  <data name="Ta797e30923ac" xml:space="preserve">
+    <value>테마</value>
+  </data>
+  <data name="Ta798ae328068" xml:space="preserve">
+    <value>알 수 없는 인덱스</value>
+  </data>
+  <data name="Ta7b93d2128e8" xml:space="preserve">
+    <value>모드</value>
+  </data>
+  <data name="Ta802530e462e" xml:space="preserve">
+    <value>추가된 GRF</value>
+  </data>
+  <data name="Ta826bf132dd8" xml:space="preserve">
+    <value>먼저 오른쪽 영역에 GRF를 놓으세요.</value>
+  </data>
+  <data name="Ta852bc6df3b2" xml:space="preserve">
+    <value>암호화 키를 설정하지 못했습니다. 이전 암호화와 같은 키여야 합니다. 다른 키로 다시 암호화하려면 먼저 전체 내용을 복호화해야 합니다.</value>
+  </data>
+  <data name="Ta8769c20ebca" xml:space="preserve">
+    <value>비트맵 픽셀 인덱스 처리</value>
+  </data>
+  <data name="Ta94ee5de5c83" xml:space="preserve">
+    <value>Gravity 암호화 키를 읽지 못했습니다. 암호화된 내용을 읽을 수 없습니다.</value>
+  </data>
+  <data name="Ta99c6ee316cf" xml:space="preserve">
+    <value>알파 감소 속도</value>
+  </data>
+  <data name="Ta9a1333204f3" xml:space="preserve">
+    <value>LUB 렌더링을 켜거나 끕니다. 하늘 지도에도 영향을 줍니다.</value>
+  </data>
+  <data name="Taa0e7e86b7aa" xml:space="preserve">
+    <value>그림자</value>
+  </data>
+  <data name="Taa3a18a9ff90" xml:space="preserve">
+    <value>ANSI로 변환...</value>
+  </data>
+  <data name="Taa60230ab002" xml:space="preserve">
+    <value>column</value>
+  </data>
+  <data name="Taa7bc4ff667d" xml:space="preserve">
+    <value>데이터를 압축하지 못했습니다.</value>
+  </data>
+  <data name="Taacba52fe3c2" xml:space="preserve">
+    <value>파일 선택...</value>
+  </data>
+  <data name="Taadc70b73d78" xml:space="preserve">
+    <value>소리 재생 중지</value>
+  </data>
+  <data name="Tac10721fe1e0" xml:space="preserve">
+    <value>디컴파일러</value>
+  </data>
+  <data name="Tac2310991a49" xml:space="preserve">
+    <value>패치를 적용할 GRF입니다.</value>
+  </data>
+  <data name="Tac5ed236c5f1" xml:space="preserve">
+    <value>GRF Editor 헤더(버전 번호 등)를 표시하거나 숨깁니다.</value>
+  </data>
+  <data name="Tac8f6cd6cb42" xml:space="preserve">
+    <value>픽셀 데이터를 설정하지 않았습니다. 이미지 형식이 올바른지 확인하세요.</value>
+  </data>
+  <data name="Tac9d94779c5e" xml:space="preserve">
+    <value>클라이언트 데이터베이스 편집기</value>
+  </data>
+  <data name="Taca199004664" xml:space="preserve">
+    <value>지원하지 않는 이미지 형식입니다. IImageFormatConverter 제공자를 받는 메서드를 사용하세요.</value>
+  </data>
+  <data name="Tacaa4c547345" xml:space="preserve">
+    <value>이미지 형식이 이 작업을 지원하지 않습니다.</value>
+  </data>
+  <data name="Tad59532306c2" xml:space="preserve">
+    <value>공통 속성</value>
+  </data>
+  <data name="Tad6e7664c960" xml:space="preserve">
+    <value>설정 파일 이름</value>
+  </data>
+  <data name="Tad8a07ad717e" xml:space="preserve">
+    <value>명령 스택 상태가 잘못되었습니다. 이미 종료된 ActEdit 모드를 다시 종료하려고 했습니다.</value>
+  </data>
+  <data name="Tadc9e6a360d5" xml:space="preserve">
+    <value>열지 않은 컨테이너에 접근하려고 했습니다.</value>
+  </data>
+  <data name="Tae09e3a9d23f" xml:space="preserve">
+    <value>지면 렌더링</value>
+  </data>
+  <data name="Tae5f61e523ef" xml:space="preserve">
+    <value>빼기</value>
+  </data>
+  <data name="Tae892bc0c172" xml:space="preserve">
+    <value>예외가 없습니다.</value>
+  </data>
+  <data name="Tae895f4ac065" xml:space="preserve">
+    <value>GRF에서 마지막으로 선택한 항목을 다시 엽니다.</value>
+  </data>
+  <data name="Taf74f7c5362a" xml:space="preserve">
+    <value>복사</value>
+  </data>
+  <data name="Tafc20360dbb8" xml:space="preserve">
+    <value>이동 불가 영역 대비</value>
+  </data>
+  <data name="Tb059e4187d1d" xml:space="preserve">
+    <value>상하 뒤집기</value>
+  </data>
+  <data name="Tb074bf58b0ab" xml:space="preserve">
+    <value>로드됨: </value>
+  </data>
+  <data name="Tb0a98216a324" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Tb0ada98906da" xml:space="preserve">
+    <value>theStream</value>
+  </data>
+  <data name="Tb0e883a4d673" xml:space="preserve">
+    <value>탐색기 통합</value>
+  </data>
+  <data name="Tb1031c070bf6" xml:space="preserve">
+    <value>컨테이너를 압축할 방식을 선택합니다.</value>
+  </data>
+  <data name="Tb122a3453e0a" xml:space="preserve">
+    <value>리소스 인덱서</value>
+  </data>
+  <data name="Tb175ee88eca6" xml:space="preserve">
+    <value>검은 타일 렌더링</value>
+  </data>
+  <data name="Tb1917903ba80" xml:space="preserve">
+    <value>클라이언트 시점을 재현합니다. 실제 클라이언트와 완전히 같지는 않습니다.</value>
+  </data>
+  <data name="Tb1a0f046eb9c" xml:space="preserve">
+    <value>폴더 이름을 '{0}'에서 '{1}'로 변경</value>
+  </data>
+  <data name="Tb1a1bb22a5c4" xml:space="preserve">
+    <value>잘못된 이미지 형식: </value>
+  </data>
+  <data name="Tb1ba77331e66" xml:space="preserve">
+    <value>사용자 지정 단축키를 로드하지 못했습니다. 기본값으로 초기화합니다.</value>
+  </data>
+  <data name="Tb2026cf92bc2" xml:space="preserve">
+    <value>GRF 패치 도구</value>
+  </data>
+  <data name="Tb2109aaffba0" xml:space="preserve">
+    <value>항목을 하나 이상 선택하세요.</value>
+  </data>
+  <data name="Tb22e91efef8f" xml:space="preserve">
+    <value>Gravity 암호화</value>
+  </data>
+  <data name="Tb28e1f7275a2" xml:space="preserve">
+    <value>항목: </value>
+  </data>
+  <data name="Tb291beb8793f" xml:space="preserve">
+    <value>프로그램</value>
+  </data>
+  <data name="Tb2b8c831578a" xml:space="preserve">
+    <value>작업이 실행 중입니다. 완료될 때까지 기다리거나 취소하세요.</value>
+  </data>
+  <data name="Tb2bdbbd77961" xml:space="preserve">
+    <value>최근 항목 로드</value>
+  </data>
+  <data name="Tb2f53fb95482" xml:space="preserve">
+    <value>인덱스가 0보다 작거나 사용 가능한 동작 수를 초과했습니다.</value>
+  </data>
+  <data name="Tb31b6320c686" xml:space="preserve">
+    <value>GRF Editor 시작 중...</value>
+  </data>
+  <data name="Tb3b5de815a40" xml:space="preserve">
+    <value>GRF 또는 RGZ 파일을 열 때 지정한 폴더를 항상 펼칩니다.</value>
+  </data>
+  <data name="Tb3bd0b5a7049" xml:space="preserve">
+    <value>계속</value>
+  </data>
+  <data name="Tb3d97fd6dece" xml:space="preserve">
+    <value>하늘</value>
+  </data>
+  <data name="Tb3f96d2d9d4f" xml:space="preserve">
+    <value>일부 값이 운영체제 설정과 제한에 따라 결정되므로 수정할 수 없습니다.</value>
+  </data>
+  <data name="Tb412c7d8d72c" xml:space="preserve">
+    <value>파일 패턴과 일치하는 확장자가 없습니다.</value>
+  </data>
+  <data name="Tb415110cd2f3" xml:space="preserve">
+    <value>미니맵...</value>
+  </data>
+  <data name="Tb447fc740919" xml:space="preserve">
+    <value>다른 위치로 내보내기...</value>
+  </data>
+  <data name="Tb46e317b83a1" xml:space="preserve">
+    <value>사용자 지정 압축 방식으로 패치 파일을 압축하려고 합니다. 대상 파일은 GRF에 병합되지 않으며 추출에 실패할 수 있습니다.
+
+
+
+압축 방식을 zlib으로 변경하시겠습니까? 이 경고를 무시하려면 '아니요'를 누르세요.</value>
+  </data>
+  <data name="Tb471dc49eff8" xml:space="preserve">
+    <value>이미지 형식이 '{1}' 작업을 지원하지 않습니다.</value>
+  </data>
+  <data name="Tb4bc1e7f2480" xml:space="preserve">
+    <value>CPU 사용량을 확인하여 작업 스레드 수를 자동 조절합니다. CPU 사용량이 100%에 도달해 시스템 전체가 느려지는 상황을 줄입니다.</value>
+  </data>
+  <data name="Tb4f57cd0cd5c" xml:space="preserve">
+    <value>위로 이동</value>
+  </data>
+  <data name="Tb575466377d5" xml:space="preserve">
+    <value>회색 블록</value>
+  </data>
+  <data name="Tb5f7efa69c55" xml:space="preserve">
+    <value>차감할 GRF가 수정되었습니다. 먼저 저장해야 합니다.</value>
+  </data>
+  <data name="Tb6a95deed861" xml:space="preserve">
+    <value>스프라이트 </value>
+  </data>
+  <data name="Tb6b52cb47d12" xml:space="preserve">
+    <value>스프라이트</value>
+  </data>
+  <data name="Tb6f6c73f9193" xml:space="preserve">
+    <value>헤더를 '{0}'에서 '{1}'로 변경</value>
+  </data>
+  <data name="Tb7037c6ae19c" xml:space="preserve">
+    <value>이동 가능 영역 대비</value>
+  </data>
+  <data name="Tb70e92de4329" xml:space="preserve">
+    <value>알파 증가 속도</value>
+  </data>
+  <data name="Tb7152342a267" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="Tb72dab2858e5" xml:space="preserve">
+    <value>GRF 내부의 불일치를 찾습니다</value>
+  </data>
+  <data name="Tb750bf91c273" xml:space="preserve">
+    <value>Thor</value>
+  </data>
+  <data name="Tb773bed04a48" xml:space="preserve">
+    <value>MD5</value>
+  </data>
+  <data name="Tb7ed506ac168" xml:space="preserve">
+    <value>압축 안 함 (디버그 모드)</value>
+  </data>
+  <data name="Tb8a4112c0f0e" xml:space="preserve">
+    <value>ID 변경</value>
+  </data>
+  <data name="Tb8fba6ffb40e" xml:space="preserve">
+    <value>각 GRF의 인덱스 파일을 다시 생성합니다.</value>
+  </data>
+  <data name="Tb9425f73b830" xml:space="preserve">
+    <value>여백 안내선을 표시합니다.</value>
+  </data>
+  <data name="Tb977532b2b8d" xml:space="preserve">
+    <value>현재 폴더의 파일만 추출...</value>
+  </data>
+  <data name="Tb9a512792f33" xml:space="preserve">
+    <value>값 '{0}'은 {1} 이상이어야 합니다.</value>
+  </data>
+  <data name="Tb9bf9dac5e15" xml:space="preserve">
+    <value>__encryption.info</value>
+  </data>
+  <data name="Tb9e09edf7031" xml:space="preserve">
+    <value>EffectConfiguration을 사용하기 전에 ConfigAsker 및 DisplayAction 정적 함수를 설정해야 합니다.</value>
+  </data>
+  <data name="Tb9f404e9217b" xml:space="preserve">
+    <value>이 옵션을 켜는 것이 좋습니다.</value>
+  </data>
+  <data name="Tba1cd0dd35f6" xml:space="preserve">
+    <value>유형 1</value>
+  </data>
+  <data name="Tba4ac4de54df" xml:space="preserve">
+    <value>검은 테두리</value>
+  </data>
+  <data name="Tba6a2d6646ce" xml:space="preserve">
+    <value>로드된 쿼드트리가 없습니다.</value>
+  </data>
+  <data name="Tba7554793093" xml:space="preserve">
+    <value>벤치 같은 물체 위에서도 셀이 공중에 떠 보이지 않습니다.</value>
+  </data>
+  <data name="Tba7ec50c1e48" xml:space="preserve">
+    <value>객체 렌더링</value>
+  </data>
+  <data name="Tba933018150a" xml:space="preserve">
+    <value>보호된 GRF 항목은 원래 아카이브, 파일 이름, 버전 3 형식을 유지해야 합니다. 이름을 변경하거나 다른 아카이브로 복사하기 전에 내용을 추출하세요.</value>
+  </data>
+  <data name="Tbab52926356f" xml:space="preserve">
+    <value>GRF Editor의 표시 인코딩입니다. 화면 표시에만 영향을 줍니다.</value>
+  </data>
+  <data name="Tbae11e0fc787" xml:space="preserve">
+    <value>리소스를 찾을 수 없습니다: </value>
+  </data>
+  <data name="Tbaeb5de2cd93" xml:space="preserve">
+    <value>트리 보기</value>
+  </data>
+  <data name="Tbaee133fabe0" xml:space="preserve">
+    <value>GRF에서 추출할 때 컴파일된 Lua 바이트코드 (.lub) 파일을 텍스트로 디컴파일합니다.</value>
+  </data>
+  <data name="Tbb12d37a4037" xml:space="preserve">
+    <value>텍스처 생성기</value>
+  </data>
+  <data name="Tbb19ac2f583b" xml:space="preserve">
+    <value>WAV 파일: </value>
+  </data>
+  <data name="Tbbfa773e5a63" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="Tbc31ff10ea2d" xml:space="preserve">
+    <value>지원하지 않는 비교자: </value>
+  </data>
+  <data name="Tbc67d26506b7" xml:space="preserve">
+    <value>지도 미리보기: </value>
+  </data>
+  <data name="Tbc6c88db2f07" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="Tbce06414177f" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="Tbd6774a82ff4" xml:space="preserve">
+    <value>모두 내보내기...</value>
+  </data>
+  <data name="Tbd6f1035d281" xml:space="preserve">
+    <value>팔레트</value>
+  </data>
+  <data name="Tbdb10907c424" xml:space="preserve">
+    <value>특정 폴더 항상 펼치기</value>
+  </data>
+  <data name="Tbdd4c69b0140" xml:space="preserve">
+    <value>키가 잘못되었거나 알 수 없는 보호된 GRF는 병합할 수 없습니다. 먼저 내용을 복호화하세요.</value>
+  </data>
+  <data name="Tbde119ce5eb4" xml:space="preserve">
+    <value>prontera</value>
+  </data>
+  <data name="Tbe259e1c264b" xml:space="preserve">
+    <value>컨테이너를 열기 전에 읽으려고 했습니다.</value>
+  </data>
+  <data name="Tbe25a064943b" xml:space="preserve">
+    <value>이미지에 팔레트가 없습니다.</value>
+  </data>
+  <data name="Tbe7b13ebab92" xml:space="preserve">
+    <value>근거리 클리핑</value>
+  </data>
+  <data name="Tbe7e68fe5a7d" xml:space="preserve">
+    <value>복구 모드로 GRF를 열 때는 복구 플래그만 사용할 수 있습니다.</value>
+  </data>
+  <data name="Tbedc846b24ca" xml:space="preserve">
+    <value>파일 저장</value>
+  </data>
+  <data name="Tbf86e62e6415" xml:space="preserve">
+    <value>컨테이너 저장 중...</value>
+  </data>
+  <data name="Tbfb0b5c3e6d7" xml:space="preserve">
+    <value>격자 표시</value>
+  </data>
+  <data name="Tbfd71266403c" xml:space="preserve">
+    <value>스프라이트 편집: </value>
+  </data>
+  <data name="Tc020f6c176c9" xml:space="preserve">
+    <value>모델 파일의 누락된 리소스 감지</value>
+  </data>
+  <data name="Tc06342c881e1" xml:space="preserve">
+    <value>파일 추가</value>
+  </data>
+  <data name="Tc09d458c2790" xml:space="preserve">
+    <value>GRF Editor</value>
+  </data>
+  <data name="Tc10e8f39fcc6" xml:space="preserve">
+    <value>주변광</value>
+  </data>
+  <data name="Tc18b31168cfe" xml:space="preserve">
+    <value>작업이 실행 중입니다. 완료될 때까지 기다리거나 취소하세요.</value>
+  </data>
+  <data name="Tc1a7c3f47057" xml:space="preserve">
+    <value>이 함수에서 예상하지 않은 SprConvertMode입니다.</value>
+  </data>
+  <data name="Tc1aa3395bec0" xml:space="preserve">
+    <value>파일 선택</value>
+  </data>
+  <data name="Tc21da07b44ac" xml:space="preserve">
+    <value>다른 형식으로 변환...</value>
+  </data>
+  <data name="Tc24378d19a26" xml:space="preserve">
+    <value>5: 이동 불가 · 원거리 공격 가능</value>
+  </data>
+  <data name="Tc289519f4b59" xml:space="preserve">
+    <value>.NET 정규식 구문으로 검색합니다.</value>
+  </data>
+  <data name="Tc2ff2762ca98" xml:space="preserve">
+    <value>파일을 선택하세요.</value>
+  </data>
+  <data name="Tc3309a92d6e4" xml:space="preserve">
+    <value>법선 옵션...</value>
+  </data>
+  <data name="Tc33d25657fcd" xml:space="preserve">
+    <value>팔레트 미리보기: </value>
+  </data>
+  <data name="Tc36ed73c0263" xml:space="preserve">
+    <value>한국어 (949)로 변환 중...</value>
+  </data>
+  <data name="Tc3bb87f9863f" xml:space="preserve">
+    <value>알파 감소 시간</value>
+  </data>
+  <data name="Tc414eaa28c7f" xml:space="preserve">
+    <value>사용자 지정 구름을 지원하려면 RSW 지도가 0x202 이상이어야 합니다.</value>
+  </data>
+  <data name="Tc416c18b8c90" xml:space="preserve">
+    <value>GRF 암호화</value>
+  </data>
+  <data name="Tc4633c096745" xml:space="preserve">
+    <value>벽</value>
+  </data>
+  <data name="Tc4645e71ca11" xml:space="preserve">
+    <value>부드러운 카메라</value>
+  </data>
+  <data name="Tc47ae15370cf" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="Tc5190f725f5f" xml:space="preserve">
+    <value>이 컨테이너는 리패킹해야 합니다.</value>
+  </data>
+  <data name="Tc539d0a1c80b" xml:space="preserve">
+    <value>Indexed8 (팔레트) 수는 다음 값보다 작아야 합니다: </value>
+  </data>
+  <data name="Tc54e9933f428" xml:space="preserve">
+    <value>이 파일을 복호화할 키 파일을 설정하지 않았습니다.</value>
+  </data>
+  <data name="Tc5e552bc9ef7" xml:space="preserve">
+    <value>이동 불가 영역의 대비를 조절하여 미니맵을 보기 쉽게 만듭니다. 필요에 따라 끄는 편이 나을 수 있습니다.
+0% = 대비 없음, 100% = 완전히 어둡게</value>
+  </data>
+  <data name="Tc613da83e6d7" xml:space="preserve">
+    <value>해시 뷰어</value>
+  </data>
+  <data name="Tc614ba7c453c" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="Tc6e0a75eba07" xml:space="preserve">
+    <value>입력 폴더의 파일로 지면 텍스처를 변경합니다.</value>
+  </data>
+  <data name="Tc6ee522826fe" xml:space="preserve">
+    <value> 이미지 형식 = {0}</value>
+  </data>
+  <data name="Tc7a51df68edc" xml:space="preserve">
+    <value>동작을 교체할 수 없습니다. 인덱스가 겹칩니다.</value>
+  </data>
+  <data name="Tc7cb0ec9faa0" xml:space="preserve">
+    <value>이 인덱스에 프레임을 추가할 수 없습니다: </value>
+  </data>
+  <data name="Tc7f73bb54d92" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Tc808e7702054" xml:space="preserve">
+    <value>GRF Editor 제목 표시</value>
+  </data>
+  <data name="Tc8182796561f" xml:space="preserve">
+    <value>다른 이름으로 저장...</value>
+  </data>
+  <data name="Tc82e3d7279ef" xml:space="preserve">
+    <value>stream</value>
+  </data>
+  <data name="Tc857973084e6" xml:space="preserve">
+    <value>파일 '{0}'을 '{1}'로 이동</value>
+  </data>
+  <data name="Tc8a721e5c4aa" xml:space="preserve">
+    <value>연결된 RSW 지도 파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="Tc8d2994638e7" xml:space="preserve">
+    <value>압축된 데이터의 zlib 체크섬 검증에 실패했습니다.</value>
+  </data>
+  <data name="Tc8f6088474c5" xml:space="preserve">
+    <value>스프라이트 닫기</value>
+  </data>
+  <data name="Tc907cf0d865b" xml:space="preserve">
+    <value>지도 파일을 일반 RO 형식과 호환되지 않는 大话仙境OL 엔진 방식으로 읽습니다.</value>
+  </data>
+  <data name="Tc94c9a6b5d4b" xml:space="preserve">
+    <value>추가 알파 감소 시간</value>
+  </data>
+  <data name="Tc961597a2fb6" xml:space="preserve">
+    <value>폴더 이름이 이미 존재합니다.
+
+{0}</value>
+  </data>
+  <data name="Tc9652818a14c" xml:space="preserve">
+    <value>- 이동 불가</value>
+  </data>
+  <data name="Tc9caaf06233d" xml:space="preserve">
+    <value>인수 {0}이 최대값 {1}보다 큽니다.</value>
+  </data>
+  <data name="Tc9dabed4d39a" xml:space="preserve">
+    <value>동작을 교체할 수 없습니다. 범위 값이 너무 큽니다.</value>
+  </data>
+  <data name="Tca44061dedb3" xml:space="preserve">
+    <value>지원하지 않는 픽셀 형식: </value>
+  </data>
+  <data name="Tca9c47681e13" xml:space="preserve">
+    <value>부드러운 카메라 이동을 켜거나 끕니다.</value>
+  </data>
+  <data name="Tcb2648f65fbc" xml:space="preserve">
+    <value>사용 위치 찾기...</value>
+  </data>
+  <data name="Tcb90291d388d" xml:space="preserve">
+    <value>파일 '{0}' 삭제</value>
+  </data>
+  <data name="Tcbab53082822" xml:space="preserve">
+    <value>폴더 추출</value>
+  </data>
+  <data name="Tcbeb0b4ad185" xml:space="preserve">
+    <value>ALT 키를 누른 상태에서 기본 트리의 GRF 폴더를 이동합니다. 끄면 Windows 탐색기와 같은 방식으로 동작합니다.</value>
+  </data>
+  <data name="Tcc135961c7b2" xml:space="preserve">
+    <value>'GRF에 병합' 패치 방식을 선택했지만 일부 파일이 data 폴더에 없습니다.
+
+
+
+</value>
+  </data>
+  <data name="Tcc5896d797a4" xml:space="preserve">
+    <value>선택한 폴더가 없습니다.</value>
+  </data>
+  <data name="Tcc86eea1354e" xml:space="preserve">
+    <value>이름이 같은 폴더가 이미 있습니다. 병합하시겠습니까?</value>
+  </data>
+  <data name="Tcd1e3d13fb5a" xml:space="preserve">
+    <value>Bgra32</value>
+  </data>
+  <data name="Tcd59e7d8db85" xml:space="preserve">
+    <value>GRF Editor 디컴파일러 사용</value>
+  </data>
+  <data name="Tcdaa7ba41263" xml:space="preserve">
+    <value>모든 단축키 초기화</value>
+  </data>
+  <data name="Tcddf0cdb860c" xml:space="preserve">
+    <value>GRF 항목: </value>
+  </data>
+  <data name="Tcdfc44576a55" xml:space="preserve">
+    <value>조각 모음 (빠르게)</value>
+  </data>
+  <data name="Tce43d17763f2" xml:space="preserve">
+    <value>영역 텍스처를 갱신하지 못했습니다.</value>
+  </data>
+  <data name="Tce996416e4c1" xml:space="preserve">
+    <value>Targa 이미지 디코더가 없습니다.</value>
+  </data>
+  <data name="Tce9b527b8e45" xml:space="preserve">
+    <value>암호화 라이브러리를 로드하지 못했습니다. 기본 암호화 방식으로 설정되었습니다.</value>
+  </data>
+  <data name="Tce9e6a89e844" xml:space="preserve">
+    <value>분홍색을 투명하게</value>
+  </data>
+  <data name="Tcea0802e40dd" xml:space="preserve">
+    <value>지면을 평탄하게 만듭니다.</value>
+  </data>
+  <data name="Tceb8df6de206" xml:space="preserve">
+    <value>반복문을 계속하려는 요청을 처리해야 합니다.</value>
+  </data>
+  <data name="Tced3905ec822" xml:space="preserve">
+    <value>위도</value>
+  </data>
+  <data name="Tcf0c5b6f1c14" xml:space="preserve">
+    <value>파일 필터</value>
+  </data>
+  <data name="Tcf0cf48a1185" xml:space="preserve">
+    <value>정보...</value>
+  </data>
+  <data name="Tcf1a149eddbb" xml:space="preserve">
+    <value>이미지 크기가 필요한 형식 (1024x768)과 다릅니다.
+
+
+
+너비 = </value>
+  </data>
+  <data name="Tcf978d5f762f" xml:space="preserve">
+    <value>열려 있는 GRF에서 수행할 수 없는 작업입니다.</value>
+  </data>
+  <data name="Tcf9b77061f7b" xml:space="preserve">
+    <value>열기</value>
+  </data>
+  <data name="Tcfe25d9ab65b" xml:space="preserve">
+    <value>RSM2 → RSM1 (평면)</value>
+  </data>
+  <data name="Tcff27d0dd93b" xml:space="preserve">
+    <value>라이트맵과 그림자 맵은 지도 조명에 사용됩니다.</value>
+  </data>
+  <data name="Td01ad9f58c3c" xml:space="preserve">
+    <value>구름 유형</value>
+  </data>
+  <data name="Td05495c075c2" xml:space="preserve">
+    <value>지도 또는 모델 렌더링 중 오류가 발생했습니다. 무한 반복을 방지하기 위해 렌더링 스레드를 일시 중지했습니다. 다른 지도나 모델을 선택한 뒤 '계속'을 눌러 진행하세요.</value>
+  </data>
+  <data name="Td1381059af6e" xml:space="preserve">
+    <value>출력 형식을 선택하지 않았습니다.</value>
+  </data>
+  <data name="Td1551a2beec0" xml:space="preserve">
+    <value>픽셀 수가 이미지 형식에 지정된 크기와 일치하지 않습니다.</value>
+  </data>
+  <data name="Td1854cae891e" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="Td268983ff510" xml:space="preserve">
+    <value>폴더 추출...</value>
+  </data>
+  <data name="Td27b9cef341e" xml:space="preserve">
+    <value>쉼표가 필요합니다.</value>
+  </data>
+  <data name="Td2f6f10c1275" xml:space="preserve">
+    <value>두 GRF 파일이 모두 닫혀 있어야 합니다.</value>
+  </data>
+  <data name="Td3b877e49b8e" xml:space="preserve">
+    <value>GRF</value>
+  </data>
+  <data name="Td3f4cb898fbe" xml:space="preserve">
+    <value>이름 변경</value>
+  </data>
+  <data name="Td4124aeda6f1" xml:space="preserve">
+    <value>병합을 지원하지 않는 컨테이너 형식에 GRF를 병합하려고 했습니다.</value>
+  </data>
+  <data name="Td42713493ca8" xml:space="preserve">
+    <value>대상</value>
+  </data>
+  <data name="Td4593c6b898d" xml:space="preserve">
+    <value>지도 미리보기</value>
+  </data>
+  <data name="Td4e7830e5e01" xml:space="preserve">
+    <value>모델 미리보기: </value>
+  </data>
+  <data name="Td4fdc82e4841" xml:space="preserve">
+    <value>셀 유형에 맞게 그림자를 수정합니다.</value>
+  </data>
+  <data name="Td51c5960ec07" xml:space="preserve">
+    <value>어두운 테마</value>
+  </data>
+  <data name="Td5c066bef201" xml:space="preserve">
+    <value>텍스트 파일: </value>
+  </data>
+  <data name="Td5d124463586" xml:space="preserve">
+    <value>지도 파일의 누락된 리소스 감지</value>
+  </data>
+  <data name="Td5ea1d018973" xml:space="preserve">
+    <value>벽 텍스처를 검은색 텍스처로 바꿉니다.</value>
+  </data>
+  <data name="Td61789318ba0" xml:space="preserve">
+    <value>bindingType</value>
+  </data>
+  <data name="Td62f9fa13473" xml:space="preserve">
+    <value>지정한 인코딩을 지원하지 않습니다.</value>
+  </data>
+  <data name="Td656e9ce2134" xml:space="preserve">
+    <value>보호된 GRF의 AES 본문 패딩 크기가 일치하지 않습니다.</value>
+  </data>
+  <data name="Td6d19f45ef93" xml:space="preserve">
+    <value>현재 GRF에 오류가 있어 차집합을 계산할 수 없습니다.</value>
+  </data>
+  <data name="Td6de4a97f2bb" xml:space="preserve">
+    <value>파일 '{0}'을 '{1}'로 이동</value>
+  </data>
+  <data name="Td6f53ec37e16" xml:space="preserve">
+    <value>픽셀당 24비트 또는 32비트여야 하지만 {0}비트입니다.</value>
+  </data>
+  <data name="Td7212704a5bf" xml:space="preserve">
+    <value>이미지의 너비가 일치하지 않습니다.</value>
+  </data>
+  <data name="Td8043134aeef" xml:space="preserve">
+    <value>설정을 기본값으로 초기화합니다</value>
+  </data>
+  <data name="Td8426656238f" xml:space="preserve">
+    <value>표시할 예외의 중요도 기준입니다.</value>
+  </data>
+  <data name="Td8b4ab058cf0" xml:space="preserve">
+    <value>텍스처를 갱신하지 못했습니다.</value>
+  </data>
+  <data name="Td8f482edf74e" xml:space="preserve">
+    <value>클립보드에 복사</value>
+  </data>
+  <data name="Td92fa5977d28" xml:space="preserve">
+    <value>오프셋이 범위를 벗어났습니다: </value>
+  </data>
+  <data name="Td935d2fefdfa" xml:space="preserve">
+    <value>GRF 형식 속성</value>
+  </data>
+  <data name="Td93ce1004d35" xml:space="preserve">
+    <value>서버 데이터베이스 편집기</value>
+  </data>
+  <data name="Td97d1ee339e4" xml:space="preserve">
+    <value>표시</value>
+  </data>
+  <data name="Td9b58219eb52" xml:space="preserve">
+    <value>GIF 이미지 디코더가 없습니다.</value>
+  </data>
+  <data name="Tda162a909c29" xml:space="preserve">
+    <value>인식할 수 없는 파일 형식입니다.</value>
+  </data>
+  <data name="Tdaad47bbc0d6" xml:space="preserve">
+    <value>RGZ</value>
+  </data>
+  <data name="Tdab972265e2c" xml:space="preserve">
+    <value>간단한 디버그 로그:
+
+</value>
+  </data>
+  <data name="Tdae445c37620" xml:space="preserve">
+    <value>정보 </value>
+  </data>
+  <data name="Tdb2483000d15" xml:space="preserve">
+    <value>붙여넣기</value>
+  </data>
+  <data name="Tdb8210545862" xml:space="preserve">
+    <value>폴더 이름이 이미 존재합니다.</value>
+  </data>
+  <data name="Tdb921d6e7cd9" xml:space="preserve">
+    <value>각 함수 앞에 --Function #을 추가합니다.</value>
+  </data>
+  <data name="Tdbccf9421ab8" xml:space="preserve">
+    <value>잘못된 형식 매개변수입니다. Indexed8, Bgra32, Bgr32 또는 Bgr24여야 합니다.</value>
+  </data>
+  <data name="Tdbd31349fb4d" xml:space="preserve">
+    <value>CPU 사용량 관리</value>
+  </data>
+  <data name="Tdc166425beda" xml:space="preserve">
+    <value>선택 항목 내보내기...</value>
+  </data>
+  <data name="Tdc243706795a" xml:space="preserve">
+    <value>여러 원본으로 하나의 이미지 생성</value>
+  </data>
+  <data name="Tdc5813d79663" xml:space="preserve">
+    <value>잘못된 이미지 형식</value>
+  </data>
+  <data name="Tdca196474186" xml:space="preserve">
+    <value>지원하지 않는 파일 버전입니다.</value>
+  </data>
+  <data name="Tdcafbb019094" xml:space="preserve">
+    <value>ACT 파일의 잘못된 스프라이트 인덱스 감지</value>
+  </data>
+  <data name="Tdcea0d4019b3" xml:space="preserve">
+    <value>최상위 파일 선택</value>
+  </data>
+  <data name="Tdcea447c0592" xml:space="preserve">
+    <value>GRF1</value>
+  </data>
+  <data name="Tdd05c250ce53" xml:space="preserve">
+    <value>GRF에 저장</value>
+  </data>
+  <data name="Tdd15cd1491bc" xml:space="preserve">
+    <value>전역 조명 사용</value>
+  </data>
+  <data name="Tdd3189693f08" xml:space="preserve">
+    <value>로드된 스프라이트가 없습니다. 더 이상 사용하지 않는 생성자를 호출했는지 확인하세요.</value>
+  </data>
+  <data name="Tdd49d7fa6eee" xml:space="preserve">
+    <value>대응하는 ACT 또는 SPR 파일 누락</value>
+  </data>
+  <data name="Tdd4a2a52c78d" xml:space="preserve">
+    <value>원시 데이터 보기</value>
+  </data>
+  <data name="Tdd55fbcd545d" xml:space="preserve">
+    <value>팔레트 인덱스가 잘못되었습니다. -1보다 커야 합니다.</value>
+  </data>
+  <data name="Tdd59bbcf6890" xml:space="preserve">
+    <value>모든 객체를 제거합니다. '지면 평탄화'가 켜져 있으면 적용하지 않습니다.</value>
+  </data>
+  <data name="Tdde9a654e78a" xml:space="preserve">
+    <value>벽에 원본 텍스처를 사용합니다.</value>
+  </data>
+  <data name="Tddf59df468de" xml:space="preserve">
+    <value>기본값은 10입니다. 서비스에 사용할 스레드 수를 늘릴 수 있습니다.</value>
+  </data>
+  <data name="Tde18c89ed726" xml:space="preserve">
+    <value>cps.dll 이름 변경</value>
+  </data>
+  <data name="Tde9b1be49dae" xml:space="preserve">
+    <value>물</value>
+  </data>
+  <data name="Tdea51bb13a44" xml:space="preserve">
+    <value>변형</value>
+  </data>
+  <data name="Tdebb16ca708e" xml:space="preserve">
+    <value>캐릭터가 이동하거나 원거리 공격을 통과시킬 수 없는 셀입니다.</value>
+  </data>
+  <data name="Tdebdda0676f5" xml:space="preserve">
+    <value>미리보기 텍스처 이미지를 로드하지 못했습니다. 텍스처를 다시 생성하세요.</value>
+  </data>
+  <data name="Tdece05484839" xml:space="preserve">
+    <value>element</value>
+  </data>
+  <data name="Tdee4bf3b420f" xml:space="preserve">
+    <value>Entry 블록에는 SizeCompressed 속성을 설정해야 합니다 (GrfBlock.SetProperty 사용).</value>
+  </data>
+  <data name="Tdf174a3f2faa" xml:space="preserve">
+    <value>사용</value>
+  </data>
+  <data name="Tdf50d3b937b6" xml:space="preserve">
+    <value>디코딩</value>
+  </data>
+  <data name="Tdf8b0327bd4e" xml:space="preserve">
+    <value>검은 타일로 설정되지 않은 큐브의 TileUp 타일을 그립니다.</value>
+  </data>
+  <data name="Tdf9867f71ff3" xml:space="preserve">
+    <value>추가된 GRF를 저장 중입니다. 작업이 완료될 때까지 기다리세요.</value>
+  </data>
+  <data name="Tdfb225ce854a" xml:space="preserve">
+    <value>단어 전체가 일치하는 결과만 찾습니다.</value>
+  </data>
+  <data name="Tdfc4c665bb2a" xml:space="preserve">
+    <value>축소 옵션</value>
+  </data>
+  <data name="Tdff6a3986c9a" xml:space="preserve">
+    <value>캐릭터가 이동할 수 있는 물속 셀입니다.</value>
+  </data>
+  <data name="Te0132796d30a" xml:space="preserve">
+    <value>압축 해제 라이브러리 ({0})를 로드하지 못했습니다.
+
+
+
+다음 VC++ 재배포 패키지가 필요할 수 있습니다: {1}.</value>
+  </data>
+  <data name="Te0917ed20904" xml:space="preserve">
+    <value>사용자 지정 지도를 읽을 때 나타날 수 있는 알 수 없는 셀 유형입니다.</value>
+  </data>
+  <data name="Te099a68d5be5" xml:space="preserve">
+    <value>지도 오른쪽 위에 FPS를 표시합니다. 200ms마다 갱신됩니다.</value>
+  </data>
+  <data name="Te11ad5e17c1a" xml:space="preserve">
+    <value>이미지 크기가 너무 큽니다.</value>
+  </data>
+  <data name="Te13da9eba0a5" xml:space="preserve">
+    <value>GAT 유형 렌더링</value>
+  </data>
+  <data name="Te15b6a0a1108" xml:space="preserve">
+    <value>동일한 키의 항목이 이미 추가되어 있습니다.</value>
+  </data>
+  <data name="Te1b2961ac202" xml:space="preserve">
+    <value>사용할 수 없는 폴더 이름입니다. 이전에 같은 이름의 폴더가 있었다면 작업을 실행 취소하거나 GRF를 저장한 뒤 이름을 변경하세요.
+
+{0}</value>
+  </data>
+  <data name="Te1baa00ff58b" xml:space="preserve">
+    <value>지도를 GRF에 추가합니다</value>
+  </data>
+  <data name="Te228804fdceb" xml:space="preserve">
+    <value>Init 메서드에서 IFrameRendererEditor를 설정하지 않았습니다.</value>
+  </data>
+  <data name="Te22c6d3e319b" xml:space="preserve">
+    <value>프로그램이 정상적으로 종료되지 않았습니다. 이 문제를 보고해 주세요.</value>
+  </data>
+  <data name="Te26a2a7c30dd" xml:space="preserve">
+    <value>렌더링 옵션</value>
+  </data>
+  <data name="Te2a937ac2f49" xml:space="preserve">
+    <value>이름 표시</value>
+  </data>
+  <data name="Te2d4c5f86b47" xml:space="preserve">
+    <value>암호화 라이브러리를 로드하지 못했습니다 (</value>
+  </data>
+  <data name="Te2f7fc989e28" xml:space="preserve">
+    <value>패치 생성기</value>
+  </data>
+  <data name="Te30e59338a21" xml:space="preserve">
+    <value>리소스 (data 폴더나 GRF 파일을 여기에 놓으세요). 검사는 현재 연 GRF에만 적용되지만 추가 리소스에서 텍스처, 소리, 모델 등을 찾을 수 있습니다.</value>
+  </data>
+  <data name="Te333f9a6ba9d" xml:space="preserve">
+    <value>[data stream]</value>
+  </data>
+  <data name="Te33f0f25cdf7" xml:space="preserve">
+    <value>원시 데이터 표시</value>
+  </data>
+  <data name="Te39ee3652573" xml:space="preserve">
+    <value>미리보기 패널 배경</value>
+  </data>
+  <data name="Te3b126bd403d" xml:space="preserve">
+    <value>지원하지 않는 픽셀 형식</value>
+  </data>
+  <data name="Te3ba594db184" xml:space="preserve">
+    <value>지도 다른 이름으로 저장...</value>
+  </data>
+  <data name="Te44c13a479d9" xml:space="preserve">
+    <value>뒤에 삽입</value>
+  </data>
+  <data name="Te46c2c3cb17c" xml:space="preserve">
+    <value>Z 바이어스</value>
+  </data>
+  <data name="Te4ee6625af0e" xml:space="preserve">
+    <value>내용을 리패킹하기 전에 컨테이너를 저장해야 합니다.</value>
+  </data>
+  <data name="Te540cdd1328b" xml:space="preserve">
+    <value>index</value>
+  </data>
+  <data name="Te574aeb14324" xml:space="preserve">
+    <value>지도를 찾을 수 없습니다.</value>
+  </data>
+  <data name="Te5ce2ca23633" xml:space="preserve">
+    <value>보호된 GRF의 zlib 스트림을 초기화하지 못했습니다.</value>
+  </data>
+  <data name="Te610d1d479ed" xml:space="preserve">
+    <value>차감할 GRF에 오류가 있어 병합할 수 없습니다.</value>
+  </data>
+  <data name="Te61a4a4e2d49" xml:space="preserve">
+    <value>이미지 너비가 음수입니다.</value>
+  </data>
+  <data name="Te63451d3cf90" xml:space="preserve">
+    <value>처리 중</value>
+  </data>
+  <data name="Te6443af99d2f" xml:space="preserve">
+    <value>컨테이너</value>
+  </data>
+  <data name="Te67b9b745b2a" xml:space="preserve">
+    <value>GRF Editor 디컴파일러: </value>
+  </data>
+  <data name="Te6cdc62e4ff6" xml:space="preserve">
+    <value>점프 구문을 반복문, elseif 분기 등으로 변환합니다.</value>
+  </data>
+  <data name="Te72ddff6d43d" xml:space="preserve">
+    <value>GRF가 있는 위치 대신 아래 경로에 파일을 추출합니다.</value>
+  </data>
+  <data name="Te74432d0c9d2" xml:space="preserve">
+    <value>RGZ 추출</value>
+  </data>
+  <data name="Te7595d64bb44" xml:space="preserve">
+    <value>M 0 0 L 4 4 L 0 8 Z</value>
+  </data>
+  <data name="Te76c8d9135ae" xml:space="preserve">
+    <value>닫는 중괄호 }가 필요합니다.</value>
+  </data>
+  <data name="Te7bc3e6ee785" xml:space="preserve">
+    <value>알파 증가 시간</value>
+  </data>
+  <data name="Te7da087eee6a" xml:space="preserve">
+    <value>공식 서버에서는 수정된 현상이며 rAthena 서버에서도 끌 수 있습니다.</value>
+  </data>
+  <data name="Te87cd4d02cd6" xml:space="preserve">
+    <value>주시점 Y</value>
+  </data>
+  <data name="Te8857ed5a69f" xml:space="preserve">
+    <value>지도를 생성하지 못했습니다: </value>
+  </data>
+  <data name="Te9c45563358e" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="Tea13893c4b5e" xml:space="preserve">
+    <value>프로그램이 정상적으로 시작되기 전에 오류가 발생했습니다.
+</value>
+  </data>
+  <data name="Tea480d9da708" xml:space="preserve">
+    <value>이미지 미리보기: </value>
+  </data>
+  <data name="Tea8f0d02371e" xml:space="preserve">
+    <value>병합</value>
+  </data>
+  <data name="Teaf43a52349f" xml:space="preserve">
+    <value>이미지의 높이가 일치하지 않습니다.</value>
+  </data>
+  <data name="Teb0bf94ea5e6" xml:space="preserve">
+    <value>Indexed8로 변환</value>
+  </data>
+  <data name="Teb79b99b4d97" xml:space="preserve">
+    <value>물 배경</value>
+  </data>
+  <data name="Teb8e92ce7bac" xml:space="preserve">
+    <value>잘못된 팔레트 파일입니다.</value>
+  </data>
+  <data name="Tebb35fed37a3" xml:space="preserve">
+    <value>정의되지 않은 동작</value>
+  </data>
+  <data name="Tebf4ebc4a251" xml:space="preserve">
+    <value>GRF의 암호화된 내용을 검사하는 동안에는 추출하거나 저장할 수 없습니다. 잠시 기다리세요.</value>
+  </data>
+  <data name="Tec0c334f7481" xml:space="preserve">
+    <value>대상 폴더가 원본 폴더의 하위 폴더입니다.</value>
+  </data>
+  <data name="Tec554e0ddf50" xml:space="preserve">
+    <value>파일 테이블을 만들기 전에 파일 블록을 압축해야 합니다.</value>
+  </data>
+  <data name="Tecd466535aa0" xml:space="preserve">
+    <value>오류가 발견되었습니다</value>
+  </data>
+  <data name="Teceb5a00ecbd" xml:space="preserve">
+    <value>썸네일 미리보기</value>
+  </data>
+  <data name="Tecebcd2e0bd5" xml:space="preserve">
+    <value>잘못된 항목 정보 감지 (파일 크기, 암호화 주기 등)</value>
+  </data>
+  <data name="Tecef79b86ad3" xml:space="preserve">
+    <value>마지막으로 연 GRF 항상 다시 열기</value>
+  </data>
+  <data name="Tecf326160fe3" xml:space="preserve">
+    <value>삭제 대상으로 설정</value>
+  </data>
+  <data name="Ted17c05da68c" xml:space="preserve">
+    <value>이전 위치</value>
+  </data>
+  <data name="Ted69c5d24ceb" xml:space="preserve">
+    <value>텍스처에 식별자를 추가하여 지도마다 다른 텍스처를 사용할 수 있게 합니다.</value>
+  </data>
+  <data name="Tede4fe7c133a" xml:space="preserve">
+    <value>창 소유 관계 사용</value>
+  </data>
+  <data name="Tede8688adfd5" xml:space="preserve">
+    <value>사전의 값이 모두 키 값이면 항상 묶기</value>
+  </data>
+  <data name="Tee0de467455d" xml:space="preserve">
+    <value>물 렌더링</value>
+  </data>
+  <data name="Tee2dbd5d6d82" xml:space="preserve">
+    <value>검색 결과</value>
+  </data>
+  <data name="Tee777fdab4f0" xml:space="preserve">
+    <value>파일 이름이 이미 존재합니다.
+
+충돌 대상: {0}</value>
+  </data>
+  <data name="Teea8a239945a" xml:space="preserve">
+    <value>지면 (GND) 렌더링을 켜거나 끕니다.</value>
+  </data>
+  <data name="Teed643ff158b" xml:space="preserve">
+    <value>현재 GRF를 저장 중입니다. 작업이 완료될 때까지 기다리세요.</value>
+  </data>
+  <data name="Teef7bd815dba" xml:space="preserve">
+    <value>텍스트 인코딩 변환기</value>
+  </data>
+  <data name="Tef183987d98b" xml:space="preserve">
+    <value>소리 파일 재생</value>
+  </data>
+  <data name="Tef26cbf88b85" xml:space="preserve">
+    <value>미니맵 편집...</value>
+  </data>
+  <data name="Tefa68f649187" xml:space="preserve">
+    <value>입력 텍스처 폴더를 엽니다.</value>
+  </data>
+  <data name="Tefc007a393f6" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Tf097bd3cf789" xml:space="preserve">
+    <value>이 값을 비워두면 기본 GRF에 병합합니다.</value>
+  </data>
+  <data name="Tf11b8781300b" xml:space="preserve">
+    <value>파일 열기</value>
+  </data>
+  <data name="Tf182044fb05c" xml:space="preserve">
+    <value>개별 속성</value>
+  </data>
+  <data name="Tf1868b5d6406" xml:space="preserve">
+    <value>창을 연결하여 한 번에 한 창에만 포커스를 줄 수 있게 합니다. 끄면 도구 창 등 여러 창을 독립적으로 열 수 있습니다.</value>
+  </data>
+  <data name="Tf19a2cb95131" xml:space="preserve">
+    <value>파일 내보내기...</value>
+  </data>
+  <data name="Tf1b5ed079547" xml:space="preserve">
+    <value>애니메이션 속도가 너무 빨라 문제가 생길 수 있으므로 표시하지 않습니다.</value>
+  </data>
+  <data name="Tf1fbb2b43dca" xml:space="preserve">
+    <value>미리보기</value>
+  </data>
+  <data name="Tf2583787eed3" xml:space="preserve">
+    <value>클라이언트 실행파일을 찾을 수 없습니다.</value>
+  </data>
+  <data name="Tf2690f8c3f93" xml:space="preserve">
+    <value>압축 해제 함수</value>
+  </data>
+  <data name="Tf291bc684686" xml:space="preserve">
+    <value>매개변수 개수가 잘못되었습니다: 키</value>
+  </data>
+  <data name="Tf2cdeb4eb917" xml:space="preserve">
+    <value>새 GRF</value>
+  </data>
+  <data name="Tf2da3f0984ae" xml:space="preserve">
+    <value>M 0 4 L 8 4 L 4 0 Z</value>
+  </data>
+  <data name="Tf309b1b270c0" xml:space="preserve">
+    <value>GRF를 로드하지 못했습니다.</value>
+  </data>
+  <data name="Tf337d97b9dc5" xml:space="preserve">
+    <value>폴더 구조</value>
+  </data>
+  <data name="Tf35894b789b6" xml:space="preserve">
+    <value>벽에 검은 텍스처를 사용합니다.</value>
+  </data>
+  <data name="Tf376351d4068" xml:space="preserve">
+    <value>GRF 항목 속성</value>
+  </data>
+  <data name="Tf39794ca8536" xml:space="preserve">
+    <value>지도에서 객체를 제거하는 경우</value>
+  </data>
+  <data name="Tf3e4fadb9e37" xml:space="preserve">
+    <value>내보내기</value>
+  </data>
+  <data name="Tf498a5f03abf" xml:space="preserve">
+    <value>취소 중...</value>
+  </data>
+  <data name="Tf4c9952e57cd" xml:space="preserve">
+    <value>선택한 항목에 암호화된 파일이 없습니다.</value>
+  </data>
+  <data name="Tf5914c30d5a3" xml:space="preserve">
+    <value>지도 파일 내보내기...</value>
+  </data>
+  <data name="Tf6c0bcf862c9" xml:space="preserve">
+    <value>로드...</value>
+  </data>
+  <data name="Tf6dd5aa1351c" xml:space="preserve">
+    <value>자동으로 감지되며 이 옵션은 전경색을 변경합니다.</value>
+  </data>
+  <data name="Tf6e33d76bcc1" xml:space="preserve">
+    <value>애니메이션 미리보기</value>
+  </data>
+  <data name="Tf6fdbe48dc54" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Tf704f4a7fc2f" xml:space="preserve">
+    <value>GRF를 로드하거나 수정하는 동안 오류가 발견되었습니다. 다른 이름으로 저장한 뒤 내용이 올바르게 갱신되었는지 확인하는 것을 권장합니다.
+
+그래도 저장하시겠습니까?</value>
+  </data>
+  <data name="Tf7222cdeb1b7" xml:space="preserve">
+    <value>지면을 평탄하게 만듭니다 (높이를 0으로 설정).</value>
+  </data>
+  <data name="Tf73f619675d1" xml:space="preserve">
+    <value>사용자 지정 암호화...</value>
+  </data>
+  <data name="Tf76575d434c9" xml:space="preserve">
+    <value>파일 복호화...</value>
+  </data>
+  <data name="Tf78230fa9559" xml:space="preserve">
+    <value>압축 라이브러리를 로드하지 못했습니다. 기본 압축 방식으로 설정되었습니다.</value>
+  </data>
+  <data name="Tf7857dcc71d3" xml:space="preserve">
+    <value>모든 파일</value>
+  </data>
+  <data name="Tf7db5fd3eb67" xml:space="preserve">
+    <value>하늘 지도 렌더링</value>
+  </data>
+  <data name="Tf8010478e7f5" xml:space="preserve">
+    <value>X 위치</value>
+  </data>
+  <data name="Tf81d3c472bfd" xml:space="preserve">
+    <value>경로가 같습니다.
+
+{0}
+
+{1}</value>
+  </data>
+  <data name="Tf8278ff35c51" xml:space="preserve">
+    <value>보호된 항목은 원래 버전 3 GRF 형식으로만 저장할 수 있습니다. 아카이브 형식을 변환하기 전에 내용을 추출하세요.</value>
+  </data>
+  <data name="Tf84f955a33bc" xml:space="preserve">
+    <value>프레임: </value>
+  </data>
+  <data name="Tf89514823afc" xml:space="preserve">
+    <value>인수 '{0}'은 null일 수 없습니다.</value>
+  </data>
+  <data name="Tf8ee5f95ff1f" xml:space="preserve">
+    <value>data.integrity</value>
+  </data>
+  <data name="Tf90b22297522" xml:space="preserve">
+    <value>설정 바인더를 찾을 수 없습니다. 형식 = </value>
+  </data>
+  <data name="Tf923c11b8256" xml:space="preserve">
+    <value>보호된 GRF 헤더의 체크섬이 일치하지 않습니다.</value>
+  </data>
+  <data name="Tf92994abdd25" xml:space="preserve">
+    <value>추가된 GRF가 수정되었습니다. 먼저 저장해야 합니다.</value>
+  </data>
+  <data name="Tf9368755235f" xml:space="preserve">
+    <value>여기에 놓기 전에 GRF 또는 GPF 파일의 선택을 해제하세요.</value>
+  </data>
+  <data name="Tf94c86431191" xml:space="preserve">
+    <value>일부 셰이더를 로드하지 못했습니다:
+
+
+
+</value>
+  </data>
+  <data name="Tf95a4f2dea5c" xml:space="preserve">
+    <value>벡터의 다음 인덱스에 접근하려고 했습니다: </value>
+  </data>
+  <data name="Tf990d5c0c2cd" xml:space="preserve">
+    <value>항목 로드 (파일 형식을 읽고 파일 열기)</value>
+  </data>
+  <data name="Tf99d5f6cda95" xml:space="preserve">
+    <value>라이트맵으로 지면에 8×8 패턴의 그림자를 추가합니다. 강도는 어둡기를 나타내며 -255부터 255까지입니다.</value>
+  </data>
+  <data name="Tf9c17b1e9fb3" xml:space="preserve">
+    <value>요청한 작업을 실행할 수 없는 컨테이너입니다.</value>
+  </data>
+  <data name="Tfa0eef46d393" xml:space="preserve">
+    <value>잘못된 문자</value>
+  </data>
+  <data name="Tfa8c41bfcbde" xml:space="preserve">
+    <value>Init 메서드에서 IActIndexSelector를 설정하지 않았습니다.</value>
+  </data>
+  <data name="Tfb91e24fa52d" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="Tfbc769f1c90e" xml:space="preserve">
+    <value>기본 UI 스레드에서 예외가 발생했습니다.
+
+
+
+</value>
+  </data>
+  <data name="Tfbe72a155ff3" xml:space="preserve">
+    <value>용량 최적화 (인덱스 재지정)</value>
+  </data>
+  <data name="Tfce0a2aaeffa" xml:space="preserve">
+    <value>새 ID:</value>
+  </data>
+  <data name="Tfce4f5bd23be" xml:space="preserve">
+    <value>조명 옵션...</value>
+  </data>
+  <data name="Tfce8f3cca639" xml:space="preserve">
+    <value>별 효과</value>
+  </data>
+  <data name="Tfd6369e8012f" xml:space="preserve">
+    <value>Z 위치</value>
+  </data>
+  <data name="Tfdacc9a8fe2f" xml:space="preserve">
+    <value>스프라이트 문제 감지</value>
+  </data>
+  <data name="Tfdbe18f67b6c" xml:space="preserve">
+    <value>현재 GRF가 수정되었습니다. 먼저 저장해야 합니다.</value>
+  </data>
+  <data name="Tfe1908a552ba" xml:space="preserve">
+    <value>로드된 이미지가 없습니다. 파일이 손상되었거나 암호화된 경우일 수 있습니다.</value>
+  </data>
+  <data name="Tfe8ee305b10e" xml:space="preserve">
+    <value>선택한 항목에 Gravity 암호화 파일이 없습니다.</value>
+  </data>
+  <data name="Tfe9296415ae2" xml:space="preserve">
+    <value>GRF 폴더 정렬</value>
+  </data>
+  <data name="Tfecd4c7d6b6e" xml:space="preserve">
+    <value>동작을 삭제할 수 없습니다. 동작이 하나 이상 있어야 합니다.</value>
+  </data>
+  <data name="Tff86ca742a9a" xml:space="preserve">
+    <value>명령 스택이 이미 지연 모드인 상태에서는 ActEdit을 시작할 수 없습니다. Begin(), BeginEdit(), ActEditBegin() 호출을 확인하세요.</value>
+  </data>
+  <data name="Tff9b3910e086" xml:space="preserve">
+    <value>매직 헤더</value>
+  </data>
+  <data name="Tffcba59814a6" xml:space="preserve">
+    <value>경로에 잘못된 문자가 있습니다.
+
+{0}</value>
+  </data>
+</root>

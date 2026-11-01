@@ -1,4 +1,4 @@
-﻿<Styles:TkWindow x:Class="GRFEditor.Tools.GrfShrinker.GrfShrinkerDialog"
+﻿<Styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.Tools.GrfShrinker.GrfShrinkerDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Styles="clr-namespace:TokeiLibrary.WPF.Styles;assembly=TokeiLibrary"
@@ -43,23 +43,23 @@
         </Grid.RowDefinitions>
         <Border Background="{DynamicResource TabControlBackground}">
             <TabControl Name="_tabControl" Style="{DynamicResource TabControlStyled}">
-				<TabItem Header="Shrink options" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+				<TabItem Header="{loc:Localize Tdfc4c665bb2a}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
 					<StackPanel>
 						<StackPanel>
 							<Label Content="{Binding Path=Header, RelativeSource={RelativeSource AncestorType={x:Type TabItem}}, FallbackValue='Shrink options'}" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
 							<Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
 						</StackPanel>
-						<TextBlock Text="Errors to look for :" Margin="3" />
+						<TextBlock Text="{loc:Localize T8c3317faed7f}" Margin="3" />
 						<Grid>
 							<Grid.ColumnDefinitions>
 								<ColumnDefinition Width="auto" />
 								<ColumnDefinition Width="auto" />
 							</Grid.ColumnDefinitions>
 							<StackPanel>
-								<CheckBox Name="_cbRemoveUnusedSpriteImages" Content="Removed unused images in SPR files" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_RemoveUnusedSpriteImages), Mode=TwoWay}" />
-								<CheckBox Name="_cbDowngradeTextures" Content="Convert Bgr24 textures in Indexed8 textures (small quality loss)" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_DowngradeTextures), Mode=TwoWay}" />
-								<CheckBox Name="_cbUseLzmaCompression" Content="Use LZMA compression (requires custom DLL for client)" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_UseLzmaCompression), Mode=TwoWay}" />
-								<CheckBox Name="_cbRedirect" Content="Redirect identical GRF entries (Save > Redirect indexes)" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_Redirect), Mode=TwoWay}" />
+								<CheckBox Name="_cbRemoveUnusedSpriteImages" Content="{loc:Localize T7c33e6834687}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_RemoveUnusedSpriteImages), Mode=TwoWay}" />
+								<CheckBox Name="_cbDowngradeTextures" Content="{loc:Localize T3cac1965d2be}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_DowngradeTextures), Mode=TwoWay}" />
+								<CheckBox Name="_cbUseLzmaCompression" Content="{loc:Localize T09cf914afb5e}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_UseLzmaCompression), Mode=TwoWay}" />
+								<CheckBox Name="_cbRedirect" Content="{loc:Localize T256439c48cdb}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.SH_Redirect), Mode=TwoWay}" />
 							</StackPanel>
 						</Grid>
 					</StackPanel>
@@ -74,8 +74,8 @@
                 </Grid.ColumnDefinitions>
                 <Styles:TkProgressBar x:Name="_progressBar" Margin="3 0 0 0" />
                 <DockPanel HorizontalAlignment="Right" Grid.Column="1" Margin="0 0 3 0">
-                    <Button Name="_buttonStart" Content="Shrink" Height="24" Width="100" Click="_buttonStart_Click" Margin="3" />
-                    <Button Name="_buttonCancel" Content="Close" Height="24" Width="100" Click="_buttonCancel_Click" Margin="3" />
+                    <Button Name="_buttonStart" Content="{loc:Localize T3720b4e93eb2}" Height="24" Width="100" Click="_buttonStart_Click" Margin="3" />
+                    <Button Name="_buttonCancel" Content="{loc:Localize Tbbfa773e5a63}" Height="24" Width="100" Click="_buttonCancel_Click" Margin="3" />
                 </DockPanel>
             </Grid>
         </Grid>

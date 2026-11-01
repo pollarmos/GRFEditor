@@ -222,19 +222,19 @@ namespace TokeiLibrary.WPF.Styles {
 					IsIndeterminate = true;
 				}
 				else if (_progress == -7) {
-					Display = "Copying file...";
+					Display = Utilities.Localization.UiText.Get("Copying file...");
 					IsIndeterminate = true;
 				}
 				else if (_progress == -5) {
-					Display = "Indexing content";
+					Display = Utilities.Localization.UiText.Get("Indexing content");
 					IsIndeterminate = true;
 				}
 				else if (_progress == -2) {
-					Display = "Scanning encrypted content";
+					Display = Utilities.Localization.UiText.Get("Scanning encrypted content");
 					IsIndeterminate = true;
 				}
 				else if (_progress < 0) {
-					Display = "Processing";
+					Display = Utilities.Localization.UiText.Get("Processing");
 					IsIndeterminate = true;
 				}
 				else if (_progress == 0) {
@@ -263,28 +263,28 @@ namespace TokeiLibrary.WPF.Styles {
 					case ProgressStatus.Finished:
 						IsIndeterminate = false;
 						ForegroundColor = NormalBrush;
-						Display = "Finished";
+						Display = Utilities.Localization.UiText.Get("Finished");
 						break;
 					case ProgressStatus.Warning:
 						IsIndeterminate = false;
 						ForegroundColor = NormalBrush;
-						Display = "Finished";
+						Display = Utilities.Localization.UiText.Get("Finished");
 						_buttonError.Visibility = Visibility.Visible;
 						break;
 					case ProgressStatus.ErrorsDetected:
 						IsIndeterminate = false;
-						Display = "Errors were detected";
+						Display = Utilities.Localization.UiText.Get("Errors were detected");
 						_buttonError.Visibility = Visibility.Visible;
 						ForegroundColor = ErrorBrush;
 						break;
 					case ProgressStatus.FileLoaded:
 						IsIndeterminate = false;
-						Display = "File loaded successfully";
+						Display = Utilities.Localization.UiText.Get("File loaded successfully");
 						ForegroundColor = NormalBrush;
 						break;
 					case ProgressStatus.Cancelling:
 						IsIndeterminate = true;
-						Display = "Cancelling...";
+						Display = Utilities.Localization.UiText.Get("Cancelling...");
 						ForegroundColor = CancelBrush;
 						break;
 				}

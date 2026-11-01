@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="TokeiLibrary.WPF.TkInfoBlock"
+﻿<UserControl xmlns:loc="clr-namespace:TokeiLibrary.Localization" x:Class="TokeiLibrary.WPF.TkInfoBlock"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -11,6 +11,6 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Image Name="_image" RenderOptions.BitmapScalingMode="NearestNeighbor" Stretch="None" />
-        <TextBlock TextWrapping="Wrap" Name="_tbText" Text="Sample" Margin="3" Grid.Column="1" VerticalAlignment="Center" />
+        <TextBlock TextWrapping="Wrap" Name="_tbText" Text="{loc:Localize T58fabfa70811}" Margin="3" Grid.Column="1" VerticalAlignment="Center" />
     </Grid>
 </UserControl>

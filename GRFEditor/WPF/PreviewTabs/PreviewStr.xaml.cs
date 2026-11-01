@@ -111,7 +111,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 					if (v == _frameIndex)
 						return;
 
-					_sliderPosition.Content = "Frame: " + v + " / " + _str.MaxKeyFrame;
+					_sliderPosition.Content = Utilities.Localization.UiText.Get("Frame: ") + v + " / " + _str.MaxKeyFrame;
 					_frameIndex = v;
 
 					this.Dispatch(delegate {
@@ -132,7 +132,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 			this.Dispatch(delegate {
 				try {
-					_sliderPosition.Content = "Frame: 0 / " + _str.MaxKeyFrame;
+					_sliderPosition.Content = Utilities.Localization.UiText.Get("Frame: 0 / ") + _str.MaxKeyFrame;
 					_sliderAnimation.SetPosition(0, true);
 					_frameIndex = 0;
 
@@ -147,7 +147,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 			if (_isCancelRequired()) return;
 
-			_labelHeader.Dispatch(p => p.Content = "Str preview: " + Path.GetFileName(entry.RelativePath));
+			_labelHeader.Dispatch(p => p.Content = Utilities.Localization.UiText.Get("Str preview: ") + Path.GetFileName(entry.RelativePath));
 
 			if (_isCancelRequired()) return;
 
@@ -191,7 +191,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 								}
 
 								_sliderAnimation.SetPosition((float)_frameIndex / Math.Max(_str.MaxKeyFrame, 1), true);
-								_sliderPosition.Content = "Frame: " + _frameIndex + " / " + _str.MaxKeyFrame;
+								_sliderPosition.Content = Utilities.Localization.UiText.Get("Frame: ") + _frameIndex + " / " + _str.MaxKeyFrame;
 							}
 							catch {
 								_enableAnimationThread = false;

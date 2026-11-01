@@ -24,7 +24,7 @@ namespace GRFEditor.WPF {
 		private string _fileNewer;
 		private string _fileOlder;
 
-		public PatcherDialog() : base("Patch maker", "diff.ico", SizeToContent.WidthAndHeight, ResizeMode.NoResize) {
+		public PatcherDialog() : base(Utilities.Localization.UiText.Get("Patch maker"), "diff.ico", SizeToContent.WidthAndHeight, ResizeMode.NoResize) {
 			InitializeComponent();
 			_asyncOperation = new AsyncOperation(_progress);
 			_textBoxOutputName.Text = String.Format("{0:0000}-{1:00}-{2:00}{3}", DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, "data.grf");
@@ -43,17 +43,17 @@ namespace GRFEditor.WPF {
 
 		private void _buttonOK_Click(object sender, RoutedEventArgs e) {
 			if (_asyncOperation.IsRunning) {
-				ErrorHandler.HandleException("An operation is already running, cancel it first.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("An operation is already running, cancel it first."));
 				return;
 			}
 
 			if (!File.Exists(_fileOlder) || !File.Exists(_fileNewer)) {
-				ErrorHandler.HandleException("One of the GRF couldn't be located (file not found).");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("One of the GRF couldn't be located (file not found)."));
 				return;
 			}
 
 			if (_textBoxOutputName.Text == "" || _textBoxOutputName.Text.Any(p => Path.GetInvalidFileNameChars().Contains(p))) {
-				ErrorHandler.HandleException("Invalid output file name.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Invalid output file name."));
 				return;
 			}
 
@@ -64,12 +64,12 @@ namespace GRFEditor.WPF {
 			_newerGrf.Open(_fileNewer);
 
 			if (_olderGrf.Header.HasErrors) {
-				ErrorHandler.HandleException("The older GRF contains errors and cannot be used to make a patch.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The older GRF contains errors and cannot be used to make a patch."));
 				return;
 			}
 
 			if (_newerGrf.Header.HasErrors) {
-				ErrorHandler.HandleException("The newer GRF contains errors and cannot be used to make a patch.");
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The newer GRF contains errors and cannot be used to make a patch."));
 				return;
 			}
 
@@ -80,7 +80,7 @@ namespace GRFEditor.WPF {
 			MessageBoxResult result = MessageBoxResult.None;
 
 			if (infoOld.LastWriteTime > infoNew.LastWriteTime) {
-				result = WindowProvider.ShowDialog("The old GRF is newer than the new GRF file, would you like to switch them?", "Unconsistent date", MessageBoxButton.YesNoCancel);
+				result = WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The old GRF is newer than the new GRF file, would you like to switch them?"), "Unconsistent date", MessageBoxButton.YesNoCancel);
 			}
 
 			if (result == MessageBoxResult.Cancel) {

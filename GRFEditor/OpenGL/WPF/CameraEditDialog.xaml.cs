@@ -17,7 +17,7 @@ namespace GRFEditor.OpenGL.WPF {
 		public static bool Opened = false;
 
 		public CameraEditDialog()
-			: base("Camera edit...", "settings.png", SizeToContent.Manual, ResizeMode.CanResize) {
+			: base(Utilities.Localization.UiText.Get("Camera edit..."), "settings.png", SizeToContent.Manual, ResizeMode.CanResize) {
 			InitializeComponent();
 			Opened = true;
 		}

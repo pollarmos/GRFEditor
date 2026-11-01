@@ -63,7 +63,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 					byte[] pal = File.ReadAllBytes(file);
 
 					if (pal.Length != 1024) {
-						ErrorHandler.HandleException("Invalid palette file.");
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Invalid palette file."));
 						return;
 					}
 
@@ -74,7 +74,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 					Spr spr = new Spr(file);
 
 					if (spr.NumberOfIndexed8Images <= 0) {
-						ErrorHandler.HandleException("This palette file doesn't contain any Indexed8 images; no palette found.");
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("This palette file doesn't contain any Indexed8 images; no palette found."));
 						return;
 					}
 
@@ -82,7 +82,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 					control.SetPalette(pal);
 				}
 				else {
-					ErrorHandler.HandleException("Invalid file extension.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Invalid file extension."));
 					return;
 				}
 

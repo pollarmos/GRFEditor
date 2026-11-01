@@ -33,6 +33,14 @@ namespace GRFEditor.ApplicationConfiguration {
 	public static class GrfEditorConfiguration {
 		private static ConfigAsker _configAsker;
 
+		public static string InterfaceLanguage {
+			get => ConfigAsker["[GRFEditor - Interface language]", "en"] == "ko" ? "ko" : "en";
+			set {
+				if (value != "en" && value != "ko") throw new ArgumentException("Supported UI languages: en, ko.");
+				ConfigAsker["[GRFEditor - Interface language]"] = value;
+			}
+		}
+
 		public static ConfigAsker ConfigAsker {
 			get => _configAsker ?? (_configAsker = new ConfigAsker(GrfPath.Combine(Configuration.ApplicationDataPath, ProgramName, "config.txt")));
 			set => _configAsker = value;
@@ -306,7 +314,7 @@ namespace GRFEditor.ApplicationConfiguration {
 				catch (Exception err) {
 					DefaultExtractingPath = ProgramDataPath;
 					path = ProgramDataPath;
-					ErrorHandler.HandleException("The extraction path is invalid, it has been reset to its default value", err);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The extraction path is invalid, it has been reset to its default value"), err);
 				}
 
 				return path;
@@ -1236,7 +1244,7 @@ namespace GRFEditor.ApplicationConfiguration {
 			catch (Exception err) {
 				Remapper.Clear();
 				ApplicationShortcut.OverrideBindings(Remapper);
-				ErrorHandler.HandleException("Failed to load the custom key bindings. The bindings will be reset to their default values.", err);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Failed to load the custom key bindings. The bindings will be reset to their default values."), err);
 			}
 		}
 	}

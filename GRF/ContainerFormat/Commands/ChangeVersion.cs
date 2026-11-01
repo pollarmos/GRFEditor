@@ -36,9 +36,9 @@ namespace GRF.ContainerFormat.Commands {
 
 		public string CommandDescription {
 			get {
-				return string.Format(GrfStrings.ChangeVersion,
+				return Utilities.Localization.UiText.Message(string.Format(GrfStrings.ChangeVersion,
 				                     string.Format("0x{0:X}", (_oldMajor << 8) + _oldMinor),
-				                     string.Format("0x{0:X}", (_major << 8) + _minor));
+				                     string.Format("0x{0:X}", (_major << 8) + _minor)));
 			}
 		}
 

@@ -41,7 +41,7 @@ namespace GRF.ContainerFormat.Commands {
 		}
 
 		public string CommandDescription {
-			get { return string.Format(GrfStrings.EncryptFiles); }
+			get { return Utilities.Localization.UiText.Message(string.Format(GrfStrings.EncryptFiles)); }
 		}
 
 		#endregion

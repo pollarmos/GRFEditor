@@ -1,4 +1,4 @@
-﻿<PreviewTabs:FilePreviewTab x:Class="GRFEditor.WPF.PreviewTabs.PreviewRawStructure"
+﻿<PreviewTabs:FilePreviewTab xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.WPF.PreviewTabs.PreviewRawStructure"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -19,10 +19,10 @@
 			<TextBlock Name="_labelHeader" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" Padding="5" />
 			<Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
             <WrapPanel Grid.Row="0">
-                <Styles:FancyButton x:Name="_buttonRawView" Click="_buttonRawView_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="Raw view" TextDescription="Show the raw view" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
-                <Styles:FancyButton x:Name="_buttonSave" Click="_buttonSave_Click" Grid.Row="0" Grid.Column="0" Visibility="Collapsed" Height="43" TextHeader="Save" TextDescription="Save file directly in the GRF" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
-                <Styles:FancyButton x:Name="_buttonSaveAs" Click="_buttonSaveAs_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="Save as..." TextDescription="Save file to another location" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
-                <CheckBox Name="_cbWordWrap" VerticalAlignment="Center" Content="Word wrap" IsChecked="{Binding ElementName=_textEditor, Path=WordWrap}" />
+                <Styles:FancyButton x:Name="_buttonRawView" Click="_buttonRawView_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="{loc:Localize Tdd4a2a52c78d}" TextDescription="{loc:Localize Te33f0f25cdf7}" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                <Styles:FancyButton x:Name="_buttonSave" Click="_buttonSave_Click" Grid.Row="0" Grid.Column="0" Visibility="Collapsed" Height="43" TextHeader="{loc:Localize Tefc007a393f6}" TextDescription="{loc:Localize T9a2412b38ee9}" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                <Styles:FancyButton x:Name="_buttonSaveAs" Click="_buttonSaveAs_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="{loc:Localize Tc8182796561f}" TextDescription="{loc:Localize T39da0b0831fb}" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                <CheckBox Name="_cbWordWrap" VerticalAlignment="Center" Content="{loc:Localize T9d91d3f26873}" IsChecked="{Binding ElementName=_textEditor, Path=WordWrap}" />
             </WrapPanel>
             <Rectangle Margin="5 5 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
         </StackPanel>

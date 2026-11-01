@@ -11,17 +11,17 @@ namespace TokeiLibrary.WPF {
 			get { return _textBlock; }
 		}
 
-		public AboutDialog() : base("About", "help.ico") {
+		public AboutDialog() : base(Utilities.Localization.UiText.Get("About"), "help.ico") {
 			
 		}
-		public AboutDialog(string productVersion, string assemblyVersion, string author, string programName, string imageName) : base("About " + programName, "help.ico"){
+		public AboutDialog(string productVersion, string assemblyVersion, string author, string programName, string imageName) : base(Utilities.Localization.UiText.Get("About ") + programName, "help.ico"){
 			InitializeComponent();
 
 			_imageBackground.Source = ApplicationManager.PreloadResourceImage(imageName);
 			_labelSoftwareName.Text = programName;
 			_labelSoftwareName_2.Text = programName;
-			_textBlock.Text = String.Format(programName + "\n\nProduct version: " + productVersion + "\nAssembly version: " + assemblyVersion + "\nAuthor: " + author + "\n\n" + "This program was designed by " + author + ". " +
-				"The software is provided \"as is\" and should be used at your own risk. The author will not be held responsible for any issues it may cause.");
+			_textBlock.Text = String.Format(Utilities.Localization.UiText.Get("{0}\n\nProduct version: {1}\nAssembly version: {2}\nAuthor: {3}\n\nThis program was designed by {3}. The software is provided \"as is\" and should be used at your own risk. The author will not be held responsible for any issues it may cause."),
+				programName, productVersion, assemblyVersion, author);
 		}
 
 		public AboutDialog(string productVersion, string assemblyVersion, string author, string programName) : this(productVersion, assemblyVersion, author, programName, "aboutBackground3.jpg") {

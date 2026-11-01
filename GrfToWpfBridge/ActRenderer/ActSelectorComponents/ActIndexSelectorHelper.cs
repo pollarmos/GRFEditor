@@ -54,11 +54,11 @@ namespace GrfToWpfBridge.ActRenderer.ActSelectorComponents {
 
 			if (playButton.IsPressed) {
 				playButton.ImagePath = "stop2.png";
-				playButton.TextHeader = "Stop";
+				playButton.TextHeader = Utilities.Localization.UiText.Get("Stop");
 			}
 			else {
 				playButton.ImagePath = "play.png";
-				playButton.TextHeader = "Play";
+				playButton.TextHeader = Utilities.Localization.UiText.Get("Play");
 			}
 		}
 	}

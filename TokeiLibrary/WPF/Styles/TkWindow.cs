@@ -27,13 +27,13 @@ namespace TokeiLibrary.WPF.Styles {
 
 			SnapsToDevicePixels = true;
 			//UseLayoutRounding = true;
-			Title = title;
+			Title = Utilities.Localization.UiText.Get(title);
 			SizeToContent = sizeToContent;
 
 			var image = ApplicationManager.PreloadResourceImage(icon);
 
 			if (image == null) {
-				MessageBox.Show("Couldn't find the icon file in the program's resources. The icon must be a .ico file and it must be placed within the application's resources (embedded resource).");
+				TokeiLibrary.Localization.LocalizedMessageBox.Show("Couldn't find the icon file in the program's resources. The icon must be a .ico file and it must be placed within the application's resources (embedded resource).");
 
 				if (ShutDownOnInvalidIcons)
 					ApplicationManager.Shutdown();

@@ -133,15 +133,15 @@ namespace GRFEditor.Tools.SpriteEditor {
 
 		private void _initializeLists() {
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_imSprList1, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
-				new ListViewDataTemplateHelper.ImageColumnInfo { Header = "Preview", DisplayExpression = "DisplayImage", FixedWidth = 70, MaxHeight = 50 },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "ID", DisplayExpression = "AbsoluteId", FixedWidth = 35, TextAlignment = TextAlignment.Right },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "File name", DisplayExpression = "DisplayName", ToolTipBinding = "DisplayName", TextAlignment = TextAlignment.Left, IsFill = true }
+				new ListViewDataTemplateHelper.ImageColumnInfo { Header = Utilities.Localization.UiText.Get("Preview"), DisplayExpression = "DisplayImage", FixedWidth = 70, MaxHeight = 50 },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("ID"), DisplayExpression = "AbsoluteId", FixedWidth = 35, TextAlignment = TextAlignment.Right },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("File name"), DisplayExpression = "DisplayName", ToolTipBinding = "DisplayName", TextAlignment = TextAlignment.Left, IsFill = true }
 			}, null, new string[] { });
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_imSprList2, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
-				new ListViewDataTemplateHelper.ImageColumnInfo { Header = "Preview", DisplayExpression = "DisplayImage", FixedWidth = 70, MaxHeight = 50 },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "ID", DisplayExpression = "AbsoluteId", FixedWidth = 35, TextAlignment = TextAlignment.Right },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "File name", DisplayExpression = "DisplayName", ToolTipBinding = "DisplayName", TextAlignment = TextAlignment.Left, IsFill = true }
+				new ListViewDataTemplateHelper.ImageColumnInfo { Header = Utilities.Localization.UiText.Get("Preview"), DisplayExpression = "DisplayImage", FixedWidth = 70, MaxHeight = 50 },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("ID"), DisplayExpression = "AbsoluteId", FixedWidth = 35, TextAlignment = TextAlignment.Right },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("File name"), DisplayExpression = "DisplayName", ToolTipBinding = "DisplayName", TextAlignment = TextAlignment.Left, IsFill = true }
 			}, null, new string[] { });
 		}
 
@@ -205,7 +205,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 				_primaryImage.ExportFileName = $"{_spriteName}{spriteView.AbsoluteId:0000}" + _getFileExtension(image.GrfImageType);
 				_primaryImage.Image = image;
 				_imSprImage.Source = image.Cast<BitmapSource>();
-				_imSprInfo.Text = $"Format = {image.GrfImageType}; Size = {image.Width} x {image.Height}";
+				_imSprInfo.Text = string.Format(Utilities.Localization.UiText.Get("Format = {0}; Size = {1} x {2}"), image.GrfImageType, image.Width, image.Height);
 				_lastDisplayItem = spriteView;
 			}
 			catch (Exception err) {
@@ -220,7 +220,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 				return -1;
 
 			try {
-				InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog("New ID:", "Change ID", id.ToString(CultureInfo.InvariantCulture)), WpfUtilities.FindParentControl<Window>(this));
+				InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog(Utilities.Localization.UiText.Get("New ID:"), Utilities.Localization.UiText.Get("Change ID"), id.ToString(CultureInfo.InvariantCulture)), WpfUtilities.FindParentControl<Window>(this));
 
 				if (dialog.DialogResult == true) {
 					return Int32.Parse(dialog.Input);
@@ -384,7 +384,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 			if (_act == null) return true;
 
 			if (_act.Commands.IsModified) {
-				MessageBoxResult result = WindowProvider.ShowDialog("The sprite " + _spriteName + " has been modified. Do you want to save it? Any modifications will be discarded otherwise.", "Modified sprite", MessageBoxButton.YesNoCancel);
+				MessageBoxResult result = WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The sprite ") + _spriteName + " has been modified. Do you want to save it? Any modifications will be discarded otherwise.", "Modified sprite", MessageBoxButton.YesNoCancel);
 
 				if (result == MessageBoxResult.Yes)
 					return SaveAs();

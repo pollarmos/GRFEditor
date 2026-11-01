@@ -19,6 +19,7 @@ namespace GRFEditor {
 	/// </summary>
 	public partial class App : Application {
 		public App() {
+			Utilities.Localization.UiText.Initialize(GrfEditorConfiguration.InterfaceLanguage);
 			Configuration.ConfigAsker = GrfEditorConfiguration.ConfigAsker;
 			Configuration.ProgramDataPath = GrfEditorConfiguration.ProgramDataPath;
 			SpriteEditorConfiguration.ConfigAsker = GrfEditorConfiguration.ConfigAsker;

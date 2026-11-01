@@ -40,12 +40,12 @@ namespace GRFEditor.Core.Services {
 
 		private bool _isValid(bool showErrors, object selectedItem) {
 			if (selectedItem == null) {
-				if (showErrors) ErrorHandler.HandleException("Please select a folder first.", ErrorLevel.Low);
+				if (showErrors) ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a folder first."), ErrorLevel.Low);
 				return false;
 			}
 
 			if (selectedItem is IList && (selectedItem as IList).Count == 0) {
-				if (showErrors) ErrorHandler.HandleException("Please select a file first.", ErrorLevel.Low);
+				if (showErrors) ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a file first."), ErrorLevel.Low);
 				return false;
 			}
 

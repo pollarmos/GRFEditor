@@ -75,10 +75,10 @@ namespace GRF.ContainerFormat.Commands {
 		public string CommandDescription {
 			get {
 				if (_foldersFilesPath.Count == 1 && _foldersFilesPath.Count == 0) {
-					return string.Format(GrfStrings.AddFile, _foldersFilesPath[0].Item2, _grfPath);
+					return Utilities.Localization.UiText.Message(string.Format(GrfStrings.AddFile, _foldersFilesPath[0].Item2, _grfPath));
 				}
 
-				return string.Format(GrfStrings.AddFiles, _grfPath);
+				return Utilities.Localization.UiText.Message(string.Format(GrfStrings.AddFiles, _grfPath));
 			}
 		}
 

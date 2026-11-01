@@ -220,7 +220,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 							map.Children.Add(_data[children[j]]);
 						}
 						catch (Exception err) {
-							ErrorHandler.HandleException("Database indexing for '" + sourceGrfFileName + "' is corrupted and will be reset.", err);
+							ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Database indexing for '") + sourceGrfFileName + "' is corrupted and will be reset.", err);
 							GrfPath.Delete(fileName);
 							return false;
 						}
@@ -233,14 +233,14 @@ namespace GRFEditor.WPF.PreviewTabs {
 							map.Parents.Add(_data[parents[j]]);
 						}
 						catch (Exception err) {
-							ErrorHandler.HandleException("Database indexing for '" + sourceGrfFileName + "' is corrupted and will be reset.", err);
+							ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Database indexing for '") + sourceGrfFileName + "' is corrupted and will be reset.", err);
 							GrfPath.Delete(fileName);
 							return false;
 						}
 					}
 				}
 				catch (Exception err) {
-					ErrorHandler.HandleException("Database indexing for '" + sourceGrfFileName + "' is corrupted and will be reset.", err);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Database indexing for '") + sourceGrfFileName + "' is corrupted and will be reset.", err);
 					GrfPath.Delete(fileName);
 					return false;
 				}

@@ -13,7 +13,7 @@ namespace GRFEditor.WPF {
 	/// Interaction logic for AddFile.xaml
 	/// </summary>
 	public partial class MagicEditDialog : TkWindow {
-		public MagicEditDialog(string header) : base("Edit magic header", "refresh.ico") {
+		public MagicEditDialog(string header) : base(Utilities.Localization.UiText.Get("Edit magic header"), "refresh.ico") {
 			OutputHeader = header;
 			InitializeComponent();
 

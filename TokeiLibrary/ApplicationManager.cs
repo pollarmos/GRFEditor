@@ -72,7 +72,7 @@ namespace TokeiLibrary {
 				return _findResource(resource);
 			}
 			catch {
-				//MessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
+				//TokeiLibrary.Localization.LocalizedMessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
 			}
 
 			return null;
@@ -82,7 +82,7 @@ namespace TokeiLibrary {
 				return _findResources(pattern);
 			}
 			catch {
-				//MessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
+				//TokeiLibrary.Localization.LocalizedMessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
 			}
 
 			return null;
@@ -92,7 +92,7 @@ namespace TokeiLibrary {
 				return _findResource(resource, assembly);
 			}
 			catch {
-				//MessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
+				//TokeiLibrary.Localization.LocalizedMessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
 			}
 
 			return null;
@@ -110,7 +110,7 @@ namespace TokeiLibrary {
 				return _findResource(resource);
 			}
 			catch {
-				//MessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
+				//TokeiLibrary.Localization.LocalizedMessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
 			}
 
 			return null;
@@ -252,7 +252,7 @@ namespace TokeiLibrary {
 				}
 			}
 			catch {
-				//MessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
+				//TokeiLibrary.Localization.LocalizedMessageBox.Show("Resource not found in the program's resources.\r\n\r\n" + resource);
 			}
 
 			return null;
@@ -269,7 +269,7 @@ namespace TokeiLibrary {
 			_previousTime = DateTime.Now;
 
 			if (_latestErrorCount >= 2) {
-				MessageBox.Show("The error handling service has failed to report an issue and appears to be in a looping state. " +
+				TokeiLibrary.Localization.LocalizedMessageBox.Show("The error handling service has failed to report an issue and appears to be in a looping state. " +
 								"The current exception has been logged in the file \"crash.log\". The program will now shutdown.");
 				Shutdown();
 			}
@@ -294,12 +294,12 @@ namespace TokeiLibrary {
 					File.AppendAllText(Path.Combine(Configuration.ProgramDataPath, "crash.log"), crash);
 				}
 				catch (Exception err) {
-					MessageBox.Show("Failed to write to crash.log.\r\n\r\n" + err.Message);
+					TokeiLibrary.Localization.LocalizedMessageBox.Show("Failed to write to crash.log.\r\n\r\n" + err.Message);
 				}
 			}
 			catch { }
 
-			ErrorHandler.HandleException("The application has thrown an exception.\r\n\r\nThe application will most likely crash.", e.ExceptionObject as Exception, ErrorLevel.Critical);
+			ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The application has thrown an exception.\r\n\r\nThe application will most likely crash."), e.ExceptionObject as Exception, ErrorLevel.Critical);
 		}
 		private static void _current_DispatcherUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e) {
 			_errorValidation();
@@ -320,12 +320,12 @@ namespace TokeiLibrary {
 					File.AppendAllText(Path.Combine(Configuration.ProgramDataPath, "crash.log"), crash);
 				}
 				catch (Exception err) {
-					MessageBox.Show("Failed to write to crash.log.\r\n\r\n" + err.Message);
+					TokeiLibrary.Localization.LocalizedMessageBox.Show("Failed to write to crash.log.\r\n\r\n" + err.Message);
 				}
 			}
 			catch { }
 
-			ErrorHandler.HandleException("The main UI thread has thrown an exception.\r\n\r\n" + (e.Exception != null ? e.Exception.Message : ""), e.Exception, ErrorLevel.Critical);
+			ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The main UI thread has thrown an exception.\r\n\r\n") + (e.Exception != null ? e.Exception.Message : ""), e.Exception, ErrorLevel.Critical);
 			e.Handled = true;
 		}
 

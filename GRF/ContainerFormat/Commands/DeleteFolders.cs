@@ -37,10 +37,10 @@ namespace GRF.ContainerFormat.Commands {
 		public string CommandDescription {
 			get {
 				if (_paths.Count == 1) {
-					return string.Format(GrfStrings.DeleteFolder, _paths[0]);
+					return Utilities.Localization.UiText.Message(string.Format(GrfStrings.DeleteFolder, _paths[0]));
 				}
 
-				return string.Format(GrfStrings.DeleteFolders);
+				return Utilities.Localization.UiText.Message(string.Format(GrfStrings.DeleteFolders));
 			}
 		}
 

@@ -83,7 +83,7 @@ namespace GRFEditor {
 
 		private void _menuItemNewFolder_Click(object sender, RoutedEventArgs e) {
 			try {
-				InputDialog input = WindowProvider.ShowWindow<InputDialog>(new InputDialog("Enter the new folder name: ", "New folder", "", true), this);
+				InputDialog input = WindowProvider.ShowWindow<InputDialog>(new InputDialog(Utilities.Localization.UiText.Get("Enter the new folder name: "), Utilities.Localization.UiText.Get("New folder"), "", true), this);
 
 				if (input.DialogResult == true) {
 					if (String.IsNullOrEmpty(input.Input))
@@ -92,7 +92,7 @@ namespace GRFEditor {
 					var treeViewItem = _treeView.SelectedItem as TkTreeViewItem;
 					if (treeViewItem != null) {
 						if (treeViewItem.Items.Cast<TkTreeViewItem>().Any(tItem => tItem.HeaderText == input.Input)) {
-							ErrorHandler.HandleException("The folder name already exists.", ErrorLevel.Low);
+							ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The folder name already exists."), ErrorLevel.Low);
 							return;
 						}
 
@@ -100,7 +100,7 @@ namespace GRFEditor {
 						_grfHolder.Commands.AddFolder(Path.Combine(currentPath, input.Input), _addedFolderCallback);
 					}
 					else {
-						ErrorHandler.HandleException("No folder selected.", ErrorLevel.Low);
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("No folder selected."), ErrorLevel.Low);
 					}
 				}
 			}
@@ -177,7 +177,7 @@ namespace GRFEditor {
 
 		private void _menuItemFlagRemove_Click(object sender, RoutedEventArgs e) {
 			try {
-				InputDialog dialog = new InputDialog("Type in the files you want to remove (full relative path).\r\nExample : \r\ndata\\map.rsw\r\ndata\\map.gnd.", "Add files to remove", "", false, false);
+				InputDialog dialog = new InputDialog(Utilities.Localization.UiText.Get("Type in the files you want to remove (full relative path).\r\nExample : \r\ndata\\map.rsw\r\ndata\\map.gnd."), Utilities.Localization.UiText.Get("Add files to remove"), "", false, false);
 				dialog.Owner = this;
 				dialog.TextBoxInput.AcceptsReturn = true;
 				dialog.TextBoxInput.VerticalScrollBarVisibility = ScrollBarVisibility.Auto;
@@ -333,7 +333,7 @@ namespace GRFEditor {
 						}
 
 						if (files != null && files.Any(p => p.IsExtension(".grf", ".gpf", ".gsf"))) {
-							ErrorHandler.HandleException("Deselect the GRF, GPF or GSF files before dropping them here.", ErrorLevel.Low);
+							ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Deselect the GRF, GPF or GSF files before dropping them here."), ErrorLevel.Low);
 							return;
 						}
 					}
@@ -374,7 +374,7 @@ namespace GRFEditor {
 					GrfThread.Start(delegate {
 						try {
 							if (hasFoundAtLeastOneRoot) {
-								MessageBoxResult res = WindowProvider.ShowDialog("At least one folder with the same name already exists. Do you want to merge them?", "Merge", MessageBoxButton.YesNo);
+								MessageBoxResult res = WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("At least one folder with the same name already exists. Do you want to merge them?"), "Merge", MessageBoxButton.YesNo);
 
 								if (res == MessageBoxResult.No)
 									return;
@@ -384,7 +384,7 @@ namespace GRFEditor {
 							}
 
 							if (hasFoundAtLeastOne) {
-								MessageBoxResult res = WindowProvider.ShowDialog("At least one folder with the same name already exists. Do you want to merge them or include the folders as subdirectories?", "Merge", MessageBoxButton.YesNoCancel, "Merge", "Subdirectories");
+								MessageBoxResult res = WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("At least one folder with the same name already exists. Do you want to merge them or include the folders as subdirectories?"), "Merge", MessageBoxButton.YesNoCancel, "Merge", "Subdirectories");
 
 								if (res == MessageBoxResult.Cancel)
 									return;
@@ -419,7 +419,7 @@ namespace GRFEditor {
 					}
 
 					if (files != null && files.Any(p => p.IsExtension(".grf", ".gpf", ".gsf"))) {
-						ErrorHandler.HandleException("Deselect the GRF or GPF files before dropping them here.", ErrorLevel.Low);
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Deselect the GRF or GPF files before dropping them here."), ErrorLevel.Low);
 						return;
 					}
 
@@ -427,7 +427,7 @@ namespace GRFEditor {
 					string currentPath = TreeViewPathManager.GetTkPath(previewItem).RelativePath;
 
 					if (files != null && previewItem != null && previewItem.HeaderText == Path.GetFileName(Path.GetDirectoryName(files[0]))) {
-						MessageBoxResult res = WindowProvider.ShowDialog("Do you want to merge the current directory or include it as a subfolder?", "Merge", MessageBoxButton.YesNoCancel);
+						MessageBoxResult res = WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("Do you want to merge the current directory or include it as a subfolder?"), "Merge", MessageBoxButton.YesNoCancel);
 
 						if (res == MessageBoxResult.Cancel)
 							return;

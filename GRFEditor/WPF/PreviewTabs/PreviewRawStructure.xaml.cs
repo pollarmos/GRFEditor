@@ -83,7 +83,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 		private void _setupUI(FileEntry entry) {
 			this.Dispatch(delegate {
-				_labelHeader.Text = "File info: " + entry.DisplayRelativePath;
+				_labelHeader.Text = Utilities.Localization.UiText.Get("File info: ") + entry.DisplayRelativePath;
 			});
 		}
 
@@ -98,8 +98,8 @@ namespace GRFEditor.WPF.PreviewTabs {
 		private void _changeRawViewButtonDisplay() {
 			bool isRaw = GrfEditorConfiguration.PreviewRawFileStructure;
 
-			_buttonRawView.TextHeader = isRaw ? "Tree view" : "Raw view";
-			_buttonRawView.TextDescription = isRaw ? "Show the tree view" : "Show the raw text view";
+			_buttonRawView.TextHeader = isRaw ? Utilities.Localization.UiText.Get("Tree view") : Utilities.Localization.UiText.Get("Raw view");
+			_buttonRawView.TextDescription = isRaw ? Utilities.Localization.UiText.Get("Show the tree view") : Utilities.Localization.UiText.Get("Show the raw text view");
 		}
 
 		private void _buttonSave_Click(object sender, RoutedEventArgs e) {

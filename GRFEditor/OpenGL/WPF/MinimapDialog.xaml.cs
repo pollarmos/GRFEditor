@@ -22,7 +22,7 @@ namespace GRFEditor.OpenGL.WPF {
 		private GLControl _primary;
 		private string _mapname;
 
-		public MinimapDialog() : base("Minimap edit...", "app.ico") {
+		public MinimapDialog() : base(Utilities.Localization.UiText.Get("Minimap edit..."), "app.ico") {
 			InitializeComponent();
 			WindowStartupLocation = WindowStartupLocation.CenterOwner;
 		}

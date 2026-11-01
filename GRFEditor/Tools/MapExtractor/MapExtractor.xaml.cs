@@ -353,7 +353,7 @@ namespace GRFEditor.Tools.MapExtractor {
 				TkPath path = node.ResourcePath;
 
 				if (path == null) {
-					ErrorHandler.HandleException("This file isn't present in the currently opened GRF.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("This file isn't present in the currently opened GRF."), ErrorLevel.Low);
 					return;
 				}
 
@@ -365,7 +365,7 @@ namespace GRFEditor.Tools.MapExtractor {
 					if (_grf.FileName == path.FilePath)
 						PreviewService.Select(null, null, path.RelativePath);
 					else
-						ErrorHandler.HandleException("This file isn't present in the currently opened GRF.", ErrorLevel.Low);
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("This file isn't present in the currently opened GRF."), ErrorLevel.Low);
 				}
 			}
 			catch (Exception err) {

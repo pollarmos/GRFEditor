@@ -1,4 +1,4 @@
-﻿<Styles:TkWindow x:Class="GRFEditor.Tools.GrfValidation.ValidationDialog"
+﻿<Styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.Tools.GrfValidation.ValidationDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Styles="clr-namespace:TokeiLibrary.WPF.Styles;assembly=TokeiLibrary"
@@ -43,69 +43,69 @@
         </Grid.RowDefinitions>
         <Border Background="{DynamicResource TabControlBackground}">
             <TabControl Name="_tabControl" Style="{DynamicResource TabControlStyled}">
-                <TabItem Header="Find errors" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+                <TabItem Header="{loc:Localize T16f376034a40}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
                     <StackPanel>
                         <StackPanel>
-                            <Label Content="Find errors" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
+                            <Label Content="{loc:Localize T16f376034a40}" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
                             <Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
                         </StackPanel>
-                        <Styles:FancyButton Click="_buttonFindErrors_Click" x:Name="_buttonFindErrors" TextHeader="Find errors" TextDescription="Finds inconsistencies within the Grf" Margin="3" HorizontalAlignment="Left" />
-                        <TextBlock Text="Errors to look for :" Margin="3" />
+                        <Styles:FancyButton Click="_buttonFindErrors_Click" x:Name="_buttonFindErrors" TextHeader="{loc:Localize T16f376034a40}" TextDescription="{loc:Localize Tb72dab2858e5}" Margin="3" HorizontalAlignment="Left" />
+                        <TextBlock Text="{loc:Localize T8c3317faed7f}" Margin="3" />
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="auto" />
                                 <ColumnDefinition Width="auto" />
                             </Grid.ColumnDefinitions>
                             <StackPanel>
-								<CheckBox Name="_cbFeNoExtension" Content="File names with no extension" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeNoExtension), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeDuplicateFiles" Content="Duplicate file names" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeDuplicateFiles), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeDuplicatePaths" Content="Duplicate path names" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeDuplicatePaths), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeEmptyFiles" Content="Empty files" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeEmptyFiles), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeRootFiles" Content="Files at the root of the container" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeRootFiles), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeNoExtension" Content="{loc:Localize T12b9a51c039b}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeNoExtension), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeDuplicateFiles" Content="{loc:Localize T7750571e4601}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeDuplicateFiles), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeDuplicatePaths" Content="{loc:Localize T9b2957549b25}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeDuplicatePaths), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeEmptyFiles" Content="{loc:Localize T8a48bcd4ee90}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeEmptyFiles), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeRootFiles" Content="{loc:Localize T496c7d887f49}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeRootFiles), Mode=TwoWay}" />
                             </StackPanel>
                             <StackPanel Grid.Column="1">
-								<CheckBox Name="_cbFeMissingSprAct" Content="Missing corresponding Act or Spr files" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeMissingSprAct), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeSvn" Content="Subversion files (.svn)" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeSvn), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeDb" Content="Windows's hidden database files for thumbnails (.db)" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeDb), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeSpaceSaved" Content="Calculate space saved if repacking" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeSpaceSaved), Mode=TwoWay}" />
-								<CheckBox Name="_cbFeInvalidFileTable" Content="Invalid information in the file table (entries)" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeInvalidFileTable), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeMissingSprAct" Content="{loc:Localize Tdd49d7fa6eee}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeMissingSprAct), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeSvn" Content="{loc:Localize T241ccc11c797}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeSvn), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeDb" Content="{loc:Localize Ta5355b83e099}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeDb), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeSpaceSaved" Content="{loc:Localize T6a899ee72b42}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeSpaceSaved), Mode=TwoWay}" />
+								<CheckBox Name="_cbFeInvalidFileTable" Content="{loc:Localize T08ffd0df5b09}" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.FeInvalidFileTable), Mode=TwoWay}" />
                             </StackPanel>
                         </Grid>
                     </StackPanel>
                 </TabItem>
-				<TabItem Header="Validate content" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+				<TabItem Header="{loc:Localize T96e5af576fc0}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
 					<StackPanel>
 						<StackPanel>
-							<Label Content="Validate content" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
+							<Label Content="{loc:Localize T96e5af576fc0}" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
 							<Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
 						</StackPanel>
-						<Styles:FancyButton Click="_buttonValidateContent_Click" x:Name="_buttonValidateContent" TextHeader="Validate" TextDescription="Validate the content of the GRF" Margin="3" HorizontalAlignment="Left" />
-						<TextBlock Text="Validation items :" Margin="3" />
+						<Styles:FancyButton Click="_buttonValidateContent_Click" x:Name="_buttonValidateContent" TextHeader="{loc:Localize T6752f198b564}" TextDescription="{loc:Localize T33993a444ac6}" Margin="3" HorizontalAlignment="Left" />
+						<TextBlock Text="{loc:Localize T5f130ca93919}" Margin="3" />
 						<Grid>
 							<Grid.ColumnDefinitions>
 								<ColumnDefinition Width="auto" />
 								<ColumnDefinition Width="auto" />
 							</Grid.ColumnDefinitions>
 							<StackPanel>
-								<CheckBox Name="_cbVcDecompressEntries" Content="Decompress entries" IsEnabled="False" IsChecked="true" />
-								<CheckBox Name="_cbVcInvalidEntryMetadata" Content="Detect invalid entry information (file size, cycle, etc)" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcInvalidEntryMetadata), Mode=TwoWay}" />
-								<CheckBox Name="_cbVcChecksum" Content="Detect invalid zlib checksum" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcZlibChecksum), Mode=TwoWay}" />
-								<CheckBox Name="_cbVcLoadEntries" Content="Load entries (reads the file format and open the file)" />
-								<CheckBox Name="_cbVcResourcesModelFiles" Content="Detect missing resources in model files" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcResourcesModelFiles), Mode=TwoWay}" />
-								<CheckBox Name="_cbVcResourcesMapFiles" Content="Detect missing resources in map files" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcResourcesMapFiles), Mode=TwoWay}" />
-								<CheckBox Name="_cbVcInvalidImageFormat" Content="Invalid image format" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcInvalidImageFormat), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcDecompressEntries" Content="{loc:Localize T55d6d51322e1}" IsEnabled="False" IsChecked="true" />
+								<CheckBox Name="_cbVcInvalidEntryMetadata" Content="{loc:Localize Tecebcd2e0bd5}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcInvalidEntryMetadata), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcChecksum" Content="{loc:Localize T614cecff705d}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcZlibChecksum), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcLoadEntries" Content="{loc:Localize Tf990d5c0c2cd}" />
+								<CheckBox Name="_cbVcResourcesModelFiles" Content="{loc:Localize Tc020f6c176c9}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcResourcesModelFiles), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcResourcesMapFiles" Content="{loc:Localize Td5d124463586}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcResourcesMapFiles), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcInvalidImageFormat" Content="{loc:Localize Tdc5813d79663}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcInvalidImageFormat), Mode=TwoWay}" />
 							</StackPanel>
 							<StackPanel Grid.Column="1">
-								<CheckBox Name="_cbVcSpriteIssues" Content="Detect sprite issues" />
-								<CheckBox Name="_cbVcSpriteIssuesRle" Content="Detect early ending RLE encoding" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteIssuesRle), Mode=TwoWay}" />
-								<CheckBox Name="_cbVcSpriteSoundIndex" Content="Detect invalid sound index in Act files" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteSoundIndex), Mode=TwoWay}" />
-								<CheckBox Name="_cbVcSpriteSoundMissing" Content="Detect missing sound files" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteSoundMissing), Mode=TwoWay}" />
-								<CheckBox Name="_cbVcSpriteIndex" Content="Detect invalid sprite index in Act files" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteIndex), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcSpriteIssues" Content="{loc:Localize Tfdacc9a8fe2f}" />
+								<CheckBox Name="_cbVcSpriteIssuesRle" Content="{loc:Localize T2a5f76c36bf4}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteIssuesRle), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcSpriteSoundIndex" Content="{loc:Localize T776c7e13415c}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteSoundIndex), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcSpriteSoundMissing" Content="{loc:Localize T0c4de1e5cc5b}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteSoundMissing), Mode=TwoWay}" />
+								<CheckBox Name="_cbVcSpriteIndex" Content="{loc:Localize Tdcafbb019094}" Margin="23 3 3 3" IsChecked="{Binding Path=(ApplicationConfiguration:GrfEditorConfiguration.VcSpriteIndex), Mode=TwoWay}" />
 							</StackPanel>
 						</Grid>
 					</StackPanel>
 				</TabItem>
-				<TabItem Header="Resources" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+				<TabItem Header="{loc:Localize T87df60de337f}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto" />
@@ -114,17 +114,17 @@
                         </Grid.RowDefinitions>
                         <StackPanel>
                             <StackPanel>
-                                <Label Content="Resources" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
+                                <Label Content="{loc:Localize T87df60de337f}" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
                                 <Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
                             </StackPanel>
                             <WrapPanel>
                             </WrapPanel>
-                            <TextBlock Margin="3" Text="Resources (drop a data folder or a GRF file here). The validation will only be applied to the currently opened GRF, but providing additional resources will be used to locate textures, sound files, models, etc." TextWrapping="Wrap" />
+                            <TextBlock Margin="3" Text="{loc:Localize Te30e59338a21}" TextWrapping="Wrap" />
                         </StackPanel>
                         <MultiGrf:MetaGrfResourcesViewer x:Name="_mViewer" Grid.Row="1" />
                     </Grid>
                 </TabItem>
-                <TabItem Name="_tabItemResults" Header="Results" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+                <TabItem Name="_tabItemResults" Header="{loc:Localize T612e12d29278}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto" />
@@ -132,16 +132,16 @@
                             <RowDefinition />
                         </Grid.RowDefinitions>
                         <StackPanel Grid.Row="0">
-                            <Label Content="Results" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
+                            <Label Content="{loc:Localize T612e12d29278}" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" />
                             <Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
                         </StackPanel>
                         <WrapPanel Grid.Row="1">
-                            <Styles:FancyButton x:Name="_buttonRawView" Click="_buttonRawView_Click" Height="43" TextHeader="Raw view" TextDescription="Show the raw view" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                            <Styles:FancyButton x:Name="_buttonRawView" Click="_buttonRawView_Click" Height="43" TextHeader="{loc:Localize Tdd4a2a52c78d}" TextDescription="{loc:Localize Te33f0f25cdf7}" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
                         </WrapPanel>
                         <ListView Foreground="{StaticResource TextForeground}" ListView:ListViewExtensions.IsGridSortable="True" VirtualizingStackPanel.IsVirtualizing="True" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseRightButtonUp="_listViewResults_PreviewMouseRightButtonUp"  Name="_listViewResults" BorderThickness="0" Grid.Row="2">
                             <ListView.ContextMenu>
                                 <ContextMenu Name="_cmResults">
-                                    <MenuItem Header="Select" Name="_menuItemSelect" Click="_menuItemSelect_Click">
+                                    <MenuItem Header="{loc:Localize T8598222918d3}" Name="_menuItemSelect" Click="_menuItemSelect_Click">
                                         <MenuItem.Icon>
                                             <Image Source="../../Resources/arrowdown.png"  />
                                         </MenuItem.Icon>
@@ -162,7 +162,7 @@
                 </Grid.ColumnDefinitions>
                 <Styles:TkProgressBar x:Name="_progressBar" Margin="3 0 0 0" />
                 <DockPanel HorizontalAlignment="Right" Grid.Column="1" Margin="0 0 3 0">
-                    <Button Name="_buttonCancel" Content="Close" Height="24" Width="100" Click="_buttonCancel_Click" Margin="3" />
+                    <Button Name="_buttonCancel" Content="{loc:Localize Tbbfa773e5a63}" Height="24" Width="100" Click="_buttonCancel_Click" Margin="3" />
                 </DockPanel>
             </Grid>
         </Grid>

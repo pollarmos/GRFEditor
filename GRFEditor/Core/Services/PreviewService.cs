@@ -394,7 +394,7 @@ namespace GRFEditor.Core.Services {
 					}
 					else {
 						UpdatePreviewPanel(new PreviewDisplayConfiguration { ShowHexEditor = true });
-						ErrorHandler.HandleException("Failed to read the data. " + (entry.Flags.HasFlags(EntryType.GrfEditorCrypted) ? "\n\nNow showing the raw data (from the GRF stream)." : "\n\nNow showing the decompressed data."), err);
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Failed to read the data. ") + (entry.Flags.HasFlags(EntryType.GrfEditorCrypted) ? "\n\nNow showing the raw data (from the GRF stream)." : "\n\nNow showing the decompressed data."), err);
 						_readAsResources(entry);
 					}
 				}

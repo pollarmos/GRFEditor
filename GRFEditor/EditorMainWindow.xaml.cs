@@ -53,6 +53,8 @@ namespace GRFEditor {
 		public EditorMainWindow() {
 			Instance = this;
 			InitializeComponent();
+			_languageEnglish.IsChecked = Configuration.InterfaceLanguage == "en";
+			_languageKorean.IsChecked = Configuration.InterfaceLanguage == "ko";
 			Title = Configuration.ProgramName;
 			_parseCommandLineArguments();
 			_loadEditorUI();
@@ -192,7 +194,7 @@ namespace GRFEditor {
 			_listBoxResults.PreviewMouseLeftButtonDown += _listBoxResults_PreviewMouseLeftButtonDown;
 			_progressBarComponent.ShowErrors += delegate {
 				if (_grfHolder.IsOpened) {
-					WindowProvider.ShowDialog("Minimalist debug log: \r\n" + Methods.Aggregate(_grfHolder.Header.Errors, "\r\n"), "Errors were detected", MessageBoxButton.OK);
+					WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("Minimalist debug log: \r\n") + Methods.Aggregate(_grfHolder.Header.Errors, "\r\n"), "Errors were detected", MessageBoxButton.OK);
 				}
 			};
 			_loadMenus();
@@ -206,16 +208,16 @@ namespace GRFEditor {
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_listBoxResults, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
 				new ListViewDataTemplateHelper.ImageColumnInfo { Header = "", DisplayExpression = "DataImage", SearchGetAccessor = "FileType", FixedWidth = 20, MaxHeight = 16 },
-				new ListViewDataTemplateHelper.RangeColumnInfo { Header = "File name", DisplayExpression = "RelativePath", SearchGetAccessor = "RelativePath", IsFill = true, TextAlignment = TextAlignment.Left, ToolTipBinding = "RelativePath", MinWidth = 100 },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Type", DisplayExpression = "FileType", FixedWidth = 40, ToolTipBinding = "FileType", TextAlignment = TextAlignment.Right },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Size", DisplayExpression = "DisplaySize", SearchGetAccessor = "NewSizeDecompressed", FixedWidth = 60, TextAlignment = TextAlignment.Right, ToolTipBinding = "NewSizeDecompressed" }
+				new ListViewDataTemplateHelper.RangeColumnInfo { Header = Utilities.Localization.UiText.Get("File name"), DisplayExpression = "RelativePath", SearchGetAccessor = "RelativePath", IsFill = true, TextAlignment = TextAlignment.Left, ToolTipBinding = "RelativePath", MinWidth = 100 },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Type"), DisplayExpression = "FileType", FixedWidth = 40, ToolTipBinding = "FileType", TextAlignment = TextAlignment.Right },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Size"), DisplayExpression = "DisplaySize", SearchGetAccessor = "NewSizeDecompressed", FixedWidth = 60, TextAlignment = TextAlignment.Right, ToolTipBinding = "NewSizeDecompressed" }
 			}, new DefaultListViewComparer<FileEntry>(), new string[] { "Added", "{DynamicResource CellBrushAdded}", "LzmaCompressed", "{DynamicResource CellBrushCustomCompression}", "Encrypted", "{DynamicResource CellBrushEncrypted}", "Removed", "{DynamicResource CellBrushRemoved}", "Editor_GravityEncrypted", "{DynamicResource CellGravityEncrypted}" });
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_items, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
 				new ListViewDataTemplateHelper.ImageColumnInfo { Header = "", DisplayExpression = "DataImage", SearchGetAccessor = "FileType", FixedWidth = 20, MaxHeight = 16 },
-				new ListViewDataTemplateHelper.RangeColumnInfo { Header = "File name", DisplayExpression = "DisplayRelativePath", SearchGetAccessor = "RelativePath", IsFill = true, TextAlignment = TextAlignment.Left, ToolTipBinding = "RelativePath", MinWidth = 100 },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Type", DisplayExpression = "FileType", FixedWidth = 40, ToolTipBinding = "FileType", TextAlignment = TextAlignment.Right },
-				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = "Size", DisplayExpression = "DisplaySize", SearchGetAccessor = "NewSizeDecompressed", FixedWidth = 60, TextAlignment = TextAlignment.Right, ToolTipBinding = "NewSizeDecompressed" }
+				new ListViewDataTemplateHelper.RangeColumnInfo { Header = Utilities.Localization.UiText.Get("File name"), DisplayExpression = "DisplayRelativePath", SearchGetAccessor = "RelativePath", IsFill = true, TextAlignment = TextAlignment.Left, ToolTipBinding = "RelativePath", MinWidth = 100 },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Type"), DisplayExpression = "FileType", FixedWidth = 40, ToolTipBinding = "FileType", TextAlignment = TextAlignment.Right },
+				new ListViewDataTemplateHelper.GeneralColumnInfo { Header = Utilities.Localization.UiText.Get("Size"), DisplayExpression = "DisplaySize", SearchGetAccessor = "NewSizeDecompressed", FixedWidth = 60, TextAlignment = TextAlignment.Right, ToolTipBinding = "NewSizeDecompressed" }
 			}, new DefaultListViewComparer<FileEntry>(), new string[] { "Added", "{DynamicResource CellBrushAdded}", "LzmaCompressed", "{DynamicResource CellBrushCustomCompression}", "Encrypted", "{DynamicResource CellBrushEncrypted}", "Removed", "{DynamicResource CellBrushRemoved}", "Editor_GravityEncrypted", "{DynamicResource CellGravityEncrypted}" });
 
 			WpfUtilities.AddDragDropEffects(_items);
@@ -315,12 +317,12 @@ namespace GRFEditor {
 
 		private void _buttonExpand_Click(object sender, RoutedEventArgs e) {
 			if (_buttonExpand.IsPressed) {
-				_buttonExpand.TextHeader = "Hide";
+				_buttonExpand.TextHeader = Utilities.Localization.UiText.Get("Hide");
 				_gridSplitterPanels.Visibility = Visibility.Visible;
 				_primaryGrid.ColumnDefinitions[0].Width = new GridLength(_oldGridWidth);
 			}
 			else {
-				_buttonExpand.TextHeader = "Show";
+				_buttonExpand.TextHeader = Utilities.Localization.UiText.Get("Show");
 				_gridSplitterPanels.Visibility = Visibility.Collapsed;
 				_oldGridWidth = _primaryGrid.ColumnDefinitions[0].ActualWidth;
 				_primaryGrid.ColumnDefinitions[0].Width = new GridLength(0);
@@ -349,7 +351,7 @@ namespace GRFEditor {
 					}
 				}
 				else if (_grfHolder.IsNewGrf || !File.Exists(_grfHolder.FileName)) {
-					ErrorHandler.HandleException("The GRF file doesn't exist yet.", ErrorLevel.NotSpecified);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The GRF file doesn't exist yet."), ErrorLevel.NotSpecified);
 				}
 			}
 			catch (Exception err) {
@@ -386,7 +388,7 @@ namespace GRFEditor {
 		protected override void OnClosing(CancelEventArgs e) {
 			try {
 				if (_grfHolder.IsOpened && _grfHolder.IsModified) {
-					MessageBoxResult res = WindowProvider.ShowDialog("The GRF has been modified, do you want to save it first?", "Modified GRF",
+					MessageBoxResult res = WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The GRF has been modified, do you want to save it first?"), "Modified GRF",
 					                                                 MessageBoxButton.YesNoCancel);
 					if (res == MessageBoxResult.Yes) {
 						_menuItemSaveAs_Click(null, null);
@@ -408,7 +410,7 @@ namespace GRFEditor {
 			}
 			catch (Exception err) {
 				try {
-					ErrorHandler.HandleException("The application hasn't ended properly. Please report this issue.", err);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The application hasn't ended properly. Please report this issue."), err);
 				}
 				catch {
 				}

@@ -33,7 +33,7 @@ namespace GRF.ContainerFormat.Commands {
 		}
 
 		public string CommandDescription {
-			get { return string.Format(GrfStrings.GravityDecryptFiles); }
+			get { return Utilities.Localization.UiText.Message(string.Format(GrfStrings.GravityDecryptFiles)); }
 		}
 
 		#endregion

@@ -101,7 +101,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 				case ".thor":
 					_textBoxTargetGrf.Text = _grfData.Header.ThorSettings.TargetGrf ?? "";
 					_comboBoxPatchMode.SelectedIndex = _grfData.Header.ThorSettings.UseGrfMerging ? 1 : 0;
-					_labelPropertyType.Content = "Thor type properties";
+					_labelPropertyType.Content = Utilities.Localization.UiText.Get("Thor type properties");
 					_gridThor.Visibility = Visibility.Visible;
 					break;
 				case ".grf":
@@ -110,7 +110,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 				default:
 					_tbMagicHeader.Text = _grfData.Header.Magic;
 					_buttonMagicReset.IsEnabled = !_isDefaultMagicHeader();
-					_labelPropertyType.Content = "Grf type properties";
+					_labelPropertyType.Content = Utilities.Localization.UiText.Get("Grf type properties");
 					_gridGrf.Visibility = Visibility.Visible;
 
 					_comboBoxFormat.SelectionChanged -= _comboBoxFormat_SelectionChanged;

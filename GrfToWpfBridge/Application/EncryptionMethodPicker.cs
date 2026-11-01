@@ -33,7 +33,7 @@ namespace GrfToWpfBridge.Application {
 		}
 
 		public void Init() {
-			ItemsSource = new string[] { "Default", GrfStrings.CustomEncryption }.ToList();
+			ItemsSource = new string[] { Utilities.Localization.UiText.Get("Default"), Utilities.Localization.UiText.Get(GrfStrings.CustomEncryption) }.ToList();
 
 			SelectedIndex = (int) SettingEncryptionIndex.Get();
 			_updateCompression(false);
@@ -84,7 +84,7 @@ namespace GrfToWpfBridge.Application {
 				catch {
 					Encryption.Encryptor = Encryption.DefaultEncryption;
 					SettingEncryptionIndex.Set(0);
-					ErrorHandler.HandleException("Couldn't load the encryption library. The application has been set to the default encryption method.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Couldn't load the encryption library. The application has been set to the default encryption method."));
 				}
 			}
 		}

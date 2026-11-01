@@ -91,7 +91,7 @@ namespace GrfToWpfBridge.PreviewTabs {
 				if (ErrorPanel != null)
 					ErrorPanel.ShowError(this, entry, new Exception("If you're receiving this error while the GRF is saving, it is because the file is temporarily closed.", err));
 				else
-					ErrorHandler.HandleException("If you're receiving this error while the GRF is saving, it is because the file is temporarily closed.", err);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("If you're receiving this error while the GRF is saving, it is because the file is temporarily closed."), err);
 			}
 			catch (Exception err) {
 				if (ErrorPanel != null)

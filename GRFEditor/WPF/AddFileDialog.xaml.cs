@@ -22,7 +22,7 @@ namespace GRFEditor.WPF {
 
 		private string _filePath = "";
 
-		public AddFileDialog(TreeView treeView, TkPath grfSelectPath = null) : base("Add files", "add.ico") {
+		public AddFileDialog(TreeView treeView, TkPath grfSelectPath = null) : base(Utilities.Localization.UiText.Get("Add files"), "add.ico") {
 			InitializeComponent();
 
 			_copyTreeView(treeView);

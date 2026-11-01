@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="TokeiLibrary.WPF.Styles.FancyButton"
+﻿<UserControl xmlns:loc="clr-namespace:TokeiLibrary.Localization" x:Class="TokeiLibrary.WPF.Styles.FancyButton"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" >
     <Grid Name="_primaryGrid">
@@ -26,8 +26,8 @@
                             <RowDefinition Height="auto" />
                             <RowDefinition />
                         </Grid.RowDefinitions>
-                        <TextBlock Name="_tbIdentifier" Text="Header" FontSize="15" Visibility="Collapsed" Foreground="{DynamicResource FancyButtonHeaderForeground}" Margin="3 3 3 0" />
-                        <TextBlock Grid.Row="1" Text="Description" Name="_tbDescription" Visibility="Collapsed" TextWrapping="Wrap" Margin="3 0 3 3" />
+                        <TextBlock Name="_tbIdentifier" Text="{loc:Localize T31341c6f0c7a}" FontSize="15" Visibility="Collapsed" Foreground="{DynamicResource FancyButtonHeaderForeground}" Margin="3 3 3 0" />
+                        <TextBlock Grid.Row="1" Text="{loc:Localize T55f8ebc805e6}" Name="_tbDescription" Visibility="Collapsed" TextWrapping="Wrap" Margin="3 0 3 3" />
                     </Grid>
                     <TextBlock Grid.Row="1" HorizontalAlignment="Center" Name="_tbSubDescription" Visibility="Collapsed" TextWrapping="Wrap" Margin="3 0 3 3" />
                 </Grid>

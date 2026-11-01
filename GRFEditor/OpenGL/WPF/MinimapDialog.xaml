@@ -1,4 +1,4 @@
-﻿<styles:TkWindow x:Class="GRFEditor.OpenGL.WPF.MinimapDialog"
+﻿<styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.OpenGL.WPF.MinimapDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wpf="clr-namespace:GRFEditor.WPF"
@@ -25,25 +25,25 @@
         </Grid.ColumnDefinitions>
 
         <DockPanel Grid.Row="0" Grid.Column="0">
-            <CheckBox Name="_cbEnableWater" VerticalAlignment="Center" Margin="3 3 0 3" Content="Water" />
+            <CheckBox Name="_cbEnableWater" VerticalAlignment="Center" Margin="3 3 0 3" Content="{loc:Localize Tde9b1be49dae}" />
         </DockPanel>
         <wpf:QuickColorSelector Grid.Row="0" Grid.Column="1" Margin="3 0 0 0" Height="20" x:Name="_tbWater_Color" />
 
-        <TextBlock Text="Walk contrast" Grid.Row="1" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="Adjusts the contrast of walkable cells to make the minimap easier to use.&#x0a;This is not always necessary and may look better without.&#x0a;0% = no contrast; 100% = twice as bright" />
+        <TextBlock Text="{loc:Localize Tb7037c6ae19c}" Grid.Row="1" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="{loc:Localize T7a44f3209a71}" />
         <sliders:SliderColor Grid.Row="1" Grid.Column="1" x:Name="_tbWalk_Color" Width="126" Height="19" Margin="2" VerticalAlignment="Center" />
 
-        <TextBlock Text="Non-walk contrast" Grid.Row="2" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="Adjusts the contrast of non-walkable cells to make the minimap easier to use. This is not always necessary and may look better without.&#x0a;0% = no contrast; 100% = fully dark" />
+        <TextBlock Text="{loc:Localize Tafc20360dbb8}" Grid.Row="2" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="{loc:Localize Tc5e552bc9ef7}" />
         <sliders:SliderColor Grid.Row="2" Grid.Column="1" x:Name="_tbNonWalk_Color" Width="126" Height="19" Margin="2" VerticalAlignment="Center" />
 
-        <TextBlock Text="Black border" Grid.Row="3" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="Adds a black border around the map by the specified pixel amount.&#x0a;This border is not visible in the preview and is added afterwards.&#x0a;default = 7 pixels, 0 if you want to remove the black border." />
+        <TextBlock Text="{loc:Localize Tba4ac4de54df}" Grid.Row="3" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="{loc:Localize T7e7d07241b3d}" />
         <TextBox Grid.Row="3" Grid.Column="1" Name="_tbMargin" Margin="3" />
 
-        <TextBlock Text="Zoom adjust" Grid.Row="4" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="This is useful to hide a border, but the higher the value, the more offset the ingame position will be relative the minimap.&#x0a;default = 2 (the map border is hidden); 0 = all the map is visible." />
+        <TextBlock Text="{loc:Localize T1ac1249bf4d1}" Grid.Row="4" Grid.Column="0" Margin="3" VerticalAlignment="Center" ToolTip="{loc:Localize T3f66ecb8350b}" />
         <sliders:SliderColor Grid.Row="4" Grid.Column="1" x:Name="_tbBorderCut" Width="126" Height="19" Margin="2" VerticalAlignment="Center" />
 
 		<Grid Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="0 3 0 0" TokeiLibrary:WpfProperties.IsDraggable="True" Height="40" Background="{DynamicResource UIDialogBackground}">
             <DockPanel HorizontalAlignment="Right" Margin="0 0 3 0">
-                <Button Content="Save..." Name="_buttonSave" Width="100" Margin="3" Height="24" Click="_buttonSave_Click" />
+                <Button Content="{loc:Localize T96b41bc1a37e}" Name="_buttonSave" Width="100" Margin="3" Height="24" Click="_buttonSave_Click" />
             </DockPanel>
         </Grid>
     </Grid>

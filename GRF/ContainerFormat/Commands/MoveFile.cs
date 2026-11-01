@@ -46,7 +46,7 @@
 		}
 
 		public string CommandDescription {
-			get { return string.Format(GrfStrings.MoveFile, _oldPath, _newPath); }
+			get { return Utilities.Localization.UiText.Message(string.Format(GrfStrings.MoveFile, _oldPath, _newPath)); }
 		}
 
 		#endregion

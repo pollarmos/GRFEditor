@@ -138,11 +138,11 @@ namespace GRFEditor.OpenGL.WPF {
 
 					border2.ContextMenu = new ContextMenu();
 
-					var menuItem = new MenuItem { Header = "Delete" };
+					var menuItem = new MenuItem { Header = Utilities.Localization.UiText.Get("Delete") };
 					menuItem.Click += delegate { OnClose(); };
 					border2.ContextMenu.Items.Add(menuItem);
 
-					menuItem = new MenuItem { Header = "Delete all but this" };
+					menuItem = new MenuItem { Header = Utilities.Localization.UiText.Get("Delete all but this") };
 					menuItem.Click += delegate {
 						var cloudEdit = WpfUtilities.FindParentControl<CloudEditDialog>(this);
 
@@ -154,7 +154,7 @@ namespace GRFEditor.OpenGL.WPF {
 					};
 					border2.ContextMenu.Items.Add(menuItem);
 
-					menuItem = new MenuItem { Header = "Delete all" };
+					menuItem = new MenuItem { Header = Utilities.Localization.UiText.Get("Delete all") };
 					menuItem.Click += delegate {
 						var cloudEdit = WpfUtilities.FindParentControl<CloudEditDialog>(this);
 

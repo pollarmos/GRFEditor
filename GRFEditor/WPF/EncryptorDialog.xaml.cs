@@ -28,7 +28,7 @@ namespace GRFEditor.WPF {
 		private string _outputDllPath = "";
 		private string _password = "";
 
-		public EncryptorDialog(GrfHolder grf) : base("GRF Encryption", "lock.ico") {
+		public EncryptorDialog(GrfHolder grf) : base(Utilities.Localization.UiText.Get("GRF Encryption"), "lock.ico") {
 			InitializeComponent();
 			_grf = grf;
 
@@ -49,7 +49,7 @@ namespace GRFEditor.WPF {
 				}
 				else {
 					_recentFiles.RemoveRecentFile(file);
-					ErrorHandler.HandleException("File not found: " + file, ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("File not found: ") + file, ErrorLevel.Low);
 				}
 			}
 			catch (Exception err) {
@@ -77,7 +77,7 @@ namespace GRFEditor.WPF {
 					throw new Exception("Client executable not found.");
 
 				if (String.IsNullOrEmpty(_tbEncryptionPassword.Text)) {
-					InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog("Enter the password for the encryption.", "GRF Encryption", "", false), this);
+					InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog(Utilities.Localization.UiText.Get("Enter the password for the encryption."), "GRF Encryption", "", false), this);
 
 					if (dialog.DialogResult == true) {
 						_tbEncryptionPassword.Text = dialog.Input;
@@ -246,7 +246,7 @@ namespace GRFEditor.WPF {
 
 		private void _miSave_Click(object sender, RoutedEventArgs e) {
 			if (!_tbEncryptionPassword.IsEnabled) {
-				ErrorHandler.HandleException("You can only save new passwords.", ErrorLevel.NotSpecified);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("You can only save new passwords."), ErrorLevel.NotSpecified);
 				return;
 			}
 
@@ -275,7 +275,7 @@ namespace GRFEditor.WPF {
 					throw new Exception("Only the GRF version 0x200 is supported for now.");
 
 				if (String.IsNullOrEmpty(_tbEncryptionPassword.Text)) {
-					InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog("Enter the password for the encryption.", "GRF Encryption", "", false), this);
+					InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog(Utilities.Localization.UiText.Get("Enter the password for the encryption."), "GRF Encryption", "", false), this);
 
 					if (dialog.DialogResult == true) {
 						_tbEncryptionPassword.Text = dialog.Input;
@@ -324,7 +324,7 @@ namespace GRFEditor.WPF {
 					throw new Exception("Only the GRF version 0x200 is supported for now.");
 
 				if (String.IsNullOrEmpty(_tbEncryptionPassword.Text)) {
-					InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog("Enter the password for the decryption.", "GRF Encryption", "", false), this);
+					InputDialog dialog = WindowProvider.ShowWindow<InputDialog>(new InputDialog(Utilities.Localization.UiText.Get("Enter the password for the decryption."), "GRF Encryption", "", false), this);
 
 					if (dialog.DialogResult == true) {
 						_tbEncryptionPassword.Text = dialog.Input;

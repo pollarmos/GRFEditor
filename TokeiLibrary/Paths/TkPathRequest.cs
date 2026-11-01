@@ -11,7 +11,7 @@ namespace TokeiLibrary.Paths {
 		public static SaveFileDialog LatestSaveFileDialog { get; set; }
 
 		private static void _setCommonDialog(FileDialog dialog, params string[] extra) {
-			dialog.Filter = "All files (*.*)|*.*";
+			dialog.Filter = Utilities.Localization.UiText.Filter("All files (*.*)|*.*");
 			dialog.AddExtension = true;
 
 			for (int i = 0; i < extra.Length; i++) {
@@ -25,13 +25,13 @@ namespace TokeiLibrary.Paths {
 					dialog.InitialDirectory = extra[++i];
 				}
 				else if (extra[i] == "filter") {
-					dialog.Filter = extra[++i];
+					dialog.Filter = Utilities.Localization.UiText.Filter(extra[++i]);
 				}
 				else if (extra[i] == "filterIndex") {
 					dialog.FilterIndex = Int32.Parse(extra[++i]);
 				}
 				else if (extra[i] == "title") {
-					dialog.Title = extra[++i];
+					dialog.Title = Utilities.Localization.UiText.Get(extra[++i]);
 				}
 				else if (extra[i] == "addExtension") {
 					dialog.AddExtension = Boolean.Parse(extra[++i]);
@@ -123,11 +123,11 @@ namespace TokeiLibrary.Paths {
 		public static string Folder(params string[] extra) {
 			FolderSelectDialog dialog = new FolderSelectDialog();
 
-			dialog.Title = "Select a folder";
+			dialog.Title = Utilities.Localization.UiText.Get("Select a folder");
 			
 			for (int i = 0; i < extra.Length; i++) {
 				if (extra[i] == "description") {
-					dialog.Title = extra[++i];
+					dialog.Title = Utilities.Localization.UiText.Get(extra[++i]);
 				}
 				else if (extra[i] == "selectedPath") {
 					string selectedPath = extra[++i];
@@ -156,7 +156,7 @@ namespace TokeiLibrary.Paths {
 			OpenFileDialog dialog = new OpenFileDialog();
 			string currentPath = (string)setting.Get();
 
-			dialog.Title = "Select a file";
+			dialog.Title = Utilities.Localization.UiText.Get("Select a file");
 			dialog.InitialDirectory = Path.GetDirectoryName(currentPath);
 			dialog.FileName = Path.GetFileName(currentPath);
 
@@ -185,7 +185,7 @@ namespace TokeiLibrary.Paths {
 
 			dialog.InitialDirectory = Path.GetDirectoryName(currentPath);
 			dialog.FileName = Path.GetFileName(currentPath);
-			dialog.Title = "Save file";
+			dialog.Title = Utilities.Localization.UiText.Get("Save file");
 
 			_setCommonDialog(dialog, extra);
 
@@ -205,7 +205,7 @@ namespace TokeiLibrary.Paths {
 			OpenFileDialog dialog = new OpenFileDialog();
 			string currentPath = (string)setting.Get();
 
-			dialog.Title = "Select a file";
+			dialog.Title = Utilities.Localization.UiText.Get("Select a file");
 			dialog.InitialDirectory = Path.GetDirectoryName(currentPath);
 			dialog.FileName = Path.GetFileName(currentPath);
 

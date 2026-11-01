@@ -25,7 +25,7 @@ namespace GRFEditor.Core.Services {
 				entries = entries.Where(p => !p.Encrypted).ToList();
 
 				if (entries.Count == 0) {
-					ErrorHandler.HandleException("Found no files to encrypt.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Found no files to encrypt."), ErrorLevel.Low);
 				}
 				else {
 					if (grfHolder.Header.EncryptionKey == null) {
@@ -59,7 +59,7 @@ namespace GRFEditor.Core.Services {
 				entries = entries.Where(p => p.Encrypted).ToList();
 
 				if (entries.Count == 0) {
-					ErrorHandler.HandleException("No encrypted files are selected.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("No encrypted files are selected."), ErrorLevel.Low);
 				}
 				else {
 					if (grfHolder.Header.EncryptionKey == null) {
@@ -83,7 +83,7 @@ namespace GRFEditor.Core.Services {
 				entries = entries.Where(p => p.GravityEncrypted && !p.PendingGravityDecrypt).ToList();
 
 				if (entries.Count == 0) {
-					ErrorHandler.HandleException("No Gravity encrypted files are selected.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("No Gravity encrypted files are selected."), ErrorLevel.Low);
 				}
 				else {
 					grfHolder.Commands.GravityDecryptFiles(entries.Select(p => p.RelativePath));

@@ -149,7 +149,7 @@ namespace TokeiLibrary.WPF.Styles {
 			if (!File.Exists(file) && !Directory.Exists(file) &&
 				!file.StartsWith("sftp://") && !file.StartsWith("ftp://")) {
 				_recentFiles.RemoveRecentFile(file);
-				ErrorHandler.HandleException("File couldn't be found " + file, ErrorLevel.Low);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("File couldn't be found ") + file, ErrorLevel.Low);
 			}
 			else {
 				_tb.Text = file;
@@ -220,7 +220,7 @@ namespace TokeiLibrary.WPF.Styles {
 
 			if (!String.IsNullOrEmpty(Filter)) {
 				if (Path.GetExtension(files[0]) != null && !Filter.Contains("*" + Path.GetExtension(files[0]).ToLower())) {
-					ErrorHandler.HandleException("This file type is not allowed.", ErrorLevel.NotSpecified);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("This file type is not allowed."), ErrorLevel.NotSpecified);
 					e.Handled = true;
 					return;
 				}

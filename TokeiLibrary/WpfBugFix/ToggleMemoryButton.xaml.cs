@@ -36,7 +36,7 @@ namespace TokeiLibrary.WpfBugFix {
 			};
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_listView, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
-			    new ListViewDataTemplateHelper.GeneralColumnInfo {Header = "Commands", DisplayExpression = "CommandDescription", FixedWidth = 230, TextAlignment = TextAlignment.Left, ToolTipBinding = "CommandDescription" }
+			    new ListViewDataTemplateHelper.GeneralColumnInfo {Header = Utilities.Localization.UiText.Get("Commands"), DisplayExpression = "CommandDescription", FixedWidth = 230, TextAlignment = TextAlignment.Left, ToolTipBinding = "CommandDescription" }
 			}, null, new string[] { }, generateHeader: false);
 
 			_gridSearchContent.Children.Add(_listView);
@@ -88,7 +88,8 @@ namespace TokeiLibrary.WpfBugFix {
 			ToggleMemoryButton button = d as ToggleMemoryButton;
 
 			if (button != null) {
-				button._label.Content = String.Format(button.DisplayFormat, button.CurrentIndex + 1) + (button.CurrentIndex < 1 ? "" : "s");
+				button._label.Content = String.Format(button.DisplayFormat, button.CurrentIndex + 1) +
+					(button.CurrentIndex < 1 || Utilities.Localization.UiText.Language != "en" ? "" : "s");
 				button._selectAll((int)e.NewValue);
 			}
 		}

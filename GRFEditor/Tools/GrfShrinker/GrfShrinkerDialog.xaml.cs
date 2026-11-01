@@ -29,7 +29,7 @@ namespace GRFEditor.Tools.GrfShrinker {
 		private readonly GrfHolder _grfHolder;
 
 		public GrfShrinkerDialog(GrfHolder grfHolder)
-			: base("Grf validation", "validity.ico", SizeToContent.Manual, ResizeMode.CanResize) {
+			: base(Utilities.Localization.UiText.Get("Grf validation"), "validity.ico", SizeToContent.Manual, ResizeMode.CanResize) {
 			_grfHolder = grfHolder;
 			InitializeComponent();
 

@@ -54,7 +54,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 		private void _setupUI(FileEntry entry) {
 			this.Dispatch(delegate {
-				_labelHeader.Text = "Edit sprite: " + entry.DisplayRelativePath;
+				_labelHeader.Text = Utilities.Localization.UiText.Get("Edit sprite: ") + entry.DisplayRelativePath;
 			});
 		}
 
@@ -76,7 +76,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 				// Ensure the other tabs use the updated SPR entry
 				_previewService.InvalidateAllVisiblePreviewTabs(_grfData);
-				ErrorHandler.HandleException("File successfully saved.", ErrorLevel.Low);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("File successfully saved."), ErrorLevel.Low);
 			}
 			catch (Exception err) {
 				ErrorHandler.HandleException(err);

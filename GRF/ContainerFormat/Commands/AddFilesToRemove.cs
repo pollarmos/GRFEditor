@@ -61,10 +61,10 @@ namespace GRF.ContainerFormat.Commands {
 		public string CommandDescription {
 			get {
 				if (_files.Count == 1) {
-					return string.Format(GrfStrings.AddFilesToRemove, _files[0]);
+					return Utilities.Localization.UiText.Message(string.Format(GrfStrings.AddFilesToRemove, _files[0]));
 				}
 
-				return string.Format(GrfStrings.AddFileToRemove);
+				return Utilities.Localization.UiText.Message(string.Format(GrfStrings.AddFileToRemove));
 			}
 		}
 

@@ -38,7 +38,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 		public PreviewResourceIndexer() {
 		}
 
-		public PreviewResourceIndexer(GrfHolder grf, object selectedItem) : base("Resource indexer", "add.ico", SizeToContent.Manual, ResizeMode.CanResize) {
+		public PreviewResourceIndexer(GrfHolder grf, object selectedItem) : base(Utilities.Localization.UiText.Get("Resource indexer"), "add.ico", SizeToContent.Manual, ResizeMode.CanResize) {
 			_grf = grf;
 
 			if (selectedItem is FileEntry) {
@@ -52,7 +52,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 					Clipboard.SetDataObject(((MapExtractorTreeViewItem)_tree.SelectedItem).ResourcePath.GetMostRelative());
 			};
 
-			_labelHeader.Dispatch(p => p.Text = "Searching usages of " + Path.GetFileName(_fileName));
+			_labelHeader.Dispatch(p => p.Text = Utilities.Localization.UiText.Get("Searching usages of ") + Path.GetFileName(_fileName));
 			ShowInTaskbar = true;
 
 			_asyncOperation = new AsyncOperation(_progressBarComponent);
@@ -268,14 +268,14 @@ namespace GRFEditor.WPF.PreviewTabs {
 				TkPath path = ((MapExtractorTreeViewItem) _tree.SelectedItem).ResourcePath;
 
 				if (path == null) {
-					ErrorHandler.HandleException("This file isn't present in the currently opened GRF.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("This file isn't present in the currently opened GRF."), ErrorLevel.Low);
 					return;
 				}
 
 				if (_grf.FileName == path.FilePath)
 					PreviewService.Select(null, null, path.RelativePath);
 				else
-					ErrorHandler.HandleException("This file isn't present in the currently opened GRF.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("This file isn't present in the currently opened GRF."), ErrorLevel.Low);
 			}
 			catch (Exception err) {
 				ErrorHandler.HandleException(err);
@@ -285,7 +285,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 		public void Update(object selectedItem) {
 			if (selectedItem is FileEntry) {
 				_fileName = ((FileEntry) selectedItem).RelativePath;
-				_labelHeader.Dispatch(p => p.Text = "Searching usages of " + Path.GetFileName(_fileName));
+				_labelHeader.Dispatch(p => p.Text = Utilities.Localization.UiText.Get("Searching usages of ") + Path.GetFileName(_fileName));
 				_asyncOperation.SetAndRunOperation(new GrfThread(() => _updateMapFiles(_fileName, () => this.IsCancelling), this, null, false, true));
 			}
 		}

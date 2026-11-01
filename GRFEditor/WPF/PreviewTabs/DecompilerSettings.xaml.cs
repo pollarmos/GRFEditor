@@ -19,7 +19,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 		public DecompilerSettings(PreviewService service) {
 			_service = service;
 			InitializeComponent();
-			_labelHeader.Dispatch(p => p.Text = "Lub decompiler");
+			_labelHeader.Dispatch(p => p.Text = Utilities.Localization.UiText.Get("Lub decompiler"));
 
 			_reloadLubDecompilerSettings();
 			LubErrorHandler.AddListener(this);

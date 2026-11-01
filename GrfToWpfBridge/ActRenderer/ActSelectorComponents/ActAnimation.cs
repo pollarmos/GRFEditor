@@ -56,7 +56,7 @@ namespace GrfToWpfBridge.ActRenderer.ActSelectorComponents {
 				if (act[selectedAction].AnimationSpeed < MaxAnimationSpeed) {
 					selector.Stop();
 					selector.OnAnimationPlaying(AnimationState.Stopped);
-					ErrorHandler.HandleException("The animation speed is too fast and might cause issues. The animation will not be displayed.", ErrorLevel.NotSpecified);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The animation speed is too fast and might cause issues. The animation will not be displayed."), ErrorLevel.NotSpecified);
 					return;
 				}
 
@@ -90,7 +90,7 @@ namespace GrfToWpfBridge.ActRenderer.ActSelectorComponents {
 
 							if (act[selectedAction].AnimationSpeed < MaxAnimationSpeed) {
 								selector.Stop();
-								ErrorHandler.HandleException("The animation speed is too fast and might cause issues. The animation will not be displayed.", ErrorLevel.NotSpecified);
+								ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The animation speed is too fast and might cause issues. The animation will not be displayed."), ErrorLevel.NotSpecified);
 								return;
 							}
 

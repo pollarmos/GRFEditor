@@ -1,4 +1,4 @@
-﻿<PreviewTabs:FilePreviewTab x:Class="GRFEditor.WPF.PreviewTabs.PreviewRsm"
+<PreviewTabs:FilePreviewTab xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.WPF.PreviewTabs.PreviewRsm"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -37,28 +37,24 @@
                             <RowDefinition />
                             <RowDefinition />
                         </Grid.RowDefinitions>
-						<CheckBox Name="_checkBoxRotateCamera" Grid.Row="0" IsChecked="True" Content="Rotate camera" Margin="3" VerticalAlignment="Center" />
-						<CheckBox Name="_checkBoxUseGlobalLighting" Grid.Row="1" IsChecked="False" Content="Use global lighting" Margin="3" VerticalAlignment="Center" />
-						<CheckBox Name="_checkBoxEnableMipmap" Grid.Row="2" IsChecked="False" Content="Enable mipmapping" Margin="3" VerticalAlignment="Center" />
+						<CheckBox Name="_checkBoxRotateCamera" Grid.Row="0" IsChecked="True" Content="{loc:Localize T3113f87ff8e9}" Margin="3" VerticalAlignment="Center" />
+						<CheckBox Name="_checkBoxUseGlobalLighting" Grid.Row="1" IsChecked="False" Content="{loc:Localize Tdd15cd1491bc}" Margin="3" VerticalAlignment="Center" />
+						<CheckBox Name="_checkBoxEnableMipmap" Grid.Row="2" IsChecked="False" Content="{loc:Localize T604c9237e30c}" Margin="3" VerticalAlignment="Center" />
 						
-						<TextBlock Text="Background" Grid.Column="2" Margin="3" TextAlignment="Right" HorizontalAlignment="Left" />
+						<TextBlock Text="{loc:Localize T64dd60fe1a04}" Grid.Column="2" Margin="3" TextAlignment="Right" HorizontalAlignment="Left" />
                         <WPF:QuickColorSelector Grid.Row="0" Grid.Column="1" Height="16" Width="100" Margin="0" x:Name="_qcsBackground" VerticalAlignment="Center" />
-                        <Button Name="_buttonLighting" Content="Lighting options..." Grid.Column="1" Grid.Row="1" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
-						<Button Name="_buttonRenderOptions" Content="Render options..." Padding="0" Grid.Column="1" Grid.Row="2" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
-						<Button Name="_buttonSkyMap" Content="Sky map..." Padding="0" Grid.Row="1" Grid.Column="2" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
-						<Button Name="_buttonMinimap" Content="Minimap..." Padding="0" Grid.Row="2" Grid.Column="3" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
-                        <Button Name="_buttonShading" Content="Normal options..." Padding="0" Grid.Column="1" Grid.Row="1" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" >
+                        <Button Name="_buttonLighting" Content="{loc:Localize Tfce4f5bd23be}" Grid.Column="1" Grid.Row="1" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
+						<Button Name="_buttonRenderOptions" Content="{loc:Localize T01188919c0d3}" Padding="0" Grid.Column="1" Grid.Row="2" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
+						<Button Name="_buttonSkyMap" Content="{loc:Localize T7f0318ad9dc7}" Padding="0" Grid.Row="1" Grid.Column="2" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
+						<Button Name="_buttonMinimap" Content="{loc:Localize Tb415110cd2f3}" Padding="0" Grid.Row="2" Grid.Column="3" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" />
+                        <Button Name="_buttonShading" Content="{loc:Localize Tc3309a92d6e4}" Padding="0" Grid.Column="1" Grid.Row="1" Height="22" Margin="3 1 3 1" Width="100" VerticalContentAlignment="Center" FontSize="11" >
                             <Button.ContextMenu>
                                 <ContextMenu>
-                                    <MenuItem Name="_shader1" Header="Flat normals" IsCheckable="true" Click="_shader1_Click">
-                                        <MenuItem.ToolTip>
-                                            Overrides the default normals from the RSM file and use flat normals.
-                                        </MenuItem.ToolTip>
+                                    <MenuItem Name="_shader1" Header="{loc:Localize T5d5d33dedaa6}" IsCheckable="true" Click="_shader1_Click">
+                                        <MenuItem.ToolTip><TextBlock Text="{loc:Localize T7822d2b5fdba}" /></MenuItem.ToolTip>
                                     </MenuItem>
-                                    <MenuItem Name="_shader2" Header="Smooth normals" IsCheckable="true" Click="_shader2_Click">
-                                        <MenuItem.ToolTip>
-                                            Overrides the default normals from the RSM file and use smooth normals.
-                                        </MenuItem.ToolTip>
+                                    <MenuItem Name="_shader2" Header="{loc:Localize T312660663f12}" IsCheckable="true" Click="_shader2_Click">
+                                        <MenuItem.ToolTip><TextBlock Text="{loc:Localize T79df1d42d0b8}" /></MenuItem.ToolTip>
                                     </MenuItem>
                                 </ContextMenu>
                             </Button.ContextMenu>
@@ -80,7 +76,7 @@
                     <ColumnDefinition Width="auto" />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                <TextBlock Grid.Column="0" Text="Frame: " Margin="4 3 0 3" Padding="0" />
+                <TextBlock Grid.Column="0" Text="{loc:Localize Tf84f955a33bc}" Margin="4 3 0 3" Padding="0" />
                 <TextBlock Name="_sliderPosition" Grid.Column="1" Margin="0 3 0 3" Padding="0" Width="{Binding ElementName=_sliderPositionTotal, Path=ActualWidth}" TextAlignment="Right" />
                 <TextBlock Grid.Column="2" Margin="0 3 0 3" Padding="0" Text=" / " />
                 <TextBlock Name="_sliderPositionTotal" Grid.Column="3" Margin="0 3 0 3" Padding="0" />

@@ -37,7 +37,7 @@
 		}
 
 		public string CommandDescription {
-			get { return string.Format(GrfStrings.AddFolder, _newName); }
+			get { return Utilities.Localization.UiText.Message(string.Format(GrfStrings.AddFolder, _newName)); }
 		}
 
 		#endregion

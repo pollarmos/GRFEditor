@@ -88,12 +88,12 @@ namespace GrfToWpfBridge.TreeViewManager {
 
 				if (_resourcePath != null) {
 					if (_resourcePath.RelativePath == null)
-						ToolTip = "File: " + _resourcePath.FilePath;
+						ToolTip = Utilities.Localization.UiText.Get("File: ") + _resourcePath.FilePath;
 					else
-						ToolTip = "GRF: " + _resourcePath.FilePath + (String.IsNullOrEmpty(_resourcePath.RelativePath) ? "" : "\r\n" + _resourcePath.RelativePath);
+						ToolTip = Utilities.Localization.UiText.Get("GRF: ") + _resourcePath.FilePath + (String.IsNullOrEmpty(_resourcePath.RelativePath) ? "" : "\r\n" + _resourcePath.RelativePath);
 				}
 				else {
-					ToolTip = "Resource not found.";
+					ToolTip = Utilities.Localization.UiText.Get("Resource not found.");
 				}
 			}
 		}

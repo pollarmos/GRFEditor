@@ -46,6 +46,8 @@ namespace GrfToWpfBridge.Application {
 			_encodingCodePage = encodingCodePage;
 			_encodingGetter = encodingGetter;
 
+			foreach (var encoding in _encodings)
+				encoding.FriendlyName = Utilities.Localization.UiText.Get(encoding.FriendlyName);
 			ItemsSource = _encodings;
 
 			SelectedIndex = _findSelectedIndex(_encodingCodePage.Get());
@@ -84,7 +86,7 @@ namespace GrfToWpfBridge.Application {
 						encoding.FriendlyName = currentEncoding + "...";
 					}
 					else {
-						encoding.FriendlyName = "Other...";
+						encoding.FriendlyName = Utilities.Localization.UiText.Get("Other...");
 					}
 				}
 				else if (encoding.Encoding.CodePage == currentEncoding) {
@@ -140,7 +142,7 @@ namespace GrfToWpfBridge.Application {
 
 					if (newCodePage < 0) {
 						if (userInput) {
-							ErrorHandler.HandleException("The encoding specified is not supported.");
+							ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The encoding specified is not supported."));
 						}
 
 						SelectedIndex = 0;
@@ -194,7 +196,7 @@ namespace GrfToWpfBridge.Application {
 					}
 				}
 				catch {
-					ErrorHandler.HandleException("Couldn't load the encoding, it has been reseted to the default value.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Couldn't load the encoding, it has been reseted to the default value."));
 					_reset(userInput);
 				}
 			}

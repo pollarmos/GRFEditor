@@ -170,27 +170,27 @@ namespace GRFEditor.Core.Services {
 		private void _loadTabItems() {
 			Style tabStyle = (Style) Application.Current.FindResource("TabItemStyled");
 
-			_tabItemActPreview = new TabItem { Header = "Animation preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemTextPreview = new TabItem { Header = "Text file editor", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemGrfPropertiesPreview = new TabItem { Header = "Grf entry properties", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemRawStructurePreview = new TabItem { Header = "File info", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemMapExtractorPreview = new TabItem { Header = "Extract resources", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemMapGatPreview = new TabItem { Header = "Minimap preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemResourcePreview = new TabItem { Header = "Resource preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemBinkPreview = new TabItem { Header = "Bink preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemImagePreview = new TabItem { Header = "Image preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemPalettePreview = new TabItem { Header = "Palette preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemDbPreview = new TabItem { Header = "Thumbnail preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemEditSpritePreview = new TabItem { Header = "Sprite editor", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabContainerPreview = new TabItem { Header = "Container options", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabSpritesPreview = new TabItem { Header = "Folder preview", Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemActPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Animation preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemTextPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Text file editor"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemGrfPropertiesPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Grf entry properties"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemRawStructurePreview = new TabItem { Header = Utilities.Localization.UiText.Get("File info"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemMapExtractorPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Extract resources"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemMapGatPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Minimap preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemResourcePreview = new TabItem { Header = Utilities.Localization.UiText.Get("Resource preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemBinkPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Bink preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemImagePreview = new TabItem { Header = Utilities.Localization.UiText.Get("Image preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemPalettePreview = new TabItem { Header = Utilities.Localization.UiText.Get("Palette preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemDbPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Thumbnail preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemEditSpritePreview = new TabItem { Header = Utilities.Localization.UiText.Get("Sprite editor"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabContainerPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Container options"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabSpritesPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Folder preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
 			//_tabFolderPreview = new TabItem { Header = "Directory info", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabFolderStructurePreview = new TabItem { Header = "Folder stucture", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemRsmPreview = new TabItem { Header = "Model preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemStrPreview = new TabItem { Header = "Str preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemWavPreview = new TabItem { Header = "Sound preview", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemLubPreview = new TabItem { Header = "Decompiler", Style = tabStyle, Visibility = Visibility.Collapsed };
-			_tabItemGndPreview = new TabItem { Header = "Map preview", Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabFolderStructurePreview = new TabItem { Header = Utilities.Localization.UiText.Get("Folder stucture"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemRsmPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Model preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemStrPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Str preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemWavPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Sound preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemLubPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Decompiler"), Style = tabStyle, Visibility = Visibility.Collapsed };
+			_tabItemGndPreview = new TabItem { Header = Utilities.Localization.UiText.Get("Map preview"), Style = tabStyle, Visibility = Visibility.Collapsed };
 
 			_tabControlPreview.Items.Add(_tabItemWavPreview);
 			_tabControlPreview.Items.Add(_tabFolderStructurePreview);

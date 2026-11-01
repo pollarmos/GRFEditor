@@ -66,7 +66,7 @@ namespace GRF.FileFormats {
 		}
 
 		public string ToFilter() {
-			return Name + " Files|" + Filter;
+			return Utilities.Localization.UiText.Filter(Name + " Files|" + Filter);
 		}
 
 		public override string ToString() {

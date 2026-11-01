@@ -36,10 +36,10 @@ namespace GRF.ContainerFormat.Commands {
 		public string CommandDescription {
 			get {
 				if (_fileNames.Count == 1) {
-					return string.Format(GrfStrings.DeleteFile, _fileNames[0]);
+					return Utilities.Localization.UiText.Message(string.Format(GrfStrings.DeleteFile, _fileNames[0]));
 				}
 
-				return string.Format(GrfStrings.DeleteFiles);
+				return Utilities.Localization.UiText.Message(string.Format(GrfStrings.DeleteFiles));
 			}
 		}
 

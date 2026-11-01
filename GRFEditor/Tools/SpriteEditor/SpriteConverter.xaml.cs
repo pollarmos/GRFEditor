@@ -21,7 +21,7 @@ namespace GRFEditor.Tools.SpriteEditor {
 		public WpfRecentFiles RecentFiles => _recentFiles;
 
 		public SpriteConverter(IEnumerable<string> fileNames = null)
-			: base("Sprite editor", "spritemaker.ico", SizeToContent.Manual, ResizeMode.CanResize) {
+			: base(Utilities.Localization.UiText.Get("Sprite editor"), "spritemaker.ico", SizeToContent.Manual, ResizeMode.CanResize) {
 			InitializeComponent();
 
 			_tabEngine = new TabEngine(_mainTabControl, this);

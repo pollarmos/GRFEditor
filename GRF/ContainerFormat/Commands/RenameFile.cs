@@ -31,7 +31,7 @@
 		}
 
 		public string CommandDescription {
-			get { return string.Format(GrfStrings.RenameFile, _oldFileName, _newFileName); }
+			get { return Utilities.Localization.UiText.Message(string.Format(GrfStrings.RenameFile, _oldFileName, _newFileName)); }
 		}
 
 		#endregion

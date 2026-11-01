@@ -1,4 +1,4 @@
-﻿<Styles:TkWindow x:Class="GRFEditor.Tools.Map.MapEditorWindow"
+<Styles:TkWindow xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.Tools.Map.MapEditorWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
         xmlns:Styles="clr-namespace:TokeiLibrary.WPF.Styles;assembly=TokeiLibrary"
@@ -20,14 +20,14 @@
         <wpf:OpenGLViewport Grid.Column="1" x:Name="_viewport" Margin="0 -1 0 0" Padding="0" Grid.RowSpan="2" />
         <Border Background="{DynamicResource TabControlBackground}"  Width="610">
             <TabControl Name="_tabControl" Style="{DynamicResource TabControlStyled}">
-                <TabItem Header="Generate maps" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+                <TabItem Header="{loc:Localize T11aab16725e9}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto" />
                             <RowDefinition />
                         </Grid.RowDefinitions>
                         <StackPanel Grid.Row="0">
-                            <Styles:Header x:Name="_header" Text="Generate maps" />
+                            <Styles:Header x:Name="_header" Text="{loc:Localize T11aab16725e9}" />
                             <Styles:HeaderSeparator />
                             <StackPanel>
                                 <Grid>
@@ -45,24 +45,24 @@
                                         <RowDefinition Height="auto" />
                                         <RowDefinition />
                                     </Grid.RowDefinitions>
-                                    <TextBlock Grid.Row="1" Margin="3" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Location of the input maps:" TextWrapping="Wrap" />
+                                    <TextBlock Grid.Row="1" Margin="3" HorizontalAlignment="Left" VerticalAlignment="Center" Text="{loc:Localize T065f4214cb82}" TextWrapping="Wrap" />
                                     <DockPanel Grid.Row="2" LastChildFill="True" >
                                         <Button DockPanel.Dock="Right" Name="_buttonOpenIM" Width="24" Height="24" Margin="3" Click="_buttonOpenIm_Click" />
                                         <Styles:PathBrowser Name="_pbBoxIM" DockPanel.Dock="Left" BrowseMode="Folder" HorizontalContentAlignment="Stretch" UseSavePath="True" SavePathUniqueName="GRFEditor - Flat maps - " />
                                     </DockPanel>
-                                    <CheckBox Grid.Row="3" DockPanel.Dock="Right" Name="_checkBoxGrfOnly" Content="Use currently opened GRF" VerticalAlignment="Center" Margin="3" />
+                                    <CheckBox Grid.Row="3" DockPanel.Dock="Right" Name="_checkBoxGrfOnly" Content="{loc:Localize T1e0c0141115a}" VerticalAlignment="Center" Margin="3" />
                                     <Grid Grid.Row="4">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="auto" />
                                             <ColumnDefinition />
                                         </Grid.ColumnDefinitions>
-                                        <TextBlock Margin="3" HorizontalAlignment="Left" Text="Manual map preview: " VerticalAlignment="Center" />
+                                        <TextBlock Margin="3" HorizontalAlignment="Left" Text="{loc:Localize T30ecc4ba4502}" VerticalAlignment="Center" />
                                         <TextBox Grid.Column="1" Name="_tbPreviewName" Width="100" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" TextAlignment="Left" />
-                                        <TextBox Grid.Column="1" Name="_tbPreviewNamePreview" IsHitTestVisible="False" Width="100" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" TextAlignment="Left" BorderBrush="Transparent" Text="prontera" Foreground="{StaticResource TabItemTextNormalForeground}" FontStyle="Italic" />
+                                        <TextBox Grid.Column="1" Name="_tbPreviewNamePreview" IsHitTestVisible="False" Width="100" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center" TextAlignment="Left" BorderBrush="Transparent" Text="{loc:Localize Tbde119ce5eb4}" Foreground="{StaticResource TabItemTextNormalForeground}" FontStyle="Italic" />
                                     </Grid>
                                     <Rectangle Grid.Row="5" Margin="5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
                                     <DockPanel Grid.Row="6">
-                                        <Button Name="_buttonGenerate" Content="Generate maps" Height="24" Margin="3" Click="_buttonOk_Click" Width="120" />
+                                        <Button Name="_buttonGenerate" Content="{loc:Localize T11aab16725e9}" Height="24" Margin="3" Click="_buttonOk_Click" Width="120" />
                                         <Styles:TkProgressBar DockPanel.Dock="Left" HorizontalAlignment="Stretch"  x:Name="_progressBar" Margin="3 3 3 3" />
                                     </DockPanel>
                                 </Grid>
@@ -73,12 +73,12 @@
                                 <RowDefinition Height="auto" />
                                 <RowDefinition />
                             </Grid.RowDefinitions>
-                            <TextBlock Grid.Row="0" HorizontalAlignment="Left" Margin="3" Text="Error console" VerticalAlignment="Center" />
+                            <TextBlock Grid.Row="0" HorizontalAlignment="Left" Margin="3" Text="{loc:Localize T43010f9de554}" VerticalAlignment="Center" />
                             <ListView Grid.Row="1" BorderThickness="0 1 0 1" ListView:ListViewExtensions.IsGridSortable="False" VirtualizingStackPanel.IsVirtualizing="True" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Name="_listView" Margin="0 0 1 0" />
                         </Grid>
                     </Grid>
                 </TabItem>
-                <TabItem Name="_tabItemOptions" Header="Options" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+                <TabItem Name="_tabItemOptions" Header="{loc:Localize T6bf5da9c080b}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
                     <StackPanel>
                         <Grid>
                             <Grid.RowDefinitions>
@@ -88,160 +88,103 @@
                             <StackPanel>
                                 <Styles:TabHeader />
                                 <WrapPanel>
-                                    <Styles:FancyButton Margin="3" HorizontalAlignment="Left" TextHeader="Reset options" TextDescription="Sets the settings to their default values" x:Name="_buttonResetOptions" Click="_buttonResetOptions_Click" />
+                                    <Styles:FancyButton Margin="3" HorizontalAlignment="Left" TextHeader="{loc:Localize T0a5c86d94da2}" TextDescription="{loc:Localize Td8043134aeef}" x:Name="_buttonResetOptions" Click="_buttonResetOptions_Click" />
                                 </WrapPanel>
                             </StackPanel>
                             <Grid Grid.Row="1">
                                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                                     <StackPanel>
-                                        <TextBlock Margin="3" Text="Hover your mouse over a check box for more details about an option." HorizontalAlignment="Left" />
-                                        <CheckBox Name="_cbFlattenGround" Content="Make the ground flat (sets the height to 0)." HorizontalAlignment="Left" Margin="3">
+                                        <TextBlock Margin="3" Text="{loc:Localize T0d42e396160d}" HorizontalAlignment="Left" />
+                                        <CheckBox Name="_cbFlattenGround" Content="{loc:Localize Tf7222cdeb1b7}" HorizontalAlignment="Left" Margin="3">
                                             <CheckBox.ToolTip>
-                                                <TextBlock>
-                                                    Makes the ground flat by setting the height of each
-                                                    <LineBreak/>
-                                                    cubes (surface) to 0.
-                                                </TextBlock>
+                                                <TextBlock><Run Text="{loc:Localize Tcea0802e40dd}" /><LineBreak/><Run Text="{loc:Localize T97ce9f404823}" /></TextBlock>
                                             </CheckBox.ToolTip>
                                         </CheckBox>
-                                        <TextBlock Margin="3" Text="Lightning options:" HorizontalAlignment="Left" />
+                                        <TextBlock Margin="3" Text="{loc:Localize T0d6105813507}" HorizontalAlignment="Left" />
                                         <StackPanel Margin="20 0 0 0">
-                                            <CheckBox Name="_cbRemoveLight" Content="Remove the lightmap." HorizontalAlignment="Left" Margin="3">
+                                            <CheckBox Name="_cbRemoveLight" Content="{loc:Localize T0d9bbff1f903}" HorizontalAlignment="Left" Margin="3">
                                                 <CheckBox.ToolTip>
-                                                    <TextBlock>
-                                                        The light and shadow maps are used for the lighting 
-                                                        <LineBreak/>
-                                                        effects on the maps. If you remove the objects, 
-                                                        <LineBreak/>
-                                                        you'll probably want to enable this option.
-                                                    </TextBlock>
+                                                    <TextBlock><Run Text="{loc:Localize Tcff27d0dd93b}" /><LineBreak/><Run Text="{loc:Localize Tf39794ca8536}" /><LineBreak/><Run Text="{loc:Localize Tb9f404e9217b}" /></TextBlock>
                                                 </CheckBox.ToolTip>
                                             </CheckBox>
-                                            <CheckBox Name="_cbRemoveShadow" Content="Remove the shadowmap." HorizontalAlignment="Left" Margin="3">
+                                            <CheckBox Name="_cbRemoveShadow" Content="{loc:Localize T84a611b144a9}" HorizontalAlignment="Left" Margin="3">
                                                 <CheckBox.ToolTip>
-                                                    <TextBlock>
-                                                        The light and shadow maps are used for the lighting 
-                                                        <LineBreak/>
-                                                        effects on the maps. If you remove the objects, 
-                                                        <LineBreak/>
-                                                        you'll probably want to enable this option.
-                                                    </TextBlock>
+                                                    <TextBlock><Run Text="{loc:Localize Tcff27d0dd93b}" /><LineBreak/><Run Text="{loc:Localize Tf39794ca8536}" /><LineBreak/><Run Text="{loc:Localize Tb9f404e9217b}" /></TextBlock>
                                                 </CheckBox.ToolTip>
                                             </CheckBox>
-                                            <CheckBox Name="_cbRemoveColor" Content="Remove the colormap." HorizontalAlignment="Left" Margin="3">
+                                            <CheckBox Name="_cbRemoveColor" Content="{loc:Localize T3fbfb88c2e4d}" HorizontalAlignment="Left" Margin="3">
                                                 <CheckBox.ToolTip>
-                                                    <TextBlock>
-                                                        The color map is used for changing the tile colors.
-                                                        You'll probably want to enable this option.
-                                                    </TextBlock>
+                                                    <TextBlock Text="{loc:Localize T5c0c17e3e122}" />
                                                 </CheckBox.ToolTip>
                                             </CheckBox>
                                         </StackPanel>
-                                        <CheckBox Name="_cbRemoveWater" Content="Remove water (ignored if 'Make ground flat' is checked)." HorizontalAlignment="Left" Margin="3">
+                                        <CheckBox Name="_cbRemoveWater" Content="{loc:Localize T8ff3efafa299}" HorizontalAlignment="Left" Margin="3">
+                                            <CheckBox.ToolTip><TextBlock Text="{loc:Localize T02fcf5b92bdf}" /></CheckBox.ToolTip>
+                                        </CheckBox>
+                                        <CheckBox Name="_cbRemoveObjects" Content="{loc:Localize Tdd59bbcf6890}" HorizontalAlignment="Left" Margin="3">
                                             <CheckBox.ToolTip>
-                                                Sets the water level below the ground, so that it cannot be seen.
+                                                <TextBlock><Run Text="{loc:Localize T2cb464ce5c56}" /><LineBreak/><Run Text="{loc:Localize T701f4cc890fb}" /></TextBlock>
                                             </CheckBox.ToolTip>
                                         </CheckBox>
-                                        <CheckBox Name="_cbRemoveObjects" Content="Remove all objects (ignored if 'Make ground flat' is checked)." HorizontalAlignment="Left" Margin="3">
+                                        <CheckBox Name="_cbResetGlobalLighting" Content="{loc:Localize T88ff24676af9}" HorizontalAlignment="Left" Margin="3">
                                             <CheckBox.ToolTip>
-                                                <TextBlock>
-                                                    All objects, effects, sounds, etc. will be removed from the map. 
-                                                    <LineBreak/>
-                                                    NPCs will still be loaded as this is server sided.
-                                                </TextBlock>
+                                                <TextBlock><Run Text="{loc:Localize T6c8aaac7d506}" /><LineBreak/><Run Text="{loc:Localize T3b7a53c84358}" /></TextBlock>
                                             </CheckBox.ToolTip>
                                         </CheckBox>
-                                        <CheckBox Name="_cbResetGlobalLighting" Content="Reset global lighting to its default value." HorizontalAlignment="Left" Margin="3">
+                                        <CheckBox Name="_cbMatchShadow" Content="{loc:Localize Td4fdc82e4841}" HorizontalAlignment="Left" Margin="3">
                                             <CheckBox.ToolTip>
-                                                <TextBlock>
-                                                    The global lighting will be put back to its default value in 
-                                                    <LineBreak/>
-                                                    the RSW file.
-                                                </TextBlock>
-                                            </CheckBox.ToolTip>
-                                        </CheckBox>
-                                        <CheckBox Name="_cbMatchShadow" Content="Modify shadows to match cell types." HorizontalAlignment="Left" Margin="3">
-                                            <CheckBox.ToolTip>
-                                                <TextBlock>
-                                                    This option will change the shadows to match the cell
-                                                    <LineBreak/>
-                                                    types. If a cell has shadows, then it is unwalkable.
-                                                </TextBlock>
+                                                <TextBlock><Run Text="{loc:Localize T3a19ce335b93}" /><LineBreak/><Run Text="{loc:Localize T97d6a24aa59a}" /></TextBlock>
                                             </CheckBox.ToolTip>
                                         </CheckBox>
 										<DockPanel>
-											<CheckBox Name="_cbQuadmapsShadow" Content="Use shadows for quadmaps." HorizontalAlignment="Left" Margin="3">
+											<CheckBox Name="_cbQuadmapsShadow" Content="{loc:Localize T555229fc5747}" HorizontalAlignment="Left" Margin="3">
 												<CheckBox.ToolTip>
-													<TextBlock>
-                                                        This option will add shadows in 8x8 patterns on the ground, using lightmap. The strength is the darkness value (from -255 to 255).
-													</TextBlock>
+													<TextBlock Text="{loc:Localize Tf99d5f6cda95}" />
 												</CheckBox.ToolTip>
 											</CheckBox>
-											<TextBlock Text="(Strength: " HorizontalAlignment="Left" VerticalAlignment="Center" />
+											<TextBlock Text="{loc:Localize T51886331779b}" HorizontalAlignment="Left" VerticalAlignment="Center" />
 											<TextBox x:Name="_tbShadowQuadrantsValue" Width="30" TextAlignment="Right" HorizontalAlignment="Left" Padding="0" Text="255" VerticalContentAlignment="Center" Margin="0 0 4 0" />
 											<TextBlock Text="/ 255)" HorizontalAlignment="Left" VerticalAlignment="Center" />
 										</DockPanel>
 										<DockPanel>
-											<CheckBox Name="_cbQuadmapsBitmap" Content="Use bitmaps for quadmaps." HorizontalAlignment="Left" Margin="3">
+											<CheckBox Name="_cbQuadmapsBitmap" Content="{loc:Localize Ta4180eb6f9f4}" HorizontalAlignment="Left" Margin="3">
 												<CheckBox.ToolTip>
-													<TextBlock>
-                                                        This option will add shadows in 8x8 patterns on the ground, using auto-generated bitmaps. The strength is the darkness value (from -255 to 255).
-													</TextBlock>
+													<TextBlock Text="{loc:Localize T9fc4cdef9fbb}" />
 												</CheckBox.ToolTip>
 											</CheckBox>
-											<TextBlock Text="(Strength: " HorizontalAlignment="Left" VerticalAlignment="Center" />
+											<TextBlock Text="{loc:Localize T51886331779b}" HorizontalAlignment="Left" VerticalAlignment="Center" />
 											<TextBox x:Name="_tbBitmapQuadrantsValue" Width="30" TextAlignment="Right" HorizontalAlignment="Left" Padding="0" Text="255" VerticalContentAlignment="Center" Margin="0 0 4 0" />
 											<TextBlock Text="/ 255)" HorizontalAlignment="Left" VerticalAlignment="Center" />
 										</DockPanel>
-                                        <CheckBox Name="_cbUseCustomTextures" Content="Change the textures for custom ones." HorizontalAlignment="Left" Margin="3">
+                                        <CheckBox Name="_cbUseCustomTextures" Content="{loc:Localize T9b20ac3bdb3d}" HorizontalAlignment="Left" Margin="3">
                                             <CheckBox.ToolTip>
-                                                <TextBlock>
-                                                    Changes the ground textures for the ones provided in the input 
-                                                    <LineBreak/>
-                                                    texture folder. These can be modified by yourself easily.
-                                                </TextBlock>
+                                                <TextBlock><Run Text="{loc:Localize Tc6e0a75eba07}" /><LineBreak/><Run Text="{loc:Localize T984e96ce41f2}" /></TextBlock>
                                             </CheckBox.ToolTip>
                                         </CheckBox>
-                                        <CheckBox Name="_cbGutterLines" Content="Show gutter lines." HorizontalAlignment="Left" VerticalAlignment="Center" Margin="23 3 3 3">
+                                        <CheckBox Name="_cbGutterLines" Content="{loc:Localize Tb9425f73b830}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="23 3 3 3">
                                             <CheckBox.ToolTip>
-                                                <TextBlock>
-                                                    Gutter lines indicate where Bowling Bash will only hit one monster.
-                                                </TextBlock>
+                                                <TextBlock Text="{loc:Localize T61dd98999ba0}" />
                                             </CheckBox.ToolTip>
                                         </CheckBox>
-                                        <CheckBox Name="_cbStickGatCells" Content="Make gat cells stick to the ground (ignored if 'Make ground flat' is checked)." HorizontalAlignment="Left" VerticalAlignment="Center" Margin="23 3 3 3">
+                                        <CheckBox Name="_cbStickGatCells" Content="{loc:Localize Ta06408afc66c}" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="23 3 3 3">
                                             <CheckBox.ToolTip>
-                                                <TextBlock>
-                                                    The gat cells will stick to the ground level. If there's 
-                                                    <LineBreak/>
-                                                    a bench for instance, you won't see floating cells.
-                                                </TextBlock>
+                                                <TextBlock><Run Text="{loc:Localize T23da3056333f}" /><LineBreak/><Run Text="{loc:Localize Tba7554793093}" /></TextBlock>
                                             </CheckBox.ToolTip>
                                         </CheckBox>
-                                        <Label Content="Wall textures:" Margin="23 0 0 0" Padding="0" />
-                                        <RadioButton Name="_cbTextureBlack" Content="Use black texture on walls." VerticalAlignment="Center" HorizontalAlignment="Left" Margin="43 3 3 3">
-                                            <RadioButton.ToolTip>
-                                                The wall textures will be replaced by a black texture.
-                                            </RadioButton.ToolTip>
+                                        <Label Content="{loc:Localize T21fd82038e42}" Margin="23 0 0 0" Padding="0" />
+                                        <RadioButton Name="_cbTextureBlack" Content="{loc:Localize Tf35894b789b6}" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="43 3 3 3">
+                                            <RadioButton.ToolTip><TextBlock Text="{loc:Localize Td5ea1d018973}" /></RadioButton.ToolTip>
                                         </RadioButton>
-                                        <RadioButton Name="_cbTextureWalls" Content="Use custom texture on walls." VerticalAlignment="Center" HorizontalAlignment="Left" Margin="43 3 3 3">
-                                            <RadioButton.ToolTip>
-                                                The walls will use the texture cw.bmp if there are any.
-                                            </RadioButton.ToolTip>
+                                        <RadioButton Name="_cbTextureWalls" Content="{loc:Localize T0e13d33702dd}" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="43 3 3 3">
+                                            <RadioButton.ToolTip><TextBlock Text="{loc:Localize T77a38febae03}" /></RadioButton.ToolTip>
                                         </RadioButton>
-                                        <RadioButton Name="_cbTextureOriginal" Content="Use original texture on walls." VerticalAlignment="Center" HorizontalAlignment="Left" Margin="43 3 3 3">
-                                            <RadioButton.ToolTip>
-                                                The walls will not be modified and keep their original texture.
-                                            </RadioButton.ToolTip>
+                                        <RadioButton Name="_cbTextureOriginal" Content="{loc:Localize Tdde9a654e78a}" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="43 3 3 3">
+                                            <RadioButton.ToolTip><TextBlock Text="{loc:Localize T6c5723e9d243}" /></RadioButton.ToolTip>
                                         </RadioButton>
                                         <DockPanel>
-                                            <Label Content="Maps unique ID: ">
+                                            <Label Content="{loc:Localize T2392822ef51c}">
                                                 <Label.ToolTip>
-                                                    <TextBlock>
-                                                        Adds an identifier for the textures, which allows maps to use different 
-                                                        <LineBreak />
-                                                        textures without interfering with each other.
-                                                    </TextBlock>
+                                                    <TextBlock><Run Text="{loc:Localize Ted69c5d24ceb}" /><LineBreak /><Run Text="{loc:Localize T0dc1a39259a6}" /></TextBlock>
                                                 </Label.ToolTip>
                                             </Label>
                                             <TextBox Name="_mapId" TextChanged="_mapId_TextChanged" VerticalContentAlignment="Center" Margin="0 0 3 0" />
@@ -252,7 +195,7 @@
                         </Grid>
                     </StackPanel>
                 </TabItem>
-                <TabItem Name="_tabItemTexture" Header="Texture maker" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
+                <TabItem Name="_tabItemTexture" Header="{loc:Localize Tbb12d37a4037}" Style="{DynamicResource TabItemStyled}" Foreground="{StaticResource TextForeground}">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="auto" />
@@ -271,11 +214,11 @@
                                         <RowDefinition />
                                         <RowDefinition />
                                     </Grid.RowDefinitions>
-                                    <TextBlock Text="Border" Margin="3 2 2 2" Padding="0" Foreground="{DynamicResource FancyButtonHeaderForeground}" HorizontalAlignment="Left" />
+                                    <TextBlock Text="{loc:Localize T5d10d3f42121}" Margin="3 2 2 2" Padding="0" Foreground="{DynamicResource FancyButtonHeaderForeground}" HorizontalAlignment="Left" />
                                     <DockPanel Grid.Row="1">
-                                        <TextBlock Text="Width" Padding="0" Margin="3" Grid.Row="0" VerticalAlignment="Center" />
+                                        <TextBlock Text="{loc:Localize Ta58ddf50c5ea}" Padding="0" Margin="3" Grid.Row="0" VerticalAlignment="Center" />
                                         <TextBox Name="_tbBorderWidth" HorizontalAlignment="Left" Width="50" Margin="3" Grid.Column="1" />
-                                        <TextBlock Text="Color" Padding="0" Margin="3" Grid.Row="1" VerticalAlignment="Center" />
+                                        <TextBlock Text="{loc:Localize T1d0c8304baed}" Padding="0" Margin="3" Grid.Row="1" VerticalAlignment="Center" />
                                         <WPF:QuickColorSelector x:Name="_cBorder" Grid.Row="1" Margin="3 2 3 2" Grid.Column="1" Height="22" Width="120" HorizontalAlignment="Left" />
                                     </DockPanel>
                                 </Grid>
@@ -287,85 +230,60 @@
                                     <ColumnDefinition />
                                 </Grid.ColumnDefinitions>
                                 <StackPanel>
-                                    <map:CellEditControl x:Name="_cec0" HeaderText="0: Walkable" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cec0" HeaderText="{loc:Localize T1efbb64aabb0}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Type 0</Run> - Walkable<LineBreak/>
-                                            Cells where there player is allowed to walk.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize T4f81a037da64}" /><Run Text="{loc:Localize T5f1d67a60da4}" /><LineBreak/><Run Text="{loc:Localize T66ff026bb710}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
-                                    <map:CellEditControl x:Name="_cec1" HeaderText="1: Not walkable" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cec1" HeaderText="{loc:Localize T3184983d303b}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Type 1</Run> - Not walkable<LineBreak/>
-                                            Cells where there player cannot walk and cannot shoot through either.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize Tba1cd0dd35f6}" /><Run Text="{loc:Localize Tc9652818a14c}" /><LineBreak/><Run Text="{loc:Localize Tdebb16ca708e}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
-                                    <map:CellEditControl x:Name="_cec5" HeaderText="5: Not walkable - Snipeable" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cec5" HeaderText="{loc:Localize Tc24378d19a26}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Type 5</Run> - Not walkable - Snipeable<LineBreak/>
-                                            Cells where the player cannot walk through but can use skills or ranged attack.<LineBreak/>
-                                            It is a common cell in WoE maps to shoot across walls.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize T85eb02b84674}" /><Run Text="{loc:Localize T994306e02dff}" /><LineBreak/><Run Text="{loc:Localize T67ca94192c5a}" /><LineBreak/><Run Text="{loc:Localize T287ba66555cb}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
-                                    <map:CellEditControl x:Name="_cecWater0" HeaderText="Water background" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cecWater0" HeaderText="{loc:Localize Teb79b99b4d97}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Water background</Run> - Walkable<LineBreak/>
-                                            Cells where the player can walk over and is under water.<LineBreak/>
-                                            It is detected automatically and this option changes the foreground color.<LineBreak/>
-                                            You can change the cell texture with the "Change textures..." button.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize Teb79b99b4d97}" /><Run Text="{loc:Localize T5f1d67a60da4}" /><LineBreak/><Run Text="{loc:Localize Tdff6a3986c9a}" /><LineBreak/><Run Text="{loc:Localize Tf6dd5aa1351c}" /><LineBreak/><Run Text="{loc:Localize T8203f1c80f66}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
-                                    <map:CellEditControl x:Name="_cecWater1" HeaderText="Water foreground" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cecWater1" HeaderText="{loc:Localize T636278939a27}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Water foreground</Run> - Walkable<LineBreak/>
-                                            Cells where the player can walk over and is under water.<LineBreak/>
-                                            It is detected automatically and this option changes the background color.<LineBreak/>
-                                            You can change the cell texture with the "Change textures..." button.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize T636278939a27}" /><Run Text="{loc:Localize T5f1d67a60da4}" /><LineBreak/><Run Text="{loc:Localize Tdff6a3986c9a}" /><LineBreak/><Run Text="{loc:Localize T6a4b60a24292}" /><LineBreak/><Run Text="{loc:Localize T8203f1c80f66}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
-                                    <map:CellEditControl x:Name="_cecGutter1" HeaderText="Inner gutter cell" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cecGutter1" HeaderText="{loc:Localize T55c2408306c6}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Inner gutter cell</Run> - Walkable<LineBreak/>
-                                            Cells where Bowling Bash behaves differently.<LineBreak/>
-                                            This bug is no longer present in official servers and can be disabled on rAthena based servers.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize T55c2408306c6}" /><Run Text="{loc:Localize T5f1d67a60da4}" /><LineBreak/><Run Text="{loc:Localize T73702e5a74e2}" /><LineBreak/><Run Text="{loc:Localize Te7da087eee6a}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
-                                    <map:CellEditControl x:Name="_cecGutter2" HeaderText="Outer gutter cell" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cecGutter2" HeaderText="{loc:Localize T674e89a8bde7}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Outer gutter cell</Run> - Walkable<LineBreak/>
-                                            Cells where Bowling Bash behaves differently.<LineBreak/>
-                                            This bug is no longer present in official servers and can be disabled on rAthena based servers.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize T674e89a8bde7}" /><Run Text="{loc:Localize T5f1d67a60da4}" /><LineBreak/><Run Text="{loc:Localize T73702e5a74e2}" /><LineBreak/><Run Text="{loc:Localize Te7da087eee6a}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
-                                    <map:CellEditControl x:Name="_cecX" HeaderText="Reserved" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cecX" HeaderText="{loc:Localize T67a6ff10f1b9}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Reserved</Run> - Unknown<LineBreak/>
-                                            Reserved for unknown cell types that may appear when parsing custom maps.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize T67a6ff10f1b9}" /><Run Text="{loc:Localize T64a42aa7953d}" /><LineBreak/><Run Text="{loc:Localize Te0917ed20904}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
-                                    <map:CellEditControl x:Name="_cecWall" HeaderText="Wall" MinWidth="220">
+                                    <map:CellEditControl x:Name="_cecWall" HeaderText="{loc:Localize Tc4633c096745}" MinWidth="220">
                                         <map:CellEditControl.ToolTipText>
                                             <TextBlock>
-                                            <Run FontWeight="Bold">Wall</Run><LineBreak/>
-                                            Wall color, only used if specially chosen in the options.
-                                            </TextBlock>
+                                            <Run FontWeight="Bold" Text="{loc:Localize Tc4633c096745}" /><LineBreak/><Run Text="{loc:Localize T99cd766e8469}" /></TextBlock>
                                         </map:CellEditControl.ToolTipText>
                                     </map:CellEditControl>
                                 </StackPanel>
@@ -377,24 +295,20 @@
         </Border>
         <Grid TokeiLibrary:WpfProperties.IsDraggable="True" Grid.Row="1" Height="40" Background="{DynamicResource UIDialogBackground}" Grid.ColumnSpan="1">
             <DockPanel HorizontalAlignment="Right" Margin="0 0 3 0">
-                <Button DockPanel.Dock="Right" Name="_buttonCancel" Content="Close" Height="24" Width="100" Click="_buttonCancel_Click" Margin="3" />
+                <Button DockPanel.Dock="Right" Name="_buttonCancel" Content="{loc:Localize Tbbfa773e5a63}" Height="24" Width="100" Click="_buttonCancel_Click" Margin="3" />
                 <Button Name="_buttonApplyTextures" Height="24" Margin="3" Width="130" Click="_buttonApplyTextures_Click">
                     <DockPanel Margin="3 0 3 0">
                         <Image Margin="0 0 3 0" Source="..\..\Resources\refresh.png" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" RenderOptions.BitmapScalingMode="NearestNeighbor" />
-                        <TextBlock Text="Reapply textures" Foreground="{StaticResource TextForeground}" />
+                        <TextBlock Text="{loc:Localize T0a02b1e1f7e0}" Foreground="{StaticResource TextForeground}" />
                     </DockPanel>
-                    <Button.ToolTip>
-                        If the generated textures used for the preview are out of sync for some reason, this option will fix the issue.
-                    </Button.ToolTip>
+                    <Button.ToolTip><TextBlock Text="{loc:Localize T56f8bc2a467b}" /></Button.ToolTip>
                 </Button>
                 <Button Name="_buttonChangeTextures" Height="24" Margin="3" Width="130" Click="_buttonOpenTexturesFolder_Click">
                     <DockPanel Margin="3 0 3 0">
                         <Image Margin="0 0 3 0" Source="..\..\Resources\open.png" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" RenderOptions.BitmapScalingMode="NearestNeighbor" />
-                        <TextBlock Text="Change textures..." Foreground="{StaticResource TextForeground}" />
+                        <TextBlock Text="{loc:Localize T846fcbb82d9d}" Foreground="{StaticResource TextForeground}" />
                     </DockPanel>
-                    <Button.ToolTip>
-                        Opens the input texture folder.
-                    </Button.ToolTip>
+                    <Button.ToolTip><TextBlock Text="{loc:Localize Tefa68f649187}" /></Button.ToolTip>
                 </Button>
             </DockPanel>
         </Grid>

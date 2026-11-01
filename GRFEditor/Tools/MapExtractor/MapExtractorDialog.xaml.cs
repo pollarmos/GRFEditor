@@ -14,7 +14,7 @@ namespace GRFEditor.Tools.MapExtractor {
 		private readonly MapExtractor _mapExtractor;
 		private readonly Dictionary<string, GrfHolder> _openedGrfs = new Dictionary<string, GrfHolder>();
 
-		public MapExtractorDialog(GrfHolder grf, string fileName) : base("Export map files", "mapEditor.ico", SizeToContent.Manual, ResizeMode.CanResize) {
+		public MapExtractorDialog(GrfHolder grf, string fileName) : base(Utilities.Localization.UiText.Get("Export map files"), "mapEditor.ico", SizeToContent.Manual, ResizeMode.CanResize) {
 			InitializeComponent();
 
 			_mapExtractor = new MapExtractor(grf, fileName);

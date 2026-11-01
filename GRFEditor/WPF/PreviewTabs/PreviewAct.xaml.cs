@@ -174,7 +174,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 		private void _setupUI(FileEntry entry) {
 			this.Dispatch(delegate {
-				_labelHeader.Dispatch(p => p.Text = "Animation: " + entry.DisplayRelativePath);
+				_labelHeader.Dispatch(p => p.Text = Utilities.Localization.UiText.Get("Animation: ") + entry.DisplayRelativePath);
 			});
 		}
 

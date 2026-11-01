@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="GRFEditor.Tools.MapExtractor.MapExtractor"
+﻿<UserControl xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.Tools.MapExtractor.MapExtractor"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -20,9 +20,9 @@
         <WPF:TkView MultiSelection="True" Foreground="{StaticResource TextForeground}" Name="_treeViewMapExtractor" Grid.Column="0" BorderThickness="0" PreviewMouseRightButtonUp="_treeViewMapExtractor_PreviewMouseRightButtonUp">
             <WPF:TkView.ContextMenu>
                 <ContextMenu>
-					<MenuItem Name="_menuItemsSelectRootFiles" TokeiLibrary:WpfProperties.ImagePath="empty.png" Header="Select root files" />
-					<MenuItem Name="_menuItemsSelectInExplorer" TokeiLibrary:WpfProperties.ImagePath="open.png" Header="Select in explorer" Click="_menuItemsSelectInExplorer_Click" />
-					<MenuItem Name="_menuItemsSelectInGrf" TokeiLibrary:WpfProperties.ImagePath="arrowdown.png" Header="Select in project" Click="_menuItemsSelectInGrf_Click" />
+					<MenuItem Name="_menuItemsSelectRootFiles" TokeiLibrary:WpfProperties.ImagePath="empty.png" Header="{loc:Localize Tdcea0d4019b3}" />
+					<MenuItem Name="_menuItemsSelectInExplorer" TokeiLibrary:WpfProperties.ImagePath="open.png" Header="{loc:Localize T09ae990f3d67}" Click="_menuItemsSelectInExplorer_Click" />
+					<MenuItem Name="_menuItemsSelectInGrf" TokeiLibrary:WpfProperties.ImagePath="arrowdown.png" Header="{loc:Localize T3a55906241d2}" Click="_menuItemsSelectInGrf_Click" />
 				</ContextMenu>
             </WPF:TkView.ContextMenu>
         </WPF:TkView>
@@ -34,7 +34,7 @@
                 <RowDefinition Height="100" />
                 <RowDefinition />
             </Grid.RowDefinitions>
-            <TextBlock Margin="3" Text="Resources (drop a data folder or a GRF file here). This provides additional resources." TextWrapping="Wrap" />
+            <TextBlock Margin="3" Text="{loc:Localize T523ccb382e75}" TextWrapping="Wrap" />
             <MultiGrf:MetaGrfResourcesViewer Grid.Row="2" x:Name="_itemsResources" />
             <WPF1:QuickPreview x:Name="_quickPreview" Grid.Row="3" />
             <Styles:TkProgressBar x:Name="_progressBarComponent" Grid.Row="1" Margin="1" />

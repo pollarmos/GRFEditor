@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="TokeiLibrary.WPF.Styles.PathBrowser"
+﻿<UserControl xmlns:loc="clr-namespace:TokeiLibrary.Localization" x:Class="TokeiLibrary.WPF.Styles.PathBrowser"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -10,12 +10,12 @@
             <ColumnDefinition Width="auto" />
         </Grid.ColumnDefinitions>
         <TextBox Grid.Column="0" x:Name="_tb" Margin="3" AllowDrop="True" Height="24" VerticalContentAlignment="Center" PreviewDragOver="_tb_PreviewDragOver" DragEnter="_mainGrid_DragEnter" Drop="OnMainGridDrop" />
-        <Button Grid.Column="1" Name="_button" Content="Browse..." Width="75" Height="24" Margin="3">
+        <Button Grid.Column="1" Name="_button" Content="{loc:Localize T7d7f408d7c2f}" Width="75" Height="24" Margin="3">
             <Button.ContextMenu>
                 <ContextMenu>
-                    <MenuItem Header="Clear" Name="_miClear" Click="_miClear_Click" />
-                    <MenuItem Header="Load..." Name="_miLoad" Click="_miLoad_Click" />
-                    <MenuItem Header="Load recent" Name="_miLoadRecent" IsEnabled="False" />
+                    <MenuItem Header="{loc:Localize T719ea396ad92}" Name="_miClear" Click="_miClear_Click" />
+                    <MenuItem Header="{loc:Localize Tf6c0bcf862c9}" Name="_miLoad" Click="_miLoad_Click" />
+                    <MenuItem Header="{loc:Localize Tb2bdbbd77961}" Name="_miLoadRecent" IsEnabled="False" />
                 </ContextMenu>
             </Button.ContextMenu>
         </Button>

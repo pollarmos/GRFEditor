@@ -32,10 +32,10 @@ namespace GRFEditor.Core.Services {
 	public class RenamingService {
 		public void RenameFolder(object selectedItem, TreeView _treeView, GrfHolder grfData, Window owner, CCallbacks.RenameCallback callback, CCallbacks.DeleteCallback callbackDelete, CCallbacks.AddFilesCallback callbackAddFiles) {
 			if (_treeView.SelectedItem == null) {
-				ErrorHandler.HandleException("Please select a folder.", ErrorLevel.Low);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a folder."), ErrorLevel.Low);
 			}
 			else if (_treeView.SelectedItem is ProjectTreeViewItem) {
-				ErrorHandler.HandleException("Only folders can be renamed.", ErrorLevel.Low);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Only folders can be renamed."), ErrorLevel.Low);
 			}
 			else if (_treeView.SelectedItem is TkTreeViewItem) {
 				var tkTvi = ((TkTreeViewItem)_treeView.SelectedItem);
@@ -65,7 +65,7 @@ namespace GRFEditor.Core.Services {
 						try {
 							foreach (char c in Path.GetInvalidFileNameChars()) {
 								if (tb.Text.Contains(c)) {
-									WindowProvider.ShowDialog("Invalid characters.");
+									WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("Invalid characters."));
 									return;
 								}
 							}
@@ -75,7 +75,7 @@ namespace GRFEditor.Core.Services {
 							}
 							catch (GrfException grfErr) {
 								if (grfErr == GrfExceptions.__FolderNameAlreadyExists) {
-									if (WindowProvider.ShowDialog("A folder with this name already exists, do you want to merge them?", "Folder already exists", MessageBoxButton.YesNoCancel) == MessageBoxResult.Yes) {
+									if (WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("A folder with this name already exists, do you want to merge them?"), "Folder already exists", MessageBoxButton.YesNoCancel) == MessageBoxResult.Yes) {
 										grfData.Commands.MergeFolders(tkTvi.CurrentPath, Path.Combine(GrfPath.GetDirectoryName(tkTvi.CurrentPath), tb.Text), callbackDelete, callbackAddFiles);
 									}
 								}
@@ -96,7 +96,7 @@ namespace GRFEditor.Core.Services {
 						foreach (char c in Path.GetInvalidFileNameChars()) {
 							if (g.Text.Contains(c)) {
 								g.Handled = true;
-								ToolTip tooltip = new ToolTip { Content = "Invalid character: " + c };
+								ToolTip tooltip = new ToolTip { Content = Utilities.Localization.UiText.Get("Invalid character: ") + c };
 								tb.ToolTip = tooltip;
 								tooltip.PlacementTarget = tb;
 								tooltip.Placement = PlacementMode.Bottom;
@@ -134,11 +134,11 @@ namespace GRFEditor.Core.Services {
 		public void RenameFile(FileEntry entry, GrfHolder grfData, Window owner, CCallbacks.RenameCallback callback) {
 			try {
 				if (entry == null) {
-					ErrorHandler.HandleException("Please select a file.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a file."), ErrorLevel.Low);
 					return;
 				}
 
-				InputDialog input = WindowProvider.ShowWindow<InputDialog>(new InputDialog("The current file name is: \n" + Path.GetFileName(entry.RelativePath), "Rename", Path.GetFileName(entry.RelativePath), true), owner);
+				InputDialog input = WindowProvider.ShowWindow<InputDialog>(new InputDialog(Utilities.Localization.UiText.Get("The current file name is: \n") + Path.GetFileName(entry.RelativePath), Utilities.Localization.UiText.Get("Rename"), Path.GetFileName(entry.RelativePath), true), owner);
 
 				if (input.DialogResult == true) {
 					grfData.Commands.Rename(entry.RelativePath, GrfPath.Combine(GrfPath.GetDirectoryName(entry.RelativePath), input.Input), callback);
@@ -152,19 +152,19 @@ namespace GRFEditor.Core.Services {
 		public bool DowngradeMap(FileEntry entry, GrfHolder grfData, Window owner, string outputPath = null) {
 			try {
 				if (entry == null) {
-					ErrorHandler.HandleException("Please select a file.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a file."), ErrorLevel.Low);
 					return false;
 				}
 
 				string extension = entry.RelativePath.GetExtension();
 
 				if (!(extension == ".rsw" || extension == ".gnd" || extension == ".gat")) {
-					ErrorHandler.HandleException("The selected entry doesn't appear to be a map file (invalid extension).");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The selected entry doesn't appear to be a map file (invalid extension)."));
 					return false;
 				}
 
 				if (!grfData.FileTable.ContainsFile(entry.RelativePath.ReplaceExtension(".rsw"))) {
-					ErrorHandler.HandleException("Couldn't find the associated RSW map file.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Couldn't find the associated RSW map file."));
 					return false;
 				}
 
@@ -326,31 +326,31 @@ namespace GRFEditor.Core.Services {
 		public bool SaveMap(FileEntry entry, GrfHolder grfData, Window owner) {
 			try {
 				if (entry == null) {
-					ErrorHandler.HandleException("Please select a file.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a file."), ErrorLevel.Low);
 					return false;
 				}
 
 				string extension = entry.RelativePath.GetExtension();
 
 				if (!(extension == ".rsw" || extension == ".gnd" || extension == ".gat")) {
-					ErrorHandler.HandleException("The selected entry doesn't appear to be a map file (invalid extension).");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The selected entry doesn't appear to be a map file (invalid extension)."));
 					return false;
 				}
 
 				string fileMapName = Path.GetFileNameWithoutExtension(entry.RelativePath);
 
 				if (!grfData.FileTable.ContainsFile(entry.RelativePath.ReplaceExtension(".rsw"))) {
-					ErrorHandler.HandleException("Couldn't find the associated RSW map file.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Couldn't find the associated RSW map file."));
 					return false;
 				}
 
 				Rsw rsw = new Rsw(grfData.FileTable[entry.RelativePath.ReplaceExtension(".rsw")].GetDecompressedData());
 
-				InputDialog input = WindowProvider.ShowWindow<InputDialog>(new InputDialog("The current file map name is: \n" + fileMapName, "Save map as...", fileMapName, true), owner);
+				InputDialog input = WindowProvider.ShowWindow<InputDialog>(new InputDialog(Utilities.Localization.UiText.Get("The current file map name is: \n") + fileMapName, "Save map as...", fileMapName, true), owner);
 
 				if (input.DialogResult == true) {
 					if (String.IsNullOrEmpty(input.Input)) {
-						ErrorHandler.HandleException("Invalid file name.", ErrorLevel.Low);
+						ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Invalid file name."), ErrorLevel.Low);
 						return false;
 					}
 
@@ -394,7 +394,7 @@ namespace GRFEditor.Core.Services {
 				int converted = 0;
 
 				if (entries.Count == 0 || (entries.Count ==  1 && entries[0] == null)) {
-					ErrorHandler.HandleException("Please select a file.", ErrorLevel.Low);
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Please select a file."), ErrorLevel.Low);
 					return false;
 				}
 
@@ -431,7 +431,7 @@ namespace GRFEditor.Core.Services {
 				}
 
 				if (converted == 0) {
-					ErrorHandler.HandleException("The selected entry doesn't appear to be a valid RSM2 model (invalid extension).");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("The selected entry doesn't appear to be a valid RSM2 model (invalid extension)."));
 				}
 
 				return converted != 0;

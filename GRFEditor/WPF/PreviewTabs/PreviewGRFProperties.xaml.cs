@@ -37,7 +37,7 @@ namespace GRFEditor.WPF.PreviewTabs {
 
 		protected override void _load(FileEntry entry) {
 			this.Dispatch(delegate {
-				_labelHeader.Text = "GRF entry: " + Path.GetFileName(entry.RelativePath);
+				_labelHeader.Text = Utilities.Localization.UiText.Get("GRF entry: ") + Path.GetFileName(entry.RelativePath);
 				_textEditor.Text = PreviewRawStructureLoader.GetGrfEditorHeader() + FileFormatParser.DisplayObjectPropertiesFromEntry(entry);
 			});
 		}

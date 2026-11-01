@@ -1,4 +1,4 @@
-﻿<PreviewTabs:FilePreviewTab x:Class="GRFEditor.WPF.PreviewTabs.PreviewThumbDb"
+﻿<PreviewTabs:FilePreviewTab xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.WPF.PreviewTabs.PreviewThumbDb"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -18,14 +18,14 @@
             <TextBlock Name="_labelHeader" FontWeight="Bold" FontSize="16" Margin="3 10 0 5" Padding="5" />
             <Rectangle Margin="5 0 5 5" Stroke="{DynamicResource SeperatorBrush}" VerticalAlignment="Stretch" />
             <WrapPanel Grid.Row="0">
-                <Styles:FancyButton x:Name="_buttonExportAt" Click="_buttonExportAt_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="Export" TextDescription="Export image to..." Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                <Styles:FancyButton x:Name="_buttonExportAt" Click="_buttonExportAt_Click" Grid.Row="0" Grid.Column="0" Height="43" TextHeader="{loc:Localize Tf3e4fadb9e37}" TextDescription="{loc:Localize T9d7ed1cf19ad}" Margin="2" HorizontalAlignment="Left" VerticalAlignment="Top" />
                 <ComboBox Name="_comboBoxActionIndex" Height="22" Width="120" HorizontalAlignment="Left" Margin="3" SelectionChanged="_comboBoxActionIndex_SelectionChanged" />
                 <Grid HorizontalAlignment="Left" >
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto" />
                         <RowDefinition />
                     </Grid.RowDefinitions>
-                    <TextBlock Text="Background" Margin="3" Width="100" TextAlignment="Center" TextWrapping="Wrap" />
+                    <TextBlock Text="{loc:Localize T64dd60fe1a04}" Margin="3" Width="100" TextAlignment="Center" TextWrapping="Wrap" />
                     <WPF:QuickColorSelector Height="20" Margin="3" x:Name="_qcsBackground" Grid.Row="1" ColorBrush="{Binding ElementName=_scrollViewer, Path=Background}" />
                 </Grid>
             </WrapPanel>
@@ -47,7 +47,7 @@
                     <Image Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" SnapsToDevicePixels="True" Name="_imagePreview" Stretch="None" RenderTransformOrigin="0.5,0.5">
 						<Image.ContextMenu>
 							<ContextMenu>
-								<MenuItem Name="_menuItemImageExport" Header="Export preview image to..." Click="_menuItemImageExport_Click">
+								<MenuItem Name="_menuItemImageExport" Header="{loc:Localize T6ab60c3ebb4b}" Click="_menuItemImageExport_Click">
 									<MenuItem.Icon>
 										<Image Source="../../Resources/export.png" Height="16"  />
 									</MenuItem.Icon>

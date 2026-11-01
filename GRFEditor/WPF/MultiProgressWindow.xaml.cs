@@ -93,34 +93,34 @@ namespace GRFEditor.WPF {
 
 			switch (_option.Args[0]) {
 				case "imageConvert":
-					Title = "Image convert...";
+					Title = Utilities.Localization.UiText.Get("Image convert...");
 					_multiInit.IsPrivateAsync = true;
 					_multiInit.PrimaryMethod = () => ImageProvider.GetImage(File.ReadAllBytes(_filePath), _filePath.GetExtension()).SaveTo(_filePath, PathRequest.ExtractSetting);
-					_tbUpdate.Text = "Converting image " + Path.GetFileName(_filePath) + "...";
+					_tbUpdate.Text = Utilities.Localization.UiText.Get("Converting image ") + Path.GetFileName(_filePath) + "...";
 					break;
 				case "extractGrfFromContainerPath":
 					_grf.Open(_filePath);
-					Title = "Extraction...";
+					Title = Utilities.Localization.UiText.Get("Extraction...");
 					_multiInit.ActivateExtractingService = true;
 					_multiInit.PrimaryMethod = () => _extractingService.ExtractAll(_grf, Path.GetDirectoryName(_filePath));
-					_tbUpdate.Text = "Extracting " + Path.GetFileName(_filePath) + "...";
+					_tbUpdate.Text = Utilities.Localization.UiText.Get("Extracting ") + Path.GetFileName(_filePath) + "...";
 					break;
 				case "extractGrfUsingFileName":
 					_grf.Open(_filePath);
-					Title = "Extraction...";
+					Title = Utilities.Localization.UiText.Get("Extraction...");
 					_multiInit.ActivateExtractingService = true;
 					_multiInit.PrimaryMethod = () => _extractingService.ExtractAll(_grf, Path.Combine(Path.GetDirectoryName(_filePath), Path.GetFileNameWithoutExtension(_filePath)));
-					_tbUpdate.Text = "Extracting " + Path.GetFileName(_filePath) + "...";
+					_tbUpdate.Text = Utilities.Localization.UiText.Get("Extracting ") + Path.GetFileName(_filePath) + "...";
 					break;
 				case "extractGrfTo":
-					Title = "Extraction...";
+					Title = Utilities.Localization.UiText.Get("Extraction...");
 					string path = PathRequest.FolderExtract();
 
 					if (path != null) {
 						_grf.Open(_filePath);
 						_multiInit.ActivateExtractingService = true;
 						_multiInit.PrimaryMethod = () => _extractingService.ExtractAll(_grf, path);
-						_tbUpdate.Text = "Extracting " + Path.GetFileName(_filePath) + "...";
+						_tbUpdate.Text = Utilities.Localization.UiText.Get("Extracting ") + Path.GetFileName(_filePath) + "...";
 					}
 					else {
 						_multiInit.OperationAborted = true;
@@ -128,19 +128,19 @@ namespace GRFEditor.WPF {
 
 					break;
 				case "changeFolderToKorean":
-					Title = "To Korean...";
+					Title = Utilities.Localization.UiText.Get("To Korean...");
 					_multiInit.IsPrivateAsync = true;
 					_multiInit.PrimaryMethod = () => _convert(EncodingService.Korean);
-					_tbUpdate.Text = "Converting to 'Korean' (949)...";
+					_tbUpdate.Text = Utilities.Localization.UiText.Get("Converting to 'Korean' (949)...");
 					break;
 				case "changeFolderToANSI":
-					Title = "To ANSI...";
+					Title = Utilities.Localization.UiText.Get("To ANSI...");
 					_multiInit.IsPrivateAsync = true;
 					_multiInit.PrimaryMethod = () => _convert(EncodingService.Ansi);
-					_tbUpdate.Text = "Converting to 'ANSI' (1252)...";
+					_tbUpdate.Text = Utilities.Localization.UiText.Get("Converting to 'ANSI' (1252)...");
 					break;
 				case "openWithGrfEditor":
-					Title = "Launching GRF Editor...";
+					Title = Utilities.Localization.UiText.Get("Launching GRF Editor...");
 					_multiInit.IsPrivateAsync = true;
 					_multiInit.PrimaryMethod = () => {
 						ProcessStartInfo info = new ProcessStartInfo();
@@ -152,10 +152,10 @@ namespace GRFEditor.WPF {
 						ApplicationManager.Shutdown();
 					};
 
-					_tbUpdate.Text = "Launching GRF Editor...";
+					_tbUpdate.Text = Utilities.Localization.UiText.Get("Launching GRF Editor...");
 					break;
 				case "openWithGrfCL":
-					Title = "Launching GrfCL...";
+					Title = Utilities.Localization.UiText.Get("Launching GrfCL...");
 
 					if (!File.Exists(Path.Combine(Methods.ApplicationPath, "GrfCL.exe"))) {
 						_multiInit.Exception = "GrfCL couldn't be located: " + Path.Combine(Methods.ApplicationPath, "GrfCL.exe");
@@ -174,14 +174,14 @@ namespace GRFEditor.WPF {
 							ApplicationManager.Shutdown();
 						};
 
-						_tbUpdate.Text = "Launching GrfCL...";
+						_tbUpdate.Text = Utilities.Localization.UiText.Get("Launching GrfCL...");
 					}
 					break;
 				case "compressToGpf":
 				case "compressToRgz":
 				case "compressToGrf":
 				case "compressTo":
-					Title = "Compressing folder to container file";
+					Title = Utilities.Localization.UiText.Get("Compressing folder to container file");
 
 					switch (_option.Args[0]) {
 						case "compressToGpf":
@@ -212,7 +212,7 @@ namespace GRFEditor.WPF {
 						grfName = Path.Combine(Path.GetDirectoryName(_option.Args[1]), Path.GetFileNameWithoutExtension(_option.Args[1]) + extension);
 
 						if (File.Exists(grfName)) {
-							MessageBoxResult result = WindowProvider.ShowDialog("A file with the same name has been found (" + grfName + ") would you like to merge the files or change the name?", "File name already exists", MessageBoxButton.YesNoCancel, "Merge", "New file...");
+							MessageBoxResult result = WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("A file with the same name has been found (") + grfName + ") would you like to merge the files or change the name?", "File name already exists", MessageBoxButton.YesNoCancel, "Merge", "New file...");
 
 							if (result == MessageBoxResult.Cancel) {
 								_multiInit.OperationAborted = true;
@@ -260,7 +260,7 @@ namespace GRFEditor.WPF {
 								Progress = 100f;
 							}
 						};
-						_tbUpdate.Text = "Saving container...";
+						_tbUpdate.Text = Utilities.Localization.UiText.Get("Saving container...");
 					}
 					break;
 				case "imageCut12":
@@ -272,7 +272,7 @@ namespace GRFEditor.WPF {
 						GrfImage imageSource = ImageProvider.GetImage(File.ReadAllBytes(fileName), fileName.GetExtension());
 
 						if (imageSource.Width != 1024 || imageSource.Height != 768) {
-							if (WindowProvider.ShowDialog("The image dimensions aren't of the expected format (1024x768).\r\n\r\nWidth = " + imageSource.Width +
+							if (WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The image dimensions aren't of the expected format (1024x768).\r\n\r\nWidth = ") + imageSource.Width +
 							                              "\r\nHeight = " + imageSource.Height + "\r\n\r\nDo you want to cut the image anyway?", "Invalid dimensions", MessageBoxButton.YesNoCancel) != MessageBoxResult.Yes) {
 								_multiInit.OperationAborted = true;
 							}
@@ -401,7 +401,7 @@ namespace GRFEditor.WPF {
 
 			if (_grf.IsOpened) {
 				if (_grf.Header.HasErrors) {
-					ErrorHandler.HandleException("Couldn't load the container properly. The current command cannot execute.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Couldn't load the container properly. The current command cannot execute."));
 					ApplicationManager.Shutdown();
 				}
 			}

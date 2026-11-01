@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="GrfToWpfBridge.MultiGrf.MetaGrfResourcesViewer"
+﻿<UserControl xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GrfToWpfBridge.MultiGrf.MetaGrfResourcesViewer"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -14,11 +14,11 @@
         <ListView AllowDrop="True" Name="_itemsResources" Margin="3 3 0 3" PreviewMouseRightButtonUp="_itemsResources_PreviewMouseRightButtonUp" DragEnter="_itemsResources_DragEnter" Drop="_itemsResources_Drop">
             <ListView.ContextMenu>
                 <ContextMenu>
-					<Styles:TkMenuItem Name="_menuItemsDelete" Header="Delete" Click="_menuItemsDelete_Click" TokeiLibrary:WpfProperties.ImagePath="delete.png" />
-					<Styles:TkMenuItem Name="_menuItemsMoveUp" Header="Move up" Click="_menuItemsMoveUp_Click" TokeiLibrary:WpfProperties.ImagePath="arrowup.png" />
-					<Styles:TkMenuItem Name="_menuItemsMoveDown" Header="Move down" Click="_menuItemsMoveDown_Click" TokeiLibrary:WpfProperties.ImagePath="arrowdown.png" />
-					<Styles:TkMenuItem Name="_menuItemsSelectInExplorer" Header="Select in explorer" Click="_menuItemsSelectInExplorer_Click" TokeiLibrary:WpfProperties.ImagePath="find.png" />
-					<Styles:TkMenuItem Name="_menuItemsAdd" Header="Add..." Click="_menuItemsAdd_Click" TokeiLibrary:WpfProperties.ImagePath="add.png" />
+					<Styles:TkMenuItem Name="_menuItemsDelete" Header="{loc:Localize Tf6fdbe48dc54}" Click="_menuItemsDelete_Click" TokeiLibrary:WpfProperties.ImagePath="delete.png" />
+					<Styles:TkMenuItem Name="_menuItemsMoveUp" Header="{loc:Localize Tb4f57cd0cd5c}" Click="_menuItemsMoveUp_Click" TokeiLibrary:WpfProperties.ImagePath="arrowup.png" />
+					<Styles:TkMenuItem Name="_menuItemsMoveDown" Header="{loc:Localize T260ff8ae7182}" Click="_menuItemsMoveDown_Click" TokeiLibrary:WpfProperties.ImagePath="arrowdown.png" />
+					<Styles:TkMenuItem Name="_menuItemsSelectInExplorer" Header="{loc:Localize T09ae990f3d67}" Click="_menuItemsSelectInExplorer_Click" TokeiLibrary:WpfProperties.ImagePath="find.png" />
+					<Styles:TkMenuItem Name="_menuItemsAdd" Header="{loc:Localize T2cceefe2bc15}" Click="_menuItemsAdd_Click" TokeiLibrary:WpfProperties.ImagePath="add.png" />
                 </ContextMenu>
             </ListView.ContextMenu>
         </ListView>

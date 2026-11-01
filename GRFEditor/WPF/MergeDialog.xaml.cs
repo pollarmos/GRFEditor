@@ -31,7 +31,7 @@ namespace GRFEditor.WPF {
 		private string _fileSource;
 		private GrfHolder _grfSource = new GrfHolder();
 
-		public MergeDialogCustom(EditorMainWindow editor, GrfHolder grfSource) : base("Merge files", "convert.ico") {
+		public MergeDialogCustom(EditorMainWindow editor, GrfHolder grfSource) : base(Utilities.Localization.UiText.Get("Merge files"), "convert.ico") {
 			InitializeComponent();
 
 			_asyncOperation = new AsyncOperation(_progressBarComponent);
@@ -91,28 +91,28 @@ namespace GRFEditor.WPF {
 				}
 
 				if (_grfSource.Header.HasErrors) {
-					WindowProvider.ShowDialog("The current GRF contains errors and cannot be merged.");
+					WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The current GRF contains errors and cannot be merged."));
 					return;
 				}
 			}
 
 			if (_grfSource.IsModified) {
-				WindowProvider.ShowDialog("The current GRF has been modified, you must save it first.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The current GRF has been modified, you must save it first."));
 				return;
 			}
 
 			if (_grfSource.IsBusy) {
-				WindowProvider.ShowDialog("The current GRF is saving, please wait for the operation to finish first.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The current GRF is saving, please wait for the operation to finish first."));
 				return;
 			}
 
 			if (_grfSource.Header.HasErrors) {
-				WindowProvider.ShowDialog("The current GRF contains errors and cannot be merged.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The current GRF contains errors and cannot be merged."));
 				return;
 			}
 
 			if (_fileAdd == null) {
-				WindowProvider.ShowDialog("Drop a GRF in the right rectangle first.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("Drop a GRF in the right rectangle first."));
 				return;
 			}
 
@@ -120,22 +120,22 @@ namespace GRFEditor.WPF {
 			_grfAdd.Open(_fileAdd);
 
 			if (_grfAdd.IsModified) {
-				WindowProvider.ShowDialog("The added GRF has been modified, you must save it first.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The added GRF has been modified, you must save it first."));
 				return;
 			}
 
 			if (_grfAdd.IsBusy) {
-				WindowProvider.ShowDialog("The added GRF is saving, please wait for the operation to finish first.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The added GRF is saving, please wait for the operation to finish first."));
 				return;
 			}
 
 			if (_grfAdd.Header.HasErrors) {
-				WindowProvider.ShowDialog("The added GRF contains errors and cannot be merged.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("The added GRF contains errors and cannot be merged."));
 				return;
 			}
 
 			if (_grfAdd.FileName == _grfSource.FileName) {
-				WindowProvider.ShowDialog("Trying to merge the same GRF into itself.");
+				WindowProvider.ShowDialog(Utilities.Localization.UiText.Get("Trying to merge the same GRF into itself."));
 				return;
 			}
 

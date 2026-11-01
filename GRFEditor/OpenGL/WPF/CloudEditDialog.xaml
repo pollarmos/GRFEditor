@@ -1,9 +1,9 @@
-﻿<Window x:Class="GRFEditor.OpenGL.WPF.CloudEditDialog"
+﻿<Window xmlns:loc="clr-namespace:TokeiLibrary.Localization;assembly=TokeiLibrary" x:Class="GRFEditor.OpenGL.WPF.CloudEditDialog"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wpf="clr-namespace:GRFEditor.WPF"
         xmlns:wpf1="clr-namespace:GRFEditor.OpenGL.WPF"
-        Title="Sky map edit..." SizeToContent="WidthAndHeight"
+        Title="{loc:Localize T2b0a6cfe1827}" SizeToContent="WidthAndHeight"
         ResizeMode="NoResize" 
         Background="{DynamicResource TabItemBackground}" Foreground="{DynamicResource TextForeground}"
         >
@@ -18,17 +18,17 @@
 			<RowDefinition />
         </Grid.RowDefinitions>
 		<StackPanel>
-			<TextBlock Text="Your RSW map needs to be version 0x202 or above to support custom clouds." TextWrapping="Wrap" Margin="3" MaxWidth="250" HorizontalAlignment="Left" FontStyle="Italic" />
-			<CheckBox Name="_tbEnableSkyMap" Content="Enable skymap (requires render options)" Grid.Row="0" Margin="3" />
+			<TextBlock Text="{loc:Localize Tc414eaa28c7f}" TextWrapping="Wrap" Margin="3" MaxWidth="250" HorizontalAlignment="Left" FontStyle="Italic" />
+			<CheckBox Name="_tbEnableSkyMap" Content="{loc:Localize T54469222d4c1}" Grid.Row="0" Margin="3" />
 		</StackPanel>
         <DockPanel Grid.Row="1" Margin="3">
-            <TextBlock Text="Background" VerticalAlignment="Center" />
+            <TextBlock Text="{loc:Localize T64dd60fe1a04}" VerticalAlignment="Center" />
             <wpf:QuickColorSelector Margin="3 0 0 0" Height="20" x:Name="_tbBg_Color" />
         </DockPanel>
-		<CheckBox Name="_tbEnableStar" Content="Star effect" Grid.Row="2" Margin="3" />
-		<Button x:Name="_btCopyToClipboard" Content="Copy to clipboard" Grid.Row="3" Margin="3" Height="24" />
-		<Button x:Name="_btAddOldSkyEffect" Content="Add fixed sky effect" Grid.Row="4" Margin="3" Height="24" />
-		<Button x:Name="_btAddNewSkyEffect" Content="Add custom sky effect" Grid.Row="5" Margin="3" Height="24" />
+		<CheckBox Name="_tbEnableStar" Content="{loc:Localize Tfce8f3cca639}" Grid.Row="2" Margin="3" />
+		<Button x:Name="_btCopyToClipboard" Content="{loc:Localize Td8f482edf74e}" Grid.Row="3" Margin="3" Height="24" />
+		<Button x:Name="_btAddOldSkyEffect" Content="{loc:Localize T1134dd19c9a3}" Grid.Row="4" Margin="3" Height="24" />
+		<Button x:Name="_btAddNewSkyEffect" Content="{loc:Localize T06a0cf4af73b}" Grid.Row="5" Margin="3" Height="24" />
 		<TabControl Grid.Row="6" Name="_primary" Style="{DynamicResource TabControlStyled2}" Background="{DynamicResource TabItemBackground}" Foreground="{DynamicResource TextForeground}" BorderThickness="0 1 0 0">
 			
 		</TabControl>

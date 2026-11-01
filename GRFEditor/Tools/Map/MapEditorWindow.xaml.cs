@@ -46,7 +46,7 @@ namespace GRFEditor.Tools.Map {
 		}
 
 		public MapEditorWindow(GrfHolder grfHolder)
-			: base("Flat maps maker", "mapEditor.ico", SizeToContent.Manual, ResizeMode.NoResize) {
+			: base(Utilities.Localization.UiText.Get("Flat maps maker"), "mapEditor.ico", SizeToContent.Manual, ResizeMode.NoResize) {
 			InitializeComponent();
 
 			_mapEditor = new MapEditor(this);
@@ -190,7 +190,7 @@ namespace GRFEditor.Tools.Map {
 
 			ListViewDataTemplateHelper.GenerateListViewTemplateNew(_listView, new ListViewDataTemplateHelper.GeneralColumnInfo[] {
 				new ListViewDataTemplateHelper.ImageColumnInfo {Header = "", DisplayExpression = "DataImage", SearchGetAccessor = "IsWarning", FixedWidth = 20, MaxHeight = 24},
-				new ListViewDataTemplateHelper.GeneralColumnInfo {Header = "Description", DisplayExpression = "Description", ToolTipBinding = "ToolTipDescription", TextAlignment = TextAlignment.Left, TextWrapping = TextWrapping.Wrap, IsFill = true},
+				new ListViewDataTemplateHelper.GeneralColumnInfo {Header = Utilities.Localization.UiText.Get("Description"), DisplayExpression = "Description", ToolTipBinding = "ToolTipDescription", TextAlignment = TextAlignment.Left, TextWrapping = TextWrapping.Wrap, IsFill = true},
 			}, new DefaultListViewComparer<MapEditorExceptionView>(), new string[] { "Default", "{DynamicResource TextForeground}" });
 
 			this.Loaded += delegate {
@@ -309,7 +309,7 @@ namespace GRFEditor.Tools.Map {
 				_setCellPreviewImage(_cecWall._imagePreview, "cw.bmp");
 			}
 			catch (Exception err) {
-				ErrorHandler.HandleException("Failed to load preview texture images. Try rebuilding textures.", err);
+				ErrorHandler.HandleException(Utilities.Localization.UiText.Get("Failed to load preview texture images. Try rebuilding textures."), err);
 			}
 		}
 
@@ -481,7 +481,7 @@ namespace GRFEditor.Tools.Map {
 				}
 
 				if (files.Length == 0) {
-					ErrorHandler.HandleException("No maps have been found.");
+					ErrorHandler.HandleException(Utilities.Localization.UiText.Get("No maps have been found."));
 					throw new OperationCanceledException();
 				}
 
