@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using ComponentAce.Compression.Libs.zlib;
 using K4os.Compression.LZ4;
+using Org.BouncyCastle.Crypto.Digests;
 
 namespace GRF.Core.GrfCompression {
 	// Protected GRF records authenticate the original filename bytes, not a decoded path.
@@ -26,11 +27,21 @@ namespace GRF.Core.GrfCompression {
 			uint size = Word(raw, 12);
 			if (size == 0 || size % 64 != 0 || size / 64 > 65535 || size != raw.Length - 20)
 				throw Invalid("GRF archive key-block size mismatch.");
-			byte[] digest;
-			using (var sha = SHA256.Create()) digest = sha.ComputeHash(Encoding.ASCII.GetBytes("uf8E8qAwHthrLxiS"));
 			byte[] decoded = Slice(raw, 20, (int)size);
-			
-			if (raw[0] != 1 || raw[1] != 1 || raw[2] != 0 || raw[3] != 0) {
+			uint format = Word(raw, 0);
+			if (format == 0x00000001) {
+				var sha = new Sha3Digest(256);
+				byte[] password = Encoding.ASCII.GetBytes("jVfQ6hBlpcyM2mBC"), digest = new byte[32];
+				sha.BlockUpdate(password, 0, password.Length);
+				sha.DoFinal(digest, 0);
+				ProtectedGrfCiphers.AesCbcDecrypt(decoded, 0, decoded.Length, Slice(digest, 0, 16), Slice(digest, 16, 16));
+			}
+			else if (format == 0x00000101) {
+				byte[] digest;
+				using (var sha = SHA256.Create()) digest = sha.ComputeHash(Encoding.ASCII.GetBytes("uf8E8qAwHthrLxiS"));
+				ProtectedGrfCiphers.ChamCbcDecrypt(decoded, 0, decoded.Length, Slice(digest, 0, 16), Slice(digest, 16, 16));
+			}
+			else {
 				// Try using kRO default keys as a backup
 				int keyCount = Math.Min(GrfHeader.KRODefaultProtectedKeys.Count, decoded.Length / 64);
 				for (uint i = 0; i < keyCount; i++) {
@@ -44,7 +55,6 @@ namespace GRF.Core.GrfCompression {
 				return GrfHeader.KRODefaultProtectedKeys;
 			}
 
-			ProtectedGrfCiphers.ChamCbcDecrypt(decoded, 0, decoded.Length, Slice(digest, 0, 16), Slice(digest, 16, 16));
 			if (XxHash32.HashToUInt32(decoded) != Word(raw, 16))
 				throw Invalid("GRF archive key-block checksum mismatch.");
 			for (int offset = 0; offset < decoded.Length; offset += 64) {
@@ -77,6 +87,7 @@ namespace GRF.Core.GrfCompression {
 				case 1:
 				case 5:
 				case 7:
+				case 8:
 				case 9 when flag:
 				case 128:
 				case 133:
@@ -108,6 +119,8 @@ namespace GRF.Core.GrfCompression {
 					ProtectedGrfCiphers.DecryptChamTail(parameters, NativeHash(rawName, expectedSize), outputHash, body, 128);
 				else if (cipher == 5 || cipher == 7)
 					ProtectedGrfCiphers.DecryptLegacyTail(cipher, parameters, nameHash, outputHash, body, 128, (int)compressedSize - 128);
+				else if (cipher == 8)
+					ProtectedGrfCiphers.DecryptBody8Tail(parameters, nameHash, outputHash, body, 128, (int)compressedSize - 128);
 				else
 					ProtectedGrfCiphers.DecryptBodyTail(cipher, parameters, nameHash, outputHash, body, 128);
 			}

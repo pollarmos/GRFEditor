@@ -212,6 +212,30 @@ namespace GRF.Core.GrfCompression {
 			for (int i = 0; i < compressedLength - length; i++) data[offset + length + i] ^= mask[i % 16];
 		}
 
+		internal static void DecryptBody8Tail(byte[] parameters, byte[] filenameHash, byte[] outputHash, byte[] data, int offset, int compressedLength) {
+			int tailLength = data.Length - offset, prefixLength = Math.Min(tailLength, 1024);
+			int encryptedLength = Math.Min(Math.Max(tailLength - prefixLength, 0), 1040);
+			int expectedPadding = tailLength - compressedLength;
+			if (compressedLength < 0 || encryptedLength % 16 != 0 ||
+				(encryptedLength == 0 ? expectedPadding != 0 : expectedPadding < 1 || expectedPadding > 16))
+				throw ProtectedGrfDecoder.Invalid("Protected GRF body cipher 8 padding size mismatch.");
+			byte[] mask = IdeaMask(filenameHash, outputHash, ProtectedGrfDecoder.Slice(parameters, 50, 8));
+			for (int i = 0; i < prefixLength; i++) data[offset + i] ^= mask[i % 16];
+			if (encryptedLength == 0) return;
+
+			int start = offset + prefixLength;
+			AesCbcDecrypt(data, start, encryptedLength, ProtectedGrfDecoder.Slice(parameters, 0, 16), ProtectedGrfDecoder.Slice(parameters, 16, 16));
+			int padding = data[start + encryptedLength - 1];
+			if (padding != expectedPadding || encryptedLength - padding > 1024)
+				throw ProtectedGrfDecoder.Invalid("Invalid protected GRF body cipher 8 PKCS#7 padding.");
+			int aesLength = encryptedLength - padding;
+			for (int i = aesLength; i < encryptedLength; i++)
+				if (data[start + i] != padding) throw ProtectedGrfDecoder.Invalid("Invalid protected GRF body cipher 8 PKCS#7 padding.");
+			int remaining = tailLength - prefixLength - encryptedLength;
+			Buffer.BlockCopy(data, start + encryptedLength, data, start + aesLength, remaining);
+			for (int i = 0; i < remaining; i++) data[start + aesLength + i] ^= mask[i % 16];
+		}
+
 		internal static void DecryptChamTail(byte[] parameters, byte[] seededNameHash, byte[] outputHash, byte[] data, int offset) {
 			ulong seed = ProtectedGrfDecoder.Word(seededNameHash, 8) | (ulong)ProtectedGrfDecoder.Word(seededNameHash, 12) << 32;
 			byte[] key = ProtectedGrfDecoder.NativeHash(ProtectedGrfDecoder.Slice(parameters, 0, 60), unchecked((long)seed));
